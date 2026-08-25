@@ -1,0 +1,223 @@
+IQ-TREE version 3.1.2 for MacOS ARM 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Mac (SSE4.2, 36 GB RAM)
+Command: iqtree3 -s outputs/msa/a6_short_hoppers_pshort_add.mafft.fa -m GTR+G -B 1000 -alrt 1000 -nt AUTO --prefix outputs/msa/a6_short_pshort_hoppers_iqtree
+Seed:    147712 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Jul 19 01:26:07 2026
+Kernel:  SSE2 - auto-detect threads (12 CPU cores detected)
+
+Reading alignment file outputs/msa/a6_short_hoppers_pshort_add.mafft.fa ... Fasta format detected
+Reading fasta file: done in 0.00135612 secs using 78.83% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000798941 secs using 68.97% CPU
+Alignment has 75 sequences with 1501 columns, 265 distinct patterns
+204 parsimony-informative, 73 singleton sites, 1224 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.19888e-05 secs using 98.4% CPU
+   1  A6_longhop       2.27%    passed     66.18%
+   2  chr3Lfix_1       4.06%    passed     82.94%
+   3  chr3Lfix_2       4.26%    passed     81.52%
+   4  chr3Lfix_3       4.46%    passed     79.25%
+   5  A6-Wild5B_22     4.53%    passed     99.12%
+   6  A6-Wild5B_23     4.66%    passed     99.60%
+   7  A6-Wild5B_24     4.33%    passed     99.95%
+   8  A6-Wild5B_25     4.53%    passed     99.89%
+   9  A6-Wild5B_26     4.40%    passed     99.93%
+  10  A6-Wild5B_27     4.46%    passed     99.89%
+  11  A6-Wild5B_28     4.40%    passed     97.82%
+  12  A6-Wild5B_30     4.33%    passed     99.62%
+  13  A6-Wild5B_31     4.46%    passed     98.99%
+  14  A6-Wild5B_33     4.46%    passed     98.87%
+  15  A6-Wild5B_34     4.40%    passed     98.81%
+  16  A6-Wild5B_35     4.26%    passed     99.92%
+  17  A6-Wild5B_36     4.33%    passed     99.00%
+  18  A6-Wild5B_38     4.53%    passed     98.99%
+  19  A6-Wild5B_40     4.73%    passed     99.47%
+  20  A6-Wild5B_42     5.80%    passed     97.35%
+  21  A6-Wild5B_43     4.33%    passed     99.96%
+  22  A6-Wild5B_44     4.40%    passed     99.62%
+  23  A6-Wild5B_45     4.46%    passed     99.99%
+  24  A6-Wild5B_46     4.73%    passed     99.47%
+  25  A6-Wild5B_49     4.33%    passed     96.41%
+  26  A6-Wild5B_54     4.33%    passed     98.58%
+  27  A6-Wild5B_56     4.46%    passed     99.21%
+  28  A6-Wild5B_127    5.46%    passed     98.25%
+  29  A6-Wild5B_128    4.60%    passed     99.68%
+  30  A6-Wild5B_130    4.53%    passed     99.30%
+  31  A6-Wild5B_131    4.53%    passed     99.38%
+  32  A6-Wild5B_133    4.26%    passed     98.31%
+  33  A6-Wild5B_135    4.33%    passed     99.85%
+  34  A6-Wild5B_136    3.33%    passed     89.74%
+  35  A6-Wild5B_138    4.66%    passed     99.08%
+  36  A6-Wild5B_139    5.00%    passed     94.06%
+  37  A6-Wild5B_144    4.33%    passed     99.16%
+  38  A6-Wild5B_145    4.46%    passed     99.52%
+  39  A6-Wild5B_1      4.40%    passed     99.62%
+  40  A6-Wild5B_3      4.46%    passed     99.99%
+  41  A6-Wild5B_5      4.26%    passed     99.86%
+  42  A6-Wild5B_6      4.46%    passed     98.79%
+  43  A6-Wild5B_7      5.73%    passed     97.47%
+  44  A6-Wild5B_8      4.40%    passed     99.97%
+  45  A6-Wild5B_10     4.53%    passed     98.40%
+  46  A6-Wild5B_15     4.40%    passed     99.83%
+  47  A6-Wild5B_17     4.40%    passed     99.53%
+  48  A6-Wild5B_21     4.93%    passed     99.71%
+  49  A6-Wild5B_87     6.40%    passed     99.45%
+  50  A6-Wild5B_88     4.33%    passed     99.95%
+  51  A6-Wild5B_89     4.53%    passed     98.85%
+  52  A6-Wild5B_92     4.26%    passed     99.98%
+  53  A6-Wild5B_93     4.40%    passed     99.96%
+  54  A6-Wild5B_94     4.60%    passed     99.69%
+  55  A6-Wild5B_97     4.33%    passed     99.69%
+  56  A6-Wild5B_101    4.46%    passed     98.79%
+  57  A6-Wild5B_104    4.26%    passed     99.95%
+  58  A6-Wild5B_105    4.60%    passed     99.09%
+  59  A6-Wild5B_108    4.33%    passed     99.76%
+  60  A6-Wild5B_109    4.46%    passed     97.36%
+  61  A6-Wild5B_114    4.33%    passed     95.06%
+  62  A6-Wild5B_115    4.33%    passed     95.06%
+  63  A6-Wild5B_117    4.40%    passed     98.54%
+  64  A6-Wild5B_122    4.40%    passed     99.11%
+  65  A6-Wild5B_123    4.40%    passed     99.96%
+  66  A6-Wild5B_57     4.60%    passed     99.75%
+  67  A6-Wild5B_63     4.40%    passed     99.58%
+  68  A6-Wild5B_69     4.40%    passed     96.03%
+  69  A6-Wild5B_72     4.33%    passed     99.98%
+  70  A6-Wild5B_73     4.40%    passed     99.96%
+  71  A6-Wild5B_74     4.60%    passed     97.31%
+  72  A6-Wild5B_77     4.53%    passed     98.76%
+  73  A6-Wild5B_81     4.26%    passed     95.01%
+  74  A6-Wild5B_84     4.40%    passed     99.97%
+  75  A6-Wild5B_86     4.46%    passed     98.99%
+****  TOTAL            4.47%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.000586033 secs using 46.07% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 147712)...
+
+NOTE: 3 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+631 trees examined
+Threads: 1 / Time: 12.015 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11689
+Threads: 2 / Time: 22.926 sec / Speedup: 0.524 / Efficiency: 26% / LogL: -11689
+Determining AUTO threadcount: done in 34.9425 secs using 90.76% CPU
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4562.617
+2. Current log-likelihood: -4520.304
+3. Current log-likelihood: -4520.125
+Optimal log-likelihood: -4520.125
+Rate parameters:  A-C: 0.75309  A-G: 1.72917  A-T: 1.21366  C-G: 1.45336  C-T: 2.35120  G-T: 1.00000
+Base frequencies:  A: 0.348  C: 0.149  G: 0.186  T: 0.317
+Gamma shape alpha: 0.294
+Parameters optimization took 3 rounds (0.069 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00971293 secs using 99.65% CPU
+Computing ML distances took 0.009802 sec (of wall-clock time) 0.009723 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 8.08239e-05 secs using 141% CPU
+Constructing RapidNJ tree: done in 0.000181913 secs using 184.7% CPU
+Computing RapidNJ tree took 0.000289 sec (of wall-clock time) 0.000470 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -4541.137
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.172 second
+Computing log-likelihood of 98 initial trees ... 0.240 seconds
+Current best score: -4517.138
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4516.296
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -4515.319
+Iteration 10 / LogL: -4517.500 / Time: 0h:0m:35s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 15: -4514.592
+Iteration 20 / LogL: -4516.812 / Time: 0h:0m:36s
+Finish initializing candidate tree set (20)
+Current best tree score: -4514.592 / CPU time: 1.371
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 22: -4514.591
+Iteration 30 / LogL: -4516.635 / Time: 0h:0m:37s (0h:1m:58s left)
+Iteration 40 / LogL: -4515.245 / Time: 0h:0m:38s (0h:1m:19s left)
+Iteration 50 / LogL: -4518.973 / Time: 0h:0m:38s (0h:0m:56s left)
+Log-likelihood cutoff on original alignment: -4549.609
+Iteration 60 / LogL: -4514.601 / Time: 0h:0m:39s (0h:0m:41s left)
+Iteration 70 / LogL: -4514.600 / Time: 0h:0m:40s (0h:0m:30s left)
+Iteration 80 / LogL: -4515.246 / Time: 0h:0m:41s (0h:0m:21s left)
+Iteration 90 / LogL: -4521.786 / Time: 0h:0m:41s (0h:0m:15s left)
+Iteration 100 / LogL: -4517.793 / Time: 0h:0m:42s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -4545.311
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -4514.604 / Time: 0h:0m:43s (0h:0m:35s left)
+Iteration 120 / LogL: -4514.592 / Time: 0h:0m:44s (0h:0m:29s left)
+Iteration 130 / LogL: -4515.984 / Time: 0h:0m:44s (0h:0m:24s left)
+BETTER TREE FOUND at iteration 136: -4514.591
+Iteration 140 / LogL: -4518.368 / Time: 0h:0m:45s (0h:0m:31s left)
+Iteration 150 / LogL: -4571.817 / Time: 0h:0m:46s (0h:0m:26s left)
+Log-likelihood cutoff on original alignment: -4545.311
+Iteration 160 / LogL: -4523.219 / Time: 0h:0m:47s (0h:0m:22s left)
+Iteration 170 / LogL: -4515.226 / Time: 0h:0m:47s (0h:0m:18s left)
+Iteration 180 / LogL: -4515.247 / Time: 0h:0m:48s (0h:0m:15s left)
+Iteration 190 / LogL: -4514.600 / Time: 0h:0m:49s (0h:0m:12s left)
+Iteration 200 / LogL: -4514.599 / Time: 0h:0m:50s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -4545.311
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 210 / LogL: -4515.230 / Time: 0h:0m:51s (0h:0m:21s left)
+Iteration 220 / LogL: -4515.879 / Time: 0h:0m:51s (0h:0m:18s left)
+Iteration 230 / LogL: -4514.593 / Time: 0h:0m:52s (0h:0m:16s left)
+TREE SEARCH COMPLETED AFTER 237 ITERATIONS / Time: 0h:0m:53s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4514.591
+Optimal log-likelihood: -4514.590
+Rate parameters:  A-C: 0.81421  A-G: 1.64363  A-T: 1.17663  C-G: 1.47346  C-T: 2.40655  G-T: 1.00000
+Base frequencies:  A: 0.348  C: 0.149  G: 0.186  T: 0.317
+Gamma shape alpha: 0.292
+Parameters optimization took 1 rounds (0.010 sec)
+BEST SCORE FOUND : -4514.590
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.715 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file outputs/msa/a6_short_pshort_hoppers_iqtree.splits.nex
+Total tree length: 0.292
+
+Total number of iterations: 237
+CPU time used for tree search: 18.011 sec (0h:0m:18s)
+Wall-clock time used for tree search: 18.052 sec (0h:0m:18s)
+Total CPU time used: 50.652 sec (0h:0m:50s)
+Total wall-clock time used: 53.924 sec (0h:0m:53s)
+
+Computing bootstrap consensus tree...
+Reading input file outputs/msa/a6_short_pshort_hoppers_iqtree.splits.nex...
+75 taxa and 705 splits.
+Consensus tree written to outputs/msa/a6_short_pshort_hoppers_iqtree.contree
+Reading input trees file outputs/msa/a6_short_pshort_hoppers_iqtree.contree
+Log-likelihood of consensus tree: -4514.745
+
+Analysis results written to: 
+  IQ-TREE report:                outputs/msa/a6_short_pshort_hoppers_iqtree.iqtree
+  Maximum-likelihood tree:       outputs/msa/a6_short_pshort_hoppers_iqtree.treefile
+  Likelihood distances:          outputs/msa/a6_short_pshort_hoppers_iqtree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          outputs/msa/a6_short_pshort_hoppers_iqtree.splits.nex
+  Consensus tree:                outputs/msa/a6_short_pshort_hoppers_iqtree.contree
+  Screen log file:               outputs/msa/a6_short_pshort_hoppers_iqtree.log
+
+Date and Time: Sun Jul 19 01:27:01 2026

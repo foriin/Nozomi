@@ -1,0 +1,497 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    cn-1028 (AVX512, FMA3, 1511 GB RAM)
+Command: iqtree3 -s outputs/phylo/dde_tree/dde_superfamily_representatives.clipkit.fa -st AA -m LG+F+R6 -B 1000 -alrt 1000 -nt 32 -mem 120G -seed 1 -pre outputs/phylo/dde_tree/dde_superfamily_tree
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Jul 12 00:12:18 2026
+Kernel:  AVX+FMA - 32 threads (32 CPU cores detected)
+
+Reading alignment file outputs/phylo/dde_tree/dde_superfamily_representatives.clipkit.fa ... Fasta format detected
+Reading fasta file: done in 0.0428081 secs using 81.88% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.023742 secs using 1646% CPU
+Alignment has 257 sequences with 5718 columns, 5666 distinct patterns
+3782 parsimony-informative, 1743 singleton sites, 193 constant sites
+                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00100899 secs using 1779% CPU
+   1  Academ__Academ-6_CCri_2p              94.02%    failed      2.33%
+   2  Academ__UN-AcademH-6_PGr_p1           83.93%    failed      0.00%
+   3  Academ__Academ-11_CCri_2p             94.05%    passed     10.08%
+   4  Academ__Academ-1_AMi_tp               72.67%    failed      0.00%
+   5  Academ__Academ-1_AP_tp                74.34%    failed      0.00%
+   6  Academ__Academ-1_CGi_tp               76.36%    failed      0.00%
+   7  Academ__Academ-1_CSa_tp               73.22%    failed      0.00%
+   8  Academ__Academ-1_CTe_tp               82.02%    failed      0.00%
+   9  Academ__Academ-1_DPu_tp               76.18%    failed      0.00%
+  10  Academ__Academ-1_GA_tp                78.58%    failed      0.00%
+  11  Academ__Academ-1_HM_tp                74.54%    failed      0.00%
+  12  Academ__Academ-1_NV_tp                72.39%    failed      0.00%
+  13  Academ__Academ-1_PGr_p1               84.54%    failed      0.03%
+  14  Academ__Academ-1_SP_tp                73.38%    failed      0.00%
+  15  Academ__Academ-1_Testu_tp             72.33%    failed      0.00%
+  16  CMC-Chapaev__Chapaev3-1_SM            90.17%    passed     56.70%
+  17  CMC-Chapaev__Chapaev-13_HM            87.85%    failed      0.00%
+  18  CMC-Chapaev__Chapaev3-3_AA            89.91%    passed     14.65%
+  19  CMC-Chapaev__Chapaev-3A_HM            84.33%    failed      0.00%
+  20  CMC-Chapaev__Chapaev-5_HMa            88.46%    failed      0.74%
+  21  CMC-Chapaev__Chapaev3-1_HR            90.22%    passed     61.48%
+  22  CMC-Chapaev__Chapaev3-1_PM            90.17%    passed     38.91%
+  23  CMC-Chapaev__Chapaev3-3_HR            90.10%    failed      3.40%
+  24  CMC-Chapaev__Chapaev-1_HM             88.56%    failed      0.01%
+  25  CMC-Chapaev__Chapaev3-2_AA            90.38%    passed     11.51%
+  26  CMC-Chapaev__Chapaev-10_HM            90.50%    failed      0.02%
+  27  CMC-Chapaev__Chapaev-11_HM            90.12%    failed      0.00%
+  28  CMC-Chapaev__Chapaev-12_HM            89.28%    failed      0.00%
+  29  CMC-Chapaev__Chapaev-15_HM            88.65%    failed      0.00%
+  30  CMC-Chapaev__Chapaev-16_HM            88.54%    failed      0.01%
+  31  CMC-EnSpm__EnSpm12_SB_p1              79.94%    failed      0.11%
+  32  CMC-EnSpm__EN1_ZM                     82.11%    passed     14.40%
+  33  CMC-EnSpm__EnSpm-4_HV_p1              79.75%    failed      0.03%
+  34  CMC-EnSpm__EnSpm1_SB_p1               78.87%    failed      3.05%
+  35  CMC-EnSpm__EnSpm-3_VV                 81.18%    passed     17.92%
+  36  CMC-EnSpm__EnSpm-41_SBi_1p            85.05%    failed      0.21%
+  37  CMC-EnSpm__EnSpm-4_PGr                85.94%    failed      0.70%
+  38  CMC-EnSpm__EnSpm4_OS_p1               80.85%    failed      0.14%
+  39  CMC-EnSpm__ATEnSpm12                  73.63%    failed      0.00%
+  40  CMC-EnSpm__EnSpm-16_OS_p1             85.24%    failed      0.55%
+  41  CMC-EnSpm__EnSpm-40_SBi_1p            84.98%    failed      1.53%
+  42  CMC-EnSpm__EnSpm4_SB_p1               79.50%    failed      0.88%
+  43  CMC-EnSpm__EnSpm4_SB_p2               86.90%    failed      0.00%
+  44  CMC-EnSpm__ATEnSpm6                   73.42%    failed      0.00%
+  45  CMC-EnSpm__CACTA_LP_p1                78.96%    failed      0.00%
+  46  CMC-Mirage__Mirage1_CB                95.14%    failed      0.29%
+  47  CMC-Mirage__UN-GIN1_int               93.14%    passed     16.83%
+  48  CMC-Mirage__UN-GIN2_int               92.64%    failed      0.16%
+  49  CMC-Mirage__UN-Mirage1                85.92%    failed      0.36%
+  50  CMC-Transib__Transib-1_DAn            87.11%    failed      0.00%
+  51  CMC-Transib__Transib1_Dmoj            88.07%    failed      0.00%
+  52  CMC-Transib__Transib-17_HM            88.65%    failed      0.00%
+  53  CMC-Transib__Transib-3_DAn            87.86%    failed      0.06%
+  54  CMC-Transib__Transib-4_DBp            87.62%    failed      0.03%
+  55  CMC-Transib__Transib2                 87.88%    failed      0.00%
+  56  CMC-Transib__Transib-10_HM            90.21%    failed      0.00%
+  57  CMC-Transib__Transib-11_HM            88.61%    failed      0.00%
+  58  CMC-Transib__Transib-12_HM            88.56%    failed      0.00%
+  59  CMC-Transib__Transib-13_HM            87.09%    failed      0.09%
+  60  CMC-Transib__Transib-14_HM            87.71%    failed      0.00%
+  61  CMC-Transib__Transib-15_HM            87.95%    failed      0.00%
+  62  CMC-Transib__Transib-16_HM            88.30%    failed      0.00%
+  63  CMC-Transib__Transib-18_HM            89.49%    failed      0.05%
+  64  CMC-Transib__Transib1_AA              88.68%    failed      0.00%
+  65  CMC-Transib__Transib1                 87.78%    failed      0.00%
+  66  Dada__Dada-U6_SS_tp                   75.81%    failed      0.00%
+  67  Dada__Dada-tA_DR_tp                   73.82%    failed      0.00%
+  68  Dada__Dada-tL_DR_tp                   77.65%    failed      0.00%
+  69  Dada__Dada-1_BF_tp                    79.31%    failed      0.00%
+  70  Dada__Dada-1_CGi_tp                   79.71%    failed      0.08%
+  71  Dada__Dada-1_CI_tp                    75.43%    failed      0.00%
+  72  Dada__Dada-1_CSa_tp                   78.96%    failed      0.00%
+  73  Dada__Dada-1_CV_tp                    79.03%    failed      0.00%
+  74  Dada__Dada-1_ES_tp                    81.44%    failed      0.00%
+  75  Dada__Dada-1_FR_tp                    89.70%    failed      3.63%
+  76  Dada__Dada-1_GM_tp                    85.75%    failed      0.00%
+  77  Dada__Dada-1_LB_tp                    71.27%    failed      0.00%
+  78  Dada__Dada-1_MB_tp                    87.32%    failed      0.00%
+  79  Dada__Dada-1_NV_tp                    88.88%    failed      0.33%
+  80  Dada__Dada-1_ON_tp                    89.33%    failed      0.56%
+  81  Ginger__Ginger1-7_HM_tp               86.60%    failed      0.00%
+  82  Ginger__Ginger1-1_HM_tp               88.60%    failed      0.00%
+  83  Ginger__Ginger1-2_DR_tp               93.16%    passed     21.01%
+  84  Ginger__Ginger-1_TriAdh_tp            93.09%    failed      2.72%
+  85  Ginger__Ginger1-10_HM_tp              86.38%    failed      0.00%
+  86  Ginger__Ginger1-11_HM_tp              88.00%    failed      0.00%
+  87  Ginger__Ginger1-12_HM_tp              88.02%    failed      0.02%
+  88  Ginger__Ginger1-1_AC_tp               88.67%    failed      0.80%
+  89  Ginger__Ginger1-1_AP_tp               89.02%    failed      0.07%
+  90  Ginger__Ginger1-1_BF_tp               90.47%    failed      0.00%
+  91  Ginger__Ginger1-2_AP_tp               88.46%    failed      0.07%
+  92  Ginger__Ginger1-3_HM_tp               89.14%    failed      0.00%
+  93  Ginger__Ginger1-4_HM_tp               86.06%    failed      0.14%
+  94  Ginger__Ginger1-5_HM_tp               88.51%    failed      0.01%
+  95  Ginger__Ginger1-9_HM_tp               89.26%    failed      0.02%
+  96  Kolobok__Kolobok-13_HM_tp             89.56%    failed      0.00%
+  97  Kolobok__Kolobok-3_HM_tp              89.49%    failed      0.00%
+  98  Kolobok__Kolobok-1_XT_tp              85.80%    failed      0.00%
+  99  Kolobok__Kolobok-2_HM_tp              89.56%    failed      0.00%
+ 100  Kolobok__KolobokH-1_RIr               76.67%    failed      0.00%
+ 101  Kolobok__Kolobok-11_HM_tp             89.59%    failed      0.00%
+ 102  Kolobok__Kolobok-12_HM_tp             89.63%    failed      0.00%
+ 103  Kolobok__Kolobok-14_HM_tp             89.30%    failed      0.02%
+ 104  Kolobok__Kolobok-15_HM_tp             89.44%    failed      0.00%
+ 105  Kolobok__Kolobok-17_HM_tp             89.70%    failed      0.00%
+ 106  Kolobok__Kolobok-18_HM_tp             89.73%    failed      0.00%
+ 107  Kolobok__Kolobok-19_HMa_tp            89.51%    failed      0.00%
+ 108  Kolobok__Kolobok-1_AA                 80.92%    failed      0.00%
+ 109  Kolobok__Kolobok-1_AP_tp              87.69%    failed      0.00%
+ 110  Kolobok__Kolobok-1_Aplcal             89.70%    failed      0.01%
+ 111  MULE__UN-IS1081_Mtu                   92.37%    failed      0.00%
+ 112  MULE__ATMU3_tp                        83.21%    failed      0.00%
+ 113  MULE__UN-27228664_Pre                 92.72%    failed      4.27%
+ 114  MULE__MuDR-5_SBi                      87.95%    failed      3.79%
+ 115  MULE__UN-1617569_Rop                  92.69%    failed      0.00%
+ 116  MULE__UN-46132715_Reu                 92.67%    failed      0.00%
+ 117  MULE__MUJITOS1                        87.29%    passed      5.07%
+ 118  MULE__MuDR-14_PI_tp                   89.31%    failed      0.14%
+ 119  MULE__MuDR-1_PPI_tp                   87.37%    failed      0.10%
+ 120  MULE__MuDR-33_PI_tp                   88.68%    failed      0.00%
+ 121  MULE__MuDRF-1_PGr                     76.72%    failed      0.00%
+ 122  MULE__UN-15923405_Sau                 93.07%    failed      1.23%
+ 123  MULE__MuDR-11_ALy_p1                  87.86%    failed      0.10%
+ 124  MULE__MuDR-14_PI_p2                   89.07%    failed      0.00%
+ 125  MULE__MuDR-19_PI_p2                   89.33%    failed      0.00%
+ 126  Merlin__Merlin1_SM                    94.65%    failed      2.76%
+ 127  Merlin__UN-46156674_Hso               93.07%    passed      8.42%
+ 128  Merlin__UN-58583728_Xor               93.58%    failed      0.00%
+ 129  Merlin__Merlin-3_HMa                  94.19%    passed     32.74%
+ 130  Merlin__Merlin-7_HMa                  94.68%    passed     36.23%
+ 131  Merlin__UN-33148872_Hdu               93.97%    passed     15.09%
+ 132  Merlin__UN-46578998_Dvu               94.54%    failed      0.00%
+ 133  Merlin__UN-54028461_Polaromonas       95.35%    failed      0.01%
+ 134  Merlin__Merlin-1_CGi_1p               94.25%    failed      0.14%
+ 135  Merlin__Merlin-1_DF                   94.96%    failed      3.84%
+ 136  Merlin__Merlin-1_DT                   94.16%    passed     62.43%
+ 137  Merlin__Merlin-1_LSal                 94.91%    passed     31.55%
+ 138  Merlin__Merlin-2_CGi_1p               94.00%    failed      0.67%
+ 139  Merlin__Merlin-2_HMa                  94.16%    passed     13.44%
+ 140  Merlin__Merlin-4_HMa                  94.35%    failed      4.19%
+ 141  Novosib__Novosib-1_CR                 81.08%    failed      0.00%
+ 142  Novosib__Novosib-2_CR                 86.52%    failed      0.00%
+ 143  Novosib__Novosib-4_CR                 69.64%    failed      0.00%
+ 144  P__P4_AG_tp                           85.76%    failed      0.00%
+ 145  P__P-8_MLP                            75.80%    failed      0.00%
+ 146  P__UN-P_Dme_tp                        86.71%    failed      0.00%
+ 147  P__P-25_HM                            85.55%    failed      0.00%
+ 148  P__P-30_HM                            84.10%    failed      0.00%
+ 149  P__P-38_HMa                           84.71%    failed      0.00%
+ 150  P__UN-31201925_Aga                    86.20%    failed      0.00%
+ 151  P__Galileo_DM                         83.81%    failed      0.00%
+ 152  P__P-13_HM                            84.26%    failed      0.00%
+ 153  P__P-16_HM                            84.82%    failed      0.00%
+ 154  P__P-1_DRh                            84.10%    failed      0.00%
+ 155  P__P-1_HM                             85.06%    failed      0.00%
+ 156  P__P-27_HM                            84.35%    failed      0.00%
+ 157  P__P-5_HM                             85.20%    failed      0.00%
+ 158  P__UN-P_Dbi_tp                        86.80%    failed      0.19%
+ 159  PIF-Harbinger__Harbinger-53_CCri_tp   92.18%    failed      4.63%
+ 160  PIF-Harbinger__AutoChomp1_tp          91.71%    failed      0.00%
+ 161  PIF-Harbinger__HARB7_ZM_tp            91.03%    failed      0.25%
+ 162  PIF-Harbinger__HARB-2_Mad_tp          91.08%    failed      3.90%
+ 163  PIF-Harbinger__HarbingerS-3_PI_tp     92.86%    failed      0.18%
+ 164  PIF-Harbinger__ATIS112A_tp            91.54%    passed     11.50%
+ 165  PIF-Harbinger__Harbinger-24_CCri_tp   92.81%    failed      0.09%
+ 166  PIF-Harbinger__HARB-1_OS_tp           91.33%    passed     11.06%
+ 167  PIF-Harbinger__HARB-2_FV_tp           91.34%    failed      0.35%
+ 168  PIF-Harbinger__HARB-9_FV_tp           92.25%    failed      3.50%
+ 169  PIF-Harbinger__Harbinger-4_BF_tp      92.27%    passed      8.36%
+ 170  PIF-Harbinger__ISL2EU-1_LHu_tp        87.95%    failed      0.00%
+ 171  PIF-Harbinger__HARB-5_FV_tp           92.15%    failed      2.30%
+ 172  PIF-Harbinger__Harbinger-1_ADi_tp     93.72%    failed      1.13%
+ 173  PIF-Harbinger__Harbinger-36_CCri_tp   93.34%    passed     43.52%
+ 174  PiggyBac__piggyBac-11_PI_tp           82.67%    failed      0.00%
+ 175  PiggyBac__piggyBac-3_SSa_tp           88.82%    failed      0.00%
+ 176  PiggyBac__piggyBacX-33_CCri_tp        75.59%    failed      0.00%
+ 177  PiggyBac__piggyBacX-22_CCri_tp        75.97%    failed      0.00%
+ 178  PiggyBac__PiggyBac-2_HM               88.42%    failed      3.26%
+ 179  PiggyBac__PiggyBac-7_SM               89.82%    failed      0.00%
+ 180  PiggyBac__UN-50741428_GGgene          90.07%    passed     35.14%
+ 181  PiggyBac__piggyBac-16_SM              89.49%    failed      0.00%
+ 182  PiggyBac__piggyBac-4B_LMi_tp          88.63%    failed      0.00%
+ 183  PiggyBac__piggyBac-4_PR_tp            81.46%    failed      0.00%
+ 184  PiggyBac__piggyBacX-25_CCri_tp        80.47%    failed      0.00%
+ 185  PiggyBac__piggyBacX-28_CCri_tp        77.91%    failed      0.00%
+ 186  PiggyBac__AvPB2_tp                    90.00%    failed      0.00%
+ 187  PiggyBac__PiggyBac-1_XT               89.56%    failed      0.01%
+ 188  PiggyBac__PiggyBac-4_SM               90.75%    failed      0.31%
+ 189  Sola__Sola2-2_NVi_tp                  88.30%    failed      0.00%
+ 190  Sola__Sola1-1_PI_tp                   86.25%    failed      0.00%
+ 191  Sola__Sola1-2_Psojae_tp               88.04%    failed      0.21%
+ 192  Sola__Sola1-10_AP_tp                  88.67%    failed      0.00%
+ 193  Sola__Sola1-2_HM_tp                   89.65%    failed      0.00%
+ 194  Sola__Sola1-3_PI_tp                   88.35%    passed      9.12%
+ 195  Sola__Sola1-4_AA_tp                   87.64%    failed      0.22%
+ 196  Sola__Sola1-4_CGi_tp                  87.99%    failed      0.00%
+ 197  Sola__Sola2-1_HM_tp                   86.90%    failed      0.00%
+ 198  Sola__Sola2-5_LSal_tp                 87.88%    failed      1.64%
+ 199  Sola__Sola2-6_AAe_tp                  87.46%    failed      0.00%
+ 200  Sola__Sola3-1_BF_tp                   79.99%    failed      0.00%
+ 201  Sola__Sola3-3_HM_tp                   81.93%    failed      0.00%
+ 202  Sola__Sola-1_DK_tp                    89.89%    failed      0.00%
+ 203  Sola__Sola1-11_AP_tp                  88.37%    failed      0.00%
+ 204  TcMar__Mariner-13_LHu_tp              93.58%    passed     11.04%
+ 205  TcMar__Mariner-7_PBa_tp               93.63%    passed      9.26%
+ 206  TcMar__Mariner-5_ACe_tp               93.48%    failed      3.77%
+ 207  TcMar__Mariner-40_SSa_tp              94.00%    failed      0.12%
+ 208  TcMar__Mariner-3_LHu_tp               93.69%    passed      7.07%
+ 209  TcMar__Mariner-4_CCri_tp              90.01%    failed      0.16%
+ 210  TcMar__Mariner-1_DVi_tp               92.99%    passed     20.52%
+ 211  TcMar__Mariner-2_LHu_tp               93.69%    passed     16.70%
+ 212  TcMar__Mariner-4_CFl_tp               93.70%    failed      4.06%
+ 213  TcMar__Mariner-61_LMi_tp              93.28%    passed     13.64%
+ 214  TcMar__Mariner-12_AEc_tp              93.30%    passed      8.12%
+ 215  TcMar__Mariner-26_CGi_tp              93.39%    failed      0.00%
+ 216  TcMar__Mariner-14_DBp_tp              93.77%    passed     66.89%
+ 217  TcMar__Mariner-6_Crp_tp               89.49%    failed      0.02%
+ 218  TcMar__UN-Mariner2_GT_tp              93.62%    passed     36.12%
+ 219  Zator__Zator-2_HM                     85.45%    failed      0.00%
+ 220  Zator__Zator-2_AA                     80.97%    failed      0.34%
+ 221  Zator__Zator-1_AA                     86.32%    failed      0.00%
+ 222  Zator__Zator-1_BF                     80.33%    failed      0.00%
+ 223  Zator__Zator-1_CGi_tp                 83.09%    failed      0.22%
+ 224  Zator__Zator-1_CP                     86.13%    failed      0.00%
+ 225  Zator__Zator-1_HM                     86.18%    failed      0.00%
+ 226  Zator__Zator-3_HM                     86.31%    failed      0.01%
+ 227  Zator__Zator-4_HM                     86.24%    failed      0.00%
+ 228  Zisupton__UN-gi751707416_tp           77.75%    failed      0.00%
+ 229  Zisupton__UN-Zisupton-4_DR_tp         79.42%    failed      0.47%
+ 230  Zisupton__UN-gi527300978_tp           83.28%    failed      0.00%
+ 231  Zisupton__UN-gi749759490_tp           79.78%    failed      0.00%
+ 232  Zisupton__UN-gi749831149_tp           86.32%    failed      0.00%
+ 233  Zisupton__UN-gi751692202_tp           76.95%    failed      0.00%
+ 234  Zisupton__UN-gi768943469_tp           80.73%    failed      0.00%
+ 235  Zisupton__Zisupton-1_PGr_tp           84.94%    failed      0.12%
+ 236  Zisupton__Zisupton-4_PGr_tp           85.36%    passed      6.10%
+ 237  Zisupton__Zisupton-5_DR_tp            82.90%    failed      0.01%
+ 238  Zisupton__DNA-17_CCri_hel1            95.72%    failed      0.64%
+ 239  Zisupton__DNA-17_CCri_hel2            90.26%    failed      0.09%
+ 240  Zisupton__DNA-17_CCri_p4              86.92%    failed      0.00%
+ 241  Zisupton__DNA-17_CCri_tp              77.82%    failed      0.00%
+ 242  Zisupton__DNA-18_CCri_4p              89.68%    failed      2.98%
+ 243  hAT__hAT-16_ZM_tp                     87.08%    failed      0.42%
+ 244  hAT__UN-116308850_Osa_tp              84.92%    failed      0.10%
+ 245  hAT__UN-Hobo_tp                       88.49%    failed      0.00%
+ 246  hAT__ATHAT7_tp                        86.88%    failed      0.00%
+ 247  hAT__UN-PRKRIR_Oan_eg_tp              86.66%    failed      0.00%
+ 248  hAT__hAT-7_AMi_tp                     89.10%    failed      0.00%
+ 249  hAT__Chaplin4_FR_tp                   89.40%    failed      4.22%
+ 250  hAT__Charlie24_tp                     89.49%    failed      0.01%
+ 251  hAT__HAT-1_DP_tp                      89.58%    failed      0.01%
+ 252  hAT__RAHAT_tp                         85.64%    failed      0.12%
+ 253  hAT__UN-34914880_Osa_tp               83.95%    failed      0.04%
+ 254  hAT__hAT-17_Croc_tp                   85.15%    failed      0.00%
+ 255  hAT__hAT-5_PTr_tp                     87.09%    passed     94.33%
+ 256  hAT__hAT-7_LCh_tp                     87.22%    failed      0.49%
+ 257  hAT__hAT-8_CPB_tp                     88.35%    failed      0.00%
+WARNING: 257 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                 86.83%  222 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.005193 secs using 1906% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.947 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 1376 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -539408.975
+2. Current log-likelihood: -454440.831
+3. Current log-likelihood: -453534.805
+4. Current log-likelihood: -453521.224
+5. Current log-likelihood: -453520.133
+6. Current log-likelihood: -453520.009
+Optimal log-likelihood: -453519.910
+Site proportion and rates:  (0.020,0.071) (0.046,0.275) (0.085,0.481) (0.238,0.688) (0.393,1.005) (0.218,1.770)
+Parameters optimization took 6 rounds (17.639 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.276791 secs using 3171% CPU
+Computing ML distances took 0.278313 sec (of wall-clock time) 8.817509 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000618935 secs
+Constructing RapidNJ tree: done in 0.106649 secs using 1589% CPU
+Computing RapidNJ tree took 0.107997 sec (of wall-clock time) 1.699584 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -453311.816
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 82.642 second
+Computing log-likelihood of 98 initial trees ... 41.048 seconds
+Current best score: -453311.816
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -452797.129
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -452752.069
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -452723.170
+Iteration 10 / LogL: -452801.726 / Time: 0h:6m:45s
+Iteration 20 / LogL: -452813.343 / Time: 0h:10m:51s
+Finish initializing candidate tree set (20)
+Current best tree score: -452723.170 / CPU time: 627.926
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -452704.766
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -452695.416
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -452685.361
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -452669.073
+Iteration 30 / LogL: -452691.380 / Time: 0h:13m:8s (0h:44m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -452667.677
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -452665.314
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -452659.902
+Iteration 40 / LogL: -452659.902 / Time: 0h:15m:16s (0h:39m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -452656.747
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -452655.584
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -452651.381
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -452641.937
+Iteration 50 / LogL: -452655.302 / Time: 0h:17m:32s (0h:35m:24s left)
+Log-likelihood cutoff on original alignment: -452760.225
+Iteration 60 / LogL: -452647.726 / Time: 0h:19m:25s (0h:29m:16s left)
+Iteration 70 / LogL: -452651.003 / Time: 0h:21m:15s (0h:24m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 71: -452641.145
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -452638.884
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 74: -452629.338
+Iteration 80 / LogL: -452638.138 / Time: 0h:23m:27s (0h:27m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 87: -452627.681
+Iteration 90 / LogL: -452640.550 / Time: 0h:25m:22s (0h:27m:38s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -452623.736
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 94: -452621.872
+Iteration 100 / LogL: -452626.130 / Time: 0h:27m:24s (0h:26m:0s left)
+Log-likelihood cutoff on original alignment: -452747.667
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.951
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 102: -452619.715
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 107: -452619.595
+Iteration 110 / LogL: -452622.691 / Time: 0h:29m:21s (0h:26m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -452617.032
+Iteration 120 / LogL: -452631.344 / Time: 0h:31m:18s (0h:24m:42s left)
+Iteration 130 / LogL: -452655.729 / Time: 0h:33m:9s (0h:21m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 137: -452616.415
+Iteration 140 / LogL: -452627.387 / Time: 0h:35m:0s (0h:24m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 143: -452616.167
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 144: -452613.700
+Iteration 150 / LogL: -452624.556 / Time: 0h:36m:57s (0h:23m:18s left)
+Log-likelihood cutoff on original alignment: -452723.192
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 155: -452612.749
+Iteration 160 / LogL: -452619.693 / Time: 0h:38m:52s (0h:23m:12s left)
+Iteration 170 / LogL: -452620.569 / Time: 0h:40m:40s (0h:20m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 172: -452611.206
+Iteration 180 / LogL: -452619.037 / Time: 0h:42m:37s (0h:21m:53s left)
+BETTER TREE FOUND at iteration 185: -452611.205
+Iteration 190 / LogL: -452624.391 / Time: 0h:44m:26s (0h:22m:19s left)
+Iteration 200 / LogL: -452620.120 / Time: 0h:46m:19s (0h:19m:46s left)
+Log-likelihood cutoff on original alignment: -452697.463
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.972
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 202: -452610.431
+Iteration 210 / LogL: -452676.723 / Time: 0h:48m:6s (0h:21m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 216: -452608.723
+Iteration 220 / LogL: -452622.199 / Time: 0h:50m:2s (0h:21m:55s left)
+Iteration 230 / LogL: -452613.443 / Time: 0h:51m:50s (0h:19m:27s left)
+Iteration 240 / LogL: -452609.454 / Time: 0h:53m:37s (0h:17m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 248: -452608.010
+Iteration 250 / LogL: -452618.522 / Time: 0h:55m:21s (0h:21m:47s left)
+Log-likelihood cutoff on original alignment: -452697.463
+Iteration 260 / LogL: -452619.408 / Time: 0h:57m:12s (0h:19m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 262: -452607.796
+Iteration 270 / LogL: -452623.135 / Time: 0h:59m:7s (0h:20m:12s left)
+Iteration 280 / LogL: -452611.534 / Time: 1h:0m:57s (0h:17m:54s left)
+Iteration 290 / LogL: -452615.661 / Time: 1h:2m:43s (0h:15m:37s left)
+Iteration 300 / LogL: -452611.550 / Time: 1h:4m:31s (0h:13m:22s left)
+Log-likelihood cutoff on original alignment: -452697.463
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.973
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -452629.311 / Time: 1h:6m:20s (0h:19m:18s left)
+Iteration 320 / LogL: -452609.144 / Time: 1h:8m:14s (0h:17m:6s left)
+Iteration 330 / LogL: -452608.125 / Time: 1h:9m:58s (0h:14m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 338: -452606.278
+Iteration 340 / LogL: -452620.562 / Time: 1h:11m:44s (0h:20m:43s left)
+Iteration 350 / LogL: -452607.268 / Time: 1h:13m:30s (0h:18m:31s left)
+Log-likelihood cutoff on original alignment: -452691.677
+Iteration 360 / LogL: -452628.495 / Time: 1h:15m:15s (0h:16m:20s left)
+Iteration 370 / LogL: -452616.030 / Time: 1h:17m:2s (0h:14m:11s left)
+Iteration 380 / LogL: -452612.849 / Time: 1h:18m:48s (0h:12m:3s left)
+Iteration 390 / LogL: -452618.621 / Time: 1h:20m:35s (0h:9m:56s left)
+Iteration 400 / LogL: -452618.094 / Time: 1h:22m:20s (0h:7m:50s left)
+Log-likelihood cutoff on original alignment: -452691.677
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -452609.268 / Time: 1h:24m:11s (0h:18m:31s left)
+Iteration 420 / LogL: -452615.207 / Time: 1h:25m:54s (0h:16m:23s left)
+Iteration 430 / LogL: -452613.150 / Time: 1h:27m:42s (0h:14m:18s left)
+Iteration 440 / LogL: -452609.859 / Time: 1h:29m:31s (0h:12m:13s left)
+Iteration 450 / LogL: -452608.915 / Time: 1h:31m:18s (0h:10m:9s left)
+Log-likelihood cutoff on original alignment: -452691.677
+Iteration 460 / LogL: -452617.804 / Time: 1h:33m:12s (0h:8m:7s left)
+Iteration 470 / LogL: -452612.291 / Time: 1h:34m:58s (0h:6m:4s left)
+Iteration 480 / LogL: -452610.425 / Time: 1h:36m:50s (0h:4m:2s left)
+Iteration 490 / LogL: -452612.875 / Time: 1h:38m:33s (0h:2m:0s left)
+Iteration 500 / LogL: -452636.331 / Time: 1h:40m:17s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -452691.677
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 500 ITERATIONS / Time: 1h:40m:18s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -452606.278
+Optimal log-likelihood: -452606.273
+Site proportion and rates:  (0.019,0.068) (0.050,0.281) (0.115,0.516) (0.228,0.722) (0.383,1.024) (0.204,1.808)
+Parameters optimization took 1 rounds (1.304 sec)
+BEST SCORE FOUND : -452606.273
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -452606.267 > -452606.273
+2.348 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file outputs/phylo/dde_tree/dde_superfamily_tree.splits.nex
+Total tree length: 339.240
+
+Total number of iterations: 500
+CPU time used for tree search: 184976.143 sec (51h:22m:56s)
+Wall-clock time used for tree search: 5994.520 sec (1h:39m:54s)
+Total CPU time used: 185815.493 sec (51h:36m:55s)
+Total wall-clock time used: 6022.654 sec (1h:40m:22s)
+
+Computing bootstrap consensus tree...
+Reading input file outputs/phylo/dde_tree/dde_superfamily_tree.splits.nex...
+257 taxa and 1876 splits.
+Consensus tree written to outputs/phylo/dde_tree/dde_superfamily_tree.contree
+Reading input trees file outputs/phylo/dde_tree/dde_superfamily_tree.contree
+Log-likelihood of consensus tree: -452606.191
+
+Analysis results written to: 
+  IQ-TREE report:                outputs/phylo/dde_tree/dde_superfamily_tree.iqtree
+  Maximum-likelihood tree:       outputs/phylo/dde_tree/dde_superfamily_tree.treefile
+  Likelihood distances:          outputs/phylo/dde_tree/dde_superfamily_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          outputs/phylo/dde_tree/dde_superfamily_tree.splits.nex
+  Consensus tree:                outputs/phylo/dde_tree/dde_superfamily_tree.contree
+  Screen log file:               outputs/phylo/dde_tree/dde_superfamily_tree.log
+
+Date and Time: Sun Jul 12 01:52:46 2026

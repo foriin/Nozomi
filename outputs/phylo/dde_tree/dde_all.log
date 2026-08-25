@@ -1,0 +1,597 @@
+IQ-TREE version 3.1.2 for MacOS ARM 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    eduroam-10-200-49-52.local.su.se (SSE4.2, 36 GB RAM)
+Command: iqtree3 -s outputs/phylo/dde_tree/dde_all.clipkit.fa -st AA -m LG+G4 -B 1000 -alrt 1000 -bnni -nt AUTO -seed 1 -pre outputs/phylo/dde_tree/dde_all
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Jul 11 19:16:17 2026
+Kernel:  SSE2 - auto-detect threads (12 CPU cores detected)
+
+Reading alignment file outputs/phylo/dde_tree/dde_all.clipkit.fa ... Fasta format detected
+Reading fasta file: done in 0.00844908 secs using 92.09% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00457716 secs using 80.09% CPU
+Alignment has 408 sequences with 2336 columns, 2258 distinct patterns
+1375 parsimony-informative, 694 singleton sites, 267 constant sites
+                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000392199 secs using 568.3% CPU
+   1  _seed_Academ-3_HM                83.01%    passed      6.87%
+   2  _seed_Academ-2_BF                82.49%    failed      0.14%
+   3  _seed_Academ-4_SP                81.12%    failed      0.04%
+   4  _seed_Academ-2_HM                81.93%    passed     51.38%
+   5  _seed_Academ-1_AP                82.02%    failed      3.91%
+   6  _seed_Academ-1_CapTel            81.85%    passed      5.74%
+   7  _seed_Academ-1_CSa               81.55%    passed      6.79%
+   8  _seed_Academ-1_Dpulex            82.15%    passed     26.27%
+   9  _seed_Academ-1_Lgigantea         81.93%    passed     19.60%
+  10  _seed_Academ-3_CS                82.79%    passed     23.30%
+  11  _seed_Academ-1_Aplcal            83.05%    passed     90.63%
+  12  _seed_Academ-1_NV                80.95%    passed      9.71%
+  13  _seed_Academ-4_BF                81.46%    passed     58.13%
+  14  _seed_Academ-1_BF                81.51%    failed      2.35%
+  15  _seed_Academ-2_CS                81.72%    failed      3.20%
+  16  _seed_Academ-1_SP                81.76%    failed      3.90%
+  17  _seed_CACTA-1_PB                 84.85%    passed     13.47%
+  18  _seed_SmTRC1                     85.66%    passed     30.54%
+  19  _seed_ENSPM-6_DR                 85.79%    passed     76.64%
+  20  _seed_EnSpm-7_HM                 85.74%    failed      1.82%
+  21  _seed_EnSpm-2_NVi                85.32%    passed     33.44%
+  22  _seed_EnSpm-3_DR                 84.67%    failed      0.10%
+  23  _seed_EnSpm-16_HM                84.20%    failed      0.04%
+  24  _seed_CACTA-3_AA                 84.46%    passed     36.47%
+  25  _seed_CACTA-2_AA                 84.46%    failed      4.25%
+  26  _seed_EnSpm-5_DR                 84.63%    failed      0.22%
+  27  _seed_CACTA-1_Dpulex             84.80%    passed     32.57%
+  28  _seed_CACTA-1_Ccinerea           83.30%    failed      0.21%
+  29  _seed_EnSpm-1_BF                 84.59%    passed     22.50%
+  30  _seed_CACTA-1_Roryzae            84.03%    passed     56.43%
+  31  _seed_CACTA-1_Mlaricis           84.59%    failed      2.39%
+  32  _seed_CACTA-2_Mlaricis           80.65%    failed      0.08%
+  33  _seed_ATENSPM10                  83.95%    failed      0.92%
+  34  _seed_MIRAGE1_CB                 85.10%    passed     26.45%
+  35  _seed_MIRAGE1                    86.09%    passed     33.98%
+  36  _seed_Chapaev-1_CE               83.35%    passed      7.74%
+  37  _seed_Chapaev3-5_PM              88.70%    passed     41.71%
+  38  _seed_Chapaev-1_AA               87.07%    failed      2.34%
+  39  _seed_Chapaev-1_ACa              82.15%    failed      0.00%
+  40  _seed_Chapaev-2_BF               79.41%    failed      0.15%
+  41  _seed_Chapaev-6_HM               81.16%    failed      0.00%
+  42  _seed_Chapaev-9_HM               86.34%    failed      4.39%
+  43  _seed_Chapaev-1_HM               86.60%    failed      0.57%
+  44  _seed_Ginger1-12_HM              93.49%    passed     63.45%
+  45  _seed_Ginger1-1_AC               93.54%    passed     40.52%
+  46  _seed_Ginger1-1_AP               93.54%    passed      5.36%
+  47  _seed_Ginger1-1_HM               93.54%    passed     48.71%
+  48  _seed_Ginger1-8_HM               93.54%    passed     26.77%
+  49  _seed_Ginger1-1_BF               93.45%    passed     20.45%
+  50  _seed_TDD-4                      93.49%    passed     22.99%
+  51  _seed_Ginger2-1_NV               93.36%    passed     80.16%
+  52  _seed_Ginger2-2_NV               93.36%    passed     57.16%
+  53  _seed_Ginger2-1_MG               93.58%    failed      0.07%
+  54  _seed_Ginger2-1_HM               93.45%    passed     55.14%
+  55  _seed_Ginger2-1_LS               93.49%    passed     17.90%
+  56  _seed_Ginger2-1_BF               93.54%    passed     71.09%
+  57  _seed_Ginger2-1_TS               93.45%    passed     83.80%
+  58  _seed_hATw-1_CCo                 80.69%    passed     13.29%
+  59  _seed_hATw-1_LB                  79.79%    failed      0.30%
+  60  _seed_hATw-1_HM                  82.02%    failed      1.83%
+  61  _seed_hATw-4_BF                  82.28%    failed      2.75%
+  62  _seed_hATw-2_SP                  82.23%    failed      0.03%
+  63  _seed_hATw-5_BF                  80.69%    failed      1.24%
+  64  _seed_hATw-1_BF                  81.89%    failed      0.12%
+  65  _seed_hATw-3_BF                  82.41%    passed      7.64%
+  66  _seed_hAT-1_TV                   78.77%    passed     13.30%
+  67  _seed_hAT-2_TV                   78.21%    failed      0.04%
+  68  _seed_Hopers3                    80.18%    passed      9.18%
+  69  _seed_hATx-4_HM                  83.18%    failed      0.07%
+  70  _seed_hATx-1_SM                  82.62%    failed      0.35%
+  71  _seed_hATx-5_SM                  83.22%    failed      0.00%
+  72  _seed_hAT-1_AA                   81.55%    failed      0.04%
+  73  _seed_hATx-3_SM                  83.73%    failed      0.00%
+  74  _seed_hATx-5_HM                  82.15%    failed      0.00%
+  75  _seed_hAT-9_SBi                  81.29%    passed     14.89%
+  76  _seed_Tag1                       82.83%    passed     84.66%
+  77  _seed_hAT-2_HM                   82.28%    failed      0.21%
+  78  _seed_hAT-44_HM                  82.41%    passed      8.07%
+  79  _seed_hAT-1_HM                   83.01%    failed      0.05%
+  80  _seed_hAT-2_SD                   80.86%    failed      0.80%
+  81  _seed_hAT-17_ZM                  80.35%    passed     27.41%
+  82  _seed_hAT-13_SBi                 80.01%    passed     15.58%
+  83  _seed_TAG2                       81.16%    passed     14.83%
+  84  _seed_ATHAT7                     78.72%    failed      1.00%
+  85  _seed_HAT2_MT                    80.14%    failed      0.57%
+  86  _seed_TAM3                       81.25%    passed     25.81%
+  87  _seed_ATHAT10                    80.65%    failed      0.49%
+  88  _seed_ZhAT3_ZM                   80.65%    failed      0.63%
+  89  _seed_CHAPKA1_EM                 80.35%    failed      0.00%
+  90  _seed_hAT-79_HM                  78.34%    failed      0.04%
+  91  _seed_Hobo                       81.89%    failed      0.00%
+  92  _seed_Hoana3                     82.36%    failed      0.00%
+  93  _seed_hAT-26_HM                  81.25%    failed      0.26%
+  94  _seed_hAT-37_HM                  80.39%    passed     10.75%
+  95  _seed_hAT-28_HM                  80.05%    failed      0.00%
+  96  _seed_hAT-27_HM                  81.55%    failed      1.12%
+  97  _seed_hAT-30_HM                  81.51%    failed      0.01%
+  98  _seed_hAT-9_XT                   76.58%    failed      0.00%
+  99  _seed_hAT-66_HM                  80.61%    failed      2.65%
+ 100  _seed_hAT-11_HM                  80.74%    failed      0.00%
+ 101  _seed_Homo7                      83.65%    failed      0.00%
+ 102  _seed_hAT-14_HM                  80.91%    failed      1.03%
+ 103  _seed_HAT1_AG                    81.93%    failed      0.13%
+ 104  _seed_HAT1_DR                    81.12%    failed      0.00%
+ 105  _seed_hAT-1_DP                   81.93%    failed      0.03%
+ 106  _seed_hAT-52_HM                  81.29%    failed      0.00%
+ 107  _seed_hAT-1_SP                   80.91%    failed      0.00%
+ 108  _seed_hAT-2_BF                   80.52%    failed      0.00%
+ 109  _seed_hAT-4_DR                   80.57%    failed      0.01%
+ 110  _seed_hAT-13_HM                  78.64%    failed      0.00%
+ 111  _seed_hAT1-1_NV                  82.11%    failed      0.00%
+ 112  _seed_hAT-28_SM                  80.31%    failed      0.00%
+ 113  _seed_hAT-76_HM                  79.02%    failed      2.13%
+ 114  _seed_hAT-35_HM                  79.37%    failed      0.08%
+ 115  _seed_hAT-45_HM                  79.67%    failed      3.76%
+ 116  _seed_hAT-74_HM                  78.55%    failed      0.01%
+ 117  _seed_hAT6-1_SP                  78.98%    passed      5.82%
+ 118  _seed_hAT6-1_NV                  80.05%    passed      6.96%
+ 119  _seed_hAT-29_HM                  80.14%    failed      0.88%
+ 120  _seed_hAT-25_HM                  80.39%    failed      1.96%
+ 121  _seed_hAT-4_BF                   80.09%    failed      1.76%
+ 122  _seed_hAT-3_BF                   80.14%    failed      0.00%
+ 123  _seed_hAT-82_HMa                 78.08%    failed      0.00%
+ 124  _seed_hAT-40_HM                  77.35%    failed      0.02%
+ 125  _seed_hAT-39_HM                  80.27%    failed      0.02%
+ 126  _seed_TIP100                     79.58%    failed      0.20%
+ 127  _seed_hAT-22_SM                  81.29%    failed      0.03%
+ 128  _seed_hAT-37_SM                  81.16%    failed      0.00%
+ 129  _seed_hAT-7_HM                   80.52%    failed      0.00%
+ 130  _seed_hAT-20_SM                  79.88%    failed      0.00%
+ 131  _seed_hAT-34_HM                  80.31%    failed      0.19%
+ 132  _seed_hAT-23_HM                  80.27%    failed      0.15%
+ 133  _seed_hAT-41_HM                  80.27%    failed      3.90%
+ 134  _seed_hAT-22_HM                  80.48%    failed      2.13%
+ 135  _seed_SPIN_Og                    82.79%    failed      0.91%
+ 136  _seed_hAT-14_SM                  82.88%    failed      0.26%
+ 137  _seed_hAT-2_XT                   82.83%    failed      0.25%
+ 138  _seed_hAT-2_SM                   82.88%    failed      0.00%
+ 139  _seed_hAT-5_DR                   82.53%    failed      0.00%
+ 140  _seed_hAT-42_SM                  82.49%    failed      0.08%
+ 141  _seed_hAT-12_SM                  82.83%    failed      1.61%
+ 142  _seed_hAT-19_HM                  83.05%    failed      0.00%
+ 143  _seed_hAT-5_SM                   81.46%    failed      0.00%
+ 144  _seed_hAT-11_XT                  81.04%    failed      0.22%
+ 145  _seed_hAT-3_DR                   81.29%    passed      7.89%
+ 146  _seed_hAT-18_HM                  79.28%    failed      0.00%
+ 147  _seed_hAT-20_HM                  81.21%    failed      0.00%
+ 148  _seed_hAT-36_SM                  81.55%    failed      0.04%
+ 149  _seed_Gulliver                   77.87%    failed      0.00%
+ 150  _seed_hAT-31_HM                  77.35%    failed      0.00%
+ 151  _seed_hAT5-3_NV                  79.58%    failed      0.09%
+ 152  _seed_hAT-30_SM                  80.35%    failed      0.03%
+ 153  _seed_hATm-4_HM                  80.52%    failed      0.53%
+ 154  _seed_hATm-39_HM                 80.44%    passed     53.12%
+ 155  _seed_hATm-1_HM                  80.22%    passed      8.47%
+ 156  _seed_hATm-57_HM                 81.29%    failed      2.24%
+ 157  _seed_hATm-38_HM                 80.57%    failed      0.06%
+ 158  _seed_hATm-29_HM                 81.04%    failed      0.30%
+ 159  _seed_hAT-9_SM                   80.57%    passed      5.22%
+ 160  _seed_hATm-1_AA                  81.34%    passed      5.71%
+ 161  _seed_hATm-3_AA                  80.86%    passed     10.33%
+ 162  _seed_hATm-2_AA                  81.29%    passed     13.74%
+ 163  _seed_hATm-35_HM                 81.38%    passed      7.64%
+ 164  _seed_hATm-4_HR                  82.32%    failed      0.28%
+ 165  _seed_hATm-2_HR                  81.34%    passed     20.75%
+ 166  _seed_hAT-4D_AP                  81.51%    passed      6.98%
+ 167  _seed_hATm-20_HM                 81.42%    passed     11.53%
+ 168  _seed_hATm-3_HR                  81.51%    failed      0.92%
+ 169  _seed_hATm-1_CS                  82.23%    passed     29.72%
+ 170  _seed_hATm-1_SM                  81.68%    failed      0.17%
+ 171  _seed_hATm-55_HM                 81.42%    failed      2.80%
+ 172  _seed_hATm-45_HM                 81.29%    failed      0.64%
+ 173  _seed_hATm-47_HM                 81.68%    passed      9.79%
+ 174  _seed_hATm-21_HM                 82.19%    passed     21.55%
+ 175  _seed_hATx-7_HM                  82.28%    passed     21.04%
+ 176  _seed_hATm-7_HM                  82.41%    passed     15.40%
+ 177  _seed_Kolobok-4_TV               87.97%    failed      3.21%
+ 178  _seed_Kolobok-1_MicRcc299        84.72%    passed     13.60%
+ 179  _seed_Kolobok-1_FraCyl           87.71%    failed      2.91%
+ 180  _seed_Kolobok-1_AA               87.84%    failed      0.08%
+ 181  _seed_Kolobok-1_Ppac             88.91%    passed     99.95%
+ 182  _seed_Kolobok1-1_SP              86.26%    failed      0.37%
+ 183  _seed_Kolobok-2_Aplcal           87.20%    passed     66.42%
+ 184  _seed_Kolobok-1_Aplcal           86.43%    failed      0.79%
+ 185  _seed_Kolobok-1_NVi              86.64%    failed      2.45%
+ 186  _seed_Kolobok-19_HMa             86.77%    failed      3.87%
+ 187  _seed_Kolobok-1_NV               89.00%    passed     45.45%
+ 188  _seed_Kolobok-1_DR               89.30%    passed     86.60%
+ 189  _seed_Kolobok-1_CS               89.21%    passed     22.64%
+ 190  _seed_Kolobok-1_XT               89.04%    failed      1.12%
+ 191  _seed_Kolobok-2_TV               88.74%    passed     18.02%
+ 192  _seed_Kolobok-1_NaeGru           89.00%    failed      2.11%
+ 193  _seed_Kolobok-1_TV               88.74%    passed     19.01%
+ 194  _seed_Kolobok-3_TV               89.55%    failed      0.01%
+ 195  _seed_MERLIN1_SM                 94.95%    passed     20.89%
+ 196  _seed_MERLIN4_SM                 94.91%    failed      1.90%
+ 197  _seed_Merlin10_SM                94.82%    passed     29.41%
+ 198  _seed_Merlin5_SM                 94.78%    failed      0.04%
+ 199  _seed_Merlin1_CB                 95.03%    failed      2.68%
+ 200  _seed_Merlin-1_Psojae            94.39%    failed      0.09%
+ 201  _seed_Merlin-1_Smo               94.95%    passed     24.61%
+ 202  _seed_Merlin-1_Hrobusta          94.91%    passed     12.20%
+ 203  _seed_Merlin-1_Aplcal            94.99%    passed     13.29%
+ 204  _seed_Merlin1_CI                 94.69%    passed     52.84%
+ 205  _seed_Merlin-1_Roryzae           92.25%    passed     33.85%
+ 206  _seed_Merlin-4_Roryzae           94.99%    failed      0.00%
+ 207  _seed_MULE1_EI                   90.62%    failed      1.47%
+ 208  _seed_MuDR1_TP                   90.07%    passed     86.02%
+ 209  _seed_MuDR1_SM                   91.91%    passed     69.53%
+ 210  _seed_MuDR-3_TV                  92.08%    failed      0.78%
+ 211  _seed_MuDR-6_TV                  92.12%    passed     32.11%
+ 212  _seed_MuDr-1_TV                  91.82%    failed      0.62%
+ 213  _seed_MuDR7x_AP                  91.44%    passed     78.16%
+ 214  _seed_MuDR2x_SM                  91.40%    passed     55.14%
+ 215  _seed_MuDR4x_SM                  90.97%    passed     21.84%
+ 216  _seed_MuDR1x_SM                  91.31%    passed      7.71%
+ 217  _seed_MuDr-1x_AP                 92.12%    passed     94.40%
+ 218  _seed_MUDR                       92.77%    passed     18.65%
+ 219  _seed_Mudr5_OS                   92.51%    passed     84.77%
+ 220  _seed_MuDR-8_SBi                 92.47%    passed     20.84%
+ 221  _seed_ATMU3                      93.07%    passed     27.78%
+ 222  _seed_MuDR-12_VV                 92.29%    passed     26.27%
+ 223  _seed_MuDR4_SM                   92.59%    passed     30.93%
+ 224  _seed_MuDR-6_VV                  92.42%    passed     98.46%
+ 225  _seed_MUDRAVI2                   92.42%    passed     45.10%
+ 226  _seed_MDR2                       92.29%    passed     47.36%
+ 227  _seed_MuDR2_OS                   90.33%    passed     48.74%
+ 228  _seed_MuDR-3_SBi                 92.29%    passed     32.10%
+ 229  _seed_MuDR-9_SBi                 92.29%    passed     35.59%
+ 230  _seed_VANDAL14                   92.64%    passed     33.87%
+ 231  _seed_CUMULE                     92.64%    passed     95.89%
+ 232  _seed_MULE-2_Cglob               91.31%    passed     21.26%
+ 233  _seed_MULE-1_Cglob               89.77%    failed      0.77%
+ 234  _seed_Hop                        91.31%    passed     93.43%
+ 235  _seed_MuDR-4_SBi                 92.47%    passed     98.54%
+ 236  _seed_MuDR-8_ZM                  92.12%    passed     25.88%
+ 237  _seed_MuDR-6_SBi                 92.21%    passed     14.29%
+ 238  _seed_MuDR-5_OS                  92.17%    passed     38.73%
+ 239  _seed_Jittery                    92.17%    passed     32.34%
+ 240  _seed_MUMET1                     92.21%    passed     77.93%
+ 241  _seed_MUJITOS2                   92.21%    passed     51.61%
+ 242  _seed_MULE-1_CapOwc              93.19%    passed     26.04%
+ 243  _seed_Rehavkus-3_TC              86.90%    failed      0.14%
+ 244  _seed_Rehavkus-1_HR              87.33%    passed     16.13%
+ 245  _seed_Rehavkus-1_TC              86.86%    failed      0.43%
+ 246  _seed_Rehavkus-2_NVi             86.73%    failed      0.12%
+ 247  _seed_Rehavkus-1_DY              87.16%    passed     12.23%
+ 248  _seed_Rehavkus1_AP               86.30%    failed      0.61%
+ 249  _seed_Novosib-1_EmiHux           88.70%    failed      0.00%
+ 250  _seed_Novosib-6_CR               89.60%    failed      0.00%
+ 251  _seed_Novosib-5_CR               88.83%    failed      0.00%
+ 252  _seed_Novosib-3_CR               87.20%    failed      0.00%
+ 253  _seed_Novosib-1_CR               87.76%    failed      0.00%
+ 254  _seed_P-1_TV                     86.39%    failed      2.06%
+ 255  _seed_P-2_TV                     86.60%    failed      0.02%
+ 256  _seed_P3_AG                      86.77%    passed      9.38%
+ 257  _seed_P_DM_Q7M3K2                86.60%    passed     17.28%
+ 258  _seed_P-2_HM                     84.33%    passed     14.27%
+ 259  _seed_P1_Cis                     85.45%    failed      0.01%
+ 260  _seed_P-1_AP                     85.32%    passed     21.91%
+ 261  _seed_P-1_Aplcal                 85.36%    passed     11.94%
+ 262  _seed_P-32_HM                    85.32%    failed      0.40%
+ 263  _seed_P-3_AP                     85.23%    failed      0.15%
+ 264  _seed_P-15_HM                    86.22%    passed      9.43%
+ 265  _seed_PROTOP                     86.04%    failed      1.83%
+ 266  _seed_Galileo_DB                 86.09%    passed      8.54%
+ 267  _seed_P-7_HM                     85.74%    failed      0.04%
+ 268  _seed_P-3_Hrobusta               85.62%    passed     25.27%
+ 269  _seed_P-6_HM                     85.83%    passed      6.83%
+ 270  _seed_P-3_HM                     86.26%    passed      8.87%
+ 271  _seed_P-1_AllMac                 85.02%    failed      2.50%
+ 272  _seed_P-1_AurAno                 82.92%    failed      0.00%
+ 273  _seed_P-1_CR                     83.86%    failed      0.00%
+ 274  _seed_P-2_CR                     82.62%    failed      0.01%
+ 275  _seed_IS4EU-1_AA                 94.01%    passed     68.03%
+ 276  _seed_IS4EU-2_DR                 94.05%    failed      4.43%
+ 277  _seed_ISL2EU-5_HM                94.05%    passed      6.24%
+ 278  _seed_ISL2EU-4_HM                93.88%    passed     15.68%
+ 279  _seed_ISL2EU-2_CS                93.96%    passed     56.65%
+ 280  _seed_IS4EU-1_NV                 94.01%    passed     11.89%
+ 281  _seed_PIF_Harbinger-2_PleOst     94.18%    passed     72.71%
+ 282  _seed_PIF_Harbinger-2_EmiHux     94.26%    passed     37.58%
+ 283  _seed_PIF_Harbinger-1_Ngru       93.92%    failed      0.17%
+ 284  _seed_PIF_Harbinger-1_AllMac     94.01%    passed     10.78%
+ 285  _seed_PIF_Harbinger-1_PleOst     94.26%    passed     44.91%
+ 286  _seed_Harbinger1_TP              94.01%    failed      2.56%
+ 287  _seed_PIF_Harbinger-1_PB         94.22%    passed     75.07%
+ 288  _seed_PIF_Harbinger-1_EmiHux     93.96%    passed     63.82%
+ 289  _seed_PIF_Harbinger-1_TV         94.05%    passed     48.48%
+ 290  _seed_PIF_Harbinger-1_TreMes     94.14%    passed      5.00%
+ 291  _seed_PIF_Harbinger-2_Mlaricis   93.36%    passed     89.94%
+ 292  _seed_PIF_Harbinger-1_CryNeo     94.14%    failed      1.61%
+ 293  _seed_HARB-4A_SBi                94.01%    passed     14.85%
+ 294  _seed_ATIS112A                   93.88%    passed     48.41%
+ 295  _seed_TURMOIL1                   93.71%    passed     21.80%
+ 296  _seed_TURMOIL2                   93.88%    passed      5.11%
+ 297  _seed_HARBINGER1_AG              93.71%    passed     76.12%
+ 298  _seed_Harbinger-1_BF             93.79%    passed      6.18%
+ 299  _seed_Harbinger1_DYa             93.84%    passed     33.52%
+ 300  _seed_HARB4_ZM                   93.88%    passed     84.77%
+ 301  _seed_Harbinger3_TP              93.66%    passed     11.73%
+ 302  _seed_PIF_Harbinger-1_Smoe       94.26%    failed      1.46%
+ 303  _seed_HARBINGER1_DR              93.84%    passed     12.38%
+ 304  _seed_PIF_Harbinger-2_PI         94.39%    passed     21.36%
+ 305  _seed_PIF_Harbinger-3_PI         93.32%    passed     14.84%
+ 306  _seed_PIF_Harbinger-4_PI         94.31%    passed     73.24%
+ 307  _seed_Harbinger3_DR              94.43%    passed     64.75%
+ 308  _seed_PiggyBac-3_PI              89.08%    failed      1.99%
+ 309  _seed_LEAPFROG1_EI               88.78%    failed      0.09%
+ 310  _seed_PiggyBac-1_Mcir            89.17%    passed     41.44%
+ 311  _seed_PiggyBac-1_FO              89.94%    failed      1.80%
+ 312  _seed_PiggyBac-1_PI              89.00%    failed      3.83%
+ 313  _seed_piggyBac-8_SM              90.37%    failed      0.42%
+ 314  _seed_piggyBac-6_SM              90.45%    passed     48.74%
+ 315  _seed_POKEY_DP                   89.77%    passed      5.22%
+ 316  _seed_piggyBac-5_SM              89.60%    passed     12.65%
+ 317  _seed_piggyBac-1_XT              90.07%    failed      1.81%
+ 318  _seed_PiggyBac-3_HM              89.68%    passed     33.35%
+ 319  _seed_piggyBac-4_SM              90.20%    failed      3.01%
+ 320  _seed_piggyBac-3_SM              89.98%    passed      7.92%
+ 321  _seed_piggyBac-3_NV              89.60%    passed     18.43%
+ 322  _seed_piggyBac1_CI               90.33%    passed     43.83%
+ 323  _seed_piggyBac-2_SM              89.94%    passed     12.86%
+ 324  _seed_piggyBac-2_NV              89.73%    passed     46.42%
+ 325  _seed_piggyBac-1_NV              90.15%    passed     23.54%
+ 326  _seed_piggyBac-1_SM              90.11%    failed      2.23%
+ 327  _seed_PiggyBac-1_FraCyl          88.87%    passed     13.92%
+ 328  _seed_PiggyBac-1_EmiHux          89.55%    failed      0.70%
+ 329  _seed_PiggyBac-1_PhaTri          88.61%    passed     27.63%
+ 330  _seed_Sola1-2_Psojae             94.05%    passed     27.69%
+ 331  _seed_Sola1-2_AA                 94.26%    passed     59.03%
+ 332  _seed_Sola1-3_Lgigantea          94.35%    passed     78.54%
+ 333  _seed_Sola1-2_AP                 93.96%    passed     55.33%
+ 334  _seed_Sola1-1_CS                 94.43%    passed     92.09%
+ 335  _seed_Sola1-1_BM                 94.35%    passed     73.31%
+ 336  _seed_Sola1-1_AC                 94.43%    passed     76.33%
+ 337  _seed_Sola1-7_AP                 94.35%    passed     24.97%
+ 338  _seed_Sola1-9_AP                 94.48%    passed     28.68%
+ 339  _seed_Sola1-1_HM                 94.48%    passed     84.63%
+ 340  _seed_Sola1-1_AA                 94.22%    passed     14.46%
+ 341  _seed_Sola1-8_AP                 94.18%    passed     57.17%
+ 342  _seed_Sola1-1_Dpulex             94.43%    passed      8.41%
+ 343  _seed_Sola1-1_PP                 94.52%    passed     48.08%
+ 344  _seed_Sola1-1_FraCyl             94.14%    passed     10.99%
+ 345  _seed_Sola1-1_PI                 94.35%    passed     22.30%
+ 346  _seed_Sola1-1_MonBre             94.18%    passed     57.10%
+ 347  _seed_Sola1-1_CapTel             94.39%    passed      8.46%
+ 348  _seed_Sola2-2_NVi                94.18%    passed      6.03%
+ 349  _seed_Sola2-1_NV                 93.66%    passed     66.75%
+ 350  _seed_Sola2-1_AC                 94.14%    passed     15.84%
+ 351  _seed_Sola2-2_HM                 94.14%    passed      5.09%
+ 352  _seed_Sola2-3_SP                 94.43%    passed     63.34%
+ 353  _seed_Sola2-1_AA                 94.09%    passed     26.13%
+ 354  _seed_Sola2-1_BM                 93.79%    passed     36.75%
+ 355  _seed_Sola2-1_Hrobusta           94.18%    passed     10.21%
+ 356  _seed_Sola3-1_CapOwc             93.79%    passed     13.72%
+ 357  _seed_Sola3-1_EmiHux             93.28%    failed      0.65%
+ 358  _seed_Sola3-2_PS                 93.36%    passed     43.84%
+ 359  _seed_Sola3-1_AA                 93.58%    passed     91.01%
+ 360  _seed_Sola3-4_HM                 93.66%    passed     23.74%
+ 361  _seed_Sola3-1_BF                 93.66%    passed     54.26%
+ 362  _seed_GIZMO1_EI                  94.43%    passed     56.01%
+ 363  _seed_TBE1                       94.69%    passed     12.64%
+ 364  _seed_Mariner-25_SM              95.98%    passed     14.76%
+ 365  _seed_Tec-1                      94.18%    passed     34.67%
+ 366  _seed_Mariner-6_SM               94.35%    passed      7.44%
+ 367  _seed_Mariner-10_HM              92.81%    passed     31.98%
+ 368  _seed_Mariner-3_AN               93.41%    failed      0.21%
+ 369  _seed_ATHPOGO                    93.54%    passed     98.74%
+ 370  _seed_SMAR25                     93.11%    passed     77.90%
+ 371  _seed_Tigger1                    92.98%    passed     12.33%
+ 372  _seed_pogo                       93.58%    passed     17.86%
+ 373  _seed_Mariner-18_HM              93.15%    passed     73.28%
+ 374  _seed_Pogo_SM                    93.02%    passed     19.99%
+ 375  _seed_SMAR6                      93.32%    passed     36.49%
+ 376  _seed_Mariner-1_SP               93.11%    failed      1.39%
+ 377  _seed_CIRT2_CA                   93.02%    passed     22.78%
+ 378  _seed_Mariner-1_AF               92.89%    passed     50.21%
+ 379  _seed_FOTYL                      92.59%    passed     12.30%
+ 380  _seed_Fot1                       93.07%    passed     41.58%
+ 381  _seed_SMAR24                     93.07%    passed     10.08%
+ 382  _seed_GEMINI1_EI                 92.68%    failed      0.94%
+ 383  _seed_Soymar1                    92.29%    passed     41.87%
+ 384  _seed_OSMAR1                     92.29%    failed      0.69%
+ 385  _seed_SMAR27                     94.09%    failed      0.08%
+ 386  _seed_MAR1_TV                    93.92%    passed     18.02%
+ 387  _seed_Mariner-16_HM              93.79%    passed      5.45%
+ 388  _seed_Mos1                       93.84%    passed     69.96%
+ 389  _seed_AVMAR1                     94.14%    passed     20.21%
+ 390  _seed_impala                     94.18%    passed     30.62%
+ 391  _seed_AMARI                      93.54%    passed     49.79%
+ 392  _seed_Tc1-2Xt                    93.88%    passed     51.76%
+ 393  _seed_minos                      94.01%    passed     98.62%
+ 394  _seed_Tc3                        94.14%    passed     60.31%
+ 395  _seed_Tc1                        94.01%    passed      6.93%
+ 396  _seed_Tc1-1_AG                   93.96%    passed     85.68%
+ 397  _seed_MARINCE1                   93.84%    passed     29.57%
+ 398  _seed_PrD37D                     93.71%    passed     73.54%
+ 399  _seed_VENSMAR1                   93.79%    passed     29.08%
+ 400  _seed_Bmmar1                     93.58%    passed     34.62%
+ 401  _seed_Transib-1_HM               84.46%    failed      0.33%
+ 402  _seed_Transib-10_HM              84.12%    failed      0.07%
+ 403  _seed_Transib1_AA                86.56%    failed      0.52%
+ 404  _seed_Transib-11_HM              84.33%    failed      0.02%
+ 405  _seed_Zator-1_BF                 92.68%    passed     11.27%
+ 406  _seed_Zator-2_AA                 92.72%    failed      3.84%
+ 407  _seed_Zator-4_HM                 92.89%    passed      9.30%
+ 408  _seed_Zator-1_Ngru               92.64%    passed     21.97%
+WARNING: 408 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                            87.66%  175 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.00356388 secs using 287.2% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.315 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 583 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 12 CPU cores
+9 trees examined
+Threads: 1 / Time: 13.433 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -326367
+Threads: 2 / Time: 9.343 sec / Speedup: 1.438 / Efficiency: 72% / LogL: -326367
+Threads: 3 / Time: 6.650 sec / Speedup: 2.020 / Efficiency: 67% / LogL: -326367
+Threads: 4 / Time: 5.222 sec / Speedup: 2.572 / Efficiency: 64% / LogL: -326367
+Threads: 5 / Time: 5.256 sec / Speedup: 2.556 / Efficiency: 51% / LogL: -326367
+Threads: 6 / Time: 5.365 sec / Speedup: 2.504 / Efficiency: 42% / LogL: -326367
+Determining AUTO threadcount: done in 45.3547 secs using 195% CPU
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -348938.308
+2. Current log-likelihood: -284274.678
+3. Current log-likelihood: -283492.123
+4. Current log-likelihood: -283457.195
+5. Current log-likelihood: -283455.224
+6. Current log-likelihood: -283454.991
+Optimal log-likelihood: -283454.905
+Gamma shape alpha: 2.211
+Parameters optimization took 6 rounds (11.743 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 11.2542 secs using 397.9% CPU
+Computing ML distances took 11.256519 sec (of wall-clock time) 44.787202 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000764847 secs using 347.3% CPU
+Constructing RapidNJ tree: done in 0.023679 secs using 135.7% CPU
+Computing RapidNJ tree took 0.024487 sec (of wall-clock time) 0.034800 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -283253.557
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 27.837 second
+Computing log-likelihood of 98 initial trees ... 53.868 seconds
+Current best score: -283253.557
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -282642.986
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -282625.967
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -282612.618
+Iteration 10 / LogL: -282668.452 / Time: 0h:6m:38s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -282561.004
+Iteration 20 / LogL: -282751.660 / Time: 0h:10m:18s
+Finish initializing candidate tree set (20)
+Current best tree score: -282561.004 / CPU time: 539.478
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -282553.561
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -282547.861
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -282522.467
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -282509.137
+Iteration 30 / LogL: -282529.170 / Time: 0h:12m:49s (0h:42m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -282501.244
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -282491.737
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -282486.669
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -282480.039
+Iteration 40 / LogL: -282480.039 / Time: 0h:15m:31s (0h:39m:46s left)
+Iteration 50 / LogL: -282485.807 / Time: 0h:17m:49s (0h:32m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -282471.566
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 58: -282462.161
+Iteration 60 / LogL: -282478.593 / Time: 0h:20m:4s (0h:33m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -282455.996
+Iteration 70 / LogL: -282474.822 / Time: 0h:22m:27s (0h:32m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 71: -282454.471
+Iteration 80 / LogL: -282459.298 / Time: 0h:25m:4s (0h:28m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 83: -282453.285
+Iteration 90 / LogL: -282543.806 / Time: 0h:27m:50s (0h:29m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 95: -282448.992
+Iteration 100 / LogL: -282463.200 / Time: 0h:30m:27s (0h:29m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 105: -282447.477
+Iteration 110 / LogL: -282463.518 / Time: 0h:33m:13s (0h:28m:57s left)
+Iteration 120 / LogL: -282484.473 / Time: 0h:35m:47s (0h:25m:33s left)
+Iteration 130 / LogL: -282453.139 / Time: 0h:38m:19s (0h:22m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 135: -282444.154
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 136: -282441.307
+Iteration 140 / LogL: -282453.321 / Time: 0h:41m:5s (0h:28m:22s left)
+Iteration 150 / LogL: -282450.953 / Time: 0h:43m:43s (0h:25m:14s left)
+Iteration 160 / LogL: -282443.783 / Time: 0h:46m:16s (0h:22m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 161: -282436.171
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 164: -282434.406
+Iteration 170 / LogL: -282461.609 / Time: 0h:48m:56s (0h:27m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 177: -282431.788
+Iteration 180 / LogL: -282438.235 / Time: 0h:51m:46s (0h:28m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 188: -282431.485
+Iteration 190 / LogL: -282446.086 / Time: 0h:54m:19s (0h:28m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 193: -282429.924
+Iteration 200 / LogL: -282449.359 / Time: 0h:57m:3s (0h:26m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 201: -282423.570
+Iteration 210 / LogL: -282662.173 / Time: 0h:59m:40s (0h:25m:58s left)
+Iteration 220 / LogL: -282432.298 / Time: 1h:2m:8s (0h:22m:59s left)
+Iteration 230 / LogL: -282440.205 / Time: 1h:4m:46s (0h:20m:4s left)
+Iteration 240 / LogL: -282434.973 / Time: 1h:7m:17s (0h:17m:10s left)
+Iteration 250 / LogL: -282424.314 / Time: 1h:9m:55s (0h:14m:19s left)
+Iteration 260 / LogL: -282437.688 / Time: 1h:12m:14s (0h:11m:26s left)
+Iteration 270 / LogL: -282426.939 / Time: 1h:14m:38s (0h:8m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 273: -282423.250
+Iteration 280 / LogL: -282446.343 / Time: 1h:17m:14s (0h:25m:44s left)
+Iteration 290 / LogL: -282432.990 / Time: 1h:19m:35s (0h:22m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 291: -282421.771
+Iteration 300 / LogL: -282463.743 / Time: 1h:21m:56s (0h:24m:56s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 309: -282419.915
+Iteration 310 / LogL: -282422.185 / Time: 1h:24m:33s (0h:27m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 314: -282419.558
+Iteration 320 / LogL: -282441.608 / Time: 1h:27m:11s (0h:25m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 330: -282418.239
+Iteration 330 / LogL: -282418.239 / Time: 1h:30m:15s (0h:27m:26s left)
+Iteration 340 / LogL: -282429.850 / Time: 1h:32m:56s (0h:24m:40s left)
+Iteration 350 / LogL: -282430.743 / Time: 1h:35m:38s (0h:21m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 354: -282416.549
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 356: -282416.480
+Iteration 360 / LogL: -282433.257 / Time: 1h:38m:27s (0h:26m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 364: -282415.188
+Iteration 370 / LogL: -282423.058 / Time: 1h:41m:9s (0h:25m:46s left)
+Iteration 380 / LogL: -282485.367 / Time: 1h:44m:2s (0h:23m:3s left)
+Iteration 390 / LogL: -282420.015 / Time: 1h:46m:51s (0h:20m:19s left)
+Iteration 400 / LogL: -282419.184 / Time: 1h:49m:36s (0h:17m:34s left)
+Iteration 410 / LogL: -282418.941 / Time: 1h:52m:21s (0h:14m:50s left)
+Iteration 420 / LogL: -282437.522 / Time: 1h:55m:1s (0h:12m:4s left)
+Iteration 430 / LogL: -282426.221 / Time: 1h:57m:47s (0h:9m:20s left)
+Iteration 440 / LogL: -282430.847 / Time: 2h:0m:33s (0h:6m:35s left)
+Iteration 450 / LogL: -282435.829 / Time: 2h:3m:13s (0h:3m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 457: -282414.688
+Iteration 460 / LogL: -282418.536 / Time: 2h:5m:55s (0h:26m:36s left)

@@ -1,0 +1,588 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    cn-1024 (AVX512, FMA3, 1511 GB RAM)
+Command: iqtree3 -s outputs/phylo/cmc_rag1_tree/cmc_rag1.clipkit.fa -st AA -m LG+F+I+G4 -B 1000 -alrt 1000 -nt 32 -mem 120G -seed 1 -pre outputs/phylo/cmc_rag1_tree/cmc_rag1_tree
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul 13 13:55:43 2026
+Kernel:  AVX+FMA - 32 threads (32 CPU cores detected)
+
+Reading alignment file outputs/phylo/cmc_rag1_tree/cmc_rag1.clipkit.fa ... Fasta format detected
+Reading fasta file: done in 0.055836 secs using 86.25% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0294352 secs using 1253% CPU
+Alignment has 377 sequences with 5101 columns, 5047 distinct patterns
+3661 parsimony-informative, 1309 singleton sites, 131 constant sites
+                              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0012939 secs using 1570% CPU
+   1  Chapaev__Chapaev-1_CE          84.59%    failed      0.00%
+   2  Chapaev__Chapaev-2_CE          84.00%    failed      0.00%
+   3  EnSpm__EnSpm1_DR_tp            76.98%    failed      0.01%
+   4  EnSpm__EnSpm-2_DR_p1           84.02%    failed      0.11%
+   5  EnSpm__EnSpm-3_DR_tp           76.22%    failed      0.00%
+   6  EnSpm__EnSpm-5_DR_p1           84.12%    failed      0.03%
+   7  EnSpm__EnSpm-7_DR_tp           75.69%    failed      0.01%
+   8  EnSpm__EnSpm-9_DR_tp           75.63%    failed      0.02%
+   9  EnSpm__EnSpm-12_DR_tp          75.93%    failed      0.00%
+  10  EnSpm__EnSpm-13_DR_tp          75.53%    failed      0.00%
+  11  EnSpm__EnSpm-14_DR_tp          76.00%    failed      0.00%
+  12  Transib__Transib1              86.30%    failed      0.01%
+  13  Transib__Transib2              86.41%    failed      0.00%
+  14  Transib__Transib3              86.49%    failed      0.00%
+  15  Transib__Transib4              88.98%    failed      0.00%
+  16  Transib__Transib5              88.34%    failed      0.00%
+  17  EnSpm__UN-ATEnSpm9             69.77%    failed      0.09%
+  18  EnSpm__UN-Candystripe1_SB_p2   86.43%    failed      0.07%
+  19  EnSpm__UN-EnSpm3_OS_p2         88.26%    failed      0.00%
+  20  EnSpm__UN-EnSpm5_SB_p2         91.71%    failed      0.00%
+  21  Mirage__UN-Mirage1             84.41%    failed      1.00%
+  22  Mirage__UN-GIN1_int            92.37%    passed     27.76%
+  23  Mirage__UN-GIN2_int            91.84%    failed      0.61%
+  24  Chapaev__Chapaev-1_AA          86.71%    failed      0.14%
+  25  Chapaev__Chapaev-1_ACa         81.63%    failed      0.00%
+  26  Chapaev__Chapaev-1_BF          79.34%    failed      0.01%
+  27  Chapaev__Chapaev-1_HM          87.18%    failed      0.02%
+  28  Chapaev__Chapaev-2_ACa         81.53%    failed      0.00%
+  29  Chapaev__Chapaev-2_BF          78.77%    failed      0.16%
+  30  Chapaev__Chapaev-2_HM          86.71%    failed      1.30%
+  31  Chapaev__Chapaev-3_ACa         80.47%    failed      0.00%
+  32  Chapaev__Chapaev-3_HM          83.08%    failed      0.00%
+  33  Chapaev__Chapaev-3A_HM         82.42%    failed      0.00%
+  34  Chapaev__Chapaev-3B_HM         82.89%    failed      0.00%
+  35  Chapaev__Chapaev-4_HM          82.92%    failed      0.00%
+  36  Chapaev__Chapaev-5_HM          86.79%    failed      0.01%
+  37  Chapaev__Chapaev-5_HMa         87.06%    failed      0.53%
+  38  Chapaev__Chapaev-6_HM          82.24%    failed      0.00%
+  39  Chapaev__Chapaev-7_HM          82.55%    failed      0.00%
+  40  Chapaev__Chapaev-8_HM          82.40%    failed      0.00%
+  41  Chapaev__Chapaev-9_HM          90.45%    failed      0.01%
+  42  Chapaev__Chapaev-10_HM         89.36%    failed      0.20%
+  43  Chapaev__Chapaev-11_HM         88.92%    failed      0.00%
+  44  Chapaev__Chapaev-12_HM         88.00%    failed      0.00%
+  45  Chapaev__Chapaev-13_HM         86.38%    failed      0.00%
+  46  Chapaev__Chapaev-14_HM         87.10%    failed      0.00%
+  47  Chapaev__Chapaev-15_HM         87.28%    failed      0.00%
+  48  Chapaev__Chapaev-16_HM         87.16%    failed      0.05%
+  49  Chapaev__Chapaev-17_HM         86.14%    failed      0.00%
+  50  Chapaev__Chapaev-18_HM         86.92%    failed      0.00%
+  51  Chapaev__Chapaev-19_HM         87.34%    failed      0.01%
+  52  Chapaev__Chapaev-21_HM         87.28%    failed      0.01%
+  53  Chapaev3__Chapaev3-1_AA        88.45%    passed      5.65%
+  54  Chapaev3__Chapaev3-1_AC        90.84%    passed     17.03%
+  55  Chapaev3__Chapaev3-1_DA        89.14%    failed      1.12%
+  56  Chapaev3__Chapaev3-1_DW        89.55%    passed     66.05%
+  57  Chapaev3__Chapaev3-1_ET        91.12%    passed     43.19%
+  58  Chapaev3__Chapaev3-1_HM        89.06%    passed     91.86%
+  59  Chapaev3__Chapaev3-1_HR        89.04%    passed     83.04%
+  60  Chapaev3__Chapaev3-1_NVi       88.65%    failed      0.00%
+  61  Chapaev3__Chapaev3-1_OL        91.04%    passed     49.49%
+  62  Chapaev3__Chapaev3-1_PM        88.98%    passed     72.75%
+  63  Chapaev3__Chapaev3-1_SM        88.98%    passed     87.10%
+  64  Chapaev3__Chapaev3-2_AA        89.22%    passed     46.48%
+  65  Chapaev3__Chapaev3-2_AC        89.00%    passed     29.20%
+  66  Chapaev3__Chapaev3-2_HM        89.04%    passed     50.18%
+  67  Chapaev3__Chapaev3-2_HR        89.06%    passed     96.34%
+  68  Chapaev3__Chapaev3-2_NVi       91.57%    failed      1.15%
+  69  Chapaev3__Chapaev3-2_PM        88.98%    passed     70.99%
+  70  Chapaev3__Chapaev3-3_AA        88.69%    passed     50.53%
+  71  Chapaev3__Chapaev3-3_HM        89.06%    passed     41.96%
+  72  Chapaev3__Chapaev3-3_HR        88.90%    passed     19.48%
+  73  Chapaev3__Chapaev3-4_HM        89.22%    passed     82.68%
+  74  Chapaev3__Chapaev3-5_HM        89.02%    passed     48.72%
+  75  Chapaev3__Chapaev3-6_HM        88.90%    passed     10.61%
+  76  Chapaev3__Chapaev-1_BM         95.28%    passed     21.78%
+  77  Chapaev3__Chapaev-1_HSal       88.86%    passed     21.15%
+  78  Chapaev3__Chapaev-4_HMa        88.92%    passed     41.58%
+  79  Chapaev3__Chapaev-20_HM        88.96%    passed     56.95%
+  80  Chapaev3__EnSpm-1_DF           89.71%    passed     54.42%
+  81  Chapaev3__EnSpm-1_LMi          89.16%    passed     92.01%
+  82  Chapaev3__EnSpm-1_RPr          89.22%    passed     29.03%
+  83  Chapaev3__EnSpm-2_LMi          89.08%    passed     59.76%
+  84  EnSpm__ATEnSpm1A_p2            91.63%    failed      0.00%
+  85  EnSpm__ATEnSpm2                80.10%    passed      6.59%
+  86  EnSpm__ATEnSpm3                67.97%    failed      0.00%
+  87  EnSpm__ATEnSpm6                69.59%    failed      0.01%
+  88  EnSpm__ATEnSpm7                67.46%    failed      0.01%
+  89  EnSpm__ATENSPM10               70.34%    failed      1.12%
+  90  EnSpm__ATEnSpm11               70.69%    passed     22.41%
+  91  EnSpm__ATEnSpm12               66.81%    failed      0.00%
+  92  EnSpm__BREnSpm1                86.22%    passed     34.21%
+  93  EnSpm__CACTA-1_Mlaricis        86.53%    passed      6.49%
+  94  EnSpm__CACTA-1_Roryzae         83.98%    failed      0.29%
+  95  EnSpm__CACTA-2_Mlaricis        85.81%    failed      0.00%
+  96  EnSpm__CACTA_LP_p1             76.40%    failed      0.00%
+  97  EnSpm__CACTA_LP_p2             87.51%    failed      0.00%
+  98  EnSpm__DOPPIA4_ZM              83.26%    failed      2.35%
+  99  EnSpm__EN1_ZM                  79.91%    passed     53.02%
+ 100  EnSpm__ENS1_Cis                84.08%    failed      0.00%
+ 101  EnSpm__EnSpm1_PT               77.32%    failed      2.11%
+ 102  EnSpm__EnSpm1_SB_p1            76.38%    passed     22.46%
+ 103  EnSpm__EnSpm1_SB_p2            77.97%    failed      0.00%
+ 104  EnSpm__EnSpm1_TD               79.32%    failed      1.01%
+ 105  EnSpm__EnSpm1B_PT              94.14%    failed      0.05%
+ 106  EnSpm__EnSpm2_HV               78.02%    failed      1.77%
+ 107  EnSpm__EnSpm2_MT               79.14%    failed      2.86%
+ 108  EnSpm__EnSpm2_OS_p1            78.83%    failed      0.34%
+ 109  EnSpm__EnSpm2_OS_p2            88.53%    failed      0.00%
+ 110  EnSpm__EnSpm2_PTr              69.32%    failed      0.51%
+ 111  EnSpm__EnSpm2_SB_p1            77.73%    failed      2.67%
+ 112  EnSpm__EnSpm2_SB_p2            83.91%    failed      0.00%
+ 113  EnSpm__EnSpm2_TM_p2            85.90%    failed      0.00%
+ 114  EnSpm__EnSpm2_ZM               83.26%    failed      3.58%
+ 115  EnSpm__EnSpm3_OS_p1            78.96%    failed      3.14%
+ 116  EnSpm__EnSpm3_SB_p2            84.57%    failed      0.00%
+ 117  EnSpm__EnSpm3_ZM               79.26%    failed      4.72%
+ 118  EnSpm__EnSpm4_OS_p1            78.53%    failed      3.73%
+ 119  EnSpm__EnSpm4_OS_p2            86.63%    failed      0.00%
+ 120  EnSpm__EnSpm4_SB_p1            77.02%    passed     10.82%
+ 121  EnSpm__EnSpm4_SB_p2            85.30%    failed      0.00%
+ 122  EnSpm__EnSpm4_ZM               78.02%    failed      0.17%
+ 123  EnSpm__EnSpm5_OS_p1            77.67%    failed      4.66%
+ 124  EnSpm__EnSpm5_OS_p2            85.14%    failed      0.00%
+ 125  EnSpm__EnSpm5_SB_p1            79.61%    failed      0.00%
+ 126  EnSpm__EnSpm6_SB_p1            77.26%    passed     76.95%
+ 127  EnSpm__EnSpm6_SB_p2            84.71%    failed      0.00%
+ 128  EnSpm__EnSpm7_OS_p1            77.53%    failed      0.19%
+ 129  EnSpm__EnSpm7_OS_p2            86.06%    failed      0.00%
+ 130  EnSpm__EnSpm7_SB_p1            78.02%    failed      0.22%
+ 131  EnSpm__EnSpm7_SB_p2            83.49%    failed      0.00%
+ 132  EnSpm__EnSpm8_SB               78.47%    failed      0.70%
+ 133  EnSpm__EnSpm11_SB_p2           85.38%    failed      0.00%
+ 134  EnSpm__EnSpm12_SB_p1           77.48%    failed      1.09%
+ 135  EnSpm__EnSpm12_SB_p2           90.67%    failed      0.00%
+ 136  EnSpm__EnSpm-1_AA              86.98%    failed      1.01%
+ 137  EnSpm__EnSpm-1_ADi             77.38%    failed      0.00%
+ 138  EnSpm__EnSpm-1_AIp_tp          77.69%    failed      1.93%
+ 139  EnSpm__EnSpm-1_AP              87.06%    failed      0.00%
+ 140  EnSpm__EnSpm-1_BDi             82.79%    passed     15.55%
+ 141  EnSpm__EnSpm-1_BF              85.55%    failed      0.08%
+ 142  EnSpm__EnSpm-1_CCri_3p         90.73%    failed      0.00%
+ 143  EnSpm__EnSpm-1_CCri_tp         74.36%    failed      0.00%
+ 144  EnSpm__EnSpm-1_CGi             83.85%    failed      0.14%
+ 145  EnSpm__EnSpm-1_Cia_tp          71.61%    passed     25.97%
+ 146  EnSpm__EnSpm-1_DDi             83.59%    failed      0.00%
+ 147  EnSpm__EnSpm-1_FV_tp           78.06%    failed      1.98%
+ 148  EnSpm__EnSpm-1_GM              79.18%    passed     59.77%
+ 149  EnSpm__EnSpm-1_GR              84.43%    passed     28.51%
+ 150  EnSpm__EnSpm-1_HM              93.22%    failed      0.00%
+ 151  EnSpm__EnSpm-1_HV_p1           84.43%    failed      0.76%
+ 152  EnSpm__EnSpm-1_LU              83.18%    failed      0.61%
+ 153  EnSpm__EnSpm-1_Mad             78.02%    passed     12.37%
+ 154  EnSpm__EnSpm-1_MN              83.47%    passed      9.00%
+ 155  EnSpm__EnSpm-1_NGr             78.38%    failed      0.00%
+ 156  EnSpm__EnSpm-1_NV              84.98%    passed     40.36%
+ 157  EnSpm__EnSpm-1_NVi             87.88%    failed      0.75%
+ 158  EnSpm__EnSpm-1_PGr             84.34%    failed      0.00%
+ 159  EnSpm__EnSpm-1_PSt_tp          88.14%    failed      0.02%
+ 160  EnSpm__EnSpm-1_TA              76.81%    failed      0.06%
+ 161  EnSpm__EnSpm-1_TM_p1           77.73%    failed      0.00%
+ 162  EnSpm__EnSpm-1_TM_p2           88.85%    failed      0.00%
+ 163  EnSpm__EnSpm-2_BDi             77.65%    failed      0.00%
+ 164  EnSpm__EnSpm-2_BF              84.96%    passed     45.62%
+ 165  EnSpm__EnSpm-2_CGi             87.36%    passed     29.57%
+ 166  EnSpm__EnSpm-2_Cia_p2          87.02%    failed      3.79%
+ 167  EnSpm__EnSpm-2_Cia_tp          79.32%    passed     30.94%
+ 168  EnSpm__EnSpm-2_GM_tp           79.14%    passed     70.60%
+ 169  EnSpm__EnSpm-2_HM_p1           88.10%    failed      0.00%
+ 170  EnSpm__EnSpm-2_Mad             78.02%    passed     21.42%
+ 171  EnSpm__EnSpm-2_NV              85.06%    passed     40.55%
+ 172  EnSpm__EnSpm-2_NVi             86.08%    failed      0.00%
+ 173  EnSpm__EnSpm-2_PGr             85.61%    failed      0.11%
+ 174  EnSpm__EnSpm-2_SIn             83.83%    failed      0.00%
+ 175  EnSpm__EnSpm-3_ADi             74.89%    failed      0.00%
+ 176  EnSpm__EnSpm-3_BF              78.89%    failed      0.00%
+ 177  EnSpm__EnSpm-3_Cia_p2          86.67%    failed      0.00%
+ 178  EnSpm__EnSpm-3_Cia_tp          78.93%    passed     28.74%
+ 179  EnSpm__EnSpm-3_GM_tp           78.79%    passed     65.40%
+ 180  EnSpm__EnSpm-3_HM_p1           83.22%    failed      0.00%
+ 181  EnSpm__EnSpm-3_HV_p1           78.34%    failed      0.35%
+ 182  EnSpm__EnSpm-3_HV_p2           84.65%    failed      0.00%
+ 183  EnSpm__EnSpm-3_Mad             84.96%    passed     37.59%
+ 184  EnSpm__EnSpm-3_MN              83.89%    failed      4.71%
+ 185  EnSpm__EnSpm-3_NVe             75.34%    failed      0.00%
+ 186  EnSpm__EnSpm-3_PGr             85.24%    failed      0.06%
+ 187  EnSpm__EnSpm-3_VV              78.91%    passed     87.47%
+ 188  EnSpm__EnSpm-4_ADi             79.44%    failed      0.01%
+ 189  EnSpm__EnSpm-4_DR_p1           84.08%    failed      0.00%
+ 190  EnSpm__EnSpm-4_GM_tp           78.42%    passed     11.11%
+ 191  EnSpm__EnSpm-4_HM              86.39%    failed      0.00%
+ 192  EnSpm__EnSpm-4_HV_p1           77.46%    failed      4.14%
+ 193  EnSpm__EnSpm-4_HV_p2           84.73%    failed      0.00%
+ 194  EnSpm__EnSpm-4_NVe             75.38%    failed      0.00%
+ 195  EnSpm__EnSpm-4_PGr             84.34%    failed      0.57%
+ 196  EnSpm__EnSpm-4_VV_tp           79.00%    passed     22.19%
+ 197  EnSpm__EnSpm-5_FV              78.59%    failed      1.34%
+ 198  EnSpm__EnSpm-5_HM              87.06%    failed      0.00%
+ 199  EnSpm__EnSpm-5_HV              95.30%    failed      1.09%
+ 200  EnSpm__EnSpm-5_NVe             75.20%    failed      0.00%
+ 201  EnSpm__EnSpm-5_PGr_tp          84.81%    failed      0.12%
+ 202  EnSpm__EnSpm-5_VV_tp           78.95%    passed     73.05%
+ 203  EnSpm__EnSpm-5_ZM              83.34%    failed      1.10%
+ 204  EnSpm__EnSpm-6_DR              87.00%    passed     15.87%
+ 205  EnSpm__EnSpm-6_HM              86.77%    failed      0.00%
+ 206  EnSpm__EnSpm-6_NVe             80.18%    failed      0.00%
+ 207  EnSpm__EnSpm-6_VV_p1           85.00%    passed     25.90%
+ 208  EnSpm__EnSpm-6_ZM_p1           77.10%    passed     32.87%
+ 209  EnSpm__EnSpm-6_ZM_p2           85.73%    failed      0.00%
+ 210  EnSpm__EnSpm-7_FV_tp           76.87%    passed     40.01%
+ 211  EnSpm__EnSpm-7_HM              86.75%    failed      0.03%
+ 212  EnSpm__EnSpm-7_MLP_tp          88.26%    failed      4.28%
+ 213  EnSpm__EnSpm-7_ZM_p1           90.88%    passed     48.53%
+ 214  EnSpm__EnSpm-8_HM              87.90%    failed      0.02%
+ 215  EnSpm__EnSpm-8_ZM_p1           83.55%    failed      1.34%
+ 216  EnSpm__EnSpm-8N_VV_p1          85.59%    failed      0.07%
+ 217  EnSpm__EnSpm-9_HM              87.06%    failed      0.00%
+ 218  EnSpm__EnSpm-9_OS_p1           85.65%    passed     72.54%
+ 219  EnSpm__EnSpm-9_ZM_p1           83.71%    failed      3.78%
+ 220  EnSpm__EnSpm-10_CCri_2p        91.92%    failed      0.00%
+ 221  EnSpm__EnSpm-10_CCri_3p        79.93%    failed      0.03%
+ 222  EnSpm__EnSpm-10_FV_tp          79.08%    passed      5.39%
+ 223  EnSpm__EnSpm-10_HM             87.32%    failed      0.08%
+ 224  EnSpm__EnSpm-10_OS_p1          83.18%    passed     27.79%
+ 225  EnSpm__EnSpm-10_ZM_p1          82.57%    failed      0.87%
+ 226  EnSpm__EnSpm-11_HM             83.69%    failed      0.00%
+ 227  EnSpm__EnSpm-11_OS_p1          83.49%    passed     14.17%
+ 228  EnSpm__EnSpm-11_STu_gag        93.16%    failed      0.56%
+ 229  EnSpm__EnSpm-11_ZM_p1          83.51%    failed      0.14%
+ 230  EnSpm__EnSpm-12_HM             87.28%    failed      0.03%
+ 231  EnSpm__EnSpm-12_OS_p1          83.32%    passed      6.71%
+ 232  EnSpm__EnSpm-12_ZM_p1          83.45%    passed      5.50%
+ 233  EnSpm__EnSpm-13_HM             87.04%    failed      0.01%
+ 234  EnSpm__EnSpm-13_OS_p1          82.94%    passed     64.02%
+ 235  EnSpm__EnSpm-13_VV_tp          78.91%    passed     68.96%
+ 236  EnSpm__EnSpm-13_ZM_p1          81.83%    failed      2.43%
+ 237  EnSpm__EnSpm-14_HM             86.83%    failed      0.00%
+ 238  EnSpm__EnSpm-14_OS_p1          83.24%    passed     90.16%
+ 239  EnSpm__EnSpm-14_SBi_p2         91.86%    failed      0.00%
+ 240  EnSpm__EnSpm-14_ZM             85.26%    passed      8.23%
+ 241  EnSpm__EnSpm-15_HM             84.65%    failed      0.00%
+ 242  EnSpm__EnSpm-15_OS_p1          85.67%    passed      5.86%
+ 243  EnSpm__EnSpm-16_HM             84.90%    failed      0.00%
+ 244  EnSpm__EnSpm-16_OS_p1          83.22%    passed      7.73%
+ 245  EnSpm__EnSpm-17_CCri_2p        77.81%    failed      0.00%
+ 246  EnSpm__EnSpm-17_HM             86.69%    failed      0.00%
+ 247  EnSpm__EnSpm-18_CCri           78.91%    failed      0.00%
+ 248  EnSpm__EnSpm-18_HMa            78.89%    failed      0.00%
+ 249  EnSpm__EnSpm-18_SBi_1p         77.10%    failed      4.82%
+ 250  EnSpm__EnSpm-18_SBi_2p         88.16%    failed      0.00%
+ 251  EnSpm__EnSpm-19_HMa            79.38%    failed      0.00%
+ 252  EnSpm__EnSpm-19_SBi_tp         82.69%    failed      0.68%
+ 253  EnSpm__EnSpm-20_CCri_2p        79.00%    failed      0.00%
+ 254  EnSpm__EnSpm-20_HMa            79.46%    failed      0.00%
+ 255  EnSpm__EnSpm-20_SBi_tp         82.16%    failed      1.82%
+ 256  EnSpm__EnSpm-21_CCri_tp        80.44%    failed      0.00%
+ 257  EnSpm__EnSpm-21_HMa            79.46%    failed      0.00%
+ 258  EnSpm__EnSpm-22_CCri_tp        79.96%    failed      0.01%
+ 259  EnSpm__EnSpm-22_HMa            81.06%    failed      0.00%
+ 260  EnSpm__EnSpm-22_SBi_tp         77.14%    passed     13.26%
+ 261  EnSpm__EnSpm-23_CCri           78.75%    failed      0.00%
+ 262  EnSpm__EnSpm-26_CCri_2p        93.57%    failed      0.00%
+ 263  EnSpm__EnSpm-26_CCri_3p        78.30%    failed      0.00%
+ 264  EnSpm__EnSpm-26_SBi_tp         83.42%    failed      0.78%
+ 265  EnSpm__EnSpm-27_CCri           78.26%    failed      0.00%
+ 266  EnSpm__EnSpm-30_SBi_env        89.41%    failed      0.03%
+ 267  EnSpm__EnSpm-30_SBi_p2         85.14%    failed      0.00%
+ 268  EnSpm__EnSpm-34_CCri_1p        91.28%    failed      0.00%
+ 269  EnSpm__EnSpm-34_SBi_1p         83.20%    passed     18.04%
+ 270  EnSpm__EnSpm-36_SBi_1p         76.91%    passed      7.09%
+ 271  EnSpm__EnSpm-36_SBi_2p         87.47%    failed      0.00%
+ 272  EnSpm__EnSpm-39_SBi            83.45%    failed      1.36%
+ 273  EnSpm__EnSpm-40_SBi_1p         83.16%    passed     19.75%
+ 274  EnSpm__EnSpm-41_SBi_1p         83.24%    failed      3.21%
+ 275  EnSpm__EnSpm-44_SBi_1p         86.00%    passed     14.75%
+ 276  EnSpm__EnSpm_AC                88.06%    passed     95.15%
+ 277  EnSpm__EnSpm_CA                92.86%    passed     11.70%
+ 278  EnSpm__EnSpm_MT                77.06%    failed      1.70%
+ 279  EnSpm__EnSpm_OS                78.14%    passed     17.36%
+ 280  EnSpm__OShooter_p1             82.53%    passed     19.02%
+ 281  EnSpm__OShooter_p2             96.45%    passed     13.62%
+ 282  EnSpm__PSL                     77.91%    passed     27.89%
+ 283  EnSpm__Shooter_ZM              84.47%    passed     97.80%
+ 284  EnSpm__SmTRC1                  89.02%    failed      0.25%
+ 285  EnSpm__SPMLIKE_p1              78.24%    passed      6.42%
+ 286  EnSpm__SPMLIKE_p2              83.61%    failed      0.00%
+ 287  EnSpm__TDC1                    89.81%    passed     61.73%
+ 288  EnSpm__EnSpm-2_CCri_4p         85.38%    failed      0.00%
+ 289  EnSpm__EnSpm-2_CCri_tp         75.28%    failed      0.00%
+ 290  EnSpm__EnSpm-2C_CCri_3p        76.20%    failed      0.00%
+ 291  EnSpm__EnSpm-2C_CCri_4p        90.32%    failed      2.61%
+ 292  EnSpm__EnSpm-2C_CCri_mt        80.67%    failed      0.00%
+ 293  EnSpm__EnSpm-3_CCri_3p         79.59%    failed      0.00%
+ 294  EnSpm__EnSpm-3_CCri_4p         90.96%    failed      0.00%
+ 295  EnSpm__EnSpm-3_CCri_5p         86.71%    failed      0.00%
+ 296  EnSpm__EnSpm-3_CCri_mt         81.12%    failed      0.00%
+ 297  EnSpm__EnSpm-3_CCri_tp         76.00%    failed      0.00%
+ 298  EnSpm__EnSpm-4_CCri_1p         88.79%    failed      0.00%
+ 299  EnSpm__EnSpm-4_CCri_3p         95.22%    failed      0.39%
+ 300  EnSpm__EnSpm-4_CCri_tp         77.02%    failed      0.00%
+ 301  EnSpm__EnSpm-5_CCri_1p         89.32%    failed      0.00%
+ 302  EnSpm__EnSpm-5_CCri_2p         83.59%    failed      0.00%
+ 303  EnSpm__EnSpm-5_CCri_tp         74.32%    failed      0.00%
+ 304  EnSpm__EnSpm-6_CCri_1p         83.71%    failed      0.00%
+ 305  EnSpm__EnSpm-6_CCri_3p         90.63%    failed      2.19%
+ 306  EnSpm__EnSpm-6_CCri_tp         75.22%    failed      0.00%
+ 307  EnSpm__EnSpm-7_CCri_2p         85.41%    failed      0.00%
+ 308  EnSpm__EnSpm-7_CCri_4p         92.82%    failed      0.00%
+ 309  EnSpm__EnSpm-7_CCri_tp         75.22%    failed      0.00%
+ 310  EnSpm__EnSpm-8_CCri_2p         84.47%    failed      0.00%
+ 311  EnSpm__EnSpm-8_CCri_4p         90.69%    failed      0.00%
+ 312  EnSpm__EnSpm-8_CCri_tp         73.89%    failed      0.00%
+ 313  EnSpm__EnSpm-9_CCri_2p         91.14%    failed      0.00%
+ 314  EnSpm__EnSpm-9_CCri_3p         85.55%    failed      0.00%
+ 315  EnSpm__EnSpm-9_CCri_tp         75.30%    failed      0.00%
+ 316  EnSpm__EnSpm-9D_CCri_1p        87.22%    failed      0.00%
+ 317  EnSpm__EnSpm-28_CCri_1p        88.83%    failed      0.04%
+ 318  EnSpm__EnSpm-28_CCri_4p        90.77%    passed     17.88%
+ 319  EnSpm__EnSpm-28B_CCri_2p       76.57%    failed      0.00%
+ 320  EnSpm__EnSpm-28B_CCri_3p       88.83%    failed      0.05%
+ 321  EnSpm__EnSpm-28B_CCri_4p       90.77%    passed     41.90%
+ 322  Mirage__Mirage1_CB             94.55%    failed      0.53%
+ 323  Transib__Transib1_AA           87.34%    failed      0.00%
+ 324  Transib__Transib1_AG           86.12%    failed      0.12%
+ 325  Transib__Transib1_Dmoj         86.63%    failed      0.00%
+ 326  Transib__Transib1_DP           87.73%    failed      0.12%
+ 327  Transib__Transib1_Dwil         86.83%    failed      0.09%
+ 328  Transib__Transib1_NVi          87.28%    failed      0.00%
+ 329  Transib__Transib1_SP           86.79%    failed      2.70%
+ 330  Transib__Transib2_AG           87.14%    failed      0.00%
+ 331  Transib__Transib2_DP           87.59%    failed      0.03%
+ 332  Transib__Transib3_AG           86.79%    failed      0.00%
+ 333  Transib__Transib3_DP           86.67%    failed      0.00%
+ 334  Transib__Transib4_AA           95.26%    passed     30.03%
+ 335  Transib__Transib4_DP           91.47%    passed     57.21%
+ 336  Transib__Transib5_AA           93.28%    failed      0.94%
+ 337  Transib__Transib-1_CQ          86.36%    passed      7.29%
+ 338  Transib__Transib-1_DAn         85.61%    failed      0.01%
+ 339  Transib__Transib-1_DF          85.63%    failed      0.04%
+ 340  Transib__Transib-1_LHu_1p      87.14%    failed      0.00%
+ 341  Transib__Transib-2_DAn         85.79%    failed      0.00%
+ 342  Transib__Transib-2_DBi         87.26%    failed      0.01%
+ 343  Transib__Transib-2_DW          85.98%    failed      0.08%
+ 344  Transib__Transib-2_HM          86.85%    failed      0.13%
+ 345  Transib__Transib-2_SIn_1p      86.12%    failed      4.34%
+ 346  Transib__Transib-3_DAn         86.41%    failed      0.18%
+ 347  Transib__Transib-3_DBp         86.36%    failed      1.37%
+ 348  Transib__Transib-3_HM          87.26%    failed      0.01%
+ 349  Transib__Transib-4_DAn         86.71%    failed      3.70%
+ 350  Transib__Transib-4_DBp         86.12%    failed      0.09%
+ 351  Transib__Transib-4_HM          87.14%    failed      0.01%
+ 352  Transib__Transib-5_DAn         87.92%    failed      0.02%
+ 353  Transib__Transib-5_DBi         86.63%    failed      0.00%
+ 354  Transib__Transib-5_DBp         86.83%    failed      0.00%
+ 355  Transib__Transib-5_HM          87.00%    failed      0.00%
+ 356  Transib__Transib-6_DBi         86.55%    failed      0.00%
+ 357  Transib__Transib-6_DBp         86.85%    failed      2.48%
+ 358  Transib__Transib-6_HM          87.30%    failed      0.04%
+ 359  Transib__Transib-7_DAn         86.55%    failed      0.01%
+ 360  Transib__Transib-7_HM          87.32%    failed      0.60%
+ 361  Transib__Transib-8_DAn         88.02%    failed      0.00%
+ 362  Transib__Transib-8_HM          87.53%    failed      0.28%
+ 363  Transib__Transib-9_HM          87.94%    failed      0.01%
+ 364  Transib__Transib-10_HM         89.02%    failed      0.00%
+ 365  Transib__Transib-11_HM         87.24%    failed      0.00%
+ 366  Transib__Transib-12_HM         87.20%    failed      0.00%
+ 367  Transib__Transib-13_HM         85.53%    failed      0.41%
+ 368  Transib__Transib-14_HM         86.24%    failed      0.00%
+ 369  Transib__Transib-15_HM         86.49%    failed      0.00%
+ 370  Transib__Transib-16_HM         86.88%    failed      0.00%
+ 371  Transib__Transib-17_HM         87.28%    failed      0.01%
+ 372  Transib__Transib-18_HM         88.22%    failed      0.36%
+ 373  Transib__Transib-19_HM         88.02%    failed      0.00%
+ 374  Transib__Transib-20_HM         84.77%    failed      0.00%
+ 375  Transib__Transib-21_HMa        87.06%    failed      0.00%
+ 376  EnSpm__ENSUPMET                81.69%    failed      0.79%
+ 377  RAG1__RAG1                     80.51%    failed      0.01%
+WARNING: 377 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                          84.12%  284 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.00985599 secs using 1367% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.567 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 1200 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 2.613 / LogL: -563087.336
+Init pinv, alpha: 0.003, 1.000 / Estimate: 0.000, 2.613 / LogL: -563087.338
+Init pinv, alpha: 0.006, 1.000 / Estimate: 0.000, 2.613 / LogL: -563087.340
+Init pinv, alpha: 0.009, 1.000 / Estimate: 0.000, 2.613 / LogL: -563087.342
+Init pinv, alpha: 0.011, 1.000 / Estimate: 0.000, 2.613 / LogL: -563087.344
+Init pinv, alpha: 0.014, 1.000 / Estimate: 0.000, 2.613 / LogL: -563087.346
+Init pinv, alpha: 0.017, 1.000 / Estimate: 0.000, 2.613 / LogL: -563087.347
+Init pinv, alpha: 0.020, 1.000 / Estimate: 0.000, 2.613 / LogL: -563087.348
+Init pinv, alpha: 0.023, 1.000 / Estimate: 0.000, 2.613 / LogL: -563087.350
+Init pinv, alpha: 0.026, 1.000 / Estimate: 0.000, 2.613 / LogL: -563087.351
+Optimal pinv,alpha: 0.000, 2.613 / LogL: -563087.336
+
+Parameters optimization took 103.681 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.429193 secs using 3180% CPU
+Computing ML distances took 0.438615 sec (of wall-clock time) 13.893064 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.00106215 secs using 1727% CPU
+Constructing RapidNJ tree: done in 0.140813 secs using 2600% CPU
+Computing RapidNJ tree took 0.145626 sec (of wall-clock time) 3.775231 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -563925.712
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 145.600 second
+Computing log-likelihood of 98 initial trees ... 50.337 seconds
+Current best score: -563087.336
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -562546.858
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -562521.969
+Iteration 10 / LogL: -562604.216 / Time: 0h:7m:28s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -562514.509
+Iteration 20 / LogL: -562543.989 / Time: 0h:9m:53s
+Finish initializing candidate tree set (20)
+Current best tree score: -562514.509 / CPU time: 480.122
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -562512.248
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -562500.512
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -562488.961
+Iteration 30 / LogL: -562497.161 / Time: 0h:11m:48s (0h:38m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -562481.390
+Iteration 40 / LogL: -562481.390 / Time: 0h:13m:34s (0h:34m:43s left)
+Iteration 50 / LogL: -562493.064 / Time: 0h:15m:13s (0h:27m:54s left)
+Log-likelihood cutoff on original alignment: -562609.273
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -562480.735
+Iteration 60 / LogL: -562483.703 / Time: 0h:16m:59s (0h:27m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -562473.511
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -562472.695
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -562471.623
+Iteration 70 / LogL: -562477.670 / Time: 0h:18m:55s (0h:26m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 73: -562470.539
+Iteration 80 / LogL: -562485.179 / Time: 0h:20m:47s (0h:24m:26s left)
+Iteration 90 / LogL: -562482.481 / Time: 0h:22m:39s (0h:21m:6s left)
+Iteration 100 / LogL: -562485.856 / Time: 0h:24m:34s (0h:18m:6s left)
+Log-likelihood cutoff on original alignment: -562609.270
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 110 / LogL: -562479.423 / Time: 0h:26m:27s (0h:21m:49s left)
+Iteration 120 / LogL: -562478.318 / Time: 0h:28m:15s (0h:18m:58s left)
+Iteration 130 / LogL: -562480.065 / Time: 0h:30m:13s (0h:16m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 136: -562469.966
+Iteration 140 / LogL: -562481.997 / Time: 0h:32m:9s (0h:22m:11s left)
+Iteration 150 / LogL: -562472.065 / Time: 0h:33m:57s (0h:19m:34s left)
+Log-likelihood cutoff on original alignment: -562609.270
+Iteration 160 / LogL: -562480.478 / Time: 0h:35m:47s (0h:17m:5s left)
+Iteration 170 / LogL: -562473.646 / Time: 0h:37m:37s (0h:14m:41s left)
+Iteration 180 / LogL: -562479.402 / Time: 0h:39m:30s (0h:12m:20s left)
+Iteration 190 / LogL: -562481.181 / Time: 0h:41m:25s (0h:10m:4s left)
+Iteration 200 / LogL: -562484.503 / Time: 0h:43m:18s (0h:7m:49s left)
+Log-likelihood cutoff on original alignment: -562609.270
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 210 / LogL: -562572.810 / Time: 0h:45m:10s (0h:19m:26s left)
+Iteration 220 / LogL: -562539.669 / Time: 0h:46m:57s (0h:17m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 223: -562469.352
+Iteration 230 / LogL: -562476.958 / Time: 0h:48m:46s (0h:19m:47s left)
+Iteration 240 / LogL: -562481.701 / Time: 0h:50m:39s (0h:17m:35s left)
+Iteration 250 / LogL: -562483.202 / Time: 0h:52m:28s (0h:15m:22s left)
+Log-likelihood cutoff on original alignment: -562609.270
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 256: -562467.715
+Iteration 260 / LogL: -562490.284 / Time: 0h:54m:22s (0h:20m:8s left)
+Iteration 270 / LogL: -562496.864 / Time: 0h:56m:10s (0h:17m:57s left)
+Iteration 280 / LogL: -562475.519 / Time: 0h:58m:3s (0h:15m:48s left)
+Iteration 290 / LogL: -562501.387 / Time: 1h:0m:3s (0h:13m:42s left)
+Iteration 300 / LogL: -562472.794 / Time: 1h:2m:2s (0h:11m:36s left)
+Log-likelihood cutoff on original alignment: -562609.270
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 310 / LogL: -562470.169 / Time: 1h:3m:56s (0h:18m:37s left)
+Iteration 320 / LogL: -562468.266 / Time: 1h:5m:50s (0h:16m:30s left)
+Iteration 330 / LogL: -562476.329 / Time: 1h:7m:46s (0h:14m:24s left)
+Iteration 340 / LogL: -562511.315 / Time: 1h:9m:40s (0h:12m:19s left)
+Iteration 350 / LogL: -562474.373 / Time: 1h:11m:30s (0h:10m:14s left)
+Log-likelihood cutoff on original alignment: -562596.110
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 351: -562466.396
+Iteration 360 / LogL: -562479.982 / Time: 1h:13m:23s (0h:18m:35s left)
+Iteration 370 / LogL: -562486.385 / Time: 1h:15m:17s (0h:16m:31s left)
+Iteration 380 / LogL: -562477.318 / Time: 1h:16m:56s (0h:14m:24s left)
+Iteration 390 / LogL: -562484.850 / Time: 1h:18m:48s (0h:12m:21s left)
+Iteration 400 / LogL: -562477.003 / Time: 1h:20m:44s (0h:10m:19s left)
+Log-likelihood cutoff on original alignment: -562596.110
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 409: -562465.519
+Iteration 410 / LogL: -562474.380 / Time: 1h:22m:41s (0h:20m:0s left)
+Iteration 420 / LogL: -562473.651 / Time: 1h:24m:33s (0h:17m:57s left)
+Iteration 430 / LogL: -562490.895 / Time: 1h:26m:23s (0h:15m:54s left)
+Iteration 440 / LogL: -562483.314 / Time: 1h:28m:9s (0h:13m:51s left)
+Iteration 450 / LogL: -562484.223 / Time: 1h:29m:59s (0h:11m:49s left)
+Log-likelihood cutoff on original alignment: -562596.110
+Iteration 460 / LogL: -562479.319 / Time: 1h:31m:51s (0h:9m:48s left)
+Iteration 470 / LogL: -562474.674 / Time: 1h:33m:42s (0h:7m:47s left)
+Iteration 480 / LogL: -562479.175 / Time: 1h:35m:25s (0h:5m:46s left)
+Iteration 490 / LogL: -562485.685 / Time: 1h:37m:16s (0h:3m:46s left)
+Iteration 500 / LogL: -562480.739 / Time: 1h:39m:7s (0h:1m:47s left)
+Log-likelihood cutoff on original alignment: -562596.110
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 510 / LogL: -562476.296 / Time: 1h:40m:49s (0h:17m:49s left)
+TREE SEARCH COMPLETED AFTER 510 ITERATIONS / Time: 1h:40m:49s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -562465.519
+Optimal log-likelihood: -562465.508
+Proportion of invariable sites: 0.000
+Gamma shape alpha: 2.594
+Parameters optimization took 1 rounds (0.913 sec)
+BEST SCORE FOUND : -562465.508
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -562465.295 > -562465.508
+Alternative NNI shows better log-likelihood -562465.450 > -562465.508
+2.670 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file outputs/phylo/cmc_rag1_tree/cmc_rag1_tree.splits.nex
+Total tree length: 347.308
+
+Total number of iterations: 510
+CPU time used for tree search: 181294.389 sec (50h:21m:34s)
+Wall-clock time used for tree search: 5936.205 sec (1h:38m:56s)
+Total CPU time used: 184892.825 sec (51h:21m:32s)
+Total wall-clock time used: 6054.121 sec (1h:40m:54s)
+
+Computing bootstrap consensus tree...
+Reading input file outputs/phylo/cmc_rag1_tree/cmc_rag1_tree.splits.nex...
+377 taxa and 1623 splits.
+Consensus tree written to outputs/phylo/cmc_rag1_tree/cmc_rag1_tree.contree
+Reading input trees file outputs/phylo/cmc_rag1_tree/cmc_rag1_tree.contree
+Log-likelihood of consensus tree: -562464.771
+
+Analysis results written to: 
+  IQ-TREE report:                outputs/phylo/cmc_rag1_tree/cmc_rag1_tree.iqtree
+  Maximum-likelihood tree:       outputs/phylo/cmc_rag1_tree/cmc_rag1_tree.treefile
+  Likelihood distances:          outputs/phylo/cmc_rag1_tree/cmc_rag1_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          outputs/phylo/cmc_rag1_tree/cmc_rag1_tree.splits.nex
+  Consensus tree:                outputs/phylo/cmc_rag1_tree/cmc_rag1_tree.contree
+  Screen log file:               outputs/phylo/cmc_rag1_tree/cmc_rag1_tree.log
+
+Date and Time: Mon Jul 13 15:36:46 2026

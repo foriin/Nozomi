@@ -1,0 +1,118 @@
+IQ-TREE 3.1.2 built May 17 2026
+
+Input file name: outputs/phylo/dde_tree/dde_superfamily_consensus.fa
+Type of analysis: tree reconstruction
+Random seed number: 392510
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 15 sequences with 2336 amino-acid sites
+Number of constant sites: 1371 (= 58.6901% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1371 (= 58.6901% of all sites)
+Number of parsimony informative sites: 134
+Number of distinct site patterns: 1210
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 2.0716
+
+ Category  Relative_rate  Proportion
+  1         0.3017         0.2500
+  2         0.6624         0.2500
+  3         1.0717         0.2500
+  4         1.9642         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -15579.4701 (s.e. 317.9534)
+Unconstrained log-likelihood (without tree): -15040.8774
+Number of free parameters (#branches + #model parameters): 28
+Akaike information criterion (AIC) score: 31214.9403
+Corrected Akaike information criterion (AICc) score: 31215.6442
+Bayesian information criterion (BIC) score: 31376.1138
+
+Total tree length (sum of branch lengths): 70.9274
+Sum of internal branch lengths: 19.9052 (28.0642% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0004) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Academ' is drawn at root
+
++---------------------------Academ
+|
+|                          +----CMC
+|                    +-----|
+|                    |     +-------Transib
+|               +----|
+|               |    |   +-------------Ginger
+|               |    +---|
+|               |        |                      +------------Kolobok
+|               |        |                   +--|
+|               |        |                   |  +-------Tc1_mariner
+|               |        |                +--|
+|               |        |                |  +-----------PIF_Harbinger
+|               |        |           +----|
+|               |        |           |    +--Zator
+|               |        |     +-----|
+|               |        |     |     +-----MULE
+|               |        |  +--|
+|               |        |  |  |     +------------P
+|               |        |  |  +-----|
+|               |        |  |        +--Sola
+|               |        +**|
+|               |           +-----Merlin
+|    +----------|
+|    |          +---------------------PiggyBac
++----|
+|    +----Novosib
+|
++--hAT
+
+Tree in newick format:
+
+(Academ:9.6383778151,((((CMC:1.7169974872,Transib:2.7181898818):2.2783281292,(Ginger:4.8762907603,((((((Kolobok:4.6580064049,Tc1_mariner:2.6882139786):0.3576093581,PIF_Harbinger:4.2623435187):1.0121419967,Zator:0.6917010029):1.6955787578,MULE:2.0065571559):2.0877474320,(P:4.5531050541,Sola:1.0196467417):2.2518668733):1.0993010922,Merlin:2.2467740899):0.0000028245):1.5483321942):1.8557275594,PiggyBac:7.5427007514):3.7548442240,Novosib:1.9225513180):1.9637078406,hAT:0.4807132234);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t outputs/phylo/dde_tree/dde_superfamily.treefile -m "LG+G4{2.07156}" --length 2336
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s outputs/phylo/dde_tree/dde_superfamily_consensus.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s outputs/phylo/dde_tree/dde_superfamily_consensus.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Jul 11 23:32:48 2026
+Total CPU time used: 3.46625 seconds (0h:0m:3s)
+Total wall-clock time used: 1.23265 seconds (0h:0m:1s)
+

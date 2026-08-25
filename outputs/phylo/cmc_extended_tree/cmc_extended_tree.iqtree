@@ -1,0 +1,1656 @@
+IQ-TREE 3.1.2 built May 17 2026
+
+Input file name: outputs/phylo/cmc_extended_tree/cmc_extended.clipkit.fa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 1
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 381 sequences with 4969 amino-acid sites
+Number of constant sites: 152 (= 3.05897% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 152 (= 3.05897% of all sites)
+Number of parsimony informative sites: 3539
+Number of distinct site patterns: 4922
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+I+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0525
+  pi(R) = 0.0559
+  pi(N) = 0.0502
+  pi(D) = 0.0550
+  pi(C) = 0.0310
+  pi(Q) = 0.0399
+  pi(E) = 0.0623
+  pi(G) = 0.0512
+  pi(H) = 0.0362
+  pi(I) = 0.0541
+  pi(L) = 0.0818
+  pi(K) = 0.0695
+  pi(M) = 0.0311
+  pi(F) = 0.0456
+  pi(P) = 0.0488
+  pi(S) = 0.0682
+  pi(T) = 0.0491
+  pi(W) = 0.0233
+  pi(Y) = 0.0373
+  pi(V) = 0.0571
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0003
+Gamma shape alpha: 2.7132
+
+ Category  Relative_rate  Proportion
+  0         0              0.0003
+  1         0.3659         0.2499
+  2         0.7145         0.2499
+  3         1.0810         0.2499
+  4         1.8398         0.2499
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -563398.1859 (s.e. 11182.5145)
+Unconstrained log-likelihood (without tree): -42211.5454
+Number of free parameters (#branches + #model parameters): 780
+Akaike information criterion (AIC) score: 1128356.3719
+Corrected Akaike information criterion (AICc) score: 1128647.2888
+Bayesian information criterion (BIC) score: 1133434.9315
+
+Total tree length (sum of branch lengths): 341.8473
+Sum of internal branch lengths: 107.2255 (31.3665% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'RP__Chapaev__Chapaev-1_CE' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++---RP__Chapaev__Chapaev-1_CE
+|
++-----RP__Chapaev__Chapaev-2_CE
+|
+|                                                                      +--RP__EnSpm__EnSpm1_DR_tp
+|                                                                   +--| (99.9/100)
+|                                                                   |  +--RP__EnSpm__EnSpm-12_DR_tp
+|                                                                +--| (98.6/100)
+|                                                                |  +----RP__EnSpm__EnSpm-3_DR_tp
+|                                                             +--| (98.2/100)
+|                                                             |  |     +--RP__EnSpm__EnSpm-7_DR_tp
+|                                                             |  |  +--| (99.6/100)
+|                                                             |  |  |  +---RP__EnSpm__EnSpm-9_DR_tp
+|                                                             |  +--| (97.7/100)
+|                                                             |     |  +--RP__EnSpm__EnSpm-13_DR_tp
+|                                                             |     +--| (99/100)
+|                                                             |        +--RP__EnSpm__EnSpm-14_DR_tp
+|                                                          +--| (93.3/100)
+|                                                          |  +----------RP__EnSpm__ENS1_Cis
+|                                               +----------| (100/100)
+|                                               |          |           +---RP__EnSpm__EnSpm-2_DR_p1
+|                                               |          |        +--| (100/100)
+|                                               |          |        |  |  +--RP__EnSpm__EnSpm-5_DR_p1
+|                                               |          |        |  +--| (100/100)
+|                                               |          |        |     +--RP__EnSpm__EnSpm-4_DR_p1
+|                                               |          |     +--| (89.5/99)
+|                                               |          |     |  |  +---------RP__EnSpm__EnSpm-3_HM_p1
+|                                               |          |     |  +--| (91.5/98)
+|                                               |          |     |     +-----------RP__EnSpm__EnSpm-15_HM
+|                                               |          |  +--| (91/100)
+|                                               |          |  |  +-------RP__EnSpm__EnSpm-11_HM
+|                                               |          +--| (53.4/74)
+|                                               |             +---------------RP__EnSpm__EnSpm-16_HM
+|                                            +--| (52.5/93)
+|                                            |  +-------------------RP__EnSpm__EnSpm-1_DDi
+|                                         +--| (89.5/95)
+|                                         |  |                      +------RP__EnSpm__CACTA-1_Mlaricis
+|                                         |  |                   +--| (97.2/100)
+|                                         |  |                   |  +-------RP__EnSpm__CACTA-2_Mlaricis
+|                                         |  |                +--| (31.9/94)
+|                                         |  |                |  +-----------RP__EnSpm__EnSpm-7_MLP_tp
+|                                         |  |           +----| (100/100)
+|                                         |  |           |    |              +--RP__EnSpm__EnSpm-1_PGr
+|                                         |  |           |    |           +--| (100/100)
+|                                         |  |           |    |           |  +--RP__EnSpm__EnSpm-5_PGr_tp
+|                                         |  |           |    |        +--| (97.7/100)
+|                                         |  |           |    |        |  +--RP__EnSpm__EnSpm-2_PGr
+|                                         |  |           |    |     +--| (100/100)
+|                                         |  |           |    |     |  +--RP__EnSpm__EnSpm-4_PGr
+|                                         |  |           |    |  +--| (15.4/93)
+|                                         |  |           |    |  |  +------RP__EnSpm__EnSpm-3_PGr
+|                                         |  |           |    +--| (99.7/100)
+|                                         |  |           |       +-----RP__EnSpm__EnSpm-1_PSt_tp
+|                                         |  |     +-----| (100/100)
+|                                         |  |     |     |  +------RP__EnSpm__CACTA-1_Roryzae
+|                                         |  |     |     +--| (99.2/100)
+|                                         |  |     |        |  +-----RP__EnSpm__EnSpm-1_BF
+|                                         |  |     |        +--| (95.7/100)
+|                                         |  |     |           +----RP__EnSpm__EnSpm-2_BF
+|                                         |  |  +--| (59.8/92)
+|                                         |  |  |  |        +---------RP__EnSpm__EnSpm-1_AA
+|                                         |  |  |  |     +--| (98.4/100)
+|                                         |  |  |  |     |  |     +------RP__EnSpm__EnSpm-1_CGi
+|                                         |  |  |  |     |  |  +--| (73.4/100)
+|                                         |  |  |  |     |  |  |  |   +----RP__EnSpm__EnSpm-1_NVi
+|                                         |  |  |  |     |  |  |  +---| (100/100)
+|                                         |  |  |  |     |  |  |      +----RP__EnSpm__EnSpm-2_NVi
+|                                         |  |  |  |     |  +--| (96.4/100)
+|                                         |  |  |  |     |     +---------RP__EnSpm__EnSpm-2_SIn
+|                                         |  |  |  |  +--| (99.8/100)
+|                                         |  |  |  |  |  |        +--------RP__EnSpm__EnSpm-1_AP
+|                                         |  |  |  |  |  |     +--| (74.5/96)
+|                                         |  |  |  |  |  |     |  |              +----RP__EnSpm__EnSpm-2_CGi
+|                                         |  |  |  |  |  |     |  |           +--| (92.8/96)
+|                                         |  |  |  |  |  |     |  |           |  +--------RP__EnSpm__EnSpm-7_HM
+|                                         |  |  |  |  |  |     |  |        +--| (73.8/96)
+|                                         |  |  |  |  |  |     |  |        |  |        +----RP__EnSpm__EnSpm-5_HM
+|                                         |  |  |  |  |  |     |  |        |  |     +--| (97.5/99)
+|                                         |  |  |  |  |  |     |  |        |  |     |  +----RP__EnSpm__EnSpm-8_HM
+|                                         |  |  |  |  |  |     |  |        |  |  +--| (8.1/76)
+|                                         |  |  |  |  |  |     |  |        |  |  |  +-----RP__EnSpm__EnSpm-14_HM
+|                                         |  |  |  |  |  |     |  |        |  +--| (95.5/93)
+|                                         |  |  |  |  |  |     |  |        |     +----RP__EnSpm__EnSpm-12_HM
+|                                         |  |  |  |  |  |     |  |     +--| (98.2/100)
+|                                         |  |  |  |  |  |     |  |     |  |  +---RP__EnSpm__EnSpm-6_HM
+|                                         |  |  |  |  |  |     |  |     |  +--| (100/100)
+|                                         |  |  |  |  |  |     |  |     |     +----RP__EnSpm__EnSpm-13_HM
+|                                         |  |  |  |  |  |     |  |  +--| (94.3/100)
+|                                         |  |  |  |  |  |     |  |  |  +---------RP__EnSpm__EnSpm-9_HM
+|                                         |  |  |  |  |  |     |  +--| (77.8/96)
+|                                         |  |  |  |  |  |     |     |           +-----RP__EnSpm__EnSpm-2_HM_p1
+|                                         |  |  |  |  |  |     |     |        +--| (91.9/100)
+|                                         |  |  |  |  |  |     |     |        |  +----RP__EnSpm__EnSpm-17_HM
+|                                         |  |  |  |  |  |     |     |     +--| (92.1/98)
+|                                         |  |  |  |  |  |     |     |     |  +----RP__EnSpm__EnSpm-6_DR
+|                                         |  |  |  |  |  |     |     |  +--| (56.6/96)
+|                                         |  |  |  |  |  |     |     |  |  +------RP__EnSpm__EnSpm-4_HM
+|                                         |  |  |  |  |  |     |     +--| (91.2/96)
+|                                         |  |  |  |  |  |     |        +------RP__EnSpm__EnSpm-10_HM
+|                                         |  |  |  |  |  |  +--| (95/100)
+|                                         |  |  |  |  |  |  |  +-----------RP__EnSpm__SmTRC1
+|                                         |  |  |  |  |  +--| (93.3/100)
+|                                         |  |  |  |  |     +--------------RP__EnSpm__EnSpm-1_HM
+|                                         |  |  |  +--| (73.5/93)
+|                                         |  |  |     |          +-----RP__EnSpm__EnSpm-10_CCri_3p
+|                                         |  |  |     |       +--| (99.9/100)
+|                                         |  |  |     |       |  +-------RP__EnSpm__EnSpm-22_CCri_tp
+|                                         |  |  |     +-------| (100/100)
+|                                         |  |  |             |         +--RP__EnSpm__EnSpm-17_CCri_2p
+|                                         |  |  |             |  +------| (100/100)
+|                                         |  |  |             |  |      +--RP__EnSpm__EnSpm-23_CCri
+|                                         |  |  |             +--| (90.3/100)
+|                                         |  |  |                |     +--RP__EnSpm__EnSpm-18_CCri
+|                                         |  |  |                |  +--| (99.2/100)
+|                                         |  |  |                |  |  +--RP__EnSpm__EnSpm-20_CCri_2p
+|                                         |  |  |                +--| (100/100)
+|                                         |  |  |                   |  +--RP__EnSpm__EnSpm-26_CCri_3p
+|                                         |  |  |                   +--| (100/100)
+|                                         |  |  |                      +--RP__EnSpm__EnSpm-27_CCri
+|                                         |  +--| (93.6/99)
+|                                         |     |                +--RP__EnSpm__EnSpm-1_NV
+|                                         |     +----------------| (100/100)
+|                                         |                      +--RP__EnSpm__EnSpm-2_NV
+|                                      +--| (91.8/92)
+|                                      |  |      +------------RP__Mirage__UN-GIN1_int
+|                                      |  |  +---| (89.7/99)
+|                                      |  |  |   +-------------RP__Mirage__UN-GIN2_int
+|                                      |  +--| (79.3/88)
+|                                      |     |                 +---RP__EnSpm__EnSpm-1_CCri_tp
+|                                      |     |              +--| (100/100)
+|                                      |     |              |  |     +--RP__EnSpm__EnSpm-6_CCri_tp
+|                                      |     |              |  |  +--| (95.7/100)
+|                                      |     |              |  |  |  +--RP__EnSpm__EnSpm-8_CCri_tp
+|                                      |     |              |  +--| (87.6/100)
+|                                      |     |              |     +---RP__EnSpm__EnSpm-7_CCri_tp
+|                                      |     |           +--| (99.4/100)
+|                                      |     |           |  +------RP__EnSpm__EnSpm-9_CCri_tp
+|                                      |     +-----------| (100/100)
+|                                      |                 |     +----RP__EnSpm__EnSpm-21_CCri_tp
+|                                      |                 |  +--| (100/100)
+|                                      |                 |  |  |  +----RP__EnSpm__EnSpm-4_CCri_tp
+|                                      |                 |  |  +--| (90.8/100)
+|                                      |                 |  |     +---RP__EnSpm__EnSpm-5_CCri_tp
+|                                      |                 +--| (71.4/100)
+|                                      |                    |    +----RP__EnSpm__EnSpm-2_CCri_tp
+|                                      |                    +----| (100/100)
+|                                      |                         +----RP__EnSpm__EnSpm-3_CCri_tp
+|                                   +--| (94.4/93)
+|                                   |  |                                                    +--RP__EnSpm__UN-ATEnSpm9
+|                                   |  |                                                 +--| (100/100)
+|                                   |  |                                                 |  +--RP__EnSpm__ATEnSpm6
+|                                   |  |                                              +--| (100/100)
+|                                   |  |                                              |  |  +--RP__EnSpm__ATEnSpm2
+|                                   |  |                                              |  +--| (99.9/100)
+|                                   |  |                                              |     +--RP__EnSpm__BREnSpm1
+|                                   |  |                                           +--| (88.7/97)
+|                                   |  |                                           |  |  +-----RP__EnSpm__EnSpm_AC
+|                                   |  |                                           |  +--| (11.3/93)
+|                                   |  |                                           |     |  +--RP__EnSpm__PSL
+|                                   |  |                                           |     +--| (98.6/100)
+|                                   |  |                                           |        +--RP__EnSpm__TDC1
+|                                   |  |                                        +--| (88.6/81)
+|                                   |  |                                        |  |     +--RP__EnSpm__EnSpm-1_AIp_tp
+|                                   |  |                                        |  |  +--| (94.7/100)
+|                                   |  |                                        |  |  |  +---RP__EnSpm__EnSpm_MT
+|                                   |  |                                        |  +--| (79.4/81)
+|                                   |  |                                        |     +----RP__EnSpm__EnSpm_CA
+|                                   |  |                                     +--| (99.8/100)
+|                                   |  |                                     |  |  +--RP__EnSpm__EnSpm1_PT
+|                                   |  |                                     |  +--| (100/100)
+|                                   |  |                                     |     +--RP__EnSpm__EnSpm2_PTr
+|                                   |  |                                  +--| (80.1/98)
+|                                   |  |                                  |  |           +--RP__EnSpm__DOPPIA4_ZM
+|                                   |  |                                  |  |        +--| (99.9/100)
+|                                   |  |                                  |  |        |  |  +--RP__EnSpm__EN1_ZM
+|                                   |  |                                  |  |        |  +--| (100/100)
+|                                   |  |                                  |  |        |     +--RP__EnSpm__EnSpm-13_ZM_p1
+|                                   |  |                                  |  |     +--| (100/100)
+|                                   |  |                                  |  |     |  |     +--RP__EnSpm__EnSpm2_ZM
+|                                   |  |                                  |  |     |  |  +--| (97.3/100)
+|                                   |  |                                  |  |     |  |  |  +--RP__EnSpm__EnSpm-5_ZM
+|                                   |  |                                  |  |     |  +--| (100/100)
+|                                   |  |                                  |  |     |     |  +--RP__EnSpm__EnSpm-8_ZM_p1
+|                                   |  |                                  |  |     |     +--| (74.7/100)
+|                                   |  |                                  |  |     |        +--RP__EnSpm__EnSpm-11_ZM_p1
+|                                   |  |                                  |  |  +--| (55.2/97)
+|                                   |  |                                  |  |  |  |     +---RP__EnSpm__EnSpm1_TD
+|                                   |  |                                  |  |  |  |  +--| (100/100)
+|                                   |  |                                  |  |  |  |  |  |           +--RP__EnSpm__EnSpm5_SB_p1
+|                                   |  |                                  |  |  |  |  |  |        +--| (15.8/70)
+|                                   |  |                                  |  |  |  |  |  |        |  |  +--RP__EnSpm__EnSpm12_SB_p1
+|                                   |  |                                  |  |  |  |  |  |        |  +--| (55.7/88)
+|                                   |  |                                  |  |  |  |  |  |        |     +--RP__EnSpm__EnSpm-20_SBi_tp
+|                                   |  |                                  |  |  |  |  |  |     +--| (70.7/85)
+|                                   |  |                                  |  |  |  |  |  |     |  +--RP__EnSpm__EnSpm-26_SBi_tp
+|                                   |  |                                  |  |  |  |  |  |  +--| (99.8/100)
+|                                   |  |                                  |  |  |  |  |  |  |  +--RP__EnSpm__EnSpm-10_ZM_p1
+|                                   |  |                                  |  |  |  |  |  +--| (94.2/100)
+|                                   |  |                                  |  |  |  |  |     +---RP__EnSpm__EnSpm-1_HV_p1
+|                                   |  |                                  |  |  |  +--| (100/100)
+|                                   |  |                                  |  |  |     |  +--RP__EnSpm__EnSpm-10_OS_p1
+|                                   |  |                                  |  |  |     +--| (100/100)
+|                                   |  |                                  |  |  |        |  +--RP__EnSpm__EnSpm-13_OS_p1
+|                                   |  |                                  |  |  |        +--| (100/100)
+|                                   |  |                                  |  |  |           +--RP__EnSpm__EnSpm-14_OS_p1
+|                                   |  |                                  |  +--| (100/100)
+|                                   |  |                                  |     |  +--RP__EnSpm__EnSpm-9_OS_p1
+|                                   |  |                                  |     +--| (100/100)
+|                                   |  |                                  |        +--RP__EnSpm__EnSpm-15_OS_p1
+|                                   |  |                               +--| (87.8/86)
+|                                   |  |                               |  +----------------RP__EnSpm__EnSpm1B_PT
+|                                   |  |                            +--| (73.5/52)
+|                                   |  |                            |  |           +---RP__EnSpm__EnSpm-1_FV_tp
+|                                   |  |                            |  |        +--| (100/100)
+|                                   |  |                            |  |        |  +--RP__EnSpm__EnSpm-7_FV_tp
+|                                   |  |                            |  |     +--| (100/100)
+|                                   |  |                            |  |     |  +--RP__EnSpm__EnSpm-1_Mad
+|                                   |  |                            |  |  +--| (8.5/57)
+|                                   |  |                            |  |  |  |  +----RP__EnSpm__EnSpm-1_MN
+|                                   |  |                            |  |  |  +--| (77.7/97)
+|                                   |  |                            |  |  |     |  +--RP__EnSpm__EnSpm-6_VV_p1
+|                                   |  |                            |  |  |     +--| (99.9/100)
+|                                   |  |                            |  |  |        +--RP__EnSpm__EnSpm-8N_VV_p1
+|                                   |  |                            |  +--| (99.6/93)
+|                                   |  |                            |     |  +--RP__EnSpm__EnSpm-7_ZM_p1
+|                                   |  |                            |     +--| (100/100)
+|                                   |  |                            |        |     +--RP__EnSpm__EnSpm-11_OS_p1
+|                                   |  |                            |        |  +--| (99.9/100)
+|                                   |  |                            |        |  |  |  +--RP__EnSpm__EnSpm-12_ZM_p1
+|                                   |  |                            |        |  |  +--| (100/100)
+|                                   |  |                            |        |  |     +--RP__EnSpm__EnSpm-39_SBi
+|                                   |  |                            |        +--| (99.5/100)
+|                                   |  |                            |           |  +--RP__EnSpm__EnSpm-41_SBi_1p
+|                                   |  |                            |           +--| (11.6/97)
+|                                   |  |                            |              +--RP__EnSpm__EnSpm-44_SBi_1p
+|                                   |  |                         +--| (1.6/56)
+|                                   |  |                         |  |  +---RP__EnSpm__EnSpm-5_HV
+|                                   |  |                         |  +--| (96.4/94)
+|                                   |  |                         |     +---RP__EnSpm__OShooter_p2
+|                                   |  |                      +--| (52.1/60)
+|                                   |  |                      |  |     +--RP__EnSpm__EnSpm-34_SBi_1p
+|                                   |  |                      |  |  +--| (23.1/57)
+|                                   |  |                      |  |  |  +--RP__EnSpm__Shooter_ZM
+|                                   |  |                      |  +--| (100/99)
+|                                   |  |                      |     +--RP__EnSpm__EnSpm-40_SBi_1p
+|                                   |  |                   +--| (95.5/75)
+|                                   |  |                   |  |  +--RP__EnSpm__EnSpm-19_SBi_tp
+|                                   |  |                   |  +--| (100/100)
+|                                   |  |                   |     +--RP__EnSpm__OShooter_p1
+|                                   |  |                +--| (52/30)
+|                                   |  |                |  |  +-----RP__EnSpm__EnSpm8_SB
+|                                   |  |                |  +--| (96.8/73)
+|                                   |  |                |     +-----RP__EnSpm__EnSpm-10_FV_tp
+|                                   |  |             +--| (69.9/55)
+|                                   |  |             |  |        +--RP__EnSpm__EnSpm-1_Cia_tp
+|                                   |  |             |  |     +--| (100/100)
+|                                   |  |             |  |     |  |  +--RP__EnSpm__EnSpm-3_GM_tp
+|                                   |  |             |  |     |  +--| (100/100)
+|                                   |  |             |  |     |     +--RP__EnSpm__ENSUPMET
+|                                   |  |             |  |  +--| (98.1/93)
+|                                   |  |             |  |  |  |  +--RP__EnSpm__EnSpm-1_GR
+|                                   |  |             |  |  |  +--| (91.8/95)
+|                                   |  |             |  |  |     |  +--RP__EnSpm__EnSpm-9_ZM_p1
+|                                   |  |             |  |  |     +--| (100/100)
+|                                   |  |             |  |  |        |  +--RP__EnSpm__EnSpm-12_OS_p1
+|                                   |  |             |  |  |        +--| (100/100)
+|                                   |  |             |  |  |           +--RP__EnSpm__EnSpm-16_OS_p1
+|                                   |  |             |  +--| (98.2/84)
+|                                   |  |             |     |     +--RP__EnSpm__EnSpm-1_LU
+|                                   |  |             |     |  +--| (100/100)
+|                                   |  |             |     |  |  +--RP__EnSpm__EnSpm-4_GM_tp
+|                                   |  |             |     +--| (70.7/81)
+|                                   |  |             |        +-----RP__EnSpm__EnSpm-14_ZM
+|                                   |  |          +--| (99.5/76)
+|                                   |  |          |  |  +--RP__EnSpm__EnSpm-2_Mad
+|                                   |  |          |  +--| (99.9/100)
+|                                   |  |          |     +---RP__EnSpm__EnSpm-3_Mad
+|                                   |  |     +----| (100/100)
+|                                   |  |     |    |           +--RP__EnSpm__ATEnSpm3
+|                                   |  |     |    |        +--| (99.6/100)
+|                                   |  |     |    |        |  +--RP__EnSpm__ATEnSpm7
+|                                   |  |     |    |     +--| (100/100)
+|                                   |  |     |    |     |  +--RP__EnSpm__ATEnSpm12
+|                                   |  |     |    |  +--| (100/100)
+|                                   |  |     |    |  |  |  +--RP__EnSpm__ATENSPM10
+|                                   |  |     |    |  |  +--| (100/100)
+|                                   |  |     |    |  |     +--RP__EnSpm__ATEnSpm11
+|                                   |  |     |    +--| (97.1/97)
+|                                   |  |     |       |                                +--RP__EnSpm__CACTA_LP_p1
+|                                   |  |     |       |                             +--| (100/100)
+|                                   |  |     |       |                             |  +--RP__EnSpm__EnSpm-1_TM_p1
+|                                   |  |     |       |                          +--| (100/100)
+|                                   |  |     |       |                          |  +--RP__EnSpm__EnSpm-1_TA
+|                                   |  |     |       |                       +--| (100/100)
+|                                   |  |     |       |                       |  |  +--RP__EnSpm__EnSpm-1_BDi
+|                                   |  |     |       |                       |  +--| (100/100)
+|                                   |  |     |       |                       |     +--RP__EnSpm__EnSpm-2_BDi
+|                                   |  |     |       |                    +--| (28/65)
+|                                   |  |     |       |                    |  |           +--RP__EnSpm__EnSpm2_HV
+|                                   |  |     |       |                    |  |        +--| (17.1/99)
+|                                   |  |     |       |                    |  |        |  +--RP__EnSpm__EnSpm-3_HV_p1
+|                                   |  |     |       |                    |  |     +--| (100/100)
+|                                   |  |     |       |                    |  |     |  +--RP__EnSpm__EnSpm-4_HV_p1
+|                                   |  |     |       |                    |  |  +--| (99.6/100)
+|                                   |  |     |       |                    |  |  |  |  +--RP__EnSpm__EnSpm2_SB_p1
+|                                   |  |     |       |                    |  |  |  +--| (100/100)
+|                                   |  |     |       |                    |  |  |     +--RP__EnSpm__EnSpm7_SB_p1
+|                                   |  |     |       |                    |  +--| (100/100)
+|                                   |  |     |       |                    |     +--RP__EnSpm__SPMLIKE_p1
+|                                   |  |     |       |                 +--| (94.1/98)
+|                                   |  |     |       |                 |  |              +--RP__EnSpm__EnSpm1_SB_p1
+|                                   |  |     |       |                 |  |           +--| (100/100)
+|                                   |  |     |       |                 |  |           |  +--RP__EnSpm__EnSpm-22_SBi_tp
+|                                   |  |     |       |                 |  |        +--| (33.1/97)
+|                                   |  |     |       |                 |  |        |  |     +--RP__EnSpm__EnSpm4_SB_p1
+|                                   |  |     |       |                 |  |        |  |  +--| (100/100)
+|                                   |  |     |       |                 |  |        |  |  |  +--RP__EnSpm__EnSpm-6_ZM_p1
+|                                   |  |     |       |                 |  |        |  +--| (100/100)
+|                                   |  |     |       |                 |  |        |     +--RP__EnSpm__EnSpm6_SB_p1
+|                                   |  |     |       |                 |  |     +--| (100/100)
+|                                   |  |     |       |                 |  |     |  |  +--RP__EnSpm__EnSpm-18_SBi_1p
+|                                   |  |     |       |                 |  |     |  +--| (100/100)
+|                                   |  |     |       |                 |  |     |     +--RP__EnSpm__EnSpm-36_SBi_1p
+|                                   |  |     |       |                 |  |  +--| (82.3/99)
+|                                   |  |     |       |                 |  |  |  |     +--RP__EnSpm__EnSpm5_OS_p1
+|                                   |  |     |       |                 |  |  |  |  +--| (33.2/93)
+|                                   |  |     |       |                 |  |  |  |  |  +--RP__EnSpm__EnSpm7_OS_p1
+|                                   |  |     |       |                 |  |  |  +--| (100/100)
+|                                   |  |     |       |                 |  |  |     +--RP__EnSpm__EnSpm_OS
+|                                   |  |     |       |                 |  +--| (100/100)
+|                                   |  |     |       |                 |     +--RP__EnSpm__EnSpm4_ZM
+|                                   |  |     |       |              +--| (20.8/57)
+|                                   |  |     |       |              |  +----RP__EnSpm__EnSpm3_ZM
+|                                   |  |     |       |           +--| (100/100)
+|                                   |  |     |       |           |  |     +--RP__EnSpm__EnSpm2_OS_p1
+|                                   |  |     |       |           |  |  +--| (100/100)
+|                                   |  |     |       |           |  |  |  +--RP__EnSpm__EnSpm3_OS_p1
+|                                   |  |     |       |           |  +--| (100/100)
+|                                   |  |     |       |           |     +--RP__EnSpm__EnSpm4_OS_p1
+|                                   |  |     |       |        +--| (85.4/62)
+|                                   |  |     |       |        |  |     +--RP__EnSpm__EnSpm2_MT
+|                                   |  |     |       |        |  |  +--| (100/100)
+|                                   |  |     |       |        |  |  |  +--RP__EnSpm__EnSpm-2_Cia_tp
+|                                   |  |     |       |        |  +--| (100/100)
+|                                   |  |     |       |        |     |  +--RP__EnSpm__EnSpm-1_GM
+|                                   |  |     |       |        |     +--| (95.9/100)
+|                                   |  |     |       |        |        +--RP__EnSpm__EnSpm-2_GM_tp
+|                                   |  |     |       |     +--| (4.4/44)
+|                                   |  |     |       |     |  +--RP__EnSpm__EnSpm-3_Cia_tp
+|                                   |  |     |       |  +--| (62.5/63)
+|                                   |  |     |       |  |  +--RP__EnSpm__EnSpm-3_MN
+|                                   |  |     |       +--| (100/100)
+|                                   |  |     |          |           +--RP__EnSpm__EnSpm-3_VV
+|                                   |  |     |          |        +--| (100/100)
+|                                   |  |     |          |        |  +--RP__EnSpm__EnSpm-13_VV_tp
+|                                   |  |     |          |     +--| (78.6/100)
+|                                   |  |     |          |     |  +--RP__EnSpm__EnSpm-5_VV_tp
+|                                   |  |     |          |  +--| (100/100)
+|                                   |  |     |          |  |  +--RP__EnSpm__EnSpm-4_VV_tp
+|                                   |  |     |          +--| (99.9/100)
+|                                   |  |     |             +---RP__EnSpm__EnSpm-5_FV
+|                                   |  |  +--| (91.8/97)
+|                                   |  |  |  +-----------------RP__EnSpm__EnSpm-1_NGr
+|                                   |  +--| (59.8/92)
+|                                   |     |         +----------RP__Mirage__UN-Mirage1
+|                                   |     +---------| (99.9/100)
+|                                   |               +-------RP__Mirage__Mirage1_CB
+|                                +--| (55.4/76)
+|                                |  |                          +---RP__EnSpm__UN-Candystripe1_SB_p2
+|                                |  |                    +-----| (100/100)
+|                                |  |                    |     +--RP__EnSpm__EnSpm-30_SBi_p2
+|                                |  |                 +--| (93.4/100)
+|                                |  |                 |  |     +--RP__EnSpm__UN-EnSpm3_OS_p2
+|                                |  |                 |  |  +--| (99.8/100)
+|                                |  |                 |  |  |  +--RP__EnSpm__EnSpm2_OS_p2
+|                                |  |                 |  +--| (100/100)
+|                                |  |                 |     +--RP__EnSpm__EnSpm4_OS_p2
+|                                |  |              +--| (80.4/90)
+|                                |  |              |  |            +--RP__EnSpm__CACTA_LP_p2
+|                                |  |              |  +------------| (100/100)
+|                                |  |              |               +--RP__EnSpm__EnSpm-1_TM_p2
+|                                |  |       +------| (100/100)
+|                                |  |       |      |     +-------RP__EnSpm__EnSpm1_SB_p2
+|                                |  |       |      |  +--| (79.5/91)
+|                                |  |       |      |  |  |              +--RP__EnSpm__EnSpm4_SB_p2
+|                                |  |       |      |  |  |           +--| (11.1/91)
+|                                |  |       |      |  |  |           |  +--RP__EnSpm__EnSpm-6_ZM_p2
+|                                |  |       |      |  |  |        +--| (99.6/100)
+|                                |  |       |      |  |  |        |  +--RP__EnSpm__EnSpm11_SB_p2
+|                                |  |       |      |  |  |     +--| (100/100)
+|                                |  |       |      |  |  |     |  +---RP__EnSpm__EnSpm6_SB_p2
+|                                |  |       |      |  |  |  +--| (45.5/53)
+|                                |  |       |      |  |  |  |  |  +---RP__EnSpm__EnSpm5_OS_p2
+|                                |  |       |      |  |  |  |  +--| (98.8/100)
+|                                |  |       |      |  |  |  |     +----RP__EnSpm__EnSpm7_OS_p2
+|                                |  |       |      |  |  +--| (80.6/54)
+|                                |  |       |      |  |     |     +--RP__EnSpm__EnSpm-18_SBi_2p
+|                                |  |       |      |  |     +-----| (100/100)
+|                                |  |       |      |  |           +--RP__EnSpm__EnSpm-36_SBi_2p
+|                                |  |       |      +--| (58.1/83)
+|                                |  |       |         |             +--RP__EnSpm__EnSpm2_SB_p2
+|                                |  |       |         |          +--| (100/100)
+|                                |  |       |         |          |  +--RP__EnSpm__EnSpm3_SB_p2
+|                                |  |       |         |       +--| (100/100)
+|                                |  |       |         |       |  +--RP__EnSpm__EnSpm7_SB_p2
+|                                |  |       |         |    +--| (75.1/100)
+|                                |  |       |         |    |  +---RP__EnSpm__SPMLIKE_p2
+|                                |  |       |         +----| (100/100)
+|                                |  |       |              |  +------RP__EnSpm__EnSpm2_TM_p2
+|                                |  |       |              +--| (98.4/100)
+|                                |  |       |                 |  +-----RP__EnSpm__EnSpm-3_HV_p2
+|                                |  |       |                 +--| (98.1/100)
+|                                |  |       |                    +---RP__EnSpm__EnSpm-4_HV_p2
+|                                |  |  +----| (98.6/100)
+|                                |  |  |    |  +------------RP__EnSpm__EnSpm-2_Cia_p2
+|                                |  |  |    +--| (68.7/100)
+|                                |  |  |       +------------RP__EnSpm__EnSpm-3_Cia_p2
+|                                |  +--| (75.9/85)
+|                                |     +--------------------RP__EnSpm__EnSpm-30_SBi_env
+|                             +--| (91.6/70)
+|                             |  |          +-------------------RP__EnSpm__EnSpm-26_CCri_2p
+|                             |  |     +----| (82.9/86)
+|                             |  |     |    |  +--------RP__EnSpm__EnSpm-2C_CCri_3p
+|                             |  |     |    +--| (74.8/100)
+|                             |  |     |       +--------RP__EnSpm__EnSpm-3_CCri_3p
+|                             |  |  +--| (5.1/77)
+|                             |  |  |  +------------------RP__EnSpm__EnSpm-28B_CCri_2p
+|                             |  +--| (34.5/65)
+|                             |     +-----------------RP__EnSpm__EnSpm-34_CCri_1p
+|                          +--| (85.6/59)
+|                          |  |     +-----------RP__EnSpm__EnSpm-2_CCri_4p
+|                          |  |  +--| (76.4/90)
+|                          |  |  |  +------------RP__EnSpm__EnSpm-3_CCri_5p
+|                          |  +--| (94.3/66)
+|                          |     |        +-----------------RP__EnSpm__EnSpm-4_CCri_3p
+|                          |     |     +--| (32.1/65)
+|                          |     |     |  |          +--RP__EnSpm__EnSpm-9_CCri_3p
+|                          |     |     |  +----------| (100/100)
+|                          |     |     |             +--RP__EnSpm__EnSpm-9D_CCri_1p
+|                          |     |  +--| (64.6/70)
+|                          |     |  |  |          +--RP__EnSpm__EnSpm-28_CCri_1p
+|                          |     |  |  +----------| (100/100)
+|                          |     |  |             +--RP__EnSpm__EnSpm-28B_CCri_3p
+|                          |     +--| (97.7/88)
+|                          |        |  +------------RP__EnSpm__EnSpm-5_CCri_2p
+|                          |        +--| (64.6/69)
+|                          |           |           +--RP__EnSpm__EnSpm-6_CCri_1p
+|                          |           |        +--| (95.4/100)
+|                          |           |        |  +--RP__EnSpm__EnSpm-8_CCri_2p
+|                          |           +--------| (100/100)
+|                          |                    +---RP__EnSpm__EnSpm-7_CCri_2p
+|                       +--| (55/83)
+|                       |  |                        +------RP__EnSpm__UN-EnSpm5_SB_p2
+|                       |  |                     +--| (71.3/97)
+|                       |  |                     |  +--RP__EnSpm__EnSpm-14_SBi_p2
+|                       |  |     +---------------| (100/100)
+|                       |  |     |               +--RP__EnSpm__EnSpm12_SB_p2
+|                       |  |  +--| (36.2/32)
+|                       |  |  |  |  +-----------------RP__EnSpm__ATEnSpm1A_p2
+|                       |  |  |  +--| (56.4/97)
+|                       |  |  |     +-------------RP__EnSpm__EnSpm-10_CCri_2p
+|                       |  +--| (92.8/74)
+|                       |     |                   +----RP__EnSpm__EnSpm-1_CCri_3p
+|                       |     |             +-----| (100/100)
+|                       |     |             |     |     +-----RP__EnSpm__EnSpm-6_CCri_3p
+|                       |     |             |     |  +--| (93.2/100)
+|                       |     |             |     |  |  +---RP__EnSpm__EnSpm-8_CCri_4p
+|                       |     |             |     +--| (51.4/100)
+|                       |     |             |        +-----RP__EnSpm__EnSpm-7_CCri_4p
+|                       |     |          +--| (92.6/100)
+|                       |     |          |  +--------RP__EnSpm__EnSpm-9_CCri_2p
+|                       |     |       +--| (41.1/94)
+|                       |     |       |  |       +---------RP__EnSpm__EnSpm-2C_CCri_4p
+|                       |     |       |  |  +----| (99.1/100)
+|                       |     |       |  |  |    +--------RP__EnSpm__EnSpm-3_CCri_4p
+|                       |     |       |  +--| (88.6/100)
+|                       |     |       |     |        +--RP__EnSpm__EnSpm-28_CCri_4p
+|                       |     |       |     +--------| (100/100)
+|                       |     |       |              +--RP__EnSpm__EnSpm-28B_CCri_4p
+|                       |     |  +----| (99.6/100)
+|                       |     |  |    |  +----------RP__EnSpm__EnSpm-4_CCri_1p
+|                       |     |  |    +--| (97.4/100)
+|                       |     |  |       +-------RP__EnSpm__EnSpm-5_CCri_1p
+|                       |     +--| (19/31)
+|                       |        +-----------------RP__EnSpm__EnSpm-11_STu_gag
+|                    +--| (95/99)
+|                    |  |                      +---RP__EnSpm__EnSpm-1_ADi
+|                    |  |                   +--| (99.7/100)
+|                    |  |                   |  |     +--RP__EnSpm__EnSpm-3_ADi
+|                    |  |                   |  |  +--| (100/100)
+|                    |  |                   |  |  |  +--RP__EnSpm__EnSpm-4_ADi
+|                    |  |                   |  +--| (99.9/100)
+|                    |  |                   |     +---RP__EnSpm__EnSpm-3_NVe
+|                    |  |                +--| (97.6/96)
+|                    |  |                |  +------RP__EnSpm__EnSpm-6_NVe
+|                    |  |             +--| (90.9/96)
+|                    |  |             |  |  +-------RP__EnSpm__EnSpm-3_BF
+|                    |  |             |  +--| (60.8/99)
+|                    |  |             |     |  +----RP__EnSpm__EnSpm-4_NVe
+|                    |  |             |     +--| (90.6/100)
+|                    |  |             |        +---RP__EnSpm__EnSpm-5_NVe
+|                    |  |  +----------| (100/100)
+|                    |  |  |          |     +--RP__EnSpm__EnSpm-18_HMa
+|                    |  |  |          |  +--| (100/100)
+|                    |  |  |          |  |  +--RP__EnSpm__EnSpm-21_HMa
+|                    |  |  |          +--| (96.9/100)
+|                    |  |  |             |     +---RP__EnSpm__EnSpm-19_HMa
+|                    |  |  |             |  +--| (99.7/100)
+|                    |  |  |             |  |  +----RP__EnSpm__EnSpm-22_HMa
+|                    |  |  |             +--| (91.6/100)
+|                    |  |  |                +-----RP__EnSpm__EnSpm-20_HMa
+|                    |  +--| (93.8/99)
+|                    |     |        +--------RP__EnSpm__EnSpm-2C_CCri_mt
+|                    |     +--------| (99.9/100)
+|                    |              +------RP__EnSpm__EnSpm-3_CCri_mt
+|                +---| (99.8/100)
+|                |   |                                           +**RP__Transib__Transib1
+|                |   |                                        +--| (100/100)
+|                |   |                                        |  +**ADD__Additional__Dmel_transib1
+|                |   |                                     +--| (95.5/100)
+|                |   |                                     |  |  +--RP__Transib__Transib-3_DAn
+|                |   |                                     |  +--| (100/100)
+|                |   |                                     |     +--RP__Transib__Transib-6_DBi
+|                |   |                                  +--| (99.2/100)
+|                |   |                                  |  |  +--RP__Transib__Transib4
+|                |   |                                  |  +--| (99.7/100)
+|                |   |                                  |     +--RP__Transib__Transib-2_DBi
+|                |   |                               +--| (89.7/100)
+|                |   |                               |  |  +--RP__Transib__Transib-3_DBp
+|                |   |                               |  +--| (96.6/100)
+|                |   |                               |     +---RP__Transib__Transib-5_DBp
+|                |   |                            +--| (99.1/100)
+|                |   |                            |  |  +--RP__Transib__Transib2
+|                |   |                            |  +--| (100/100)
+|                |   |                            |     +--RP__Transib__Transib2_DP
+|                |   |                         +--| (85.9/87)
+|                |   |                         |  |        +---RP__Transib__Transib3
+|                |   |                         |  |     +--| (71.3/99)
+|                |   |                         |  |     |  |  +--RP__Transib__Transib1_DP
+|                |   |                         |  |     |  +--| (100/100)
+|                |   |                         |  |     |     |  +--RP__Transib__Transib-1_DAn
+|                |   |                         |  |     |     +--| (73.1/100)
+|                |   |                         |  |     |        +--RP__Transib__Transib-1_DF
+|                |   |                         |  |  +--| (86.5/87)
+|                |   |                         |  |  |  +--RP__Transib__Transib-2_DAn
+|                |   |                         |  +--| (78.2/87)
+|                |   |                         |     +--RP__Transib__Transib-2_DW
+|                |   |                      +--| (100/100)
+|                |   |                      |  +--RP__Transib__Transib-5_DBi
+|                |   |                   +--| (98/100)
+|                |   |                   |  |     +--RP__Transib__Transib4_DP
+|                |   |                   |  |  +--| (99.8/100)
+|                |   |                   |  |  |  |     +--RP__Transib__Transib-4_DBp
+|                |   |                   |  |  |  |  +--| (99/100)
+|                |   |                   |  |  |  |  |  |  +**RP__Transib__Transib-6_DBp
+|                |   |                   |  |  |  |  |  +--| (100/100)
+|                |   |                   |  |  |  |  |     +**ADD__Additional__Transib-6_DBipectinata
+|                |   |                   |  |  |  +--| (43.6/85)
+|                |   |                   |  |  |     +--ADD__Additional__Dmel_hopper
+|                |   |                   |  +--| (100/100)
+|                |   |                   |     +--RP__Transib__Transib-13_HM
+|                |   |                +--| (99.4/99)
+|                |   |                |  |           +---RP__Transib__Transib1_AG
+|                |   |                |  |        +--| (98/100)
+|                |   |                |  |        |  +------RP__Transib__Transib3_AG
+|                |   |                |  |     +--| (32.9/99)
+|                |   |                |  |     |  +----RP__Transib__Transib-1_CQ
+|                |   |                |  |  +--| (100/100)
+|                |   |                |  |  |  +----RP__Transib__Transib2_AG
+|                |   |                |  +--| (94.7/99)
+|                |   |                |     |  +-----RP__Transib__Transib-2_SIn_1p
+|                |   |                |     +--| (42.2/92)
+|                |   |                |        +-----RP__Transib__Transib-14_HM
+|                |   |             +--| (42.6/80)
+|                |   |             |  |                          +--RP__Transib__Transib5
+|                |   |             |  |                       +--| (99.8/100)
+|                |   |             |  |                       |  +--RP__Transib__Transib-8_DAn
+|                |   |             |  |                    +--| (100/100)
+|                |   |             |  |                    |  +--RP__Transib__Transib-5_DAn
+|                |   |             |  |                 +--| (60/94)
+|                |   |             |  |                 |  |  +--RP__Transib__Transib1_NVi
+|                |   |             |  |                 |  +--| (100/100)
+|                |   |             |  |                 |     +--RP__Transib__Transib-1_LHu_1p
+|                |   |             |  |              +--| (84.9/95)
+|                |   |             |  |              |  +----RP__Transib__Transib-7_DAn
+|                |   |             |  |           +--| (66.8/86)
+|                |   |             |  |           |  |  +----RP__Transib__Transib4_AA
+|                |   |             |  |           |  +--| (94.1/91)
+|                |   |             |  |           |     +---RP__Transib__Transib5_AA
+|                |   |             |  |        +--| (89.7/67)
+|                |   |             |  |        |  |        +--RP__Transib__Transib1_Dmoj
+|                |   |             |  |        |  |     +--| (100/100)
+|                |   |             |  |        |  |     |  +--RP__Transib__Transib1_Dwil
+|                |   |             |  |        |  |  +--| (100/100)
+|                |   |             |  |        |  |  |  +--RP__Transib__Transib-4_DAn
+|                |   |             |  |        |  +--| (95.8/72)
+|                |   |             |  |        |     |        +--RP__Transib__Transib-3_HM
+|                |   |             |  |        |     |     +--| (100/100)
+|                |   |             |  |        |     |     |  +--RP__Transib__Transib-4_HM
+|                |   |             |  |        |     |  +--| (93.7/100)
+|                |   |             |  |        |     |  |  |     +--RP__Transib__Transib-6_HM
+|                |   |             |  |        |     |  |  |  +--| (100/100)
+|                |   |             |  |        |     |  |  |  |  +--RP__Transib__Transib-17_HM
+|                |   |             |  |        |     |  |  +--| (89.7/99)
+|                |   |             |  |        |     |  |     |        +--RP__Transib__Transib-7_HM
+|                |   |             |  |        |     |  |     |     +--| (99.2/100)
+|                |   |             |  |        |     |  |     |     |  +--RP__Transib__Transib-21_HMa
+|                |   |             |  |        |     |  |     |  +--| (98.7/100)
+|                |   |             |  |        |     |  |     |  |  +--RP__Transib__Transib-8_HM
+|                |   |             |  |        |     |  |     +--| (36.8/99)
+|                |   |             |  |        |     |  |        +---RP__Transib__Transib-18_HM
+|                |   |             |  |        |     +--| (99.1/100)
+|                |   |             |  |        |        +-----RP__Transib__Transib-19_HM
+|                |   |             |  |     +--| (95.5/77)
+|                |   |             |  |     |  |     +-------RP__Transib__Transib1_AA
+|                |   |             |  |     |  |  +--| (98.1/74)
+|                |   |             |  |     |  |  |  +----ADD__Additional__Hztransib
+|                |   |             |  |     |  +--| (14.6/63)
+|                |   |             |  |     |     |  +----RP__Transib__Transib-2_HM
+|                |   |             |  |     |     +--| (92.7/97)
+|                |   |             |  |     |        |  +---RP__Transib__Transib-12_HM
+|                |   |             |  |     |        +--| (35.3/97)
+|                |   |             |  |     |           +---RP__Transib__Transib-15_HM
+|                |   |             |  |  +--| (93.8/88)
+|                |   |             |  |  |  |     +--RP__Transib__Transib-5_HM
+|                |   |             |  |  |  |  +--| (100/100)
+|                |   |             |  |  |  |  |  |  +---RP__Transib__Transib-11_HM
+|                |   |             |  |  |  |  |  +--| (21.5/84)
+|                |   |             |  |  |  |  |     +--RP__Transib__Transib-16_HM
+|                |   |             |  |  |  +--| (98.7/100)
+|                |   |             |  |  |     +------RP__Transib__Transib-20_HM
+|                |   |             |  +--| (78.5/87)
+|                |   |             |     +----RP__Transib__Transib1_SP
+|                |   |       +-----| (100/100)
+|                |   |       |     |  +-------RP__Transib__Transib3_DP
+|                |   |       |     +--| (13.4/66)
+|                |   |       |        +------------RP__Transib__Transib-10_HM
+|                |   |  +----| (99.1/100)
+|                |   |  |    +----------RP__Transib__Transib-9_HM
+|                |   +--| (96.9/100)
+|                |      +-------------ADD__RAG1__RAG1
+|           +----| (99.9/100)
+|           |    |     +---------RP__Chapaev__Chapaev-1_AA
+|           |    |  +--| (94.4/100)
+|           |    |  |  |                 +--RP__Chapaev__Chapaev-1_HM
+|           |    |  |  |              +--| (100/100)
+|           |    |  |  |              |  +--RP__Chapaev__Chapaev-21_HM
+|           |    |  |  |           +--| (97.5/100)
+|           |    |  |  |           |  |  +--RP__Chapaev__Chapaev-2_HM
+|           |    |  |  |           |  +--| (99.8/100)
+|           |    |  |  |           |     |     +--RP__Chapaev__Chapaev-5_HM
+|           |    |  |  |           |     |  +--| (44.5/100)
+|           |    |  |  |           |     |  |  +--RP__Chapaev__Chapaev-18_HM
+|           |    |  |  |           |     +--| (100/100)
+|           |    |  |  |           |        +--RP__Chapaev__Chapaev-13_HM
+|           |    |  |  |        +--| (56/94)
+|           |    |  |  |        |  |  +--RP__Chapaev__Chapaev-5_HMa
+|           |    |  |  |        |  +--| (95.4/98)
+|           |    |  |  |        |     |  +--RP__Chapaev__Chapaev-15_HM
+|           |    |  |  |        |     +--| (100/100)
+|           |    |  |  |        |        +--RP__Chapaev__Chapaev-19_HM
+|           |    |  |  |     +--| (59.2/87)
+|           |    |  |  |     |  +--RP__Chapaev__Chapaev-16_HM
+|           |    |  |  |  +--| (100/100)
+|           |    |  |  |  |  +--RP__Chapaev__Chapaev-14_HM
+|           |    |  |  +--| (71.9/94)
+|           |    |  |     |          +--RP__Chapaev__Chapaev-9_HM
+|           |    |  |     |       +--| (69.9/100)
+|           |    |  |     |       |  +---RP__Chapaev__Chapaev-10_HM
+|           |    |  |     |  +----| (100/100)
+|           |    |  |     |  |    +----RP__Chapaev__Chapaev-11_HM
+|           |    |  |     +--| (91.2/96)
+|           |    |  |        +--------RP__Chapaev__Chapaev-17_HM
+|           |    +--| (95.5/100)
+|           |       |         +-------RP__Chapaev3__Chapaev3-1_AA
+|           |       +---------| (100/100)
+|           |                 |                 +--RP__Chapaev3__Chapaev3-1_AC
+|           |                 |              +--| (49.8/44)
+|           |                 |              |  |     +--RP__Chapaev3__Chapaev3-2_HM
+|           |                 |              |  |  +--| (100/100)
+|           |                 |              |  |  |  +--RP__Chapaev3__Chapaev3-3_HR
+|           |                 |              |  +--| (78.9/49)
+|           |                 |              |     +---RP__Chapaev3__Chapaev3-2_HR
+|           |                 |           +--| (93.6/49)
+|           |                 |           |  |  +--RP__Chapaev3__Chapaev3-2_PM
+|           |                 |           |  +--| (98.1/100)
+|           |                 |           |     +--RP__Chapaev3__Chapaev-4_HMa
+|           |                 |        +--| (50.2/35)
+|           |                 |        |  |  +--------RP__Chapaev3__Chapaev3-1_DW
+|           |                 |        |  +--| (97.1/97)
+|           |                 |        |     +--RP__Chapaev3__Chapaev3-4_HM
+|           |                 |     +--| (47.3/34)
+|           |                 |     |  +---RP__Chapaev3__Chapaev3-3_AA
+|           |                 |  +--| (89/91)
+|           |                 |  |  |           +----RP__Chapaev3__Chapaev3-1_DA
+|           |                 |  |  |        +--| (78.3/100)
+|           |                 |  |  |        |  +--RP__Chapaev3__Chapaev3-2_AA
+|           |                 |  |  |     +--| (97.8/100)
+|           |                 |  |  |     |  +----RP__Chapaev3__EnSpm-1_DF
+|           |                 |  |  |  +--| (74.6/51)
+|           |                 |  |  |  |  |  +--RP__Chapaev3__Chapaev3-1_HM
+|           |                 |  |  |  |  +--| (100/100)
+|           |                 |  |  |  |     +--RP__Chapaev3__Chapaev3-1_SM
+|           |                 |  |  +--| (83.9/45)
+|           |                 |  |     |        +--RP__Chapaev3__Chapaev3-1_OL
+|           |                 |  |     |     +--| (99.1/100)
+|           |                 |  |     |     |  +--RP__Chapaev3__Chapaev3-1_PM
+|           |                 |  |     |  +--| (99.9/100)
+|           |                 |  |     |  |  +--RP__Chapaev3__EnSpm-1_RPr
+|           |                 |  |     +--| (99.9/100)
+|           |                 |  |        +--RP__Chapaev3__Chapaev3-3_HM
+|           |                 +--| (96.3/95)
+|           |                    |                    +--RP__Chapaev3__Chapaev3-1_ET
+|           |                    |                 +--| (98.4/100)
+|           |                    |                 |  +--RP__Chapaev3__Chapaev3-5_HM
+|           |                    |              +--| (93.5/100)
+|           |                    |              |  +--RP__Chapaev3__Chapaev-20_HM
+|           |                    |           +--| (98.1/100)
+|           |                    |           |  |  +--RP__Chapaev3__Chapaev3-1_HR
+|           |                    |           |  +--| (100/100)
+|           |                    |           |     +--RP__Chapaev3__EnSpm-2_LMi
+|           |                    |        +--| (99.9/100)
+|           |                    |        |  |  +--RP__Chapaev3__Chapaev3-2_AC
+|           |                    |        |  +--| (97.1/100)
+|           |                    |        |     +--RP__Chapaev3__Chapaev3-6_HM
+|           |                    |     +--| (3.4/21)
+|           |                    |     |  |  +---RP__Chapaev3__Chapaev-1_HSal
+|           |                    |     |  +--| (91.7/91)
+|           |                    |     |     +--RP__Chapaev3__EnSpm-1_LMi
+|           |                    |  +--| (81.3/100)
+|           |                    |  |  |  +--RP__Chapaev3__Chapaev3-1_NVi
+|           |                    |  |  +--| (100/100)
+|           |                    |  |     +--RP__Chapaev3__Chapaev3-2_NVi
+|           |                    +--| (69.8/95)
+|           |                       +--RP__Chapaev3__Chapaev-1_BM
+|        +--| (56.4/99)
+|        |  |          +---RP__Chapaev__Chapaev-1_ACa
+|        |  |       +--| (99.9/100)
+|        |  |       |  +--RP__Chapaev__Chapaev-3_ACa
+|        |  |  +----| (100/100)
+|        |  |  |    +---RP__Chapaev__Chapaev-2_ACa
+|        |  +--| (99.3/100)
+|        |     |       +--RP__Chapaev__Chapaev-1_BF
+|        |     |  +----| (100/100)
+|        |     |  |    +--RP__Chapaev__Chapaev-2_BF
+|        |     +--| (92.5/100)
+|        |        |        +--RP__Chapaev__Chapaev-3_HM
+|        |        |     +--| (100/100)
+|        |        |     |  |  +--RP__Chapaev__Chapaev-3A_HM
+|        |        |     |  +--| (77.5/100)
+|        |        |     |     +--RP__Chapaev__Chapaev-3B_HM
+|        |        |  +--| (99.1/100)
+|        |        |  |  |  +---RP__Chapaev__Chapaev-4_HM
+|        |        |  |  +--| (92.7/100)
+|        |        |  |     |  +--RP__Chapaev__Chapaev-6_HM
+|        |        |  |     +--| (88.8/100)
+|        |        |  |        +---RP__Chapaev__Chapaev-7_HM
+|        |        +--| (100/100)
+|        |           +---RP__Chapaev__Chapaev-8_HM
++--------| (100/100)
+         +-----------RP__Chapaev__Chapaev-12_HM
+
+Tree in newick format:
+
+(RP__Chapaev__Chapaev-1_CE:0.6525127147,RP__Chapaev__Chapaev-2_CE:0.8525042178,((((((((((((((((((RP__EnSpm__EnSpm1_DR_tp:0.4162076046,RP__EnSpm__EnSpm-12_DR_tp:0.4524187295)99.9/100:0.2193233576,RP__EnSpm__EnSpm-3_DR_tp:0.6952089162)98.6/100:0.1427738896,((RP__EnSpm__EnSpm-7_DR_tp:0.4593685893,RP__EnSpm__EnSpm-9_DR_tp:0.5449779593)99.6/100:0.1599627850,(RP__EnSpm__EnSpm-13_DR_tp:0.5016867677,RP__EnSpm__EnSpm-14_DR_tp:0.4812568383)99/100:0.1212317172)97.7/100:0.1188722544)98.2/100:0.2821938043,RP__EnSpm__ENS1_Cis:1.4919547718)93.3/100:0.2468118912,((((RP__EnSpm__EnSpm-2_DR_p1:0.6562653287,(RP__EnSpm__EnSpm-5_DR_p1:0.3452081123,RP__EnSpm__EnSpm-4_DR_p1:0.2804970542)100/100:0.2963472965)100/100:0.4049735983,(RP__EnSpm__EnSpm-3_HM_p1:1.3868968711,RP__EnSpm__EnSpm-15_HM:1.6018259246)91.5/98:0.1890948560)89.5/99:0.1572312934,RP__EnSpm__EnSpm-11_HM:1.1248012288)91/100:0.1877631467,RP__EnSpm__EnSpm-16_HM:2.1613323692)53.4/74:0.1985339606)100/100:1.5024887250,RP__EnSpm__EnSpm-1_DDi:2.6562935205)52.5/93:0.1905610009,((((((RP__EnSpm__CACTA-1_Mlaricis:0.9604099063,RP__EnSpm__CACTA-2_Mlaricis:1.0759693966)97.2/100:0.3540432571,RP__EnSpm__EnSpm-7_MLP_tp:1.6235202587)31.9/94:0.1431437090,(((((RP__EnSpm__EnSpm-1_PGr:0.1410115159,RP__EnSpm__EnSpm-5_PGr_tp:0.1411890494)100/100:0.3007888629,RP__EnSpm__EnSpm-2_PGr:0.3710671540)97.7/100:0.1273511097,RP__EnSpm__EnSpm-4_PGr:0.3522439290)100/100:0.4850853646,RP__EnSpm__EnSpm-3_PGr:0.9320550046)15.4/93:0.0946738802,RP__EnSpm__EnSpm-1_PSt_tp:0.8840453089)99.7/100:0.4510377645)100/100:0.7077933494,(RP__EnSpm__CACTA-1_Roryzae:1.0506617546,(RP__EnSpm__EnSpm-1_BF:0.8741516097,RP__EnSpm__EnSpm-2_BF:0.7815482522)95.7/100:0.2673644564)99.2/100:0.4458694662)100/100:0.8019373675,(((RP__EnSpm__EnSpm-1_AA:1.3567726815,((RP__EnSpm__EnSpm-1_CGi:1.0261518762,(RP__EnSpm__EnSpm-1_NVi:0.7712055181,RP__EnSpm__EnSpm-2_NVi:0.6869149163)100/100:0.5900167594)73.4/100:0.2616245885,RP__EnSpm__EnSpm-2_SIn:1.4338820107)96.4/100:0.2975485937)98.4/100:0.3244700050,(((RP__EnSpm__EnSpm-1_AP:1.2500887131,(((((RP__EnSpm__EnSpm-2_CGi:0.6839030768,RP__EnSpm__EnSpm-7_HM:1.2374169220)92.8/96:0.1484555047,(((RP__EnSpm__EnSpm-5_HM:0.7209757956,RP__EnSpm__EnSpm-8_HM:0.7601545221)97.5/99:0.1742029989,RP__EnSpm__EnSpm-14_HM:0.8155991004)8.1/76:0.0587492439,RP__EnSpm__EnSpm-12_HM:0.6685747381)95.5/93:0.1440880856)73.8/96:0.0888004291,(RP__EnSpm__EnSpm-6_HM:0.6098473763,RP__EnSpm__EnSpm-13_HM:0.7086953505)100/100:0.4622910037)98.2/100:0.2466329913,RP__EnSpm__EnSpm-9_HM:1.4539695732)94.3/100:0.2002973033,((((RP__EnSpm__EnSpm-2_HM_p1:0.8229508597,RP__EnSpm__EnSpm-17_HM:0.7179385995)91.9/100:0.1568082808,RP__EnSpm__EnSpm-6_DR:0.7684378955)92.1/98:0.1103724963,RP__EnSpm__EnSpm-4_HM:0.9383174858)56.6/96:0.0842195890,RP__EnSpm__EnSpm-10_HM:0.9629240179)91.2/96:0.1547159660)77.8/96:0.1429475286)74.5/96:0.1922763144,RP__EnSpm__SmTRC1:1.6355112819)95/100:0.3613211676,RP__EnSpm__EnSpm-1_HM:2.0627567790)93.3/100:0.2666441138)99.8/100:0.3931793968,((RP__EnSpm__EnSpm-10_CCri_3p:0.8870208461,RP__EnSpm__EnSpm-22_CCri_tp:1.0930432633)99.9/100:0.4437967078,((RP__EnSpm__EnSpm-17_CCri_2p:0.3648766935,RP__EnSpm__EnSpm-23_CCri:0.3729000211)100/100:0.9426152250,((RP__EnSpm__EnSpm-18_CCri:0.4265421755,RP__EnSpm__EnSpm-20_CCri_2p:0.5020737111)99.2/100:0.2075641734,(RP__EnSpm__EnSpm-26_CCri_3p:0.3792607088,RP__EnSpm__EnSpm-27_CCri:0.3983809501)100/100:0.2387250385)100/100:0.4255771857)90.3/100:0.2717690283)100/100:1.1643254090)73.5/93:0.1843457800)59.8/92:0.2079338464,(RP__EnSpm__EnSpm-1_NV:0.4325946535,RP__EnSpm__EnSpm-2_NV:0.5073951282)100/100:2.3455311380)93.6/99:0.2249126146)89.5/95:0.1537301679,((RP__Mirage__UN-GIN1_int:1.7996728690,RP__Mirage__UN-GIN2_int:1.8832107773)89.7/99:0.6599988685,(((RP__EnSpm__EnSpm-1_CCri_tp:0.6058547460,((RP__EnSpm__EnSpm-6_CCri_tp:0.5272280272,RP__EnSpm__EnSpm-8_CCri_tp:0.4169831839)95.7/100:0.1158741292,RP__EnSpm__EnSpm-7_CCri_tp:0.6196798133)87.6/100:0.1273487918)100/100:0.3384066316,RP__EnSpm__EnSpm-9_CCri_tp:0.9563778715)99.4/100:0.2983880319,((RP__EnSpm__EnSpm-21_CCri_tp:0.7796166895,(RP__EnSpm__EnSpm-4_CCri_tp:0.7911541109,RP__EnSpm__EnSpm-5_CCri_tp:0.5914846223)90.8/100:0.1605284021)100/100:0.3499166526,(RP__EnSpm__EnSpm-2_CCri_tp:0.6626142447,RP__EnSpm__EnSpm-3_CCri_tp:0.7348760217)100/100:0.7546838477)71.4/100:0.0721414887)100/100:1.6559495520)79.3/88:0.2083580175)91.8/92:0.1393560813,(((((((((((((((((RP__EnSpm__UN-ATEnSpm9:0.1702123359,RP__EnSpm__ATEnSpm6:0.1089695189)100/100:0.4909607978,(RP__EnSpm__ATEnSpm2:0.3442054249,RP__EnSpm__BREnSpm1:0.2374422585)99.9/100:0.1844418908)100/100:0.3600173282,(RP__EnSpm__EnSpm_AC:0.8801364583,(RP__EnSpm__PSL:0.4077047186,RP__EnSpm__TDC1:0.4798497929)98.6/100:0.1505123943)11.3/93:0.0417774152)88.7/97:0.0910793360,((RP__EnSpm__EnSpm-1_AIp_tp:0.5017523027,RP__EnSpm__EnSpm_MT:0.6065046784)94.7/100:0.1372888006,RP__EnSpm__EnSpm_CA:0.6929443304)79.4/81:0.0581915703)88.6/81:0.0806393825,(RP__EnSpm__EnSpm1_PT:0.3881959926,RP__EnSpm__EnSpm2_PTr:0.5184298313)100/100:0.2472823646)99.8/100:0.1671215782,((((RP__EnSpm__DOPPIA4_ZM:0.3604844061,(RP__EnSpm__EN1_ZM:0.2504726208,RP__EnSpm__EnSpm-13_ZM_p1:0.2498098165)100/100:0.2260780183)99.9/100:0.1666711017,((RP__EnSpm__EnSpm2_ZM:0.2552070736,RP__EnSpm__EnSpm-5_ZM:0.2327789685)97.3/100:0.0715431031,(RP__EnSpm__EnSpm-8_ZM_p1:0.2876863243,RP__EnSpm__EnSpm-11_ZM_p1:0.2747353573)74.7/100:0.0740739507)100/100:0.1616634497)100/100:0.2805367928,((RP__EnSpm__EnSpm1_TD:0.6065252756,((((RP__EnSpm__EnSpm5_SB_p1:0.2466008364,(RP__EnSpm__EnSpm12_SB_p1:0.2097323577,RP__EnSpm__EnSpm-20_SBi_tp:0.2993240365)55.7/88:0.0542225243)15.8/70:0.0319296279,RP__EnSpm__EnSpm-26_SBi_tp:0.2349211349)70.7/85:0.0319720853,RP__EnSpm__EnSpm-10_ZM_p1:0.1639966575)99.8/100:0.1216148938,RP__EnSpm__EnSpm-1_HV_p1:0.5516116803)94.2/100:0.1002488933)100/100:0.1904886224,(RP__EnSpm__EnSpm-10_OS_p1:0.1787635216,(RP__EnSpm__EnSpm-13_OS_p1:0.0867987932,RP__EnSpm__EnSpm-14_OS_p1:0.0737277942)100/100:0.1142427628)100/100:0.2575217559)100/100:0.2055198647)55.2/97:0.0953058357,(RP__EnSpm__EnSpm-9_OS_p1:0.2102233477,RP__EnSpm__EnSpm-15_OS_p1:0.2348007095)100/100:0.3652397803)100/100:0.3740434195)80.1/98:0.1500286378,RP__EnSpm__EnSpm1B_PT:2.3213697699)87.8/86:0.1823844620,((((RP__EnSpm__EnSpm-1_FV_tp:0.6125548342,RP__EnSpm__EnSpm-7_FV_tp:0.4652223191)100/100:0.3263139204,RP__EnSpm__EnSpm-1_Mad:0.4503362111)100/100:0.2430869776,(RP__EnSpm__EnSpm-1_MN:0.6642141999,(RP__EnSpm__EnSpm-6_VV_p1:0.3110796560,RP__EnSpm__EnSpm-8N_VV_p1:0.3239468606)99.9/100:0.2058117950)77.7/97:0.0796712049)8.5/57:0.0817973267,(RP__EnSpm__EnSpm-7_ZM_p1:0.5111099944,((RP__EnSpm__EnSpm-11_OS_p1:0.1929703802,(RP__EnSpm__EnSpm-12_ZM_p1:0.1751809922,RP__EnSpm__EnSpm-39_SBi:0.1491045940)100/100:0.1519148580)99.9/100:0.1653272267,(RP__EnSpm__EnSpm-41_SBi_1p:0.3544012248,RP__EnSpm__EnSpm-44_SBi_1p:0.4049132630)11.6/97:0.0410926905)99.5/100:0.2165622496)100/100:0.3348369876)99.6/93:0.1268664808)73.5/52:0.0715296428,(RP__EnSpm__EnSpm-5_HV:0.6305730543,RP__EnSpm__OShooter_p2:0.5653215712)96.4/94:0.2959921752)1.6/56:0.0136929808,((RP__EnSpm__EnSpm-34_SBi_1p:0.2362245478,RP__EnSpm__Shooter_ZM:0.2126195726)23.1/57:0.0890344034,RP__EnSpm__EnSpm-40_SBi_1p:0.2960275226)100/99:0.5237990949)52.1/60:0.0336936492,(RP__EnSpm__EnSpm-19_SBi_tp:0.2952090162,RP__EnSpm__OShooter_p1:0.1946152849)100/100:0.4797915387)95.5/75:0.0790302895,(RP__EnSpm__EnSpm8_SB:0.7989595878,RP__EnSpm__EnSpm-10_FV_tp:0.8151002120)96.8/73:0.1311035049)52/30:0.0798805059,(((RP__EnSpm__EnSpm-1_Cia_tp:0.3125609805,(RP__EnSpm__EnSpm-3_GM_tp:0.1654420010,RP__EnSpm__ENSUPMET:0.2073494122)100/100:0.1575378347)100/100:0.2114232825,(RP__EnSpm__EnSpm-1_GR:0.4684925171,(RP__EnSpm__EnSpm-9_ZM_p1:0.2887674552,(RP__EnSpm__EnSpm-12_OS_p1:0.1086566129,RP__EnSpm__EnSpm-16_OS_p1:0.0477136562)100/100:0.2516179997)100/100:0.4259682332)91.8/95:0.1113380124)98.1/93:0.1105244937,((RP__EnSpm__EnSpm-1_LU:0.4878441506,RP__EnSpm__EnSpm-4_GM_tp:0.4674289393)100/100:0.2612700744,RP__EnSpm__EnSpm-14_ZM:0.7976176607)70.7/81:0.0541509009)98.2/84:0.0878752685)69.9/55:0.0418170283,(RP__EnSpm__EnSpm-2_Mad:0.5240114736,RP__EnSpm__EnSpm-3_Mad:0.6245892246)99.9/100:0.2022141483)99.5/76:0.1496004402,((((RP__EnSpm__ATEnSpm3:0.1310620142,RP__EnSpm__ATEnSpm7:0.1656732337)99.6/100:0.0929657124,RP__EnSpm__ATEnSpm12:0.1853683089)100/100:0.3050259803,(RP__EnSpm__ATENSPM10:0.1713121895,RP__EnSpm__ATEnSpm11:0.2253045142)100/100:0.4070956485)100/100:0.4586139307,(((((((((((RP__EnSpm__CACTA_LP_p1:0.1255144390,RP__EnSpm__EnSpm-1_TM_p1:0.1961022015)100/100:0.2388230672,RP__EnSpm__EnSpm-1_TA:0.3345027219)100/100:0.4147389768,(RP__EnSpm__EnSpm-1_BDi:0.2873099714,RP__EnSpm__EnSpm-2_BDi:0.2751088923)100/100:0.3351486633)100/100:0.3275613643,((((RP__EnSpm__EnSpm2_HV:0.1841492682,RP__EnSpm__EnSpm-3_HV_p1:0.2014334680)17.1/99:0.0415758842,RP__EnSpm__EnSpm-4_HV_p1:0.2299583632)100/100:0.1167016988,(RP__EnSpm__EnSpm2_SB_p1:0.1081610014,RP__EnSpm__EnSpm7_SB_p1:0.1427668719)100/100:0.1250662295)99.6/100:0.1190082227,RP__EnSpm__SPMLIKE_p1:0.1898935767)100/100:0.3847258558)28/65:0.0383440633,(((((RP__EnSpm__EnSpm1_SB_p1:0.1208553607,RP__EnSpm__EnSpm-22_SBi_tp:0.1636765314)100/100:0.4521646090,((RP__EnSpm__EnSpm4_SB_p1:0.0888115477,RP__EnSpm__EnSpm-6_ZM_p1:0.0839097449)100/100:0.1103719918,RP__EnSpm__EnSpm6_SB_p1:0.1661342960)100/100:0.2251200697)33.1/97:0.0705961120,(RP__EnSpm__EnSpm-18_SBi_1p:0.1630884563,RP__EnSpm__EnSpm-36_SBi_1p:0.1534671555)100/100:0.3875967995)100/100:0.1545521551,((RP__EnSpm__EnSpm5_OS_p1:0.3695676055,RP__EnSpm__EnSpm7_OS_p1:0.2542681225)33.2/93:0.0369682224,RP__EnSpm__EnSpm_OS:0.3017785700)100/100:0.0981329726)82.3/99:0.0732141516,RP__EnSpm__EnSpm4_ZM:0.3753983312)100/100:0.3867281147)94.1/98:0.0579547617,RP__EnSpm__EnSpm3_ZM:0.6918001893)20.8/57:0.0528946448,((RP__EnSpm__EnSpm2_OS_p1:0.0798668119,RP__EnSpm__EnSpm3_OS_p1:0.0882774731)100/100:0.1733653032,RP__EnSpm__EnSpm4_OS_p1:0.2803619648)100/100:0.2551033848)100/100:0.2710770069,((RP__EnSpm__EnSpm2_MT:0.2183131325,RP__EnSpm__EnSpm-2_Cia_tp:0.0988297552)100/100:0.1363117864,(RP__EnSpm__EnSpm-1_GM:0.2609915119,RP__EnSpm__EnSpm-2_GM_tp:0.3272963457)95.9/100:0.0841682944)100/100:0.2169218615)85.4/62:0.0708759352,RP__EnSpm__EnSpm-3_Cia_tp:0.4504892849)4.4/44:0.0607540124,RP__EnSpm__EnSpm-3_MN:0.4751287971)62.5/63:0.0723563225,((((RP__EnSpm__EnSpm-3_VV:0.1002217550,RP__EnSpm__EnSpm-13_VV_tp:0.0659129684)100/100:0.1142799104,RP__EnSpm__EnSpm-5_VV_tp:0.2335281466)78.6/100:0.0545847563,RP__EnSpm__EnSpm-4_VV_tp:0.1702893877)100/100:0.2184226211,RP__EnSpm__EnSpm-5_FV:0.6149076595)99.9/100:0.1353365286)100/100:0.1632529177)97.1/97:0.1364133047)100/100:0.6916624969,RP__EnSpm__EnSpm-1_NGr:2.5071648779)91.8/97:0.2803507229,(RP__Mirage__UN-Mirage1:1.4637093098,RP__Mirage__Mirage1_CB:1.1667848702)99.9/100:1.3922877400)59.8/92:0.1058734825)94.4/93:0.1540381106,((((((RP__EnSpm__UN-Candystripe1_SB_p2:0.5314243528,RP__EnSpm__EnSpm-30_SBi_p2:0.4713057880)100/100:0.8335119253,((RP__EnSpm__UN-EnSpm3_OS_p2:0.4081009193,RP__EnSpm__EnSpm2_OS_p2:0.3045682251)99.8/100:0.2519706642,RP__EnSpm__EnSpm4_OS_p2:0.4639414586)100/100:0.4959762635)93.4/100:0.3064213395,(RP__EnSpm__CACTA_LP_p2:0.4648033241,RP__EnSpm__EnSpm-1_TM_p2:0.2027301951)100/100:1.7765341820)80.4/90:0.1317297183,((RP__EnSpm__EnSpm1_SB_p2:1.0933820485,(((((RP__EnSpm__EnSpm4_SB_p2:0.3084962847,RP__EnSpm__EnSpm-6_ZM_p2:0.2553414478)11.1/91:0.0538714003,RP__EnSpm__EnSpm11_SB_p2:0.3901350151)99.6/100:0.1979854765,RP__EnSpm__EnSpm6_SB_p2:0.5495371703)100/100:0.4392857620,(RP__EnSpm__EnSpm5_OS_p2:0.6529745290,RP__EnSpm__EnSpm7_OS_p2:0.7713382315)98.8/100:0.2477714990)45.5/53:0.1052912161,(RP__EnSpm__EnSpm-18_SBi_2p:0.3805074888,RP__EnSpm__EnSpm-36_SBi_2p:0.2534172876)100/100:0.8316456653)80.6/54:0.1422447019)79.5/91:0.1863050953,((((RP__EnSpm__EnSpm2_SB_p2:0.1777066229,RP__EnSpm__EnSpm3_SB_p2:0.2447420408)100/100:0.2767594540,RP__EnSpm__EnSpm7_SB_p2:0.4141461892)100/100:0.3742984274,RP__EnSpm__SPMLIKE_p2:0.6300401625)75.1/100:0.1179559309,(RP__EnSpm__EnSpm2_TM_p2:0.9505343183,(RP__EnSpm__EnSpm-3_HV_p2:0.8063350174,RP__EnSpm__EnSpm-4_HV_p2:0.6042894579)98.1/100:0.2510062173)98.4/100:0.2171936687)100/100:0.7161907456)58.1/83:0.1594143140)100/100:1.0171374380,(RP__EnSpm__EnSpm-2_Cia_p2:1.7355148792,RP__EnSpm__EnSpm-3_Cia_p2:1.7933566929)68.7/100:0.3194614343)98.6/100:0.6923163947,RP__EnSpm__EnSpm-30_SBi_env:2.8253705420)75.9/85:0.2631467639)55.4/76:0.1352347317,(((RP__EnSpm__EnSpm-26_CCri_2p:2.7310739243,(RP__EnSpm__EnSpm-2C_CCri_3p:1.3106115185,RP__EnSpm__EnSpm-3_CCri_3p:1.1917793749)74.8/100:0.5085048212)82.9/86:0.6908259033,RP__EnSpm__EnSpm-28B_CCri_2p:2.5318801755)5.1/77:0.0446707370,RP__EnSpm__EnSpm-34_CCri_1p:2.4137274958)34.5/65:0.2016727729)91.6/70:0.1605195601,((RP__EnSpm__EnSpm-2_CCri_4p:1.7078537171,RP__EnSpm__EnSpm-3_CCri_5p:1.8014186070)76.4/90:0.2396388790,(((RP__EnSpm__EnSpm-4_CCri_3p:2.4128098623,(RP__EnSpm__EnSpm-9_CCri_3p:0.1664790063,RP__EnSpm__EnSpm-9D_CCri_1p:0.2442042523)100/100:1.5314576820)32.1/65:0.2664128141,(RP__EnSpm__EnSpm-28_CCri_1p:0.0876694333,RP__EnSpm__EnSpm-28B_CCri_3p:0.1517601408)100/100:1.5586685110)64.6/70:0.2864266617,(RP__EnSpm__EnSpm-5_CCri_2p:1.7315680436,((RP__EnSpm__EnSpm-6_CCri_1p:0.4808672124,RP__EnSpm__EnSpm-8_CCri_2p:0.4463722504)95.4/100:0.1835785755,RP__EnSpm__EnSpm-7_CCri_2p:0.5417865188)100/100:1.2432578550)64.6/69:0.1930181866)97.7/88:0.4072897601)94.3/66:0.2676668974)85.6/59:0.0944308932,((((RP__EnSpm__UN-EnSpm5_SB_p2:0.9632888500,RP__EnSpm__EnSpm-14_SBi_p2:0.4437220673)71.3/97:0.2586770983,RP__EnSpm__EnSpm12_SB_p2:0.3214162394)100/100:2.1345943510,(RP__EnSpm__ATEnSpm1A_p2:2.4997981856,RP__EnSpm__EnSpm-10_CCri_2p:1.9390805050)56.4/97:0.2386035002)36.2/32:0.1124288092,(((((RP__EnSpm__EnSpm-1_CCri_3p:0.6821618648,((RP__EnSpm__EnSpm-6_CCri_3p:0.8187426578,RP__EnSpm__EnSpm-8_CCri_4p:0.6059767427)93.2/100:0.1965069189,RP__EnSpm__EnSpm-7_CCri_4p:0.9130985501)51.4/100:0.1247699054)100/100:0.8339332649,RP__EnSpm__EnSpm-9_CCri_2p:1.2157685414)92.6/100:0.3799715725,((RP__EnSpm__EnSpm-2C_CCri_4p:1.4143310077,RP__EnSpm__EnSpm-3_CCri_4p:1.1967281094)99.1/100:0.7222140191,(RP__EnSpm__EnSpm-28_CCri_4p:0.1810574626,RP__EnSpm__EnSpm-28B_CCri_4p:0.1083645213)100/100:1.3028181240)88.6/100:0.3241518727)41.1/94:0.1196188512,(RP__EnSpm__EnSpm-4_CCri_1p:1.5080738396,RP__EnSpm__EnSpm-5_CCri_1p:1.1041354768)97.4/100:0.5115422516)99.6/100:0.7908277821,RP__EnSpm__EnSpm-11_STu_gag:2.4168915630)19/31:0.1335019949)92.8/74:0.3014897909)55/83:0.1375675920,(((((RP__EnSpm__EnSpm-1_ADi:0.6325707466,((RP__EnSpm__EnSpm-3_ADi:0.1652759169,RP__EnSpm__EnSpm-4_ADi:0.2487715578)100/100:0.3347669893,RP__EnSpm__EnSpm-3_NVe:0.5335898426)99.9/100:0.1804246257)99.7/100:0.2048449880,RP__EnSpm__EnSpm-6_NVe:1.0379784115)97.6/96:0.1444321197,(RP__EnSpm__EnSpm-3_BF:1.1683420531,(RP__EnSpm__EnSpm-4_NVe:0.6808003471,RP__EnSpm__EnSpm-5_NVe:0.6433229748)90.6/100:0.1264912602)60.8/99:0.0858981867)90.9/96:0.1638019737,((RP__EnSpm__EnSpm-18_HMa:0.4479912606,RP__EnSpm__EnSpm-21_HMa:0.4389233093)100/100:0.4289804581,((RP__EnSpm__EnSpm-19_HMa:0.6522276844,RP__EnSpm__EnSpm-22_HMa:0.7342763781)99.7/100:0.2457549419,RP__EnSpm__EnSpm-20_HMa:0.7975405862)91.6/100:0.1173900438)96.9/100:0.1629011682)100/100:1.5679207400,(RP__EnSpm__EnSpm-2C_CCri_mt:1.2402269620,RP__EnSpm__EnSpm-3_CCri_mt:0.9672776443)99.9/100:1.2230014020)93.8/99:0.3713845256)95/99:0.2496763346,(((((((((((((RP__Transib__Transib1:0.0000025621,ADD__Additional__Dmel_transib1:0.0000010000)100/100:0.5001453390,(RP__Transib__Transib-3_DAn:0.2301826708,RP__Transib__Transib-6_DBi:0.2653878529)100/100:0.2556080619)95.5/100:0.0858045866,(RP__Transib__Transib4:0.3842228304,RP__Transib__Transib-2_DBi:0.2426040244)99.7/100:0.1414553459)99.2/100:0.1100235982,(RP__Transib__Transib-3_DBp:0.5018919268,RP__Transib__Transib-5_DBp:0.5979595773)96.6/100:0.0879360714)89.7/100:0.0943509638,(RP__Transib__Transib2:0.2356353754,RP__Transib__Transib2_DP:0.1944661158)100/100:0.2917400793)99.1/100:0.1177073143,(((RP__Transib__Transib3:0.6235737959,(RP__Transib__Transib1_DP:0.2065763027,(RP__Transib__Transib-1_DAn:0.1653018621,RP__Transib__Transib-1_DF:0.1506020700)73.1/100:0.0523826648)100/100:0.2704269216)71.3/99:0.0544837029,RP__Transib__Transib-2_DAn:0.4842030860)86.5/87:0.0531022062,RP__Transib__Transib-2_DW:0.5057655839)78.2/87:0.0580260226)85.9/87:0.0979338914,RP__Transib__Transib-5_DBi:0.5087030494)100/100:0.2923495084,((RP__Transib__Transib4_DP:0.3979060133,((RP__Transib__Transib-4_DBp:0.3492271139,(RP__Transib__Transib-6_DBp:0.0000010000,ADD__Additional__Transib-6_DBipectinata:0.0000010000)100/100:0.3188525957)99/100:0.1397627031,ADD__Additional__Dmel_hopper:0.3272192994)43.6/85:0.0832572409)99.8/100:0.2674132883,RP__Transib__Transib-13_HM:0.5213492335)100/100:0.2989568207)98/100:0.1360598041,((((RP__Transib__Transib1_AG:0.6540465993,RP__Transib__Transib3_AG:1.0226419682)98/100:0.1775589297,RP__Transib__Transib-1_CQ:0.7363946035)32.9/99:0.1022853820,RP__Transib__Transib2_AG:0.6868864393)100/100:0.4334949755,(RP__Transib__Transib-2_SIn_1p:0.8196912642,RP__Transib__Transib-14_HM:0.8601761433)42.2/92:0.1731866385)94.7/99:0.1711901267)99.4/99:0.2065571660,(((((((((RP__Transib__Transib5:0.3621143002,RP__Transib__Transib-8_DAn:0.3645567797)99.8/100:0.2317268767,RP__Transib__Transib-5_DAn:0.4094960596)100/100:0.4373378554,(RP__Transib__Transib1_NVi:0.4484809376,RP__Transib__Transib-1_LHu_1p:0.3028103446)100/100:0.5163007771)60/94:0.0874875476,RP__Transib__Transib-7_DAn:0.7766765499)84.9/95:0.0651107800,(RP__Transib__Transib4_AA:0.6806692550,RP__Transib__Transib5_AA:0.6412670757)94.1/91:0.2255253887)66.8/86:0.0548048963,(((RP__Transib__Transib1_Dmoj:0.0620900266,RP__Transib__Transib1_Dwil:0.0862424346)100/100:0.4172558061,RP__Transib__Transib-4_DAn:0.4617651528)100/100:0.5198221618,(((RP__Transib__Transib-3_HM:0.2762336931,RP__Transib__Transib-4_HM:0.2351024525)100/100:0.4545720925,((RP__Transib__Transib-6_HM:0.4983138575,RP__Transib__Transib-17_HM:0.5149532602)100/100:0.2807746136,(((RP__Transib__Transib-7_HM:0.4244458755,RP__Transib__Transib-21_HMa:0.4889699238)99.2/100:0.1632865940,RP__Transib__Transib-8_HM:0.4924551729)98.7/100:0.1781331379,RP__Transib__Transib-18_HM:0.6423820577)36.8/99:0.0816250554)89.7/99:0.0723650055)93.7/100:0.1695057937,RP__Transib__Transib-19_HM:0.9019304349)99.1/100:0.2084263919)95.8/72:0.0987739543)89.7/67:0.0909620194,((RP__Transib__Transib1_AA:1.0725075799,ADD__Additional__Hztransib:0.7921670647)98.1/74:0.2117612838,(RP__Transib__Transib-2_HM:0.7364052190,(RP__Transib__Transib-12_HM:0.6485051116,RP__Transib__Transib-15_HM:0.6409572029)35.3/97:0.1060095071)92.7/97:0.1665720573)14.6/63:0.0536317807)95.5/77:0.0858042870,((RP__Transib__Transib-5_HM:0.4819984423,(RP__Transib__Transib-11_HM:0.6435910268,RP__Transib__Transib-16_HM:0.4811175683)21.5/84:0.1060608048)100/100:0.4231663769,RP__Transib__Transib-20_HM:0.9740858216)98.7/100:0.2138580845)93.8/88:0.1051079105,RP__Transib__Transib1_SP:0.7630086293)78.5/87:0.0777726606)42.6/80:0.1083025056,(RP__Transib__Transib3_DP:1.1561505276,RP__Transib__Transib-10_HM:1.7694536599)13.4/66:0.1218275809)100/100:0.8072399376,RP__Transib__Transib-9_HM:1.4592817692)99.1/100:0.6757015687,ADD__RAG1__RAG1:1.8675915841)96.9/100:0.3930575736)99.8/100:0.5323773355,((RP__Chapaev__Chapaev-1_AA:1.4285556623,((((((RP__Chapaev__Chapaev-1_HM:0.2831457580,RP__Chapaev__Chapaev-21_HM:0.2090449123)100/100:0.2686644318,(RP__Chapaev__Chapaev-2_HM:0.3573599215,((RP__Chapaev__Chapaev-5_HM:0.4487523619,RP__Chapaev__Chapaev-18_HM:0.3452542631)44.5/100:0.0771537903,RP__Chapaev__Chapaev-13_HM:0.3534890359)100/100:0.2529659971)99.8/100:0.1866369037)97.5/100:0.1142345718,(RP__Chapaev__Chapaev-5_HMa:0.4604293064,(RP__Chapaev__Chapaev-15_HM:0.2899146090,RP__Chapaev__Chapaev-19_HM:0.2315339143)100/100:0.1786900977)95.4/98:0.1009023378)56/94:0.0660370536,RP__Chapaev__Chapaev-16_HM:0.3502338981)59.2/87:0.1000409687,RP__Chapaev__Chapaev-14_HM:0.5015287678)100/100:0.4585835006,(((RP__Chapaev__Chapaev-9_HM:0.4663377968,RP__Chapaev__Chapaev-10_HM:0.6595161298)69.9/100:0.2251093471,RP__Chapaev__Chapaev-11_HM:0.6790391918)100/100:0.6817542370,RP__Chapaev__Chapaev-17_HM:1.2595797788)91.2/96:0.2257961392)71.9/94:0.2420155923)94.4/100:0.3196881083,(RP__Chapaev3__Chapaev3-1_AA:1.1097970674,((((((RP__Chapaev3__Chapaev3-1_AC:0.4881567569,((RP__Chapaev3__Chapaev3-2_HM:0.2705674891,RP__Chapaev3__Chapaev3-3_HR:0.3336943128)100/100:0.2671371005,RP__Chapaev3__Chapaev3-2_HR:0.5810293417)78.9/49:0.0663413644)49.8/44:0.0815818928,(RP__Chapaev3__Chapaev3-2_PM:0.3148983833,RP__Chapaev3__Chapaev-4_HMa:0.4055379291)98.1/100:0.1153865319)93.6/49:0.0991825394,(RP__Chapaev3__Chapaev3-1_DW:1.2094122211,RP__Chapaev3__Chapaev3-4_HM:0.4538632235)97.1/97:0.1459843820)50.2/35:0.0563543305,RP__Chapaev3__Chapaev3-3_AA:0.6537289835)47.3/34:0.0290373503,((((RP__Chapaev3__Chapaev3-1_DA:0.6801514893,RP__Chapaev3__Chapaev3-2_AA:0.5152812264)78.3/100:0.1024649050,RP__Chapaev3__EnSpm-1_DF:0.7522551441)97.8/100:0.1615582155,(RP__Chapaev3__Chapaev3-1_HM:0.2174215045,RP__Chapaev3__Chapaev3-1_SM:0.2968018199)100/100:0.3003020104)74.6/51:0.0558261083,(((RP__Chapaev3__Chapaev3-1_OL:0.1842142091,RP__Chapaev3__Chapaev3-1_PM:0.1210946248)99.1/100:0.1505091278,RP__Chapaev3__EnSpm-1_RPr:0.3721023434)99.9/100:0.2890436864,RP__Chapaev3__Chapaev3-3_HM:0.4410326755)99.9/100:0.2390415367)83.9/45:0.0946426412)89/91:0.0743702374,(((((((RP__Chapaev3__Chapaev3-1_ET:0.3527803578,RP__Chapaev3__Chapaev3-5_HM:0.2332198006)98.4/100:0.1127702605,RP__Chapaev3__Chapaev-20_HM:0.3384893414)93.5/100:0.0865057223,(RP__Chapaev3__Chapaev3-1_HR:0.2536632878,RP__Chapaev3__EnSpm-2_LMi:0.2291570884)100/100:0.1877489233)98.1/100:0.0953344068,(RP__Chapaev3__Chapaev3-2_AC:0.4062154076,RP__Chapaev3__Chapaev3-6_HM:0.3823256991)97.1/100:0.1073652064)99.9/100:0.2009642172,(RP__Chapaev3__Chapaev-1_HSal:0.6057709810,RP__Chapaev3__EnSpm-1_LMi:0.4845590797)91.7/91:0.0738781368)3.4/21:0.0371637688,(RP__Chapaev3__Chapaev3-1_NVi:0.4473869428,RP__Chapaev3__Chapaev3-2_NVi:0.3287113414)100/100:0.2962984800)81.3/100:0.0826653808,RP__Chapaev3__Chapaev-1_BM:0.4580456170)69.8/95:0.0414965759)96.3/95:0.3318051722)100/100:1.4308711870)95.5/100:0.4308426846)99.9/100:0.7025084262,(((RP__Chapaev__Chapaev-1_ACa:0.5430890828,RP__Chapaev__Chapaev-3_ACa:0.4637282294)99.9/100:0.3362937439,RP__Chapaev__Chapaev-2_ACa:0.5963682379)100/100:0.6805121660,((RP__Chapaev__Chapaev-1_BF:0.4127426741,RP__Chapaev__Chapaev-2_BF:0.3740028573)100/100:0.6627816311,(((RP__Chapaev__Chapaev-3_HM:0.1681392872,(RP__Chapaev__Chapaev-3A_HM:0.1120745357,RP__Chapaev__Chapaev-3B_HM:0.1988860533)77.5/100:0.0559127459)100/100:0.4849167197,(RP__Chapaev__Chapaev-4_HM:0.5338747483,(RP__Chapaev__Chapaev-6_HM:0.4862389796,RP__Chapaev__Chapaev-7_HM:0.5356375996)88.8/100:0.1277886259)92.7/100:0.1067334552)99.1/100:0.1783071652,RP__Chapaev__Chapaev-8_HM:0.6416604853)100/100:0.4324409806)92.5/100:0.2162148266)99.3/100:0.4738311468)56.4/99:0.2387186890,RP__Chapaev__Chapaev-12_HM:1.6137297676)100/100:1.1925183210);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -563409.711721
+Robinson-Foulds distance between ML tree and consensus tree: 14
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---RP__Chapaev__Chapaev-1_CE
+|
++-----RP__Chapaev__Chapaev-2_CE
+|
+|                                                                    +--RP__EnSpm__EnSpm1_DR_tp
+|                                                                 +--| (100)
+|                                                                 |  +--RP__EnSpm__EnSpm-12_DR_tp
+|                                                              +--| (100)
+|                                                              |  +----RP__EnSpm__EnSpm-3_DR_tp
+|                                                           +--| (100)
+|                                                           |  |     +--RP__EnSpm__EnSpm-7_DR_tp
+|                                                           |  |  +--| (100)
+|                                                           |  |  |  +---RP__EnSpm__EnSpm-9_DR_tp
+|                                                           |  +--| (100)
+|                                                           |     |  +--RP__EnSpm__EnSpm-13_DR_tp
+|                                                           |     +--| (100)
+|                                                           |        +--RP__EnSpm__EnSpm-14_DR_tp
+|                                                        +--| (100)
+|                                                        |  +----------RP__EnSpm__ENS1_Cis
+|                                             +----------| (100)
+|                                             |          |           +---RP__EnSpm__EnSpm-2_DR_p1
+|                                             |          |        +--| (100)
+|                                             |          |        |  |  +--RP__EnSpm__EnSpm-5_DR_p1
+|                                             |          |        |  +--| (100)
+|                                             |          |        |     +--RP__EnSpm__EnSpm-4_DR_p1
+|                                             |          |     +--| (99)
+|                                             |          |     |  |  +---------RP__EnSpm__EnSpm-3_HM_p1
+|                                             |          |     |  +--| (98)
+|                                             |          |     |     +-----------RP__EnSpm__EnSpm-15_HM
+|                                             |          |  +--| (100)
+|                                             |          |  |  +-------RP__EnSpm__EnSpm-11_HM
+|                                             |          +--| (74)
+|                                             |             +---------------RP__EnSpm__EnSpm-16_HM
+|                                          +--| (93)
+|                                          |  +-------------------RP__EnSpm__EnSpm-1_DDi
+|                                       +--| (95)
+|                                       |  |                      +------RP__EnSpm__CACTA-1_Mlaricis
+|                                       |  |                   +--| (100)
+|                                       |  |                   |  +-------RP__EnSpm__CACTA-2_Mlaricis
+|                                       |  |                +--| (94)
+|                                       |  |                |  +-----------RP__EnSpm__EnSpm-7_MLP_tp
+|                                       |  |           +----| (100)
+|                                       |  |           |    |              +--RP__EnSpm__EnSpm-1_PGr
+|                                       |  |           |    |           +--| (100)
+|                                       |  |           |    |           |  +--RP__EnSpm__EnSpm-5_PGr_tp
+|                                       |  |           |    |        +--| (100)
+|                                       |  |           |    |        |  +--RP__EnSpm__EnSpm-2_PGr
+|                                       |  |           |    |     +--| (100)
+|                                       |  |           |    |     |  +--RP__EnSpm__EnSpm-4_PGr
+|                                       |  |           |    |  +--| (93)
+|                                       |  |           |    |  |  +------RP__EnSpm__EnSpm-3_PGr
+|                                       |  |           |    +--| (100)
+|                                       |  |           |       +-----RP__EnSpm__EnSpm-1_PSt_tp
+|                                       |  |     +-----| (100)
+|                                       |  |     |     |  +------RP__EnSpm__CACTA-1_Roryzae
+|                                       |  |     |     +--| (100)
+|                                       |  |     |        |  +-----RP__EnSpm__EnSpm-1_BF
+|                                       |  |     |        +--| (100)
+|                                       |  |     |           +----RP__EnSpm__EnSpm-2_BF
+|                                       |  |  +--| (92)
+|                                       |  |  |  |        +---------RP__EnSpm__EnSpm-1_AA
+|                                       |  |  |  |     +--| (100)
+|                                       |  |  |  |     |  |     +------RP__EnSpm__EnSpm-1_CGi
+|                                       |  |  |  |     |  |  +--| (100)
+|                                       |  |  |  |     |  |  |  |   +----RP__EnSpm__EnSpm-1_NVi
+|                                       |  |  |  |     |  |  |  +---| (100)
+|                                       |  |  |  |     |  |  |      +----RP__EnSpm__EnSpm-2_NVi
+|                                       |  |  |  |     |  +--| (100)
+|                                       |  |  |  |     |     +---------RP__EnSpm__EnSpm-2_SIn
+|                                       |  |  |  |  +--| (100)
+|                                       |  |  |  |  |  |        +--------RP__EnSpm__EnSpm-1_AP
+|                                       |  |  |  |  |  |     +--| (96)
+|                                       |  |  |  |  |  |     |  |              +----RP__EnSpm__EnSpm-2_CGi
+|                                       |  |  |  |  |  |     |  |           +--| (96)
+|                                       |  |  |  |  |  |     |  |           |  +--------RP__EnSpm__EnSpm-7_HM
+|                                       |  |  |  |  |  |     |  |        +--| (96)
+|                                       |  |  |  |  |  |     |  |        |  |        +----RP__EnSpm__EnSpm-5_HM
+|                                       |  |  |  |  |  |     |  |        |  |     +--| (99)
+|                                       |  |  |  |  |  |     |  |        |  |     |  +----RP__EnSpm__EnSpm-8_HM
+|                                       |  |  |  |  |  |     |  |        |  |  +--| (76)
+|                                       |  |  |  |  |  |     |  |        |  |  |  +-----RP__EnSpm__EnSpm-14_HM
+|                                       |  |  |  |  |  |     |  |        |  +--| (93)
+|                                       |  |  |  |  |  |     |  |        |     +----RP__EnSpm__EnSpm-12_HM
+|                                       |  |  |  |  |  |     |  |     +--| (100)
+|                                       |  |  |  |  |  |     |  |     |  |  +---RP__EnSpm__EnSpm-6_HM
+|                                       |  |  |  |  |  |     |  |     |  +--| (100)
+|                                       |  |  |  |  |  |     |  |     |     +----RP__EnSpm__EnSpm-13_HM
+|                                       |  |  |  |  |  |     |  |  +--| (100)
+|                                       |  |  |  |  |  |     |  |  |  +---------RP__EnSpm__EnSpm-9_HM
+|                                       |  |  |  |  |  |     |  +--| (96)
+|                                       |  |  |  |  |  |     |     |           +-----RP__EnSpm__EnSpm-2_HM_p1
+|                                       |  |  |  |  |  |     |     |        +--| (100)
+|                                       |  |  |  |  |  |     |     |        |  +----RP__EnSpm__EnSpm-17_HM
+|                                       |  |  |  |  |  |     |     |     +--| (98)
+|                                       |  |  |  |  |  |     |     |     |  +----RP__EnSpm__EnSpm-6_DR
+|                                       |  |  |  |  |  |     |     |  +--| (96)
+|                                       |  |  |  |  |  |     |     |  |  +------RP__EnSpm__EnSpm-4_HM
+|                                       |  |  |  |  |  |     |     +--| (96)
+|                                       |  |  |  |  |  |     |        +------RP__EnSpm__EnSpm-10_HM
+|                                       |  |  |  |  |  |  +--| (100)
+|                                       |  |  |  |  |  |  |  +-----------RP__EnSpm__SmTRC1
+|                                       |  |  |  |  |  +--| (100)
+|                                       |  |  |  |  |     +--------------RP__EnSpm__EnSpm-1_HM
+|                                       |  |  |  +--| (93)
+|                                       |  |  |     |          +-----RP__EnSpm__EnSpm-10_CCri_3p
+|                                       |  |  |     |       +--| (100)
+|                                       |  |  |     |       |  +-------RP__EnSpm__EnSpm-22_CCri_tp
+|                                       |  |  |     +-------| (100)
+|                                       |  |  |             |         +--RP__EnSpm__EnSpm-17_CCri_2p
+|                                       |  |  |             |  +------| (100)
+|                                       |  |  |             |  |      +--RP__EnSpm__EnSpm-23_CCri
+|                                       |  |  |             +--| (100)
+|                                       |  |  |                |     +--RP__EnSpm__EnSpm-18_CCri
+|                                       |  |  |                |  +--| (100)
+|                                       |  |  |                |  |  +--RP__EnSpm__EnSpm-20_CCri_2p
+|                                       |  |  |                +--| (100)
+|                                       |  |  |                   |  +--RP__EnSpm__EnSpm-26_CCri_3p
+|                                       |  |  |                   +--| (100)
+|                                       |  |  |                      +--RP__EnSpm__EnSpm-27_CCri
+|                                       |  +--| (99)
+|                                       |     |                +--RP__EnSpm__EnSpm-1_NV
+|                                       |     +----------------| (100)
+|                                       |                      +--RP__EnSpm__EnSpm-2_NV
+|                                    +--| (92)
+|                                    |  |      +------------RP__Mirage__UN-GIN1_int
+|                                    |  |  +---| (99)
+|                                    |  |  |   +-------------RP__Mirage__UN-GIN2_int
+|                                    |  +--| (88)
+|                                    |     |                 +---RP__EnSpm__EnSpm-1_CCri_tp
+|                                    |     |              +--| (100)
+|                                    |     |              |  |     +--RP__EnSpm__EnSpm-6_CCri_tp
+|                                    |     |              |  |  +--| (100)
+|                                    |     |              |  |  |  +--RP__EnSpm__EnSpm-8_CCri_tp
+|                                    |     |              |  +--| (100)
+|                                    |     |              |     +---RP__EnSpm__EnSpm-7_CCri_tp
+|                                    |     |           +--| (100)
+|                                    |     |           |  +------RP__EnSpm__EnSpm-9_CCri_tp
+|                                    |     +-----------| (100)
+|                                    |                 |     +----RP__EnSpm__EnSpm-21_CCri_tp
+|                                    |                 |  +--| (100)
+|                                    |                 |  |  |  +----RP__EnSpm__EnSpm-4_CCri_tp
+|                                    |                 |  |  +--| (100)
+|                                    |                 |  |     +---RP__EnSpm__EnSpm-5_CCri_tp
+|                                    |                 +--| (100)
+|                                    |                    |    +---RP__EnSpm__EnSpm-2_CCri_tp
+|                                    |                    +----| (100)
+|                                    |                         +----RP__EnSpm__EnSpm-3_CCri_tp
+|                                 +--| (93)
+|                                 |  |                                                 +--RP__EnSpm__UN-ATEnSpm9
+|                                 |  |                                              +--| (100)
+|                                 |  |                                              |  +--RP__EnSpm__ATEnSpm6
+|                                 |  |                                           +--| (100)
+|                                 |  |                                           |  |  +--RP__EnSpm__ATEnSpm2
+|                                 |  |                                           |  +--| (100)
+|                                 |  |                                           |     +--RP__EnSpm__BREnSpm1
+|                                 |  |                                        +--| (97)
+|                                 |  |                                        |  |  +-----RP__EnSpm__EnSpm_AC
+|                                 |  |                                        |  +--| (93)
+|                                 |  |                                        |     |  +--RP__EnSpm__PSL
+|                                 |  |                                        |     +--| (100)
+|                                 |  |                                        |        +--RP__EnSpm__TDC1
+|                                 |  |                                     +--| (81)
+|                                 |  |                                     |  |     +--RP__EnSpm__EnSpm-1_AIp_tp
+|                                 |  |                                     |  |  +--| (100)
+|                                 |  |                                     |  |  |  +---RP__EnSpm__EnSpm_MT
+|                                 |  |                                     |  +--| (81)
+|                                 |  |                                     |     +----RP__EnSpm__EnSpm_CA
+|                                 |  |                                  +--| (100)
+|                                 |  |                                  |  |  +--RP__EnSpm__EnSpm1_PT
+|                                 |  |                                  |  +--| (100)
+|                                 |  |                                  |     +--RP__EnSpm__EnSpm2_PTr
+|                                 |  |                               +--| (98)
+|                                 |  |                               |  |           +--RP__EnSpm__DOPPIA4_ZM
+|                                 |  |                               |  |        +--| (100)
+|                                 |  |                               |  |        |  |  +--RP__EnSpm__EN1_ZM
+|                                 |  |                               |  |        |  +--| (100)
+|                                 |  |                               |  |        |     +--RP__EnSpm__EnSpm-13_ZM_p1
+|                                 |  |                               |  |     +--| (100)
+|                                 |  |                               |  |     |  |     +--RP__EnSpm__EnSpm2_ZM
+|                                 |  |                               |  |     |  |  +--| (100)
+|                                 |  |                               |  |     |  |  |  +--RP__EnSpm__EnSpm-5_ZM
+|                                 |  |                               |  |     |  +--| (100)
+|                                 |  |                               |  |     |     |  +--RP__EnSpm__EnSpm-8_ZM_p1
+|                                 |  |                               |  |     |     +--| (100)
+|                                 |  |                               |  |     |        +--RP__EnSpm__EnSpm-11_ZM_p1
+|                                 |  |                               |  |  +--| (97)
+|                                 |  |                               |  |  |  |     +---RP__EnSpm__EnSpm1_TD
+|                                 |  |                               |  |  |  |  +--| (100)
+|                                 |  |                               |  |  |  |  |  |           +--RP__EnSpm__EnSpm5_SB_p1
+|                                 |  |                               |  |  |  |  |  |        +--| (70)
+|                                 |  |                               |  |  |  |  |  |        |  |  +--RP__EnSpm__EnSpm12_SB_p1
+|                                 |  |                               |  |  |  |  |  |        |  +--| (88)
+|                                 |  |                               |  |  |  |  |  |        |     +--RP__EnSpm__EnSpm-20_SBi_tp
+|                                 |  |                               |  |  |  |  |  |     +--| (85)
+|                                 |  |                               |  |  |  |  |  |     |  +--RP__EnSpm__EnSpm-26_SBi_tp
+|                                 |  |                               |  |  |  |  |  |  +--| (100)
+|                                 |  |                               |  |  |  |  |  |  |  +--RP__EnSpm__EnSpm-10_ZM_p1
+|                                 |  |                               |  |  |  |  |  +--| (100)
+|                                 |  |                               |  |  |  |  |     +---RP__EnSpm__EnSpm-1_HV_p1
+|                                 |  |                               |  |  |  +--| (100)
+|                                 |  |                               |  |  |     |  +--RP__EnSpm__EnSpm-10_OS_p1
+|                                 |  |                               |  |  |     +--| (100)
+|                                 |  |                               |  |  |        |  +--RP__EnSpm__EnSpm-13_OS_p1
+|                                 |  |                               |  |  |        +--| (100)
+|                                 |  |                               |  |  |           +--RP__EnSpm__EnSpm-14_OS_p1
+|                                 |  |                               |  +--| (100)
+|                                 |  |                               |     |  +--RP__EnSpm__EnSpm-9_OS_p1
+|                                 |  |                               |     +--| (100)
+|                                 |  |                               |        +--RP__EnSpm__EnSpm-15_OS_p1
+|                                 |  |                            +--| (86)
+|                                 |  |                            |  +----------------RP__EnSpm__EnSpm1B_PT
+|                                 |  |                         +--| (52)
+|                                 |  |                         |  |           +---RP__EnSpm__EnSpm-1_FV_tp
+|                                 |  |                         |  |        +--| (100)
+|                                 |  |                         |  |        |  +--RP__EnSpm__EnSpm-7_FV_tp
+|                                 |  |                         |  |     +--| (100)
+|                                 |  |                         |  |     |  +--RP__EnSpm__EnSpm-1_Mad
+|                                 |  |                         |  |  +--| (57)
+|                                 |  |                         |  |  |  |  +----RP__EnSpm__EnSpm-1_MN
+|                                 |  |                         |  |  |  +--| (97)
+|                                 |  |                         |  |  |     |  +--RP__EnSpm__EnSpm-6_VV_p1
+|                                 |  |                         |  |  |     +--| (100)
+|                                 |  |                         |  |  |        +--RP__EnSpm__EnSpm-8N_VV_p1
+|                                 |  |                         |  +--| (93)
+|                                 |  |                         |     |  +--RP__EnSpm__EnSpm-7_ZM_p1
+|                                 |  |                         |     +--| (100)
+|                                 |  |                         |        |     +--RP__EnSpm__EnSpm-11_OS_p1
+|                                 |  |                         |        |  +--| (100)
+|                                 |  |                         |        |  |  |  +--RP__EnSpm__EnSpm-12_ZM_p1
+|                                 |  |                         |        |  |  +--| (100)
+|                                 |  |                         |        |  |     +--RP__EnSpm__EnSpm-39_SBi
+|                                 |  |                         |        +--| (100)
+|                                 |  |                         |           |  +--RP__EnSpm__EnSpm-41_SBi_1p
+|                                 |  |                         |           +--| (97)
+|                                 |  |                         |              +--RP__EnSpm__EnSpm-44_SBi_1p
+|                                 |  |                      +--| (56)
+|                                 |  |                      |  |  +---RP__EnSpm__EnSpm-5_HV
+|                                 |  |                      |  +--| (94)
+|                                 |  |                      |     +---RP__EnSpm__OShooter_p2
+|                                 |  |                   +--| (60)
+|                                 |  |                   |  |     +--RP__EnSpm__EnSpm-34_SBi_1p
+|                                 |  |                   |  |  +--| (57)
+|                                 |  |                   |  |  |  +--RP__EnSpm__Shooter_ZM
+|                                 |  |                   |  +--| (99)
+|                                 |  |                   |     +--RP__EnSpm__EnSpm-40_SBi_1p
+|                                 |  |                +--| (75)
+|                                 |  |                |  |  +--RP__EnSpm__EnSpm-19_SBi_tp
+|                                 |  |                |  +--| (100)
+|                                 |  |                |     +--RP__EnSpm__OShooter_p1
+|                                 |  |             +--| (55)
+|                                 |  |             |  |     +-----RP__EnSpm__EnSpm8_SB
+|                                 |  |             |  |  +--| (73)
+|                                 |  |             |  |  |  +-----RP__EnSpm__EnSpm-10_FV_tp
+|                                 |  |             |  +--| (38)
+|                                 |  |             |     |        +--RP__EnSpm__EnSpm-1_Cia_tp
+|                                 |  |             |     |     +--| (100)
+|                                 |  |             |     |     |  |  +--RP__EnSpm__EnSpm-3_GM_tp
+|                                 |  |             |     |     |  +--| (100)
+|                                 |  |             |     |     |     +--RP__EnSpm__ENSUPMET
+|                                 |  |             |     |  +--| (93)
+|                                 |  |             |     |  |  |  +--RP__EnSpm__EnSpm-1_GR
+|                                 |  |             |     |  |  +--| (95)
+|                                 |  |             |     |  |     |  +--RP__EnSpm__EnSpm-9_ZM_p1
+|                                 |  |             |     |  |     +--| (100)
+|                                 |  |             |     |  |        |  +--RP__EnSpm__EnSpm-12_OS_p1
+|                                 |  |             |     |  |        +--| (100)
+|                                 |  |             |     |  |           +--RP__EnSpm__EnSpm-16_OS_p1
+|                                 |  |             |     +--| (84)
+|                                 |  |             |        |     +--RP__EnSpm__EnSpm-1_LU
+|                                 |  |             |        |  +--| (100)
+|                                 |  |             |        |  |  +--RP__EnSpm__EnSpm-4_GM_tp
+|                                 |  |             |        +--| (81)
+|                                 |  |             |           +-----RP__EnSpm__EnSpm-14_ZM
+|                                 |  |          +--| (76)
+|                                 |  |          |  |  +--RP__EnSpm__EnSpm-2_Mad
+|                                 |  |          |  +--| (100)
+|                                 |  |          |     +---RP__EnSpm__EnSpm-3_Mad
+|                                 |  |     +----| (100)
+|                                 |  |     |    |           +--RP__EnSpm__ATEnSpm3
+|                                 |  |     |    |        +--| (100)
+|                                 |  |     |    |        |  +--RP__EnSpm__ATEnSpm7
+|                                 |  |     |    |     +--| (100)
+|                                 |  |     |    |     |  +--RP__EnSpm__ATEnSpm12
+|                                 |  |     |    |  +--| (100)
+|                                 |  |     |    |  |  |  +--RP__EnSpm__ATENSPM10
+|                                 |  |     |    |  |  +--| (100)
+|                                 |  |     |    |  |     +--RP__EnSpm__ATEnSpm11
+|                                 |  |     |    +--| (97)
+|                                 |  |     |       |                                +--RP__EnSpm__CACTA_LP_p1
+|                                 |  |     |       |                             +--| (100)
+|                                 |  |     |       |                             |  +--RP__EnSpm__EnSpm-1_TM_p1
+|                                 |  |     |       |                          +--| (100)
+|                                 |  |     |       |                          |  +--RP__EnSpm__EnSpm-1_TA
+|                                 |  |     |       |                       +--| (100)
+|                                 |  |     |       |                       |  |  +--RP__EnSpm__EnSpm-1_BDi
+|                                 |  |     |       |                       |  +--| (100)
+|                                 |  |     |       |                       |     +--RP__EnSpm__EnSpm-2_BDi
+|                                 |  |     |       |                    +--| (65)
+|                                 |  |     |       |                    |  |           +--RP__EnSpm__EnSpm2_HV
+|                                 |  |     |       |                    |  |        +--| (99)
+|                                 |  |     |       |                    |  |        |  +--RP__EnSpm__EnSpm-3_HV_p1
+|                                 |  |     |       |                    |  |     +--| (100)
+|                                 |  |     |       |                    |  |     |  +--RP__EnSpm__EnSpm-4_HV_p1
+|                                 |  |     |       |                    |  |  +--| (100)
+|                                 |  |     |       |                    |  |  |  |  +--RP__EnSpm__EnSpm2_SB_p1
+|                                 |  |     |       |                    |  |  |  +--| (100)
+|                                 |  |     |       |                    |  |  |     +--RP__EnSpm__EnSpm7_SB_p1
+|                                 |  |     |       |                    |  +--| (100)
+|                                 |  |     |       |                    |     +--RP__EnSpm__SPMLIKE_p1
+|                                 |  |     |       |                 +--| (98)
+|                                 |  |     |       |                 |  |              +--RP__EnSpm__EnSpm1_SB_p1
+|                                 |  |     |       |                 |  |           +--| (100)
+|                                 |  |     |       |                 |  |           |  +--RP__EnSpm__EnSpm-22_SBi_tp
+|                                 |  |     |       |                 |  |        +--| (97)
+|                                 |  |     |       |                 |  |        |  |     +--RP__EnSpm__EnSpm4_SB_p1
+|                                 |  |     |       |                 |  |        |  |  +--| (100)
+|                                 |  |     |       |                 |  |        |  |  |  +--RP__EnSpm__EnSpm-6_ZM_p1
+|                                 |  |     |       |                 |  |        |  +--| (100)
+|                                 |  |     |       |                 |  |        |     +--RP__EnSpm__EnSpm6_SB_p1
+|                                 |  |     |       |                 |  |     +--| (100)
+|                                 |  |     |       |                 |  |     |  |  +--RP__EnSpm__EnSpm-18_SBi_1p
+|                                 |  |     |       |                 |  |     |  +--| (100)
+|                                 |  |     |       |                 |  |     |     +--RP__EnSpm__EnSpm-36_SBi_1p
+|                                 |  |     |       |                 |  |  +--| (99)
+|                                 |  |     |       |                 |  |  |  |     +--RP__EnSpm__EnSpm5_OS_p1
+|                                 |  |     |       |                 |  |  |  |  +--| (93)
+|                                 |  |     |       |                 |  |  |  |  |  +--RP__EnSpm__EnSpm7_OS_p1
+|                                 |  |     |       |                 |  |  |  +--| (100)
+|                                 |  |     |       |                 |  |  |     +--RP__EnSpm__EnSpm_OS
+|                                 |  |     |       |                 |  +--| (100)
+|                                 |  |     |       |                 |     +--RP__EnSpm__EnSpm4_ZM
+|                                 |  |     |       |              +--| (57)
+|                                 |  |     |       |              |  +----RP__EnSpm__EnSpm3_ZM
+|                                 |  |     |       |           +--| (100)
+|                                 |  |     |       |           |  |     +--RP__EnSpm__EnSpm2_OS_p1
+|                                 |  |     |       |           |  |  +--| (100)
+|                                 |  |     |       |           |  |  |  +--RP__EnSpm__EnSpm3_OS_p1
+|                                 |  |     |       |           |  +--| (100)
+|                                 |  |     |       |           |     +--RP__EnSpm__EnSpm4_OS_p1
+|                                 |  |     |       |        +--| (62)
+|                                 |  |     |       |        |  |     +--RP__EnSpm__EnSpm2_MT
+|                                 |  |     |       |        |  |  +--| (100)
+|                                 |  |     |       |        |  |  |  +--RP__EnSpm__EnSpm-2_Cia_tp
+|                                 |  |     |       |        |  +--| (100)
+|                                 |  |     |       |        |     |  +--RP__EnSpm__EnSpm-1_GM
+|                                 |  |     |       |        |     +--| (100)
+|                                 |  |     |       |        |        +--RP__EnSpm__EnSpm-2_GM_tp
+|                                 |  |     |       |     +--| (44)
+|                                 |  |     |       |     |  +--RP__EnSpm__EnSpm-3_Cia_tp
+|                                 |  |     |       |  +--| (63)
+|                                 |  |     |       |  |  +--RP__EnSpm__EnSpm-3_MN
+|                                 |  |     |       +--| (100)
+|                                 |  |     |          |           +--RP__EnSpm__EnSpm-3_VV
+|                                 |  |     |          |        +--| (100)
+|                                 |  |     |          |        |  +--RP__EnSpm__EnSpm-13_VV_tp
+|                                 |  |     |          |     +--| (100)
+|                                 |  |     |          |     |  +--RP__EnSpm__EnSpm-5_VV_tp
+|                                 |  |     |          |  +--| (100)
+|                                 |  |     |          |  |  +--RP__EnSpm__EnSpm-4_VV_tp
+|                                 |  |     |          +--| (100)
+|                                 |  |     |             +---RP__EnSpm__EnSpm-5_FV
+|                                 |  |  +--| (97)
+|                                 |  |  |  +-----------------RP__EnSpm__EnSpm-1_NGr
+|                                 |  +--| (92)
+|                                 |     |         +----------RP__Mirage__UN-Mirage1
+|                                 |     +---------| (100)
+|                                 |               +-------RP__Mirage__Mirage1_CB
+|                              +--| (76)
+|                              |  |                          +---RP__EnSpm__UN-Candystripe1_SB_p2
+|                              |  |                    +-----| (100)
+|                              |  |                    |     +--RP__EnSpm__EnSpm-30_SBi_p2
+|                              |  |                 +--| (100)
+|                              |  |                 |  |     +--RP__EnSpm__UN-EnSpm3_OS_p2
+|                              |  |                 |  |  +--| (100)
+|                              |  |                 |  |  |  +--RP__EnSpm__EnSpm2_OS_p2
+|                              |  |                 |  +--| (100)
+|                              |  |                 |     +--RP__EnSpm__EnSpm4_OS_p2
+|                              |  |              +--| (90)
+|                              |  |              |  |            +--RP__EnSpm__CACTA_LP_p2
+|                              |  |              |  +------------| (100)
+|                              |  |              |               +--RP__EnSpm__EnSpm-1_TM_p2
+|                              |  |       +------| (100)
+|                              |  |       |      |     +-------RP__EnSpm__EnSpm1_SB_p2
+|                              |  |       |      |  +--| (91)
+|                              |  |       |      |  |  |              +--RP__EnSpm__EnSpm4_SB_p2
+|                              |  |       |      |  |  |           +--| (91)
+|                              |  |       |      |  |  |           |  +--RP__EnSpm__EnSpm-6_ZM_p2
+|                              |  |       |      |  |  |        +--| (100)
+|                              |  |       |      |  |  |        |  +--RP__EnSpm__EnSpm11_SB_p2
+|                              |  |       |      |  |  |     +--| (100)
+|                              |  |       |      |  |  |     |  +---RP__EnSpm__EnSpm6_SB_p2
+|                              |  |       |      |  |  |  +--| (53)
+|                              |  |       |      |  |  |  |  |  +---RP__EnSpm__EnSpm5_OS_p2
+|                              |  |       |      |  |  |  |  +--| (100)
+|                              |  |       |      |  |  |  |     +----RP__EnSpm__EnSpm7_OS_p2
+|                              |  |       |      |  |  +--| (54)
+|                              |  |       |      |  |     |     +--RP__EnSpm__EnSpm-18_SBi_2p
+|                              |  |       |      |  |     +-----| (100)
+|                              |  |       |      |  |           +--RP__EnSpm__EnSpm-36_SBi_2p
+|                              |  |       |      +--| (83)
+|                              |  |       |         |             +--RP__EnSpm__EnSpm2_SB_p2
+|                              |  |       |         |          +--| (100)
+|                              |  |       |         |          |  +--RP__EnSpm__EnSpm3_SB_p2
+|                              |  |       |         |       +--| (100)
+|                              |  |       |         |       |  +--RP__EnSpm__EnSpm7_SB_p2
+|                              |  |       |         |    +--| (100)
+|                              |  |       |         |    |  +---RP__EnSpm__SPMLIKE_p2
+|                              |  |       |         +----| (100)
+|                              |  |       |              |  +------RP__EnSpm__EnSpm2_TM_p2
+|                              |  |       |              +--| (100)
+|                              |  |       |                 |  +-----RP__EnSpm__EnSpm-3_HV_p2
+|                              |  |       |                 +--| (100)
+|                              |  |       |                    +---RP__EnSpm__EnSpm-4_HV_p2
+|                              |  |  +----| (100)
+|                              |  |  |    |  +------------RP__EnSpm__EnSpm-2_Cia_p2
+|                              |  |  |    +--| (100)
+|                              |  |  |       +------------RP__EnSpm__EnSpm-3_Cia_p2
+|                              |  +--| (85)
+|                              |     +--------------------RP__EnSpm__EnSpm-30_SBi_env
+|                           +--| (70)
+|                           |  |          +-------------------RP__EnSpm__EnSpm-26_CCri_2p
+|                           |  |     +----| (86)
+|                           |  |     |    |  +--------RP__EnSpm__EnSpm-2C_CCri_3p
+|                           |  |     |    +--| (100)
+|                           |  |     |       +--------RP__EnSpm__EnSpm-3_CCri_3p
+|                           |  |  +--| (77)
+|                           |  |  |  +------------------RP__EnSpm__EnSpm-28B_CCri_2p
+|                           |  +--| (65)
+|                           |     +-----------------RP__EnSpm__EnSpm-34_CCri_1p
+|                        +--| (59)
+|                        |  |     +-----------RP__EnSpm__EnSpm-2_CCri_4p
+|                        |  |  +--| (90)
+|                        |  |  |  +------------RP__EnSpm__EnSpm-3_CCri_5p
+|                        |  +--| (66)
+|                        |     |        +-----------------RP__EnSpm__EnSpm-4_CCri_3p
+|                        |     |     +--| (65)
+|                        |     |     |  |          +--RP__EnSpm__EnSpm-9_CCri_3p
+|                        |     |     |  +----------| (100)
+|                        |     |     |             +--RP__EnSpm__EnSpm-9D_CCri_1p
+|                        |     |  +--| (70)
+|                        |     |  |  |          +--RP__EnSpm__EnSpm-28_CCri_1p
+|                        |     |  |  +----------| (100)
+|                        |     |  |             +--RP__EnSpm__EnSpm-28B_CCri_3p
+|                        |     +--| (88)
+|                        |        |  +------------RP__EnSpm__EnSpm-5_CCri_2p
+|                        |        +--| (69)
+|                        |           |           +--RP__EnSpm__EnSpm-6_CCri_1p
+|                        |           |        +--| (100)
+|                        |           |        |  +--RP__EnSpm__EnSpm-8_CCri_2p
+|                        |           +--------| (100)
+|                        |                    +---RP__EnSpm__EnSpm-7_CCri_2p
+|                     +--| (83)
+|                     |  |                       +------RP__EnSpm__UN-EnSpm5_SB_p2
+|                     |  |                    +--| (97)
+|                     |  |                    |  +--RP__EnSpm__EnSpm-14_SBi_p2
+|                     |  |     +--------------| (100)
+|                     |  |     |              +--RP__EnSpm__EnSpm12_SB_p2
+|                     |  |  +--| (55)
+|                     |  |  |  |                +----RP__EnSpm__EnSpm-1_CCri_3p
+|                     |  |  |  |          +-----| (100)
+|                     |  |  |  |          |     |     +-----RP__EnSpm__EnSpm-6_CCri_3p
+|                     |  |  |  |          |     |  +--| (100)
+|                     |  |  |  |          |     |  |  +---RP__EnSpm__EnSpm-8_CCri_4p
+|                     |  |  |  |          |     +--| (100)
+|                     |  |  |  |          |        +-----RP__EnSpm__EnSpm-7_CCri_4p
+|                     |  |  |  |       +--| (100)
+|                     |  |  |  |       |  +--------RP__EnSpm__EnSpm-9_CCri_2p
+|                     |  |  |  |    +--| (94)
+|                     |  |  |  |    |  |       +---------RP__EnSpm__EnSpm-2C_CCri_4p
+|                     |  |  |  |    |  |  +----| (100)
+|                     |  |  |  |    |  |  |    +--------RP__EnSpm__EnSpm-3_CCri_4p
+|                     |  |  |  |    |  +--| (100)
+|                     |  |  |  |    |     |        +--RP__EnSpm__EnSpm-28_CCri_4p
+|                     |  |  |  |    |     +--------| (100)
+|                     |  |  |  |    |              +--RP__EnSpm__EnSpm-28B_CCri_4p
+|                     |  |  |  +----| (100)
+|                     |  |  |       |  +----------RP__EnSpm__EnSpm-4_CCri_1p
+|                     |  |  |       +--| (100)
+|                     |  |  |          +-------RP__EnSpm__EnSpm-5_CCri_1p
+|                     |  +--| (74)
+|                     |     |     +------------------RP__EnSpm__ATEnSpm1A_p2
+|                     |     |  +--| (97)
+|                     |     |  |  +--------------RP__EnSpm__EnSpm-10_CCri_2p
+|                     |     +--| (40)
+|                     |        +-----------------RP__EnSpm__EnSpm-11_STu_gag
+|                  +--| (99)
+|                  |  |                      +---RP__EnSpm__EnSpm-1_ADi
+|                  |  |                   +--| (100)
+|                  |  |                   |  |     +--RP__EnSpm__EnSpm-3_ADi
+|                  |  |                   |  |  +--| (100)
+|                  |  |                   |  |  |  +--RP__EnSpm__EnSpm-4_ADi
+|                  |  |                   |  +--| (100)
+|                  |  |                   |     +---RP__EnSpm__EnSpm-3_NVe
+|                  |  |                +--| (96)
+|                  |  |                |  +------RP__EnSpm__EnSpm-6_NVe
+|                  |  |             +--| (96)
+|                  |  |             |  |  +-------RP__EnSpm__EnSpm-3_BF
+|                  |  |             |  +--| (99)
+|                  |  |             |     |  +----RP__EnSpm__EnSpm-4_NVe
+|                  |  |             |     +--| (100)
+|                  |  |             |        +---RP__EnSpm__EnSpm-5_NVe
+|                  |  |  +----------| (100)
+|                  |  |  |          |     +--RP__EnSpm__EnSpm-18_HMa
+|                  |  |  |          |  +--| (100)
+|                  |  |  |          |  |  +--RP__EnSpm__EnSpm-21_HMa
+|                  |  |  |          +--| (100)
+|                  |  |  |             |     +---RP__EnSpm__EnSpm-19_HMa
+|                  |  |  |             |  +--| (100)
+|                  |  |  |             |  |  +----RP__EnSpm__EnSpm-22_HMa
+|                  |  |  |             +--| (100)
+|                  |  |  |                +-----RP__EnSpm__EnSpm-20_HMa
+|                  |  +--| (99)
+|                  |     |        +--------RP__EnSpm__EnSpm-2C_CCri_mt
+|                  |     +--------| (100)
+|                  |              +------RP__EnSpm__EnSpm-3_CCri_mt
+|               +--| (100)
+|               |  |                                           +--RP__Transib__Transib1
+|               |  |                                        +--| (100)
+|               |  |                                        |  +--ADD__Additional__Dmel_transib1
+|               |  |                                     +--| (100)
+|               |  |                                     |  |  +--RP__Transib__Transib-3_DAn
+|               |  |                                     |  +--| (100)
+|               |  |                                     |     +--RP__Transib__Transib-6_DBi
+|               |  |                                  +--| (100)
+|               |  |                                  |  |  +--RP__Transib__Transib4
+|               |  |                                  |  +--| (100)
+|               |  |                                  |     +--RP__Transib__Transib-2_DBi
+|               |  |                               +--| (100)
+|               |  |                               |  |  +--RP__Transib__Transib-3_DBp
+|               |  |                               |  +--| (100)
+|               |  |                               |     +---RP__Transib__Transib-5_DBp
+|               |  |                            +--| (100)
+|               |  |                            |  |  +--RP__Transib__Transib2
+|               |  |                            |  +--| (100)
+|               |  |                            |     +--RP__Transib__Transib2_DP
+|               |  |                         +--| (87)
+|               |  |                         |  |        +---RP__Transib__Transib3
+|               |  |                         |  |     +--| (99)
+|               |  |                         |  |     |  |  +--RP__Transib__Transib1_DP
+|               |  |                         |  |     |  +--| (100)
+|               |  |                         |  |     |     |  +--RP__Transib__Transib-1_DAn
+|               |  |                         |  |     |     +--| (100)
+|               |  |                         |  |     |        +--RP__Transib__Transib-1_DF
+|               |  |                         |  |  +--| (87)
+|               |  |                         |  |  |  +--RP__Transib__Transib-2_DAn
+|               |  |                         |  +--| (87)
+|               |  |                         |     +--RP__Transib__Transib-2_DW
+|               |  |                      +--| (100)
+|               |  |                      |  +--RP__Transib__Transib-5_DBi
+|               |  |                   +--| (100)
+|               |  |                   |  |     +--RP__Transib__Transib4_DP
+|               |  |                   |  |  +--| (100)
+|               |  |                   |  |  |  |     +--RP__Transib__Transib-4_DBp
+|               |  |                   |  |  |  |  +--| (100)
+|               |  |                   |  |  |  |  |  |  +--RP__Transib__Transib-6_DBp
+|               |  |                   |  |  |  |  |  +--| (100)
+|               |  |                   |  |  |  |  |     +--ADD__Additional__Transib-6_DBipectinata
+|               |  |                   |  |  |  +--| (85)
+|               |  |                   |  |  |     +--ADD__Additional__Dmel_hopper
+|               |  |                   |  +--| (100)
+|               |  |                   |     +--RP__Transib__Transib-13_HM
+|               |  |                +--| (99)
+|               |  |                |  |           +---RP__Transib__Transib1_AG
+|               |  |                |  |        +--| (100)
+|               |  |                |  |        |  +------RP__Transib__Transib3_AG
+|               |  |                |  |     +--| (99)
+|               |  |                |  |     |  +----RP__Transib__Transib-1_CQ
+|               |  |                |  |  +--| (100)
+|               |  |                |  |  |  +----RP__Transib__Transib2_AG
+|               |  |                |  +--| (99)
+|               |  |                |     |  +-----RP__Transib__Transib-2_SIn_1p
+|               |  |                |     +--| (92)
+|               |  |                |        +-----RP__Transib__Transib-14_HM
+|               |  |             +--| (80)
+|               |  |             |  |                          +--RP__Transib__Transib5
+|               |  |             |  |                       +--| (100)
+|               |  |             |  |                       |  +--RP__Transib__Transib-8_DAn
+|               |  |             |  |                    +--| (100)
+|               |  |             |  |                    |  +--RP__Transib__Transib-5_DAn
+|               |  |             |  |                 +--| (94)
+|               |  |             |  |                 |  |  +--RP__Transib__Transib1_NVi
+|               |  |             |  |                 |  +--| (100)
+|               |  |             |  |                 |     +--RP__Transib__Transib-1_LHu_1p
+|               |  |             |  |              +--| (95)
+|               |  |             |  |              |  +----RP__Transib__Transib-7_DAn
+|               |  |             |  |           +--| (86)
+|               |  |             |  |           |  |  +----RP__Transib__Transib4_AA
+|               |  |             |  |           |  +--| (91)
+|               |  |             |  |           |     +---RP__Transib__Transib5_AA
+|               |  |             |  |        +--| (67)
+|               |  |             |  |        |  |        +--RP__Transib__Transib1_Dmoj
+|               |  |             |  |        |  |     +--| (100)
+|               |  |             |  |        |  |     |  +--RP__Transib__Transib1_Dwil
+|               |  |             |  |        |  |  +--| (100)
+|               |  |             |  |        |  |  |  +--RP__Transib__Transib-4_DAn
+|               |  |             |  |        |  +--| (72)
+|               |  |             |  |        |     |        +--RP__Transib__Transib-3_HM
+|               |  |             |  |        |     |     +--| (100)
+|               |  |             |  |        |     |     |  +--RP__Transib__Transib-4_HM
+|               |  |             |  |        |     |  +--| (100)
+|               |  |             |  |        |     |  |  |     +--RP__Transib__Transib-6_HM
+|               |  |             |  |        |     |  |  |  +--| (100)
+|               |  |             |  |        |     |  |  |  |  +--RP__Transib__Transib-17_HM
+|               |  |             |  |        |     |  |  +--| (99)
+|               |  |             |  |        |     |  |     |        +--RP__Transib__Transib-7_HM
+|               |  |             |  |        |     |  |     |     +--| (100)
+|               |  |             |  |        |     |  |     |     |  +--RP__Transib__Transib-21_HMa
+|               |  |             |  |        |     |  |     |  +--| (100)
+|               |  |             |  |        |     |  |     |  |  +--RP__Transib__Transib-8_HM
+|               |  |             |  |        |     |  |     +--| (99)
+|               |  |             |  |        |     |  |        +---RP__Transib__Transib-18_HM
+|               |  |             |  |        |     +--| (100)
+|               |  |             |  |        |        +-----RP__Transib__Transib-19_HM
+|               |  |             |  |     +--| (77)
+|               |  |             |  |     |  |     +-------RP__Transib__Transib1_AA
+|               |  |             |  |     |  |  +--| (74)
+|               |  |             |  |     |  |  |  +----ADD__Additional__Hztransib
+|               |  |             |  |     |  +--| (63)
+|               |  |             |  |     |     |  +----RP__Transib__Transib-2_HM
+|               |  |             |  |     |     +--| (97)
+|               |  |             |  |     |        |  +---RP__Transib__Transib-12_HM
+|               |  |             |  |     |        +--| (97)
+|               |  |             |  |     |           +---RP__Transib__Transib-15_HM
+|               |  |             |  |  +--| (88)
+|               |  |             |  |  |  |     +--RP__Transib__Transib-5_HM
+|               |  |             |  |  |  |  +--| (100)
+|               |  |             |  |  |  |  |  |  +---RP__Transib__Transib-11_HM
+|               |  |             |  |  |  |  |  +--| (84)
+|               |  |             |  |  |  |  |     +--RP__Transib__Transib-16_HM
+|               |  |             |  |  |  +--| (100)
+|               |  |             |  |  |     +------RP__Transib__Transib-20_HM
+|               |  |             |  +--| (87)
+|               |  |             |     +----RP__Transib__Transib1_SP
+|               |  |       +-----| (100)
+|               |  |       |     |  +-------RP__Transib__Transib3_DP
+|               |  |       |     +--| (66)
+|               |  |       |        +------------RP__Transib__Transib-10_HM
+|               |  |  +----| (100)
+|               |  |  |    +----------RP__Transib__Transib-9_HM
+|               |  +--| (100)
+|               |     +-------------ADD__RAG1__RAG1
+|          +----| (100)
+|          |    |     +---------RP__Chapaev__Chapaev-1_AA
+|          |    |  +--| (100)
+|          |    |  |  |                 +--RP__Chapaev__Chapaev-1_HM
+|          |    |  |  |              +--| (100)
+|          |    |  |  |              |  +--RP__Chapaev__Chapaev-21_HM
+|          |    |  |  |           +--| (100)
+|          |    |  |  |           |  |  +--RP__Chapaev__Chapaev-2_HM
+|          |    |  |  |           |  +--| (100)
+|          |    |  |  |           |     |     +--RP__Chapaev__Chapaev-5_HM
+|          |    |  |  |           |     |  +--| (100)
+|          |    |  |  |           |     |  |  +--RP__Chapaev__Chapaev-18_HM
+|          |    |  |  |           |     +--| (100)
+|          |    |  |  |           |        +--RP__Chapaev__Chapaev-13_HM
+|          |    |  |  |        +--| (94)
+|          |    |  |  |        |  |  +--RP__Chapaev__Chapaev-5_HMa
+|          |    |  |  |        |  +--| (98)
+|          |    |  |  |        |     |  +--RP__Chapaev__Chapaev-15_HM
+|          |    |  |  |        |     +--| (100)
+|          |    |  |  |        |        +--RP__Chapaev__Chapaev-19_HM
+|          |    |  |  |     +--| (87)
+|          |    |  |  |     |  +--RP__Chapaev__Chapaev-16_HM
+|          |    |  |  |  +--| (100)
+|          |    |  |  |  |  +--RP__Chapaev__Chapaev-14_HM
+|          |    |  |  +--| (94)
+|          |    |  |     |          +--RP__Chapaev__Chapaev-9_HM
+|          |    |  |     |       +--| (100)
+|          |    |  |     |       |  +---RP__Chapaev__Chapaev-10_HM
+|          |    |  |     |  +----| (100)
+|          |    |  |     |  |    +----RP__Chapaev__Chapaev-11_HM
+|          |    |  |     +--| (96)
+|          |    |  |        +--------RP__Chapaev__Chapaev-17_HM
+|          |    +--| (100)
+|          |       |         +-------RP__Chapaev3__Chapaev3-1_AA
+|          |       +---------| (100)
+|          |                 |                    +--RP__Chapaev3__Chapaev3-1_AC
+|          |                 |                 +--| (56)
+|          |                 |                 |  |  +--RP__Chapaev3__Chapaev3-2_PM
+|          |                 |                 |  +--| (100)
+|          |                 |                 |     +--RP__Chapaev3__Chapaev-4_HMa
+|          |                 |              +--| (50)
+|          |                 |              |  |  +--RP__Chapaev3__Chapaev3-2_HM
+|          |                 |              |  +--| (100)
+|          |                 |              |     +--RP__Chapaev3__Chapaev3-3_HR
+|          |                 |           +--| (49)
+|          |                 |           |  +---RP__Chapaev3__Chapaev3-2_HR
+|          |                 |        +--| (35)
+|          |                 |        |  |  +--------RP__Chapaev3__Chapaev3-1_DW
+|          |                 |        |  +--| (97)
+|          |                 |        |     +--RP__Chapaev3__Chapaev3-4_HM
+|          |                 |     +--| (36)
+|          |                 |     |  |           +----RP__Chapaev3__Chapaev3-1_DA
+|          |                 |     |  |        +--| (100)
+|          |                 |     |  |        |  +--RP__Chapaev3__Chapaev3-2_AA
+|          |                 |     |  |     +--| (100)
+|          |                 |     |  |     |  +----RP__Chapaev3__EnSpm-1_DF
+|          |                 |     |  |  +--| (51)
+|          |                 |     |  |  |  |  +--RP__Chapaev3__Chapaev3-1_HM
+|          |                 |     |  |  |  +--| (100)
+|          |                 |     |  |  |     +--RP__Chapaev3__Chapaev3-1_SM
+|          |                 |     |  +--| (45)
+|          |                 |     |     |        +--RP__Chapaev3__Chapaev3-1_OL
+|          |                 |     |     |     +--| (100)
+|          |                 |     |     |     |  +--RP__Chapaev3__Chapaev3-1_PM
+|          |                 |     |     |  +--| (100)
+|          |                 |     |     |  |  +--RP__Chapaev3__EnSpm-1_RPr
+|          |                 |     |     +--| (100)
+|          |                 |     |        +--RP__Chapaev3__Chapaev3-3_HM
+|          |                 |  +--| (91)
+|          |                 |  |  +----RP__Chapaev3__Chapaev3-3_AA
+|          |                 +--| (95)
+|          |                    |                    +--RP__Chapaev3__Chapaev3-1_ET
+|          |                    |                 +--| (100)
+|          |                    |                 |  +--RP__Chapaev3__Chapaev3-5_HM
+|          |                    |              +--| (100)
+|          |                    |              |  +--RP__Chapaev3__Chapaev-20_HM
+|          |                    |           +--| (100)
+|          |                    |           |  |  +--RP__Chapaev3__Chapaev3-1_HR
+|          |                    |           |  +--| (100)
+|          |                    |           |     +--RP__Chapaev3__EnSpm-2_LMi
+|          |                    |        +--| (100)
+|          |                    |        |  |  +--RP__Chapaev3__Chapaev3-2_AC
+|          |                    |        |  +--| (100)
+|          |                    |        |     +--RP__Chapaev3__Chapaev3-6_HM
+|          |                    |     +--| (79)
+|          |                    |     |  |  +--RP__Chapaev3__Chapaev3-1_NVi
+|          |                    |     |  +--| (100)
+|          |                    |     |     +--RP__Chapaev3__Chapaev3-2_NVi
+|          |                    |  +--| (100)
+|          |                    |  |  |  +---RP__Chapaev3__Chapaev-1_HSal
+|          |                    |  |  +--| (91)
+|          |                    |  |     +--RP__Chapaev3__EnSpm-1_LMi
+|          |                    +--| (95)
+|          |                       +--RP__Chapaev3__Chapaev-1_BM
+|       +--| (99)
+|       |  |          +---RP__Chapaev__Chapaev-1_ACa
+|       |  |       +--| (100)
+|       |  |       |  +--RP__Chapaev__Chapaev-3_ACa
+|       |  |  +----| (100)
+|       |  |  |    +---RP__Chapaev__Chapaev-2_ACa
+|       |  +--| (100)
+|       |     |       +--RP__Chapaev__Chapaev-1_BF
+|       |     |  +----| (100)
+|       |     |  |    +--RP__Chapaev__Chapaev-2_BF
+|       |     +--| (100)
+|       |        |        +--RP__Chapaev__Chapaev-3_HM
+|       |        |     +--| (100)
+|       |        |     |  |  +--RP__Chapaev__Chapaev-3A_HM
+|       |        |     |  +--| (100)
+|       |        |     |     +--RP__Chapaev__Chapaev-3B_HM
+|       |        |  +--| (100)
+|       |        |  |  |  +---RP__Chapaev__Chapaev-4_HM
+|       |        |  |  +--| (100)
+|       |        |  |     |  +--RP__Chapaev__Chapaev-6_HM
+|       |        |  |     +--| (100)
+|       |        |  |        +---RP__Chapaev__Chapaev-7_HM
+|       |        +--| (100)
+|       |           +---RP__Chapaev__Chapaev-8_HM
++-------| (100)
+        +-----------RP__Chapaev__Chapaev-12_HM
+
+
+Consensus tree in newick format: 
+
+(RP__Chapaev__Chapaev-1_CE:0.6518629462,RP__Chapaev__Chapaev-2_CE:0.8516844655,((((((((((((((((((RP__EnSpm__EnSpm1_DR_tp:0.4157941297,RP__EnSpm__EnSpm-12_DR_tp:0.4518757523)100:0.2190555217,RP__EnSpm__EnSpm-3_DR_tp:0.6944139742)100:0.1428376335,((RP__EnSpm__EnSpm-7_DR_tp:0.4588067141,RP__EnSpm__EnSpm-9_DR_tp:0.5443489064)100:0.1598639825,(RP__EnSpm__EnSpm-13_DR_tp:0.5012061308,RP__EnSpm__EnSpm-14_DR_tp:0.4806928753)100:0.1210122398)100:0.1186030986)100:0.2823468213,RP__EnSpm__ENS1_Cis:1.4892207918)100:0.2462787813,((((RP__EnSpm__EnSpm-2_DR_p1:0.6552015701,(RP__EnSpm__EnSpm-5_DR_p1:0.3447626178,RP__EnSpm__EnSpm-4_DR_p1:0.2802109530)100:0.2962301093)100:0.4041291959,(RP__EnSpm__EnSpm-3_HM_p1:1.3852108256,RP__EnSpm__EnSpm-15_HM:1.5999731415)98:0.1887103596)99:0.1573114384,RP__EnSpm__EnSpm-11_HM:1.1229284859)100:0.1871335748,RP__EnSpm__EnSpm-16_HM:2.1579201639)74:0.1986673332)100:1.4920102273,RP__EnSpm__EnSpm-1_DDi:2.6500294164)93:0.1997297917,((((((RP__EnSpm__CACTA-1_Mlaricis:0.9600561806,RP__EnSpm__CACTA-2_Mlaricis:1.0742104933)100:0.3543255079,RP__EnSpm__EnSpm-7_MLP_tp:1.6205412315)94:0.1443159061,(((((RP__EnSpm__EnSpm-1_PGr:0.1408849463,RP__EnSpm__EnSpm-5_PGr_tp:0.1410899333)100:0.3005594941,RP__EnSpm__EnSpm-2_PGr:0.3706436223)100:0.1271431895,RP__EnSpm__EnSpm-4_PGr:0.3520278143)100:0.4847072004,RP__EnSpm__EnSpm-3_PGr:0.9308825837)93:0.0944489501,RP__EnSpm__EnSpm-1_PSt_tp:0.8829565254)100:0.4494126605)100:0.7086946599,(RP__EnSpm__CACTA-1_Roryzae:1.0503883122,(RP__EnSpm__EnSpm-1_BF:0.8726639235,RP__EnSpm__EnSpm-2_BF:0.7806906011)100:0.2664369192)100:0.4438801128)100:0.8046045535,(((RP__EnSpm__EnSpm-1_AA:1.3550010166,((RP__EnSpm__EnSpm-1_CGi:1.0245748680,(RP__EnSpm__EnSpm-1_NVi:0.7705323124,RP__EnSpm__EnSpm-2_NVi:0.6862070716)100:0.5903440460)100:0.2615946100,RP__EnSpm__EnSpm-2_SIn:1.4314101883)100:0.2970397785)100:0.3234786664,(((RP__EnSpm__EnSpm-1_AP:1.2477281163,(((((RP__EnSpm__EnSpm-2_CGi:0.6831887133,RP__EnSpm__EnSpm-7_HM:1.2359952145)96:0.1483677960,(((RP__EnSpm__EnSpm-5_HM:0.7200105398,RP__EnSpm__EnSpm-8_HM:0.7592621729)99:0.1737816313,RP__EnSpm__EnSpm-14_HM:0.8145844174)76:0.0588394541,RP__EnSpm__EnSpm-12_HM:0.6675416157)93:0.1438273731)96:0.0885088003,(RP__EnSpm__EnSpm-6_HM:0.6090368709,RP__EnSpm__EnSpm-13_HM:0.7078537061)100:0.4620136133)100:0.2462379162,RP__EnSpm__EnSpm-9_HM:1.4519651266)100:0.1994734948,((((RP__EnSpm__EnSpm-2_HM_p1:0.8217601647,RP__EnSpm__EnSpm-17_HM:0.7172293906)100:0.1564052920,RP__EnSpm__EnSpm-6_DR:0.7675795776)98:0.1101079830,RP__EnSpm__EnSpm-4_HM:0.9369196499)96:0.0840707019,RP__EnSpm__EnSpm-10_HM:0.9614467180)96:0.1554914344)96:0.1430640133)96:0.1916976959,RP__EnSpm__SmTRC1:1.6345088820)100:0.3604575778,RP__EnSpm__EnSpm-1_HM:2.0603048826)100:0.2668873721)100:0.3928109227,((RP__EnSpm__EnSpm-10_CCri_3p:0.8856056965,RP__EnSpm__EnSpm-22_CCri_tp:1.0915362382)100:0.4431505124,((RP__EnSpm__EnSpm-17_CCri_2p:0.3643792823,RP__EnSpm__EnSpm-23_CCri:0.3725246322)100:0.9410330519,((RP__EnSpm__EnSpm-18_CCri:0.4260751617,RP__EnSpm__EnSpm-20_CCri_2p:0.5012364733)100:0.2073321285,(RP__EnSpm__EnSpm-26_CCri_3p:0.3788251460,RP__EnSpm__EnSpm-27_CCri:0.3977782100)100:0.2383257269)100:0.4251388387)100:0.2713429604)100:1.1615675092)93:0.1841345098)92:0.2114040074,(RP__EnSpm__EnSpm-1_NV:0.4310633616,RP__EnSpm__EnSpm-2_NV:0.5079592909)100:2.3427840239)99:0.2175533762)95:0.1564843702,((RP__Mirage__UN-GIN1_int:1.8017245101,RP__Mirage__UN-GIN2_int:1.8877269168)99:0.6489974744,(((RP__EnSpm__EnSpm-1_CCri_tp:0.6053765501,((RP__EnSpm__EnSpm-6_CCri_tp:0.5266792826,RP__EnSpm__EnSpm-8_CCri_tp:0.4164944960)100:0.1158216207,RP__EnSpm__EnSpm-7_CCri_tp:0.6188995765)100:0.1270350355)100:0.3365563791,RP__EnSpm__EnSpm-9_CCri_tp:0.9561590145)100:0.2980333794,((RP__EnSpm__EnSpm-21_CCri_tp:0.7782064527,(RP__EnSpm__EnSpm-4_CCri_tp:0.7904648982,RP__EnSpm__EnSpm-5_CCri_tp:0.5903434139)100:0.1609578445)100:0.3504583083,(RP__EnSpm__EnSpm-2_CCri_tp:0.6608441680,RP__EnSpm__EnSpm-3_CCri_tp:0.7346669129)100:0.7526315257)100:0.0721753894)100:1.6531928645)88:0.2085402895)92:0.1389998783,((((((((((((((((RP__EnSpm__UN-ATEnSpm9:0.1704249117,RP__EnSpm__ATEnSpm6:0.1085162541)100:0.4901172566,(RP__EnSpm__ATEnSpm2:0.3434956771,RP__EnSpm__BREnSpm1:0.2378137839)100:0.1845250461)100:0.3584623189,(RP__EnSpm__EnSpm_AC:0.8791769910,(RP__EnSpm__PSL:0.4081988705,RP__EnSpm__TDC1:0.4785797362)100:0.1510013344)93:0.0425904950)97:0.0907450395,((RP__EnSpm__EnSpm-1_AIp_tp:0.5009966883,RP__EnSpm__EnSpm_MT:0.6060739730)100:0.1367468572,RP__EnSpm__EnSpm_CA:0.6915944451)81:0.0580515784)81:0.0809790036,(RP__EnSpm__EnSpm1_PT:0.3868114720,RP__EnSpm__EnSpm2_PTr:0.5194811654)100:0.2471151674)100:0.1696333205,((((RP__EnSpm__DOPPIA4_ZM:0.3603014506,(RP__EnSpm__EN1_ZM:0.2501692965,RP__EnSpm__EnSpm-13_ZM_p1:0.2495328206)100:0.2256527872)100:0.1663258332,((RP__EnSpm__EnSpm2_ZM:0.2549681697,RP__EnSpm__EnSpm-5_ZM:0.2323419297)100:0.0712646882,(RP__EnSpm__EnSpm-8_ZM_p1:0.2874309558,RP__EnSpm__EnSpm-11_ZM_p1:0.2744724970)100:0.0741753327)100:0.1616763962)100:0.2793637792,((RP__EnSpm__EnSpm1_TD:0.6055810649,((((RP__EnSpm__EnSpm5_SB_p1:0.2464002068,(RP__EnSpm__EnSpm12_SB_p1:0.2094177166,RP__EnSpm__EnSpm-20_SBi_tp:0.2990362701)88:0.0541144664)70:0.0319423056,RP__EnSpm__EnSpm-26_SBi_tp:0.2346656215)85:0.0318921660,RP__EnSpm__EnSpm-10_ZM_p1:0.1638687011)100:0.1217571921,RP__EnSpm__EnSpm-1_HV_p1:0.5509809544)100:0.1001882070)100:0.1905401854,(RP__EnSpm__EnSpm-10_OS_p1:0.1789232270,(RP__EnSpm__EnSpm-13_OS_p1:0.0867233717,RP__EnSpm__EnSpm-14_OS_p1:0.0736264354)100:0.1137945722)100:0.2573985615)100:0.2054709885)97:0.0941207937,(RP__EnSpm__EnSpm-9_OS_p1:0.2101541740,RP__EnSpm__EnSpm-15_OS_p1:0.2345251683)100:0.3671562385)100:0.3710697441)98:0.1451579115,RP__EnSpm__EnSpm1B_PT:2.3195792720)86:0.1864749488,((((RP__EnSpm__EnSpm-1_FV_tp:0.6131052641,RP__EnSpm__EnSpm-7_FV_tp:0.4629723268)100:0.3262001286,RP__EnSpm__EnSpm-1_Mad:0.4502343849)100:0.2445234766,(RP__EnSpm__EnSpm-1_MN:0.6644327696,(RP__EnSpm__EnSpm-6_VV_p1:0.3109753898,RP__EnSpm__EnSpm-8N_VV_p1:0.3229407411)100:0.2046952853)97:0.0794053960)57:0.0787018930,(RP__EnSpm__EnSpm-7_ZM_p1:0.5106780867,((RP__EnSpm__EnSpm-11_OS_p1:0.1926606665,(RP__EnSpm__EnSpm-12_ZM_p1:0.1749015185,RP__EnSpm__EnSpm-39_SBi:0.1490193850)100:0.1517646467)100:0.1650009036,(RP__EnSpm__EnSpm-41_SBi_1p:0.3541334744,RP__EnSpm__EnSpm-44_SBi_1p:0.4041325076)97:0.0411569955)100:0.2160464723)100:0.3367398328)93:0.1279616825)52:0.0610122155,(RP__EnSpm__EnSpm-5_HV:0.6278165165,RP__EnSpm__OShooter_p2:0.5631525660)94:0.3027457061)56:0.0236721542,((RP__EnSpm__EnSpm-34_SBi_1p:0.2365954064,RP__EnSpm__Shooter_ZM:0.2121686706)57:0.0884290654,RP__EnSpm__EnSpm-40_SBi_1p:0.2963118897)99:0.5285764424)60:0.0450398818,(RP__EnSpm__EnSpm-19_SBi_tp:0.2909406735,RP__EnSpm__OShooter_p1:0.1983901482)100:0.4792665685)75:0.0949800449,((RP__EnSpm__EnSpm8_SB:0.8029294644,RP__EnSpm__EnSpm-10_FV_tp:0.8213275728)73:0.1371475901,(((RP__EnSpm__EnSpm-1_Cia_tp:0.3131139551,(RP__EnSpm__EnSpm-3_GM_tp:0.1659361195,RP__EnSpm__ENSUPMET:0.2065842868)100:0.1559233255)100:0.2142726914,(RP__EnSpm__EnSpm-1_GR:0.4698204412,(RP__EnSpm__EnSpm-9_ZM_p1:0.2880158411,(RP__EnSpm__EnSpm-12_OS_p1:0.1086252017,RP__EnSpm__EnSpm-16_OS_p1:0.0475990090)100:0.2521612107)100:0.4231569775)95:0.1109702834)93:0.1001991965,((RP__EnSpm__EnSpm-1_LU:0.4882419499,RP__EnSpm__EnSpm-4_GM_tp:0.4664431202)100:0.2618118074,RP__EnSpm__EnSpm-14_ZM:0.7966834090)81:0.0583540795)84:0.0838056883)38:0.0533987815)55:0.0426039862,(RP__EnSpm__EnSpm-2_Mad:0.5124135803,RP__EnSpm__EnSpm-3_Mad:0.6344965764)100:0.2138412802)76:0.1485733060,((((RP__EnSpm__ATEnSpm3:0.1310090426,RP__EnSpm__ATEnSpm7:0.1654744532)100:0.0926717225,RP__EnSpm__ATEnSpm12:0.1853526210)100:0.3072895590,(RP__EnSpm__ATENSPM10:0.1710089795,RP__EnSpm__ATEnSpm11:0.2252207493)100:0.4044123647)100:0.4565487446,(((((((((((RP__EnSpm__CACTA_LP_p1:0.1253581024,RP__EnSpm__EnSpm-1_TM_p1:0.1958751725)100:0.2387321956,RP__EnSpm__EnSpm-1_TA:0.3339644873)100:0.4139940948,(RP__EnSpm__EnSpm-1_BDi:0.2870553020,RP__EnSpm__EnSpm-2_BDi:0.2746739777)100:0.3350819735)100:0.3271672557,((((RP__EnSpm__EnSpm2_HV:0.1839400221,RP__EnSpm__EnSpm-3_HV_p1:0.2011900266)99:0.0415235320,RP__EnSpm__EnSpm-4_HV_p1:0.2297266324)100:0.1166012215,(RP__EnSpm__EnSpm2_SB_p1:0.1080194484,RP__EnSpm__EnSpm7_SB_p1:0.1426121746)100:0.1249532178)100:0.1187561929,RP__EnSpm__SPMLIKE_p1:0.1897267590)100:0.3845584135)65:0.0382120827,(((((RP__EnSpm__EnSpm1_SB_p1:0.1207445033,RP__EnSpm__EnSpm-22_SBi_tp:0.1634689131)100:0.4516618529,((RP__EnSpm__EnSpm4_SB_p1:0.0886966351,RP__EnSpm__EnSpm-6_ZM_p1:0.0838447794)100:0.1102878007,RP__EnSpm__EnSpm6_SB_p1:0.1659397096)100:0.2248930530)97:0.0705111039,(RP__EnSpm__EnSpm-18_SBi_1p:0.1629036423,RP__EnSpm__EnSpm-36_SBi_1p:0.1533394717)100:0.3870929184)100:0.1541909958,((RP__EnSpm__EnSpm5_OS_p1:0.3691283895,RP__EnSpm__EnSpm7_OS_p1:0.2539978406)93:0.0369387996,RP__EnSpm__EnSpm_OS:0.3014192886)100:0.0982104455)99:0.0730118114,RP__EnSpm__EnSpm4_ZM:0.3750964504)100:0.3864024492)98:0.0579288546,RP__EnSpm__EnSpm3_ZM:0.6911407400)57:0.0527588044,((RP__EnSpm__EnSpm2_OS_p1:0.0797803827,RP__EnSpm__EnSpm3_OS_p1:0.0881865199)100:0.1731248453,RP__EnSpm__EnSpm4_OS_p1:0.2801134035)100:0.2551761051)100:0.2693975793,((RP__EnSpm__EnSpm2_MT:0.2179881164,RP__EnSpm__EnSpm-2_Cia_tp:0.0988162583)100:0.1361308293,(RP__EnSpm__EnSpm-1_GM:0.2604745037,RP__EnSpm__EnSpm-2_GM_tp:0.3269836959)100:0.0841413423)100:0.2182145718)62:0.0705239904,RP__EnSpm__EnSpm-3_Cia_tp:0.4499270512)44:0.0600141784,RP__EnSpm__EnSpm-3_MN:0.4754015876)63:0.0714418194,((((RP__EnSpm__EnSpm-3_VV:0.1001548363,RP__EnSpm__EnSpm-13_VV_tp:0.0657874249)100:0.1142911012,RP__EnSpm__EnSpm-5_VV_tp:0.2331063390)100:0.0547623216,RP__EnSpm__EnSpm-4_VV_tp:0.1698464351)100:0.2190189487,RP__EnSpm__EnSpm-5_FV:0.6137564216)100:0.1355904319)100:0.1684137989)97:0.1284263544)100:0.6946893190,RP__EnSpm__EnSpm-1_NGr:2.5028129184)97:0.2843514499,(RP__Mirage__UN-Mirage1:1.4641949459,RP__Mirage__Mirage1_CB:1.1593740516)100:1.3963860234)92:0.0996605822)93:0.1527762452,((((((RP__EnSpm__UN-Candystripe1_SB_p2:0.5308040732,RP__EnSpm__EnSpm-30_SBi_p2:0.4709100827)100:0.8323913854,((RP__EnSpm__UN-EnSpm3_OS_p2:0.4076150052,RP__EnSpm__EnSpm2_OS_p2:0.3042050185)100:0.2518949651,RP__EnSpm__EnSpm4_OS_p2:0.4632531086)100:0.4955566857)100:0.3059970783,(RP__EnSpm__CACTA_LP_p2:0.4644090545,RP__EnSpm__EnSpm-1_TM_p2:0.2026235429)100:1.7749305304)90:0.1332189014,((RP__EnSpm__EnSpm1_SB_p2:1.0920204894,(((((RP__EnSpm__EnSpm4_SB_p2:0.3082889540,RP__EnSpm__EnSpm-6_ZM_p2:0.2550449245)91:0.0538238232,RP__EnSpm__EnSpm11_SB_p2:0.3897474950)100:0.1975961124,RP__EnSpm__EnSpm6_SB_p2:0.5491147762)100:0.4388340196,(RP__EnSpm__EnSpm5_OS_p2:0.6520080150,RP__EnSpm__EnSpm7_OS_p2:0.7707453407)100:0.2473067685)53:0.1052599910,(RP__EnSpm__EnSpm-18_SBi_2p:0.3801360880,RP__EnSpm__EnSpm-36_SBi_2p:0.2531303306)100:0.8306868943)54:0.1427262111)91:0.1849773894,((((RP__EnSpm__EnSpm2_SB_p2:0.1775099721,RP__EnSpm__EnSpm3_SB_p2:0.2444752023)100:0.2765028910,RP__EnSpm__EnSpm7_SB_p2:0.4136977016)100:0.3739130266,RP__EnSpm__SPMLIKE_p2:0.6293653447)100:0.1180007900,(RP__EnSpm__EnSpm2_TM_p2:0.9492122181,(RP__EnSpm__EnSpm-3_HV_p2:0.8054478702,RP__EnSpm__EnSpm-4_HV_p2:0.6035391314)100:0.2506201331)100:0.2169595867)100:0.7157095844)83:0.1580413373)100:1.0153442374,(RP__EnSpm__EnSpm-2_Cia_p2:1.7370812230,RP__EnSpm__EnSpm-3_Cia_p2:1.7875176516)100:0.3209116193)100:0.6906027611,RP__EnSpm__EnSpm-30_SBi_env:2.8196561996)85:0.2579705254)76:0.1368351367,(((RP__EnSpm__EnSpm-26_CCri_2p:2.7247099596,(RP__EnSpm__EnSpm-2C_CCri_3p:1.3087139315,RP__EnSpm__EnSpm-3_CCri_3p:1.1916299942)100:0.5185303233)86:0.6756766159,RP__EnSpm__EnSpm-28B_CCri_2p:2.5290932164)77:0.0531530896,RP__EnSpm__EnSpm-34_CCri_1p:2.4126506945)65:0.1958249931)70:0.1600870294,((RP__EnSpm__EnSpm-2_CCri_4p:1.7015680357,RP__EnSpm__EnSpm-3_CCri_5p:1.7921440090)90:0.2498293486,(((RP__EnSpm__EnSpm-4_CCri_3p:2.4060915831,(RP__EnSpm__EnSpm-9_CCri_3p:0.1665700755,RP__EnSpm__EnSpm-9D_CCri_1p:0.2437929656)100:1.5329529173)65:0.2655766591,(RP__EnSpm__EnSpm-28_CCri_1p:0.0877324434,RP__EnSpm__EnSpm-28B_CCri_3p:0.1514577951)100:1.5559420621)70:0.2890346020,(RP__EnSpm__EnSpm-5_CCri_2p:1.7260709393,((RP__EnSpm__EnSpm-6_CCri_1p:0.4798539253,RP__EnSpm__EnSpm-8_CCri_2p:0.4463669332)100:0.1831463609,RP__EnSpm__EnSpm-7_CCri_2p:0.5415095488)100:1.2433884272)69:0.1934998847)88:0.3983157521)66:0.2719910480)59:0.0871612647,((((RP__EnSpm__UN-EnSpm5_SB_p2:0.9621970652,RP__EnSpm__EnSpm-14_SBi_p2:0.4431854351)97:0.2625365069,RP__EnSpm__EnSpm12_SB_p2:0.3162972906)100:2.1139415063,((((RP__EnSpm__EnSpm-1_CCri_3p:0.6827237368,((RP__EnSpm__EnSpm-6_CCri_3p:0.8161365978,RP__EnSpm__EnSpm-8_CCri_4p:0.6066774676)100:0.1960772991,RP__EnSpm__EnSpm-7_CCri_4p:0.9119234672)100:0.1236648460)100:0.8355758372,RP__EnSpm__EnSpm-9_CCri_2p:1.2112760497)100:0.3684884139,((RP__EnSpm__EnSpm-2C_CCri_4p:1.4154090234,RP__EnSpm__EnSpm-3_CCri_4p:1.1927000245)100:0.7245592151,(RP__EnSpm__EnSpm-28_CCri_4p:0.1808408251,RP__EnSpm__EnSpm-28B_CCri_4p:0.1081912381)100:1.3004303150)100:0.3327009119)94:0.1233070224,(RP__EnSpm__EnSpm-4_CCri_1p:1.5072948662,RP__EnSpm__EnSpm-5_CCri_1p:1.0980674093)100:0.5048265237)100:0.7725283451)55:0.1510098080,((RP__EnSpm__ATEnSpm1A_p2:2.5157087199,RP__EnSpm__EnSpm-10_CCri_2p:1.9974331919)97:0.1447757881,RP__EnSpm__EnSpm-11_STu_gag:2.3849187538)40:0.1690868794)74:0.3014580837)83:0.1436394224,(((((RP__EnSpm__EnSpm-1_ADi:0.6318379942,((RP__EnSpm__EnSpm-3_ADi:0.1651916945,RP__EnSpm__EnSpm-4_ADi:0.2484863933)100:0.3341999250,RP__EnSpm__EnSpm-3_NVe:0.5331841387)100:0.1803735082)100:0.2047059846,RP__EnSpm__EnSpm-6_NVe:1.0364024433)96:0.1444012794,(RP__EnSpm__EnSpm-3_BF:1.1665993768,(RP__EnSpm__EnSpm-4_NVe:0.6799432999,RP__EnSpm__EnSpm-5_NVe:0.6425351226)100:0.1267451649)99:0.0854845007)96:0.1632987814,((RP__EnSpm__EnSpm-18_HMa:0.4472993955,RP__EnSpm__EnSpm-21_HMa:0.4385277828)100:0.4289570754,((RP__EnSpm__EnSpm-19_HMa:0.6513191428,RP__EnSpm__EnSpm-22_HMa:0.7334980574)100:0.2454462660,RP__EnSpm__EnSpm-20_HMa:0.7966200909)100:0.1168973431)100:0.1628186143)100:1.5655960920,(RP__EnSpm__EnSpm-2C_CCri_mt:1.2388967064,RP__EnSpm__EnSpm-3_CCri_mt:0.9661516600)100:1.2184171567)99:0.3697192765)99:0.2500187657,(((((((((((((RP__Transib__Transib1:0.0000023370,ADD__Additional__Dmel_transib1:0.0000025647)100:0.4994760742,(RP__Transib__Transib-3_DAn:0.2299084595,RP__Transib__Transib-6_DBi:0.2650649051)100:0.2552760938)100:0.0857382425,(RP__Transib__Transib4:0.3838662152,RP__Transib__Transib-2_DBi:0.2422911569)100:0.1413278418)100:0.1098893946,(RP__Transib__Transib-3_DBp:0.5012313559,RP__Transib__Transib-5_DBp:0.5972616063)100:0.0878492382)100:0.0942698779,(RP__Transib__Transib2:0.2353924218,RP__Transib__Transib2_DP:0.1942205362)100:0.2913334058)100:0.1175459442,(((RP__Transib__Transib3:0.6228061414,(RP__Transib__Transib1_DP:0.2063371013,(RP__Transib__Transib-1_DAn:0.1651351730,RP__Transib__Transib-1_DF:0.1504396847)100:0.0523419815)100:0.2701393218)99:0.0543571165,RP__Transib__Transib-2_DAn:0.4836430589)87:0.0531005853,RP__Transib__Transib-2_DW:0.5051492214)87:0.0579840450)87:0.0979650748,RP__Transib__Transib-5_DBi:0.5079834335)100:0.2918428078,((RP__Transib__Transib4_DP:0.3972235518,((RP__Transib__Transib-4_DBp:0.3488149099,(RP__Transib__Transib-6_DBp:0.0000025647,ADD__Additional__Transib-6_DBipectinata:0.0000025647)100:0.3184163705)100:0.1396004344,ADD__Additional__Dmel_hopper:0.3268308628)85:0.0831161801)100:0.2670545585,RP__Transib__Transib-13_HM:0.5207069555)100:0.2986993842)100:0.1358077112,((((RP__Transib__Transib1_AG:0.6531332780,RP__Transib__Transib3_AG:1.0214979163)100:0.1772517150,RP__Transib__Transib-1_CQ:0.7356328812)99:0.1020079229,RP__Transib__Transib2_AG:0.6861603539)100:0.4325923493,(RP__Transib__Transib-2_SIn_1p:0.8184965236,RP__Transib__Transib-14_HM:0.8592390589)92:0.1732981534)99:0.1711566601)99:0.2061713171,(((((((((RP__Transib__Transib5:0.3617009730,RP__Transib__Transib-8_DAn:0.3640504695)100:0.2314905933,RP__Transib__Transib-5_DAn:0.4088962931)100:0.4366914624,(RP__Transib__Transib1_NVi:0.4478905556,RP__Transib__Transib-1_LHu_1p:0.3025025823)100:0.5155845653)94:0.0872205210,RP__Transib__Transib-7_DAn:0.7758094783)95:0.0650565644,(RP__Transib__Transib4_AA:0.6792229937,RP__Transib__Transib5_AA:0.6406558374)91:0.2255338285)86:0.0547816302,(((RP__Transib__Transib1_Dmoj:0.0620410450,RP__Transib__Transib1_Dwil:0.0861411809)100:0.4166056937,RP__Transib__Transib-4_DAn:0.4613873062)100:0.5190605046,(((RP__Transib__Transib-3_HM:0.2759841815,RP__Transib__Transib-4_HM:0.2347977750)100:0.4540514217,((RP__Transib__Transib-6_HM:0.4977520215,RP__Transib__Transib-17_HM:0.5144150067)100:0.2805251880,(((RP__Transib__Transib-7_HM:0.4239435456,RP__Transib__Transib-21_HMa:0.4883855212)100:0.1631232034,RP__Transib__Transib-8_HM:0.4918129888)100:0.1781483546,RP__Transib__Transib-18_HM:0.6416672326)99:0.0813392556)99:0.0722251577)100:0.1693519706,RP__Transib__Transib-19_HM:0.9007353083)100:0.2083616620)72:0.0986302735)67:0.0909234621,((RP__Transib__Transib1_AA:1.0709898209,ADD__Additional__Hztransib:0.7909310226)74:0.2115351678,(RP__Transib__Transib-2_HM:0.7356502638,(RP__Transib__Transib-12_HM:0.6476115355,RP__Transib__Transib-15_HM:0.6402249595)97:0.1059117152)97:0.1663719235)63:0.0536547448)77:0.0857360154,((RP__Transib__Transib-5_HM:0.4813883568,(RP__Transib__Transib-11_HM:0.6427123047,RP__Transib__Transib-16_HM:0.4806232582)84:0.1059713504)100:0.4227808119,RP__Transib__Transib-20_HM:0.9726450524)100:0.2136957515)88:0.1051309084,RP__Transib__Transib1_SP:0.7620995313)87:0.0778052809)80:0.1084093479,(RP__Transib__Transib3_DP:1.1549792438,RP__Transib__Transib-10_HM:1.7671144123)66:0.1211295012)100:0.8066790227,RP__Transib__Transib-9_HM:1.4562421726)100:0.6694655476,ADD__RAG1__RAG1:1.8646967352)100:0.3971360541)100:0.5257060009,((RP__Chapaev__Chapaev-1_AA:1.4252941133,((((((RP__Chapaev__Chapaev-1_HM:0.2828021153,RP__Chapaev__Chapaev-21_HM:0.2088811593)100:0.2684769115,(RP__Chapaev__Chapaev-2_HM:0.3569968866,((RP__Chapaev__Chapaev-5_HM:0.4483309612,RP__Chapaev__Chapaev-18_HM:0.3448856510)100:0.0770976811,RP__Chapaev__Chapaev-13_HM:0.3531248242)100:0.2527294259)100:0.1864695609)100:0.1138715588,(RP__Chapaev__Chapaev-5_HMa:0.4600607869,(RP__Chapaev__Chapaev-15_HM:0.2896382502,RP__Chapaev__Chapaev-19_HM:0.2313787503)100:0.1783797743)98:0.1010755559)94:0.0662269317,RP__Chapaev__Chapaev-16_HM:0.3494014493)87:0.0994188025,RP__Chapaev__Chapaev-14_HM:0.5020557540)100:0.4582437028,(((RP__Chapaev__Chapaev-9_HM:0.4663042783,RP__Chapaev__Chapaev-10_HM:0.6583093527)100:0.2256133530,RP__Chapaev__Chapaev-11_HM:0.6779776243)100:0.6796073176,RP__Chapaev__Chapaev-17_HM:1.2594251166)96:0.2266135323)94:0.2434627498)100:0.3276002035,(RP__Chapaev3__Chapaev3-1_AA:1.0994340412,(((((((RP__Chapaev3__Chapaev3-1_AC:0.4926377770,(RP__Chapaev3__Chapaev3-2_PM:0.3105508633,RP__Chapaev3__Chapaev-4_HMa:0.4055918231)100:0.0891333581)56:0.0927092811,(RP__Chapaev3__Chapaev3-2_HM:0.2701147973,RP__Chapaev3__Chapaev3-3_HR:0.3339786538)100:0.3101991026)50:0.0358752222,RP__Chapaev3__Chapaev3-2_HR:0.6202446751)49:0.1010930102,(RP__Chapaev3__Chapaev3-1_DW:1.2227875246,RP__Chapaev3__Chapaev3-4_HM:0.4543968388)97:0.1528597539)35:0.0447848412,((((RP__Chapaev3__Chapaev3-1_DA:0.6793536976,RP__Chapaev3__Chapaev3-2_AA:0.5142044404)100:0.0961847728,RP__Chapaev3__EnSpm-1_DF:0.7520137616)100:0.1647024457,(RP__Chapaev3__Chapaev3-1_HM:0.2190116626,RP__Chapaev3__Chapaev3-1_SM:0.2937852371)100:0.2979462326)51:0.0612829449,(((RP__Chapaev3__Chapaev3-1_OL:0.1837026927,RP__Chapaev3__Chapaev3-1_PM:0.1214862161)100:0.1505125872,RP__Chapaev3__EnSpm-1_RPr:0.3708481216)100:0.2948936382,RP__Chapaev3__Chapaev3-3_HM:0.4371377787)100:0.2344862288)45:0.0880625075)36:0.0428631958,RP__Chapaev3__Chapaev3-3_AA:0.6666081124)91:0.0618500183,(((((((RP__Chapaev3__Chapaev3-1_ET:0.3530002262,RP__Chapaev3__Chapaev3-5_HM:0.2328122754)100:0.1127678410,RP__Chapaev3__Chapaev-20_HM:0.3385910366)100:0.0890914769,(RP__Chapaev3__Chapaev3-1_HR:0.2530219891,RP__Chapaev3__EnSpm-2_LMi:0.2295859780)100:0.1848710749)100:0.0963174390,(RP__Chapaev3__Chapaev3-2_AC:0.4054880760,RP__Chapaev3__Chapaev3-6_HM:0.3811461787)100:0.1062122223)100:0.1954265738,(RP__Chapaev3__Chapaev3-1_NVi:0.4406679421,RP__Chapaev3__Chapaev3-2_NVi:0.3369455161)100:0.2945394733)79:0.0408827395,(RP__Chapaev3__Chapaev-1_HSal:0.6066566255,RP__Chapaev3__EnSpm-1_LMi:0.4800991353)91:0.0765767832)100:0.0802810119,RP__Chapaev3__Chapaev-1_BM:0.4605826388)95:0.0499924976)95:0.3422623938)100:1.4218948152)100:0.4252501387)100:0.7017680500,(((RP__Chapaev__Chapaev-1_ACa:0.5426320787,RP__Chapaev__Chapaev-3_ACa:0.4632168435)100:0.3359255722,RP__Chapaev__Chapaev-2_ACa:0.5958788937)100:0.6801803117,((RP__Chapaev__Chapaev-1_BF:0.4123790355,RP__Chapaev__Chapaev-2_BF:0.3737458509)100:0.6626745151,(((RP__Chapaev__Chapaev-3_HM:0.1679591452,(RP__Chapaev__Chapaev-3A_HM:0.1119889130,RP__Chapaev__Chapaev-3B_HM:0.1986798166)100:0.0559019462)100:0.4845791320,(RP__Chapaev__Chapaev-4_HM:0.5333723370,(RP__Chapaev__Chapaev-6_HM:0.4856906375,RP__Chapaev__Chapaev-7_HM:0.5350558596)100:0.1277751899)100:0.1064498663)100:0.1778868420,RP__Chapaev__Chapaev-8_HM:0.6411824983)100:0.4315434333)100:0.2158848108)100:0.4725165756)99:0.2408584209,RP__Chapaev__Chapaev-12_HM:1.6130891019)100:1.1890306260);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t outputs/phylo/cmc_extended_tree/cmc_extended_tree.treefile -m "LG+F+I{0.000317381}+G4{2.71322}" --length 4969
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s outputs/phylo/cmc_extended_tree/cmc_extended.clipkit.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s outputs/phylo/cmc_extended_tree/cmc_extended.clipkit.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Jul 13 20:40:04 2026
+Total CPU time used: 112872.6133 seconds (31h:21m:12s)
+Total wall-clock time used: 3673.723701 seconds (1h:1m:13s)
+

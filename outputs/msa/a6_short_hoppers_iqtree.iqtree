@@ -1,0 +1,418 @@
+IQ-TREE 3.1.2 built May 17 2026
+
+Input file name: outputs/msa/a6_short_hoppers_uq.mafft.fa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 543919
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 71 sequences with 1465 nucleotide sites
+Number of constant sites: 1261 (= 86.0751% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1261 (= 86.0751% of all sites)
+Number of parsimony informative sites: 119
+Number of distinct site patterns: 218
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.1885
+  A-G: 3.3309
+  A-T: 1.6412
+  C-G: 1.8658
+  C-T: 2.0013
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3173
+  pi(C) = 0.1859
+  pi(G) = 0.1484
+  pi(T) = 0.3484
+
+Rate matrix Q:
+
+  A    -1.004    0.1723    0.3856    0.4459
+  C    0.2941    -1.054     0.216    0.5437
+  G    0.8242    0.2704    -1.366    0.2717
+  T    0.4061    0.2901    0.1157   -0.8119
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.1429
+
+ Category  Relative_rate  Proportion
+  1         3.354e-05      0.25
+  2         0.008564       0.25
+  3         0.2203         0.25
+  4         3.771          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3915.8761 (s.e. 132.9211)
+Unconstrained log-likelihood (without tree): -3878.5157
+Number of free parameters (#branches + #model parameters): 148
+Akaike information criterion (AIC) score: 8127.7523
+Corrected Akaike information criterion (AICc) score: 8161.2660
+Bayesian information criterion (BIC) score: 8910.6146
+
+Total tree length (sum of branch lengths): 0.2121
+Sum of internal branch lengths: 0.0829 (39.0588% of tree length)
+
+WARNING: 31 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'A6-Wild5B_22' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**A6-Wild5B_22
+|
+|                                   +**A6-Wild5B_23
+|                                +**| (0/60)
+|                                |  |  +**A6-Wild5B_40
+|                                |  +**| (0/24)
+|                                |     +**A6-Wild5B_46
+|                             +--| (87.8/95)
+|                             |  +**A6-Wild5B_94
+|                          +--| (77.9/62)
+|                          |  |    +**A6-Wild5B_56
+|                          |  +----| (99.6/100)
+|                          |       +**A6-Wild5B_131
+|                       +--| (77.2/57)
+|                       |  |              +**A6-Wild5B_35
+|                       |  |           +**| (0/28)
+|                       |  |           |  +**A6-Wild5B_8
+|                       |  |        +**| (0/32)
+|                       |  |        |  +**A6-Wild5B_43
+|                       |  |     +--| (75.1/96)
+|                       |  |     |  +**A6-Wild5B_3
+|                       |  |  +--| (76/89)
+|                       |  |  |  +--A6-Wild5B_128
+|                       |  +--| (76.7/70)
+|                       |     +--A6-Wild5B_57
+|                    +--| (88.6/83)
+|                    |  |                                             +**A6-Wild5B_24
+|                    |  |                                          +**| (0/54)
+|                    |  |                                          |  |     +**A6-Wild5B_26
+|                    |  |                                          |  |  +**| (0/87)
+|                    |  |                                          |  |  |  +**A6-Wild5B_88
+|                    |  |                                          |  +**| (0/27)
+|                    |  |                                          |     |  +**A6-Wild5B_27
+|                    |  |                                          |     +**| (0/19)
+|                    |  |                                          |        +**A6-Wild5B_93
+|                    |  |                                       +--| (79/96)
+|                    |  |                                       |  +**A6-Wild5B_104
+|                    |  |                                    +--| (78.5/91)
+|                    |  |                                    |  |        +**A6-Wild5B_135
+|                    |  |                                    |  |     +**| (0/50)
+|                    |  |                                    |  |     |  +**A6-Wild5B_123
+|                    |  |                                    |  |  +**| (0/53)
+|                    |  |                                    |  |  |  +**A6-Wild5B_15
+|                    |  |                                    |  +--| (75.6/95)
+|                    |  |                                    |     +**A6-Wild5B_5
+|                    |  |                                +---| (96.8/98)
+|                    |  |                                |   |           +**A6-Wild5B_30
+|                    |  |                                |   |        +**| (0/61)
+|                    |  |                                |   |        |  +**A6-Wild5B_63
+|                    |  |                                |   |     +--| (91.8/99)
+|                    |  |                                |   |     |  |     +**A6-Wild5B_33
+|                    |  |                                |   |     |  |  +**| (0/59)
+|                    |  |                                |   |     |  |  |  +**A6-Wild5B_122
+|                    |  |                                |   |     |  +--| (75.3/98)
+|                    |  |                                |   |     |     +**A6-Wild5B_144
+|                    |  |                                |   |  +--| (77.6/93)
+|                    |  |                                |   |  |  |     +**A6-Wild5B_44
+|                    |  |                                |   |  |  |  +**| (0/63)
+|                    |  |                                |   |  |  |  |  +**A6-Wild5B_97
+|                    |  |                                |   |  |  +**| (0/50)
+|                    |  |                                |   |  |     |  +**A6-Wild5B_145
+|                    |  |                                |   |  |     +**| (0/72)
+|                    |  |                                |   |  |        +**A6-Wild5B_1
+|                    |  |                                |   +--| (75.3/95)
+|                    |  |                                |      +--A6-Wild5B_87
+|                    |  |               +----------------| (100/100)
+|                    |  |               |                |               +**A6-Wild5B_28
+|                    |  |               |                |            +**| (0/65)
+|                    |  |               |                |            |  +**A6-Wild5B_109
+|                    |  |               |                |        +---| (97.8/100)
+|                    |  |               |                |        |   +**A6-Wild5B_74
+|                    |  |               |                |  +-----| (99.7/100)
+|                    |  |               |                |  |     |  +**A6-Wild5B_49
+|                    |  |               |                |  |     +--| (85.2/95)
+|                    |  |               |                |  |        +**A6-Wild5B_69
+|                    |  |               |                +--| (63.1/88)
+|                    |  |               |                   +----A6-Wild5B_130
+|                    |  |  +------------| (100/100)
+|                    |  |  |            |  +**A6-Wild5B_92
+|                    |  |  |            +--| (83.7/91)
+|                    |  |  |               |     +**A6-Wild5B_72
+|                    |  |  |               |  +**| (0/53)
+|                    |  |  |               |  |  +**A6-Wild5B_84
+|                    |  |  |               +**| (0/47)
+|                    |  |  |                  +**A6-Wild5B_73
+|                    |  +**| (74.3/59)
+|                    |     +---A6-Wild5B_108
+|                 +--| (91.6/61)
+|                 |  |  +--A6-Wild5B_25
+|                 |  +**| (0/52)
+|                 |     |     +--A6-Wild5B_36
+|                 |     |  +--| (95/96)
+|                 |     |  |  |       +**A6-Wild5B_114
+|                 |     |  |  |    +**| (0/54)
+|                 |     |  |  |    |  +**A6-Wild5B_81
+|                 |     |  |  +----| (99.2/100)
+|                 |     |  |       +**A6-Wild5B_115
+|                 |     +--| (53.5/48)
+|                 |        +-------A6-Wild5B_139
+|              +**| (74.1/54)
+|              |  |       +**A6-Wild5B_42
+|              |  |  +----| (98.7/100)
+|              |  |  |    +**A6-Wild5B_7
+|              |  +--| (35.9/55)
+|              |     |         +--------------------A6-Wild5B_127
+|              |     |  +------| (97.5/99)
+|              |     |  |      +------------------A6-Wild5B_136
+|              |     +**| (0/70)
+|              |        +----A6-Wild5B_17
+|           +--| (76.2/83)
+|           |  +--------A6-Wild5B_77
+|        +--| (94.1/97)
+|        |  +---------A6-Wild5B_21
+|     +--| (90.5/97)
+|     |  |  +---A6-Wild5B_45
+|     |  +--| (74/98)
+|     |     +--A6-Wild5B_138
+|  +--| (95.5/100)
+|  |  |     +**A6-Wild5B_38
+|  |  |  +**| (0/86)
+|  |  |  |  +**A6-Wild5B_105
+|  |  +--| (92.5/97)
+|  |     +--A6-Wild5B_10
++--| (75.5/99)
+|  +--A6-Wild5B_89
+|
+|  +**A6-Wild5B_31
++**| (0/60)
+   |  +**A6-Wild5B_34
+   +**| (0/57)
+      |              +**A6-Wild5B_54
+      |           +**| (0/46)
+      |           |  +**A6-Wild5B_133
+      |        +**| (0/90)
+      |        |  +**A6-Wild5B_117
+      |     +**| (0/12)
+      |     |  +**A6-Wild5B_86
+      |  +**| (0/23)
+      |  |  +**A6-Wild5B_6
+      +**| (0/35)
+         +**A6-Wild5B_101
+
+Tree in newick format:
+
+(A6-Wild5B_22:0.0000010000,((((((((((((A6-Wild5B_23:0.0000010000,(A6-Wild5B_40:0.0000010000,A6-Wild5B_46:0.0000010000)0/24:0.0000010000)0/60:0.0000010000,A6-Wild5B_94:0.0000010000)87.8/95:0.0013993595,(A6-Wild5B_56:0.0000010000,A6-Wild5B_131:0.0000010000)99.6/100:0.0058454487)77.9/62:0.0006911612,(((((A6-Wild5B_35:0.0000010000,A6-Wild5B_8:0.0000010000)0/28:0.0000010000,A6-Wild5B_43:0.0000010000)0/32:0.0000010000,A6-Wild5B_3:0.0000010000)75.1/96:0.0008245786,A6-Wild5B_128:0.0021526588)76/89:0.0007690844,A6-Wild5B_57:0.0014730504)76.7/70:0.0008242631)77.2/57:0.0008304137,(((((((A6-Wild5B_24:0.0000010000,((A6-Wild5B_26:0.0000010000,A6-Wild5B_88:0.0000010000)0/87:0.0000010000,(A6-Wild5B_27:0.0000010000,A6-Wild5B_93:0.0000010000)0/19:0.0000010000)0/27:0.0000010000)0/54:0.0000010000,A6-Wild5B_104:0.0000010000)79/96:0.0007068153,(((A6-Wild5B_135:0.0000010000,A6-Wild5B_123:0.0000010000)0/50:0.0000010000,A6-Wild5B_15:0.0000010000)0/53:0.0000010000,A6-Wild5B_5:0.0000010000)75.6/95:0.0007040530)78.5/91:0.0007078445,((((A6-Wild5B_30:0.0000010000,A6-Wild5B_63:0.0000010000)0/61:0.0000010000,((A6-Wild5B_33:0.0000010000,A6-Wild5B_122:0.0000010000)0/59:0.0000010000,A6-Wild5B_144:0.0000010000)75.3/98:0.0007034401)91.8/99:0.0014118469,((A6-Wild5B_44:0.0000010000,A6-Wild5B_97:0.0000010000)0/63:0.0000010000,(A6-Wild5B_145:0.0000010000,A6-Wild5B_1:0.0000010000)0/72:0.0000010000)0/50:0.0000010000)77.6/93:0.0007054162,A6-Wild5B_87:0.0021705918)75.3/95:0.0007065826)96.8/98:0.0045902130,((((A6-Wild5B_28:0.0000010000,A6-Wild5B_109:0.0000010000)0/65:0.0000010000,A6-Wild5B_74:0.0000010000)97.8/100:0.0043755603,(A6-Wild5B_49:0.0000010000,A6-Wild5B_69:0.0000010000)85.2/95:0.0013898085)99.7/100:0.0063612781,A6-Wild5B_130:0.0052919916)63.1/88:0.0020001598)100/100:0.0178907579,(A6-Wild5B_92:0.0000010000,((A6-Wild5B_72:0.0000010000,A6-Wild5B_84:0.0000010000)0/53:0.0000010000,A6-Wild5B_73:0.0000010000)0/47:0.0000010000)83.7/91:0.0021784815)100/100:0.0134037592,A6-Wild5B_108:0.0042976298)74.3/59:0.0006625503)88.6/83:0.0016947905,(A6-Wild5B_25:0.0028498020,((A6-Wild5B_36:0.0014079565,((A6-Wild5B_114:0.0000010000,A6-Wild5B_81:0.0000010000)0/54:0.0000010000,A6-Wild5B_115:0.0000010000)99.2/100:0.0050298424)95/96:0.0028701420,A6-Wild5B_139:0.0080292106)53.5/48:0.0014074514)0/52:0.0000010000)91.6/61:0.0018272274,((A6-Wild5B_42:0.0000010000,A6-Wild5B_7:0.0000010000)98.7/100:0.0050551381,((A6-Wild5B_127:0.0211767637,A6-Wild5B_136:0.0191176076)97.5/99:0.0071101259,A6-Wild5B_17:0.0050637642)0/70:0.0000024627)35.9/55:0.0016543587)74.1/54:0.0006704210,A6-Wild5B_77:0.0094652523)76.2/83:0.0009984064,A6-Wild5B_21:0.0103530795)94.1/97:0.0035479368,(A6-Wild5B_45:0.0045531259,A6-Wild5B_138:0.0021629270)74/98:0.0007527012)90.5/97:0.0024696838,((A6-Wild5B_38:0.0000010000,A6-Wild5B_105:0.0000010000)0/86:0.0000010000,A6-Wild5B_10:0.0007126858)92.5/97:0.0021381716)95.5/100:0.0033402794,A6-Wild5B_89:0.0007097695)75.5/99:0.0008202477,(A6-Wild5B_31:0.0000010000,(A6-Wild5B_34:0.0000010000,(((((A6-Wild5B_54:0.0000010000,A6-Wild5B_133:0.0000010000)0/46:0.0000010000,A6-Wild5B_117:0.0000010000)0/90:0.0000010000,A6-Wild5B_86:0.0000010000)0/12:0.0000010000,A6-Wild5B_6:0.0000010000)0/23:0.0000010000,A6-Wild5B_101:0.0000010000)0/35:0.0000010000)0/57:0.0000010000)0/60:0.0000023424);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -3916.026025
+Robinson-Foulds distance between ML tree and consensus tree: 14
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--A6-Wild5B_22
+|
+|                                      +--A6-Wild5B_23
+|                                   +--| (38)
+|                                   |  +--A6-Wild5B_46
+|                                +--| (60)
+|                                |  +--A6-Wild5B_40
+|                             +--| (95)
+|                             |  +--A6-Wild5B_94
+|                          +--| (62)
+|                          |  |    +--A6-Wild5B_56
+|                          |  +----| (100)
+|                          |       +--A6-Wild5B_131
+|                       +--| (57)
+|                       |  |              +--A6-Wild5B_35
+|                       |  |           +--| (51)
+|                       |  |           |  +--A6-Wild5B_43
+|                       |  |        +--| (40)
+|                       |  |        |  +--A6-Wild5B_3
+|                       |  |     +--| (96)
+|                       |  |     |  +--A6-Wild5B_8
+|                       |  |  +--| (89)
+|                       |  |  |  +--A6-Wild5B_128
+|                       |  +--| (70)
+|                       |     +--A6-Wild5B_57
+|                    +--| (83)
+|                    |  |                                             +--A6-Wild5B_24
+|                    |  |                                          +--| (54)
+|                    |  |                                          |  |        +--A6-Wild5B_26
+|                    |  |                                          |  |     +--| (87)
+|                    |  |                                          |  |     |  +--A6-Wild5B_88
+|                    |  |                                          |  |  +--| (24)
+|                    |  |                                          |  |  |  +--A6-Wild5B_27
+|                    |  |                                          |  +--| (27)
+|                    |  |                                          |     +--A6-Wild5B_93
+|                    |  |                                       +--| (96)
+|                    |  |                                       |  +--A6-Wild5B_104
+|                    |  |                                    +--| (91)
+|                    |  |                                    |  |        +--A6-Wild5B_135
+|                    |  |                                    |  |     +--| (50)
+|                    |  |                                    |  |     |  +--A6-Wild5B_123
+|                    |  |                                    |  |  +--| (53)
+|                    |  |                                    |  |  |  +--A6-Wild5B_15
+|                    |  |                                    |  +--| (95)
+|                    |  |                                    |     +--A6-Wild5B_5
+|                    |  |                                +---| (98)
+|                    |  |                                |   |           +--A6-Wild5B_30
+|                    |  |                                |   |        +--| (61)
+|                    |  |                                |   |        |  +--A6-Wild5B_63
+|                    |  |                                |   |     +--| (99)
+|                    |  |                                |   |     |  |     +--A6-Wild5B_33
+|                    |  |                                |   |     |  |  +--| (59)
+|                    |  |                                |   |     |  |  |  +--A6-Wild5B_122
+|                    |  |                                |   |     |  +--| (98)
+|                    |  |                                |   |     |     +--A6-Wild5B_144
+|                    |  |                                |   |  +--| (93)
+|                    |  |                                |   |  |  |     +--A6-Wild5B_44
+|                    |  |                                |   |  |  |  +--| (63)
+|                    |  |                                |   |  |  |  |  +--A6-Wild5B_97
+|                    |  |                                |   |  |  +--| (50)
+|                    |  |                                |   |  |     |  +--A6-Wild5B_145
+|                    |  |                                |   |  |     +--| (72)
+|                    |  |                                |   |  |        +--A6-Wild5B_1
+|                    |  |                                |   +--| (95)
+|                    |  |                                |      +--A6-Wild5B_87
+|                    |  |               +----------------| (100)
+|                    |  |               |                |               +--A6-Wild5B_28
+|                    |  |               |                |            +--| (65)
+|                    |  |               |                |            |  +--A6-Wild5B_109
+|                    |  |               |                |        +---| (100)
+|                    |  |               |                |        |   +--A6-Wild5B_74
+|                    |  |               |                |  +-----| (100)
+|                    |  |               |                |  |     |  +--A6-Wild5B_49
+|                    |  |               |                |  |     +--| (95)
+|                    |  |               |                |  |        +--A6-Wild5B_69
+|                    |  |               |                +--| (88)
+|                    |  |               |                   +----A6-Wild5B_130
+|                    |  |  +------------| (100)
+|                    |  |  |            |  +--A6-Wild5B_92
+|                    |  |  |            +--| (91)
+|                    |  |  |               |     +--A6-Wild5B_72
+|                    |  |  |               |  +--| (53)
+|                    |  |  |               |  |  +--A6-Wild5B_84
+|                    |  |  |               +--| (47)
+|                    |  |  |                  +--A6-Wild5B_73
+|                    |  +--| (59)
+|                    |     +---A6-Wild5B_108
+|                 +--| (61)
+|                 |  |  +--A6-Wild5B_25
+|                 |  +--| (52)
+|                 |     |     +--A6-Wild5B_36
+|                 |     |  +--| (96)
+|                 |     |  |  |       +--A6-Wild5B_114
+|                 |     |  |  |    +--| (54)
+|                 |     |  |  |    |  +--A6-Wild5B_81
+|                 |     |  |  +----| (100)
+|                 |     |  |       +--A6-Wild5B_115
+|                 |     +--| (48)
+|                 |        +-------A6-Wild5B_139
+|              +--| (54)
+|              |  |       +--A6-Wild5B_42
+|              |  |  +----| (100)
+|              |  |  |    +--A6-Wild5B_7
+|              |  +--| (55)
+|              |     |         +--------------------A6-Wild5B_127
+|              |     |  +------| (99)
+|              |     |  |      +------------------A6-Wild5B_136
+|              |     +--| (70)
+|              |        +----A6-Wild5B_17
+|           +--| (83)
+|           |  +--------A6-Wild5B_77
+|        +--| (97)
+|        |  +---------A6-Wild5B_21
+|     +--| (97)
+|     |  |  +---A6-Wild5B_45
+|     |  +--| (98)
+|     |     +--A6-Wild5B_138
+|  +--| (100)
+|  |  |     +--A6-Wild5B_38
+|  |  |  +--| (86)
+|  |  |  |  +--A6-Wild5B_105
+|  |  +--| (97)
+|  |     +--A6-Wild5B_10
++--| (99)
+|  +--A6-Wild5B_89
+|
+|  +--A6-Wild5B_31
++--| (60)
+   |  +--A6-Wild5B_34
+   +--| (57)
+      |           +--A6-Wild5B_54
+      |        +--| (90)
+      |        |  |  +--A6-Wild5B_133
+      |        |  +--| (48)
+      |        |     +--A6-Wild5B_117
+      |     +--| (51)
+      |     |  +--A6-Wild5B_101
+      |  +--| (14)
+      |  |  +--A6-Wild5B_6
+      +--| (35)
+         +--A6-Wild5B_86
+
+
+Consensus tree in newick format: 
+
+(A6-Wild5B_22:0.0000023363,(((((((((((((A6-Wild5B_23:0.0000023363,A6-Wild5B_46:0.0000023363)38:0.0000023363,A6-Wild5B_40:0.0000023363)60:0.0000023363,A6-Wild5B_94:0.0000023363)95:0.0014008240,(A6-Wild5B_56:0.0000023363,A6-Wild5B_131:0.0000023363)100:0.0058483253)62:0.0006927998,(((((A6-Wild5B_35:0.0000023363,A6-Wild5B_43:0.0000023363)51:0.0000023363,A6-Wild5B_3:0.0000023363)40:0.0000023363,A6-Wild5B_8:0.0000023363)96:0.0008256145,A6-Wild5B_128:0.0021540448)89:0.0007697524,A6-Wild5B_57:0.0014742617)70:0.0008254991)57:0.0008315690,(((((((A6-Wild5B_24:0.0000023363,(((A6-Wild5B_26:0.0000023363,A6-Wild5B_88:0.0000023363)87:0.0000023363,A6-Wild5B_27:0.0000023363)24:0.0000023363,A6-Wild5B_93:0.0000023363)27:0.0000023363)54:0.0000023363,A6-Wild5B_104:0.0000023363)96:0.0007075053,(((A6-Wild5B_135:0.0000023363,A6-Wild5B_123:0.0000023363)50:0.0000023363,A6-Wild5B_15:0.0000023363)53:0.0000023363,A6-Wild5B_5:0.0000023363)95:0.0007047132)91:0.0007085283,((((A6-Wild5B_30:0.0000023363,A6-Wild5B_63:0.0000023363)61:0.0000023363,((A6-Wild5B_33:0.0000023363,A6-Wild5B_122:0.0000023363)59:0.0000023363,A6-Wild5B_144:0.0000023363)98:0.0007041189)99:0.0014127417,((A6-Wild5B_44:0.0000023363,A6-Wild5B_97:0.0000023363)63:0.0000023363,(A6-Wild5B_145:0.0000023363,A6-Wild5B_1:0.0000023363)72:0.0000023363)50:0.0000023363)93:0.0007061024,A6-Wild5B_87:0.0021726808)95:0.0007072590)98:0.0045919889,((((A6-Wild5B_28:0.0000023363,A6-Wild5B_109:0.0000023363)65:0.0000023363,A6-Wild5B_74:0.0000023363)100:0.0043780739,(A6-Wild5B_49:0.0000023363,A6-Wild5B_69:0.0000023363)95:0.0013908451)100:0.0063655553,A6-Wild5B_130:0.0052944768)88:0.0020010101)100:0.0179008079,(A6-Wild5B_92:0.0000023363,((A6-Wild5B_72:0.0000023363,A6-Wild5B_84:0.0000023363)53:0.0000023363,A6-Wild5B_73:0.0000023363)47:0.0000023363)91:0.0021785880)100:0.0134100744,A6-Wild5B_108:0.0042993884)59:0.0006640214)83:0.0016955952,(A6-Wild5B_25:0.0028505836,((A6-Wild5B_36:0.0014086505,((A6-Wild5B_114:0.0000023363,A6-Wild5B_81:0.0000023363)54:0.0000023363,A6-Wild5B_115:0.0000023363)100:0.0050327163)96:0.0028713820,A6-Wild5B_139:0.0080328316)48:0.0014082485)52:0.0000023424)61:0.0018278513,((A6-Wild5B_42:0.0000023363,A6-Wild5B_7:0.0000023363)100:0.0050570893,((A6-Wild5B_127:0.0211855010,A6-Wild5B_136:0.0191243600)99:0.0071126663,A6-Wild5B_17:0.0050665537)70:0.0000020109)55:0.0016562969)54:0.0006707258,A6-Wild5B_77:0.0094689122)83:0.0009978439,A6-Wild5B_21:0.0103575730)97:0.0035492144,(A6-Wild5B_45:0.0045554605,A6-Wild5B_138:0.0021642484)98:0.0007537863)97:0.0024709978,((A6-Wild5B_38:0.0000023363,A6-Wild5B_105:0.0000023363)86:0.0000023363,A6-Wild5B_10:0.0007139644)97:0.0021394305)100:0.0033416630,A6-Wild5B_89:0.0007109467)99:0.0008205303,(A6-Wild5B_31:0.0000023363,(A6-Wild5B_34:0.0000023363,((((A6-Wild5B_54:0.0000023363,(A6-Wild5B_133:0.0000023363,A6-Wild5B_117:0.0000023363)48:0.0000023363)90:0.0000023424,A6-Wild5B_101:0.0000023363)51:0.0000023424,A6-Wild5B_6:0.0000023363)14:0.0000023424,A6-Wild5B_86:0.0000023363)35:0.0000023424)57:0.0000023424)60:0.0000023424);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t outputs/msa/a6_short_hoppers_iqtree.treefile -m "GTR{1.18847,3.33094,1.64117,1.86582,2.00126}+F{0.317306,0.185863,0.148433,0.348398}+G4{0.142888}" --length 1465
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s outputs/msa/a6_short_hoppers_uq.mafft.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s outputs/msa/a6_short_hoppers_uq.mafft.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Jul  9 16:58:45 2026
+Total CPU time used: 46.387627 seconds (0h:0m:46s)
+Total wall-clock time used: 50.47500992 seconds (0h:0m:50s)
+

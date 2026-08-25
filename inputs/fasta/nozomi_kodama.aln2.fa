@@ -1,0 +1,273 @@
+########################################
+# Program: needle
+# Rundate: Thu 23 Jul 2026 19:43:25
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20260723-194319-0731-80605477-p1m.asequence
+#    -bsequence emboss_needle-I20260723-194319-0731-80605477-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Dmel_hopper_nonauto
+# 2: HOPPER_Long_Dmel
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2853
+# Identity:    1317/2853 (46.2%)
+# Similarity:  1317/2853 (46.2%)
+# Gaps:        1424/2853 (49.9%)
+# Score: 5301.5
+# 
+#
+#=======================================
+
+Dmel_hopper_n      1 CACTATGGGGCATTTGGCCTGTTTTTTTTACAATAATGTGTTTTTCACAA     50
+                     |||||||||||||||||||||||||||||||||.||||||||||||||||
+HOPPER_Long_D      1 cactatggggcatttggcctgttttttttacaaaaatgtgtttttcacaA     50
+
+Dmel_hopper_n     51 GTATGCAAATTTGAAGTATTTTAGTATTAATACATTGGAAATACGTTAAA    100
+                     |||||||||||||..||||||||||||||.||.|||||||||||.|||||
+HOPPER_Long_D     51 GTATGCAAATTTGCTGTATTTTAGTATTAGTATATTGGAAATACTTTAAA    100
+
+Dmel_hopper_n    101 CTGTTATGATATAGCCCGCATAAGTTAATTTAACAATGCACTGTTATAAT    150
+                     ||||||||.||.||||||||.||||||||||||||..|||...|||||||
+HOPPER_Long_D    101 CTGTTATGTTACAGCCCgcaaaagttaatttaacaGCGCATCATTATAAT    150
+
+Dmel_hopper_n    151 AACAGCTGTTAAAGTCGGCTGTTGCGAGCATATACCACGTGGCTGCTTTG    200
+                     ||||||||||||||||.|||||||||||||.|||||||||||||||||||
+HOPPER_Long_D    151 AACAGCTGTTAAAGTCAGCTGTTGCGAGCACATACCACGTGGCTGCTTTG    200
+
+Dmel_hopper_n    201 CGCACAAAATTTAGCTTAACTTTCAAAGTGTTAAAATTTAAAAAGAAGA-    249
+                     |||.|||||||||||||||||||||||||||||.||.|||||||||||| 
+HOPPER_Long_D    201 CGCGcaaaatttagcttaactttcaAAGTGTTAGAACTTAAAAAGAAGAT    250
+
+Dmel_hopper_n    250 AGAAGGAGAGTATAATTTGAAATGGATAATCAATCTTTAGGTTCTTATTA    299
+                     .|.|..|||.||.|||||||||||||||||||||||..|||||..|||||
+HOPPER_Long_D    251 CgcaaaagaataaaatttgaaatggatAATCAATCTACAGGTTTGTATTA    300
+
+Dmel_hopper_n    300 TGTGTTGTTATTAATATATTGTTTATTGTGTGCGCCTATTTCTAACAATT    349
+                     ||||||..|.||||||||||||||||||||||||.|||.|.|||||||||
+HOPPER_Long_D    301 TGTGTTTCTgttaatatattgtttattgtgtgcGTCTACTACtaacaatt    350
+
+Dmel_hopper_n    350 TGTACATTTAACAAGTGGTGTCAAGATGTAGTTGTTTGAAAAAATTTTCA    399
+                     ||||||||||.|||||||||||||.|||||||||||||||||||||||||
+HOPPER_Long_D    351 tgtacatttagcaAGTGGTGTCAACATgtagttgtttgaaaaaattttca    400
+
+Dmel_hopper_n    400 ACTTTGAATAGAGCTACAACAATTTGTTCAAATTTGTTCAGTAAGTGTTT    449
+                     |||||||||||||||||||||||||||||||||||||||||||.||||||
+HOPPER_Long_D    401 actttgaatagagctacaacaatttgttcaaatttgttcAGTATGTGTTT    450
+
+Dmel_hopper_n    450 ATATCCATGTTGTAGTGTGTTCAATTCCTAACTCATATCAGGTAGTCTCT    499
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HOPPER_Long_D    451 ATATCCATGTTGTAGTGTGTTCAATTCCTAACTCATATCAGGTAGTCTCT    500
+
+Dmel_hopper_n    500 ATGTGCGTTTTTTGCGGTTTTTTGAGAAATTTCATTTTTTAGGGAGCAAT    549
+                     |||||||||||||||||||||||||||||||||||||||||||.||||||
+HOPPER_Long_D    501 ATGTGcgttttttgcggttttttgagaaatttcattttttaggaAGCAAT    550
+
+Dmel_hopper_n    550 ATCTCGATTTCCAATGCTGCCCTGCTGGAAGTGTGGCGCACGCAAAAGGG    599
+                     |||||||||.||||||||||||||||||||||||||||||.|||||||||
+HOPPER_Long_D    551 ATCTCGATTGCCAATGCTGCCCTGCTGGAAGTGTGGCGCAAGCAAAAGGG    600
+
+Dmel_hopper_n    600 TGTTCGTCAAAAGGAAAATTCTATTTGCACTTTTATCAGTGGGCATTTTT    649
+                     |||||||||||||||||||.||||||.|||||||||||||||.|||||||
+HOPPER_Long_D    601 TGTTcgtcaaaaggaaaatgcTATTTACACTTTTATCAGTGGTCATTTTT    650
+
+Dmel_hopper_n    650 CTGATAGCAAGCTAGACTTTAATAAACGATTAACTAATAATAATAATAA-    698
+                     |||||||||||.|||||||||||.||||| ||.|||     ||..|.|| 
+HOPPER_Long_D    651 CTGATAGCAAGATAGACTTTAATGAACGA-TACCTA-----AAGGAAAAG    694
+
+Dmel_hopper_n    699 ---CGAATGATTTCAGTCAATCTTTTACGAAATTGGAGAAAATGCAATCG    745
+                        .|||||.|||||||.||.|||||.|||||||||||||||||||||.|
+HOPPER_Long_D    695 GCGAGAATGTTTTCAGTAAACCTTTTGCGAAATTGGAGAAAATgcaatag    744
+
+Dmel_hopper_n    746 AAAAATATATGAATTTTTAAAATTTTTTTCAAATTGGTTAGAAGAACACC    795
+                     |||||||.|||||||||..|||.|||.|||.||.|||||||||.||||||
+HOPPER_Long_D    745 aaaaataaatgaattttcgaaaGTTTATTCTAAGTGGTTAGAAAAACACC    794
+
+Dmel_hopper_n    796 TAGTCCTGAAGGTAAAGGAGAAAAATAAATAGGAAAGGAAATTAGTTGGA    845
+                     ||||||||||||||||.||.||||.||||.|||||||||||||||.||||
+HOPPER_Long_D    795 TAGTCCTGAaggtaaaagaaaaaattaaaaaggaaaggaaattaGCTGGA    844
+
+Dmel_hopper_n    846 CTCCCGAAAACGTCATATTATTTAAAAAATTTGAGTGGCCCAAGACAGCA    895
+                     |.|||||||||||.||||||||||||||.||||||||.||.|||||||||
+HOPPER_Long_D    845 CGCCCGAAAAcgttatattatttaaaaagtttgagtGCCCGAAGACAGCA    894
+
+Dmel_hopper_n    896 AGCAGATGAACTCGTAAGGGCGCAGAAACACAACGAACGTCTTTTGGTTC    945
+                     |||||||||||||||||||||||||||.||||||||||||||||||.|||
+HOPPER_Long_D    895 AGCAGATGAACTCGTAAGGGCGCAGAATCACAACGAACGTCTTTTGCTTC    944
+
+Dmel_hopper_n    946 AAGCT------------GCACGGAAGTGCTGCCTGCGGGATCTTGCAGCC    983
+                     |||||            |||||||||.||.||||||.|||||||||||||
+HOPPER_Long_D    945 AAGCTGCAATGCTAGCCGCACGGAAGCGCGGCCTGCTGGATCTTGCAGCC    994
+
+Dmel_hopper_n    984 ATACTTAAAATTCTTTTGTTGAAGCCAGCCACGGCAAAAAC---------   1024
+                     .||||||||||||||||.||.||.|||||||.|||||||||         
+HOPPER_Long_D    995 GTacttaaaattctttttttaaacCCAGCCAAGGCAAAAACCATTAGAAA   1044
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1045 ATTAATAGTAAAGCCCGTTGAACTGCCTGTGCGCTCTTCAAGCGATGAAG   1094
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1095 CTTTGGCTTTAATTCTCGATCAAGGCTTTACAAAGGAACAATATTGCGCT   1144
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1145 ATTCGAGACGAAGCAAGGTATAGAAAGGCTGAAATTTATCCAACCTATAA   1194
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1195 AGAAGTTGCGGAACGGAAAAAGGTTTGCCGACCAGCCAATATCAATATCA   1244
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1245 CTGACACCGTGGCAAAAGTTGCTCTGCAAGACCTTTTAGATCATACAATA   1294
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1295 GCGAGAATAGTGGCTTGTCAAAAAGATGTTATTGAAGCGGTAATGCAAAG   1344
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1345 ACAGCAATCCGACTTTTTATCAGCCGAATTAGTACTAAGCTATGGCTTTG   1394
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1395 ACGGTAGTACAGGACAAGCAAACTACAACCAGTCATTCACTAATAGCCAG   1444
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1445 TCGTATAATGCAGATTCATCACTCTTCGCTACAACAGTTATGCCGCTTCG   1494
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1495 CCTAATTGATTCTTCAAACAATATCCTATGGAATAATCGTACTCCGCAGA   1544
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1545 GTATACGATTTTGTCGACCCTTAAAACTCGAGTTCCTTAAAGAAACGAAC   1594
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1595 GATGTTATTATCAGAGAGAATTTGCATATACAAgagcaaatcaaaaattt   1644
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1645 aataCCTAGCAAAGTTATCCTCAATAATAACCAATGCATTTATGTAAGAT   1694
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1695 TTAGTCTTTACTTAACTGTTATTGATGGCAAAGTGCTTAACGCCTTAACA   1744
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1745 AATACGAAATCGTCCCAAGCTTGTCCAATTTGTAATGCCACACCTAGAGA   1794
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1795 TTTTCTTGAAAACAGAAACTTTAGGTGTCTTAAGtttcttcctgttcaag   1844
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1845 gaaatttaaaatatggattAAGTCCCCTTCATTGTTGGATTAGATTTTTG   1894
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1895 GAGTTTGTACTAAATATGGGGTACAAAACTGTAGTAAAAAAGTGGAGAAT   1944
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1945 CGTGGATGAAATTGATAAGAATATGGTGTTAGAGCGAAAAAAATGCATCC   1994
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   1995 AGCGAATGTTTTGGGAAAAACTATCGCTTAAGGTTGATCAACCAAAACAA   2044
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   2045 GGCGGATTCGGTAGTTCTAATGTTGGCAATACGGCACGTCGTGCATTTAA   2094
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   2095 TAACTATAAGGCATTTTCCGAAATAACAGGCGTTGACATTCAGCTCATTT   2144
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   2145 TTAATATGAGGACAATATTAATATGTCTGTCATGTCAATTACCTATAAAC   2194
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   2195 CTTGAAAAATATGAGCAACTTTGTCATACAACTGGACAAATTATTGTTGA   2244
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   2245 CAAATATCCATGGCTTCCCATGACAGCGACAGTCCACAAAATATTGGTTC   2294
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   2295 ACTCCAAAGAAATCTTGGAGCAAACAGTTCTTCCAGTCGGGTATTTTGGA   2344
+
+Dmel_hopper_n   1025 --------------------------------------------------   1024
+                                                                       
+HOPPER_Long_D   2345 GAAGAGGCAGCAGAATCGAGGAATAAAGTTTACAAGTCAGACAGACTTCA   2394
+
+Dmel_hopper_n   1025 ---------------------TATTAGTAGCTTCGCAGATGTCTTTTACA   1053
+                                          ||||.||||||||||||||||.|||.|||
+HOPPER_Long_D   2395 CCATGCAAGGAAGCATAATCGTATTTGTAGCTTCGCAGATGTGTTTCACA   2444
+
+Dmel_hopper_n   1054 GAGCAATGGATACTTCGGATCCCATAATATCATCAATAAATTTAAAGAGG   1103
+                     ||||||||||||||||||||||.||||||||||||||.|||||||.||||
+HOPPER_Long_D   2445 GAGCAATGGATACTTCGGATCCTATAATATCATCAATTAATTTAAGGAGG   2494
+
+Dmel_hopper_n   1104 ------CGAAAACATAAGCGACTATCTCTTCCACCAGAAGTCATTGAAAT   1147
+                           |||||||.|||||||||||||||||||||||||||||||.||.|
+HOPPER_Long_D   2495 CGCGTTCGAAAACGTAAGCGACTATCTCTTCCACCAGAAGTCATTCAATT   2544
+
+Dmel_hopper_n   1148 GTTAGCTTGCGAATTTGAACCTGATAAAAATTCTTCAGACTCTACTGATT   1197
+                     |||||||||||||||||||||||||||..|||||.||||||.|.||||||
+HOPPER_Long_D   2545 GTTAGCTTGCGAATTTGAACCTGATAACGATTCTGCAGACTGTGCTGATT   2594
+
+Dmel_hopper_n   1198 GTGAAGAGGAAGACGGTTATGAA---TTATACATTATTGAAATTAAAAAT   1244
+                     |||||||||||||||..|.||||   |||||.|.||||.|||||.|||||
+HOPPER_Long_D   2595 GTGAAGAGGAAGACGACTGTGAAATTTTATATagtattaaaattgaaaat   2644
+
+Dmel_hopper_n   1245 AAACTTTAAAAA----TA--TATTA--TTAAAAAAAAAAAAAAAAAAAAA   1286
+                     .|||||||.|||    ||  |.|||  |||||||||||||||||||||||
+HOPPER_Long_D   2645 taactttagaaacttttaacttttaatttaaaaaaaaaaaaaaaaaaaaa   2694
+
+Dmel_hopper_n   1287 AAAAAA---TGGGGCGGAGTT-GGGGCACGCCCACTTTTCCAAAATATTC   1332
+                     ||||||   |||||||||||| ||||||||||||||||||||||||||||
+HOPPER_Long_D   2695 aaaaaaaattggggcGGAGTTGGgggcacgcccacttttccaaaatattc   2744
+
+Dmel_hopper_n   1333 CTGGAGGCATGTGTAACGCATAAAAAAAAATTCATCCAAATATCTCCAAT   1382
+                     ||||.||||||||||||.||..||||||||||||||||||||||||||||
+HOPPER_Long_D   2745 ctGGGGGCATGTGTAACccactaaaaaaaattcatcCAAATATCTCCAAT   2794
+
+Dmel_hopper_n   1383 AGTTTAGGAGGTATTAATTTTTGTAAAAAAAACAGGCCAAATGCCCCATA   1432
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HOPPER_Long_D   2795 AGTTTAGgaggtattaatttttgtaaaaaaaacaggccaaatgccccata   2844
+
+Dmel_hopper_n   1433 GTG   1435
+                     |||
+HOPPER_Long_D   2845 gtg   2847
+
+
+#---------------------------------------
+#---------------------------------------

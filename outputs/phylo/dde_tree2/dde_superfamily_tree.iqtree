@@ -1,0 +1,1162 @@
+IQ-TREE 3.1.2 built May 17 2026
+
+Input file name: outputs/phylo/dde_tree/dde_superfamily_representatives.clipkit.fa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 1
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 257 sequences with 5718 amino-acid sites
+Number of constant sites: 193 (= 3.37531% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 193 (= 3.37531% of all sites)
+Number of parsimony informative sites: 3782
+Number of distinct site patterns: 5666
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R6
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0602
+  pi(R) = 0.0570
+  pi(N) = 0.0489
+  pi(D) = 0.0528
+  pi(C) = 0.0332
+  pi(Q) = 0.0443
+  pi(E) = 0.0580
+  pi(G) = 0.0509
+  pi(H) = 0.0355
+  pi(I) = 0.0543
+  pi(L) = 0.0774
+  pi(K) = 0.0652
+  pi(M) = 0.0315
+  pi(F) = 0.0444
+  pi(P) = 0.0461
+  pi(S) = 0.0683
+  pi(T) = 0.0526
+  pi(W) = 0.0257
+  pi(Y) = 0.0368
+  pi(V) = 0.0569
+
+Model of rate heterogeneity: FreeRate with 6 categories
+Site proportion and rates:  (0.0194,0.0685) (0.0503,0.2805) (0.1155,0.5155) (0.2282,0.7220) (0.3830,1.0240) (0.2036,1.8082)
+
+ Category  Relative_rate  Proportion
+  1         0.0685         0.0194
+  2         0.2805         0.0503
+  3         0.5155         0.1155
+  4         0.7220         0.2282
+  5         1.0240         0.3830
+  6         1.8082         0.2036
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -452606.2734 (s.e. 8246.6400)
+Unconstrained log-likelihood (without tree): -49386.4004
+Number of free parameters (#branches + #model parameters): 540
+Akaike information criterion (AIC) score: 906292.5467
+Corrected Akaike information criterion (AICc) score: 906405.4075
+Bayesian information criterion (BIC) score: 909884.2889
+
+Total tree length (sum of branch lengths): 339.2405
+Sum of internal branch lengths: 101.1933 (29.8294% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0002) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Academ__Academ-6_CCri_2p' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++-----Academ__Academ-6_CCri_2p
+|
+|                                                                            +---Academ__UN-AcademH-6_PGr_p1
+|                                                             +--------------| (100/100)
+|                                                             |              +---Academ__Academ-1_PGr_p1
+|                                                          +--| (64.1/54)
+|                                                          |  |    +-------------MULE__MuDR-5_SBi
+|                                                          |  +----| (89.6/100)
+|                                                          |       +------------MULE__MUJITOS1
+|                                                       +--| (70.5/52)
+|                                                       |  |         +-------Zisupton__Zisupton-1_PGr_tp
+|                                                       |  +---------| (100/100)
+|                                                       |            +-------Zisupton__Zisupton-4_PGr_tp
+|                                                    +--| (79/55)
+|                                                    |  |                               +---CMC-Chapaev__Chapaev3-1_SM
+|                                                    |  |                            +--| (50.5/78)
+|                                                    |  |                            |  +---CMC-Chapaev__Chapaev3-1_HR
+|                                                    |  |                         +--| (54.8/72)
+|                                                    |  |                         |  |  +---CMC-Chapaev__Chapaev3-1_PM
+|                                                    |  |                         |  +--| (86.1/93)
+|                                                    |  |                         |     +---CMC-Chapaev__Chapaev3-2_AA
+|                                                    |  |                      +--| (33.9/62)
+|                                                    |  |                      |  +---CMC-Chapaev__Chapaev3-3_HR
+|                                                    |  |           +----------| (100/100)
+|                                                    |  |           |          +--CMC-Chapaev__Chapaev3-3_AA
+|                                                    |  |        +--| (80.6/100)
+|                                                    |  |        |  |             +----CMC-Chapaev__Chapaev-13_HM
+|                                                    |  |        |  |          +--| (16.1/89)
+|                                                    |  |        |  |          |  |     +--CMC-Chapaev__Chapaev-5_HMa
+|                                                    |  |        |  |          |  |  +--| (95.9/100)
+|                                                    |  |        |  |          |  |  |  +--CMC-Chapaev__Chapaev-15_HM
+|                                                    |  |        |  |          |  +--| (85.9/100)
+|                                                    |  |        |  |          |     +--CMC-Chapaev__Chapaev-16_HM
+|                                                    |  |        |  |      +---| (100/100)
+|                                                    |  |        |  |      |   +--CMC-Chapaev__Chapaev-1_HM
+|                                                    |  |        |  |  +---| (99.2/100)
+|                                                    |  |        |  |  |   |    +----CMC-Chapaev__Chapaev-10_HM
+|                                                    |  |        |  |  |   +----| (100/100)
+|                                                    |  |        |  |  |        +----CMC-Chapaev__Chapaev-11_HM
+|                                                    |  |        |  +--| (94.1/100)
+|                                                    |  |        |     +-------------CMC-Chapaev__Chapaev-3A_HM
+|                                                    |  |     +--| (96.1/98)
+|                                                    |  |     |  +-----------------CMC-Chapaev__Chapaev-12_HM
+|                                                    |  |  +--| (20.6/59)
+|                                                    |  |  |  |                             +---Kolobok__Kolobok-13_HM_tp
+|                                                    |  |  |  |                          +--| (99.7/100)
+|                                                    |  |  |  |                          |  +---Kolobok__Kolobok-12_HM_tp
+|                                                    |  |  |  |                       +--| (94/79)
+|                                                    |  |  |  |                       |  +----Kolobok__Kolobok-15_HM_tp
+|                                                    |  |  |  |                    +--| (61.4/77)
+|                                                    |  |  |  |                    |  |  +--Kolobok__Kolobok-11_HM_tp
+|                                                    |  |  |  |                    |  +--| (100/100)
+|                                                    |  |  |  |                    |     +--Kolobok__Kolobok-17_HM_tp
+|                                                    |  |  |  |                 +--| (88.5/78)
+|                                                    |  |  |  |                 |  +----Kolobok__Kolobok-14_HM_tp
+|                                                    |  |  |  |              +**| (0/34)
+|                                                    |  |  |  |              |  +----Kolobok__Kolobok-19_HMa_tp
+|                                                    |  |  |  |  +-----------| (100/100)
+|                                                    |  |  |  |  |           |        +--Kolobok__Kolobok-3_HM_tp
+|                                                    |  |  |  |  |           |     +--| (99.8/100)
+|                                                    |  |  |  |  |           |     |  +--Kolobok__Kolobok-18_HM_tp
+|                                                    |  |  |  |  |           |  +--| (99.9/100)
+|                                                    |  |  |  |  |           |  |  +--Kolobok__Kolobok-2_HM_tp
+|                                                    |  |  |  |  |           +--| (96.3/98)
+|                                                    |  |  |  |  |              +---------Kolobok__Kolobok-1_Aplcal
+|                                                    |  |  |  +--| (78.1/96)
+|                                                    |  |  |     |              +-------Sola__Sola1-10_AP_tp
+|                                                    |  |  |     |           +--| (62.8/100)
+|                                                    |  |  |     |           |  +------Sola__Sola1-4_CGi_tp
+|                                                    |  |  |     |        +--| (55.5/100)
+|                                                    |  |  |     |        |  |    +-----Sola__Sola-1_DK_tp
+|                                                    |  |  |     |        |  +----| (100/100)
+|                                                    |  |  |     |        |       +----Sola__Sola1-11_AP_tp
+|                                                    |  |  |     |     +--| (97.6/100)
+|                                                    |  |  |     |     |  +--------Sola__Sola1-2_HM_tp
+|                                                    |  |  |     +-----| (98/100)
+|                                                    |  |  |           +------------Sola__Sola1-4_AA_tp
+|                                                    |  +--| (85.4/76)
+|                                                    |     |     +----------------Sola__Sola1-1_PI_tp
+|                                                    |     |  +--| (0.6/30)
+|                                                    |     |  |  |            +--Sola__Sola1-2_Psojae_tp
+|                                                    |     |  |  +------------| (100/100)
+|                                                    |     |  |               +--Sola__Sola1-3_PI_tp
+|                                                    |     +--| (90.8/84)
+|                                                    |        +---------------Zisupton__DNA-17_CCri_hel2
+|                                                 +--| (48.5/49)
+|                                                 |  |     +-------------------CMC-EnSpm__EnSpm-4_PGr
+|                                                 |  |  +--| (75.7/42)
+|                                                 |  |  |  |              +------Sola__Sola2-2_NVi_tp
+|                                                 |  |  |  |           +--| (73.9/91)
+|                                                 |  |  |  |           |  +----Sola__Sola2-5_LSal_tp
+|                                                 |  |  |  +-----------| (100/100)
+|                                                 |  |  |              |  +------Sola__Sola2-1_HM_tp
+|                                                 |  |  |              +--| (68/90)
+|                                                 |  |  |                 +----Sola__Sola2-6_AAe_tp
+|                                                 |  +--| (91.1/56)
+|                                                 |     |           +------------------CMC-EnSpm__EnSpm4_SB_p2
+|                                                 |     |        +--| (5/62)
+|                                                 |     |        |  +---------------TcMar__Mariner-4_CCri_tp
+|                                                 |     |     +--| (78.7/61)
+|                                                 |     |     |  |  +----------------PIF-Harbinger__ISL2EU-1_LHu_tp
+|                                                 |     |     |  +--| (84/97)
+|                                                 |     |     |     +----------------Zisupton__DNA-17_CCri_p4
+|                                                 |     |  +--| (50/52)
+|                                                 |     |  |  |           +--------hAT__hAT-16_ZM_tp
+|                                                 |     |  |  |        +--| (93.8/100)
+|                                                 |     |  |  |        |  +----------hAT__ATHAT7_tp
+|                                                 |     |  |  |     +--| (95.7/100)
+|                                                 |     |  |  |     |  |  +---------hAT__UN-Hobo_tp
+|                                                 |     |  |  |     |  +--| (60.2/99)
+|                                                 |     |  |  |     |     |  +-------hAT__HAT-1_DP_tp
+|                                                 |     |  |  |     |     +--| (95.9/100)
+|                                                 |     |  |  |     |        +--------hAT__hAT-17_Croc_tp
+|                                                 |     |  |  |  +--| (88.8/99)
+|                                                 |     |  |  |  |  |       +----hAT__UN-34914880_Osa_tp
+|                                                 |     |  |  |  |  +-------| (100/100)
+|                                                 |     |  |  |  |          +-------hAT__hAT-5_PTr_tp
+|                                                 |     |  |  +--| (96.2/99)
+|                                                 |     |  |     |                  +-----hAT__UN-116308850_Osa_tp
+|                                                 |     |  |     |         +--------| (100/100)
+|                                                 |     |  |     |         |        +----hAT__RAHAT_tp
+|                                                 |     |  |     |      +--| (66.9/98)
+|                                                 |     |  |     |      |  +--------------hAT__UN-PRKRIR_Oan_eg_tp
+|                                                 |     |  |     |   +--| (30.8/96)
+|                                                 |     |  |     |   |  +--------------hAT__hAT-7_LCh_tp
+|                                                 |     |  |     +---| (99.4/99)
+|                                                 |     |  |         |        +---hAT__hAT-7_AMi_tp
+|                                                 |     |  |         |     +--| (99.1/100)
+|                                                 |     |  |         |     |  +----hAT__Chaplin4_FR_tp
+|                                                 |     |  |         +-----| (100/100)
+|                                                 |     |  |               |  +----hAT__Charlie24_tp
+|                                                 |     |  |               +--| (98.7/100)
+|                                                 |     |  |                  +-----hAT__hAT-8_CPB_tp
+|                                                 |     +--| (19.2/34)
+|                                                 |        |        +-----------------Dada__Dada-1_MB_tp
+|                                                 |        |     +--| (34.3/92)
+|                                                 |        |     |  +---------------MULE__MuDR-1_PPI_tp
+|                                                 |        |  +--| (55.9/67)
+|                                                 |        |  |  |  +--------------Dada__Dada-1_ON_tp
+|                                                 |        |  |  +--| (59.5/97)
+|                                                 |        |  |     +---------------Zisupton__UN-gi527300978_tp
+|                                                 |        +--| (72.9/44)
+|                                                 |           +-------------------Zisupton__DNA-18_CCri_4p
+|                                              +--| (49.5/56)
+|                                              |  |     +-------------------CMC-Mirage__UN-Mirage1
+|                                              |  |  +--| (67.8/47)
+|                                              |  |  |  |                  +--MULE__MuDR-14_PI_tp
+|                                              |  |  |  |  +---------------| (100/100)
+|                                              |  |  |  |  |               +---MULE__MuDR-33_PI_tp
+|                                              |  |  |  +--| (15.8/64)
+|                                              |  |  |     |               +--P__P4_AG_tp
+|                                              |  |  |     |         +-----| (100/100)
+|                                              |  |  |     |         |     +--P__UN-31201925_Aga
+|                                              |  |  |     |     +---| (100/100)
+|                                              |  |  |     |     |   |     +--P__UN-P_Dme_tp
+|                                              |  |  |     |     |   +-----| (100/100)
+|                                              |  |  |     |     |         +--P__UN-P_Dbi_tp
+|                                              |  |  |     |  +--| (76.9/52)
+|                                              |  |  |     |  |  |     +--------P__P-38_HMa
+|                                              |  |  |     |  |  |  +--| (36.5/51)
+|                                              |  |  |     |  |  |  |  +----------P__P-13_HM
+|                                              |  |  |     |  |  +--| (87/52)
+|                                              |  |  |     |  |     |       +--P__Galileo_DM
+|                                              |  |  |     |  |     +-------| (100/100)
+|                                              |  |  |     |  |             +--P__P-1_DRh
+|                                              |  |  |     +--| (97.2/100)
+|                                              |  |  |        |             +---P__P-25_HM
+|                                              |  |  |        |      +------| (100/100)
+|                                              |  |  |        |      |      +----P__P-5_HM
+|                                              |  |  |        |  +---| (99.7/100)
+|                                              |  |  |        |  |   |     +---P__P-16_HM
+|                                              |  |  |        |  |   +-----| (100/100)
+|                                              |  |  |        |  |         +----P__P-1_HM
+|                                              |  |  |        +--| (34.9/54)
+|                                              |  |  |           |       +--P__P-30_HM
+|                                              |  |  |           +-------| (100/100)
+|                                              |  |  |                   +---P__P-27_HM
+|                                              |  +--| (93.1/47)
+|                                              |     |          +------Kolobok__Kolobok-1_XT_tp
+|                                              |     +----------| (100/100)
+|                                              |                +--------Kolobok__Kolobok-1_AP_tp
+|                                           +--| (90.5/77)
+|                                           |  |                             +--CMC-Transib__Transib-1_DAn
+|                                           |  |                          +--| (99.8/100)
+|                                           |  |                          |  |     +--CMC-Transib__Transib-3_DAn
+|                                           |  |                          |  |  +--| (96.6/100)
+|                                           |  |                          |  |  |  +--CMC-Transib__Transib1
+|                                           |  |                          |  +--| (86.7/100)
+|                                           |  |                          |     +--CMC-Transib__Transib2
+|                                           |  |                       +--| (88/100)
+|                                           |  |                       |  |  +---CMC-Transib__Transib-4_DBp
+|                                           |  |                       |  +--| (100/100)
+|                                           |  |                       |     +--CMC-Transib__Transib-13_HM
+|                                           |  |                    +--| (100/100)
+|                                           |  |                    |  +------CMC-Transib__Transib-14_HM
+|                                           |  |                 +--| (75.4/99)
+|                                           |  |                 |  |     +-----CMC-Transib__Transib1_Dmoj
+|                                           |  |                 |  |  +--| (98.1/100)
+|                                           |  |                 |  |  |  |  +----CMC-Transib__Transib-17_HM
+|                                           |  |                 |  |  |  +--| (99.8/100)
+|                                           |  |                 |  |  |     +---CMC-Transib__Transib-18_HM
+|                                           |  |                 |  +--| (68.7/99)
+|                                           |  |                 |     |  +---CMC-Transib__Transib-12_HM
+|                                           |  |                 |     +--| (98.4/100)
+|                                           |  |                 |        +---CMC-Transib__Transib-15_HM
+|                                           |  |              +--| (95.5/100)
+|                                           |  |              |  +-------CMC-Transib__Transib1_AA
+|                                           |  |           +--| (97.6/100)
+|                                           |  |           |  |  +--CMC-Transib__Transib-11_HM
+|                                           |  |           |  +--| (99.9/100)
+|                                           |  |           |     +--CMC-Transib__Transib-16_HM
+|                                           |  |     +-----| (99.9/100)
+|                                           |  |     |     +--------CMC-Transib__Transib-10_HM
+|                                           |  |  +--| (65.3/88)
+|                                           |  |  |  |                      +---Zator__Zator-2_HM
+|                                           |  |  |  |                   +--| (85.2/99)
+|                                           |  |  |  |                   |  +---Zator__Zator-1_CP
+|                                           |  |  |  |                +--| (97.9/100)
+|                                           |  |  |  |                |  +---Zator__Zator-1_AA
+|                                           |  |  |  |             +--| (40.7/95)
+|                                           |  |  |  |             |  |  +---Zator__Zator-3_HM
+|                                           |  |  |  |             |  +--| (99.2/100)
+|                                           |  |  |  |             |     +-----Zator__Zator-4_HM
+|                                           |  |  |  +-------------| (100/100)
+|                                           |  |  |                +---Zator__Zator-1_HM
+|                                           |  +--| (88.5/65)
+|                                           |     +-----------------TcMar__Mariner-6_Crp_tp
+|                                        +--| (73.5/62)
+|                                        |  |                    +--MULE__MuDR-14_PI_p2
+|                                        |  |     +--------------| (100/100)
+|                                        |  |     |              +---MULE__MuDR-19_PI_p2
+|                                        |  |  +--| (49.4/72)
+|                                        |  |  |  |  +-----------------Sola__Sola3-1_BF_tp
+|                                        |  |  |  +--| (76.7/77)
+|                                        |  |  |     +---------------Sola__Sola3-3_HM_tp
+|                                        |  +--| (8.3/33)
+|                                        |     |                     +--Zisupton__UN-Zisupton-4_DR_tp
+|                                        |     |                  +--| (96.6/100)
+|                                        |     |                  |  +---Zisupton__Zisupton-5_DR_tp
+|                                        |     +------------------| (100/100)
+|                                        |                        +---Zisupton__UN-gi768943469_tp
+|                                     +--| (94.1/74)
+|                                     |  |           +------------PIF-Harbinger__AutoChomp1_tp
+|                                     |  |        +--| (62/94)
+|                                     |  |        |  |  +-------------PIF-Harbinger__HarbingerS-3_PI_tp
+|                                     |  |        |  +--| (0/87)
+|                                     |  |        |     +----------PIF-Harbinger__Harbinger-4_BF_tp
+|                                     |  |     +--| (94.1/98)
+|                                     |  |     |  |                 +----PIF-Harbinger__HARB7_ZM_tp
+|                                     |  |     |  |              +--| (76.6/99)
+|                                     |  |     |  |              |  |     +--PIF-Harbinger__ATIS112A_tp
+|                                     |  |     |  |              |  |  +--| (96/100)
+|                                     |  |     |  |              |  |  |  +----PIF-Harbinger__HARB-1_OS_tp
+|                                     |  |     |  |              |  +--| (79.9/100)
+|                                     |  |     |  |              |     +---PIF-Harbinger__HARB-9_FV_tp
+|                                     |  |     |  |           +--| (58.8/89)
+|                                     |  |     |  |           |  |  +--PIF-Harbinger__HARB-2_Mad_tp
+|                                     |  |     |  |           |  +--| (95.9/100)
+|                                     |  |     |  |           |     +---PIF-Harbinger__HARB-5_FV_tp
+|                                     |  |     |  |  +--------| (100/100)
+|                                     |  |     |  |  |        +---PIF-Harbinger__HARB-2_FV_tp
+|                                     |  |     |  +--| (65.9/99)
+|                                     |  |     |     +----------------PIF-Harbinger__Harbinger-24_CCri_tp
+|                                     |  |  +--| (9/51)
+|                                     |  |  |  |           +------------PiggyBac__piggyBac-11_PI_tp
+|                                     |  |  |  |        +--| (20.7/96)
+|                                     |  |  |  |        |  |       +-----PiggyBac__piggyBac-3_SSa_tp
+|                                     |  |  |  |        |  |  +----| (100/100)
+|                                     |  |  |  |        |  |  |    |         +--PiggyBac__PiggyBac-7_SM
+|                                     |  |  |  |        |  |  |    |  +------| (100/100)
+|                                     |  |  |  |        |  |  |    |  |      +--PiggyBac__piggyBac-16_SM
+|                                     |  |  |  |        |  |  |    +--| (44.9/90)
+|                                     |  |  |  |        |  |  |       +----PiggyBac__AvPB2_tp
+|                                     |  |  |  |        |  +--| (92.9/100)
+|                                     |  |  |  |        |     |  +---------PiggyBac__PiggyBac-2_HM
+|                                     |  |  |  |        |     +--| (82.7/100)
+|                                     |  |  |  |        |        |     +----PiggyBac__piggyBac-4B_LMi_tp
+|                                     |  |  |  |        |        |  +--| (99/100)
+|                                     |  |  |  |        |        |  |  +---PiggyBac__PiggyBac-4_SM
+|                                     |  |  |  |        |        +--| (97.7/100)
+|                                     |  |  |  |        |           +-----PiggyBac__PiggyBac-1_XT
+|                                     |  |  |  |     +--| (91.6/100)
+|                                     |  |  |  |     |  +---------------PiggyBac__piggyBac-4_PR_tp
+|                                     |  |  |  |  +--| (44.4/71)
+|                                     |  |  |  |  |  +---------------PiggyBac__UN-50741428_GGgene
+|                                     |  |  |  +--| (91.8/89)
+|                                     |  |  |     +-------------------Zator__Zator-2_AA
+|                                     |  +--| (25.9/60)
+|                                     |     |            +-----Zator__Zator-1_BF
+|                                     |     +------------| (100/100)
+|                                     |                  +------Zator__Zator-1_CGi_tp
+|                                  +--| (87.7/96)
+|                                  |  |                             +---Dada__Dada-U6_SS_tp
+|                                  |  |                          +--| (78.9/69)
+|                                  |  |                          |  +---Dada__Dada-tA_DR_tp
+|                                  |  |                       +--| (71/62)
+|                                  |  |                       |  +---------Dada__Dada-1_FR_tp
+|                                  |  |                    +--| (92.8/91)
+|                                  |  |                    |  |     +--Dada__Dada-tL_DR_tp
+|                                  |  |                    |  |  +--| (97.7/100)
+|                                  |  |                    |  |  |  +--Dada__Dada-1_GM_tp
+|                                  |  |                    |  +--| (85.1/61)
+|                                  |  |                    |     +-----------Dada__Dada-1_NV_tp
+|                                  |  |                 +--| (58/86)
+|                                  |  |                 |  |  +---Dada__Dada-1_CI_tp
+|                                  |  |                 |  +--| (92.6/100)
+|                                  |  |                 |     +-----Dada__Dada-1_CSa_tp
+|                                  |  |           +-----| (100/100)
+|                                  |  |           |     +----Dada__Dada-1_CGi_tp
+|                                  |  |     +-----| (99.8/100)
+|                                  |  |     |     +---------Dada__Dada-1_BF_tp
+|                                  |  |  +--| (29.8/96)
+|                                  |  |  |  |  +----------------Dada__Dada-1_CV_tp
+|                                  |  |  |  +--| (14.5/74)
+|                                  |  |  |     +------------------Dada__Dada-1_ES_tp
+|                                  |  +--| (93.5/89)
+|                                  |     |           +--------MULE__ATMU3_tp
+|                                  |     +-----------| (100/100)
+|                                  |                 +----------MULE__MuDR-11_ALy_p1
+|                               +--| (51.3/34)
+|                               |  |               +----PiggyBac__piggyBacX-25_CCri_tp
+|                               |  +---------------| (100/100)
+|                               |                  +---PiggyBac__piggyBacX-28_CCri_tp
+|                            +--| (13.6/14)
+|                            |  |     +-------------------Kolobok__KolobokH-1_RIr
+|                            |  |  +--| (23.2/53)
+|                            |  |  |  |          +--Merlin__UN-46156674_Hso
+|                            |  |  |  +----------| (100/100)
+|                            |  |  |             +-------Merlin__UN-33148872_Hdu
+|                            |  +--| (71.1/77)
+|                            |     |  +----------------Kolobok__Kolobok-1_AA
+|                            |     +--| (90.2/99)
+|                            |        +-----------------P__P-8_MLP
+|                         +--| (68/28)
+|                         |  |               +-----MULE__UN-IS1081_Mtu
+|                         |  |        +------| (99.9/100)
+|                         |  |        |      +----MULE__UN-1617569_Rop
+|                         |  |  +-----| (98.1/100)
+|                         |  |  |     |       +--MULE__UN-27228664_Pre
+|                         |  |  |     |  +----| (99.9/100)
+|                         |  |  |     |  |    +--MULE__UN-46132715_Reu
+|                         |  |  |     +--| (74.9/100)
+|                         |  |  |        +-------MULE__UN-15923405_Sau
+|                         |  +--| (87.9/83)
+|                         |     |               +-----Merlin__Merlin1_SM
+|                         |     |            +--| (40.4/93)
+|                         |     |            |  |         +--Merlin__Merlin-3_HMa
+|                         |     |            |  |     +---| (100/100)
+|                         |     |            |  |     |   +--Merlin__Merlin-2_HMa
+|                         |     |            |  |  +--| (93.1/100)
+|                         |     |            |  |  |  +----Merlin__Merlin-1_LSal
+|                         |     |            |  +--| (30.8/99)
+|                         |     |            |     |  +------Merlin__Merlin-7_HMa
+|                         |     |            |     +--| (95/100)
+|                         |     |            |        +-----Merlin__Merlin-4_HMa
+|                         |     |    +-------| (99.1/100)
+|                         |     |    |       |     +--Merlin__Merlin-1_CGi_1p
+|                         |     |    |       |  +--| (99/100)
+|                         |     |    |       |  |  +--Merlin__Merlin-2_CGi_1p
+|                         |     |    |       +--| (55.1/97)
+|                         |     |    |          |  +----Merlin__Merlin-1_DF
+|                         |     |    |          +--| (96.5/100)
+|                         |     |    |             +----Merlin__Merlin-1_DT
+|                         |     +----| (94.7/99)
+|                         |          |   +----------Merlin__UN-58583728_Xor
+|                         |          +---| (82.6/100)
+|                         |              +--------Merlin__UN-54028461_Polaromonas
+|                      +--| (82.2/59)
+|                      |  |     +-------------------MULE__MuDRF-1_PGr
+|                      |  |  +--| (0/22)
+|                      |  |  |  +-----------------Zisupton__DNA-17_CCri_tp
+|                      |  +--| (91.6/22)
+|                      |     |               +--Novosib__Novosib-1_CR
+|                      |     +---------------| (100/100)
+|                      |                     +--Novosib__Novosib-2_CR
+|                   +--| (91.8/55)
+|                   |  |             +------Academ__Academ-1_AMi_tp
+|                   |  |          +--| (98/100)
+|                   |  |          |  +---------Academ__Academ-1_Testu_tp
+|                   |  |       +--| (99.1/100)
+|                   |  |       |  |     +---------Academ__Academ-1_CSa_tp
+|                   |  |       |  |  +--| (98.6/93)
+|                   |  |       |  |  |  |     +----Academ__Academ-1_GA_tp
+|                   |  |       |  |  |  |  +--| (36.7/95)
+|                   |  |       |  |  |  |  |  +---Academ__Academ-1_SP_tp
+|                   |  |       |  |  |  +--| (100/100)
+|                   |  |       |  |  |     +----Academ__Academ-1_HM_tp
+|                   |  |       |  +--| (37/90)
+|                   |  |       |     +-----Academ__Academ-1_NV_tp
+|                   |  |  +----| (100/100)
+|                   |  |  |    |      +----Academ__Academ-1_AP_tp
+|                   |  |  |    |   +--| (95.2/100)
+|                   |  |  |    |   |  +-----Academ__Academ-1_CTe_tp
+|                   |  |  |    +---| (100/100)
+|                   |  |  |        |  +----Academ__Academ-1_CGi_tp
+|                   |  |  |        +--| (98.9/100)
+|                   |  |  |           +-----Academ__Academ-1_DPu_tp
+|                   |  +--| (92.6/51)
+|                   |     +---------------------Dada__Dada-1_LB_tp
+|                +--| (50.5/49)
+|                |  |                             +-------CMC-Mirage__UN-GIN1_int
+|                |  |                          +--| (97.3/95)
+|                |  |                          |  +--Ginger__Ginger1-5_HM_tp
+|                |  |                       +--| (75.2/89)
+|                |  |                       |  +------Ginger__Ginger1-7_HM_tp
+|                |  |                    +--| (62.2/98)
+|                |  |                    |  +--------CMC-Mirage__UN-GIN2_int
+|                |  |                 +--| (89.6/93)
+|                |  |                 |  +--------Ginger__Ginger1-2_DR_tp
+|                |  |              +--| (91.7/98)
+|                |  |              |  |     +------Ginger__Ginger1-12_HM_tp
+|                |  |              |  |  +--| (7.7/57)
+|                |  |              |  |  |  +-----Ginger__Ginger1-1_BF_tp
+|                |  |              |  +--| (14.2/49)
+|                |  |              |     +----Ginger__Ginger1-9_HM_tp
+|                |  |           +--| (99.5/99)
+|                |  |           |  |           +----Ginger__Ginger1-1_HM_tp
+|                |  |           |  |        +--| (98.4/100)
+|                |  |           |  |        |  +---Ginger__Ginger1-3_HM_tp
+|                |  |           |  |     +--| (64.4/90)
+|                |  |           |  |     |  |  +---Ginger__Ginger1-1_AP_tp
+|                |  |           |  |     |  +--| (100/100)
+|                |  |           |  |     |     +---Ginger__Ginger1-2_AP_tp
+|                |  |           |  |  +--| (92.6/91)
+|                |  |           |  |  |  |  +-----Ginger__Ginger1-11_HM_tp
+|                |  |           |  |  |  +--| (99.4/100)
+|                |  |           |  |  |     +----Ginger__Ginger1-1_AC_tp
+|                |  |           |  +--| (97.9/100)
+|                |  |           |     |  +--Ginger__Ginger1-10_HM_tp
+|                |  |           |     +--| (100/100)
+|                |  |           |        +---Ginger__Ginger1-4_HM_tp
+|                |  |        +--| (51/96)
+|                |  |        |  +--------------Ginger__Ginger-1_TriAdh_tp
+|                |  |     +--| (5.2/78)
+|                |  |     |  |                     +--Zisupton__UN-gi751707416_tp
+|                |  |     |  |                  +--| (100/100)
+|                |  |     |  |                  |  +--Zisupton__UN-gi749831149_tp
+|                |  |     |  |               +--| (23.9/60)
+|                |  |     |  |               |  +--Zisupton__UN-gi749759490_tp
+|                |  |     |  +---------------| (100/100)
+|                |  |     |                  +---Zisupton__UN-gi751692202_tp
+|                |  |  +--| (79.3/95)
+|                |  |  |  +-----------------Merlin__UN-46578998_Dvu
+|                |  +--| (27.4/70)
+|                |     |                     +--TcMar__Mariner-13_LHu_tp
+|                |     |                  +--| (100/100)
+|                |     |                  |  +--TcMar__Mariner-2_LHu_tp
+|                |     |               +--| (78.7/100)
+|                |     |               |  +------TcMar__UN-Mariner2_GT_tp
+|                |     |            +--| (96/100)
+|                |     |            |  |  +--TcMar__Mariner-5_ACe_tp
+|                |     |            |  +--| (95.3/100)
+|                |     |            |     +---TcMar__Mariner-14_DBp_tp
+|                |     |    +-------| (100/100)
+|                |     |    |       |     +---TcMar__Mariner-7_PBa_tp
+|                |     |    |       |  +--| (32.7/94)
+|                |     |    |       |  |  +------TcMar__Mariner-4_CFl_tp
+|                |     |    |       +--| (90.8/100)
+|                |     |    |          +-----TcMar__Mariner-61_LMi_tp
+|                |     +----| (98.6/100)
+|                |          |        +--------TcMar__Mariner-40_SSa_tp
+|                |          |     +--| (30/84)
+|                |          |     |  +-------TcMar__Mariner-1_DVi_tp
+|                |          |  +--| (96.8/100)
+|                |          |  |  +------TcMar__Mariner-26_CGi_tp
+|                |          +--| (94.6/100)
+|                |             |  +------TcMar__Mariner-3_LHu_tp
+|                |             +--| (87.3/100)
+|                |                +----------TcMar__Mariner-12_AEc_tp
+|             +--| (24.9/30)
+|             |  |  +-------------------Novosib__Novosib-4_CR
+|             |  +--| (63.8/50)
+|             |     |          +-----PiggyBac__piggyBacX-33_CCri_tp
+|             |     +----------| (100/100)
+|             |                +------PiggyBac__piggyBacX-22_CCri_tp
+|         +---| (63.5/51)
+|         |   |                            +----CMC-EnSpm__EnSpm12_SB_p1
+|         |   |                         +--| (100/100)
+|         |   |                         |  +----CMC-EnSpm__EN1_ZM
+|         |   |                      +--| (100/100)
+|         |   |                      |  +------CMC-EnSpm__ATEnSpm6
+|         |   |                   +--| (93.8/78)
+|         |   |                   |  |        +---CMC-EnSpm__EnSpm-4_HV_p1
+|         |   |                   |  |     +--| (56.7/74)
+|         |   |                   |  |     |  +------CMC-EnSpm__CACTA_LP_p1
+|         |   |                   |  |  +--| (99.9/100)
+|         |   |                   |  |  |  |     +---CMC-EnSpm__EnSpm1_SB_p1
+|         |   |                   |  |  |  |  +--| (100/100)
+|         |   |                   |  |  |  |  |  +--CMC-EnSpm__EnSpm4_SB_p1
+|         |   |                   |  |  |  +--| (13.7/72)
+|         |   |                   |  |  |     +---CMC-EnSpm__EnSpm4_OS_p1
+|         |   |                   |  +--| (99.9/97)
+|         |   |                   |     |  +--CMC-EnSpm__EnSpm-3_VV
+|         |   |                   |     +--| (71.3/98)
+|         |   |                   |        +----CMC-EnSpm__ATEnSpm12
+|         |   |                +--| (31.5/75)
+|         |   |                |  +----CMC-EnSpm__EnSpm-40_SBi_1p
+|         |   |     +----------| (100/100)
+|         |   |     |          |  +-----CMC-EnSpm__EnSpm-41_SBi_1p
+|         |   |     |          +--| (83.5/86)
+|         |   |     |             +---CMC-EnSpm__EnSpm-16_OS_p1
+|         |   |  +--| (26.1/70)
+|         |   |  |  +---------------CMC-Mirage__Mirage1_CB
+|         |   +--| (68.6/62)
+|         |      |       +-------PIF-Harbinger__Harbinger-53_CCri_tp
+|         |      |    +--| (13.7/75)
+|         |      |    |  +----------PIF-Harbinger__Harbinger-1_ADi_tp
+|         |      +----| (96.3/98)
+|         |           +----------PIF-Harbinger__Harbinger-36_CCri_tp
++---------| (99.9/100)
+|         +-----------Zisupton__DNA-17_CCri_hel1
+|
++---Academ__Academ-11_CCri_2p
+
+Tree in newick format:
+
+(Academ__Academ-6_CCri_2p:0.8361376666,(((((((((((((((((((Academ__UN-AcademH-6_PGr_p1:0.5994304986,Academ__Academ-1_PGr_p1:0.5520228120)100/100:1.8813447540,(MULE__MuDR-5_SBi:1.7940663152,MULE__MUJITOS1:1.5858367178)89.6/100:0.6250019521)64.1/54:0.2076613649,(Zisupton__Zisupton-1_PGr_tp:1.0058801290,Zisupton__Zisupton-4_PGr_tp:0.9741647124)100/100:1.3077993050)70.5/52:0.1615370868,((((((((CMC-Chapaev__Chapaev3-1_SM:0.4902346761,CMC-Chapaev__Chapaev3-1_HR:0.5444147736)50.5/78:0.1074874876,(CMC-Chapaev__Chapaev3-1_PM:0.5719172017,CMC-Chapaev__Chapaev3-2_AA:0.5781311223)86.1/93:0.1352599650)54.8/72:0.1025827143,CMC-Chapaev__Chapaev3-3_HR:0.4962492787)33.9/62:0.0479329669,CMC-Chapaev__Chapaev3-3_AA:0.4389739477)100/100:1.4063420580,((((CMC-Chapaev__Chapaev-13_HM:0.6561351097,((CMC-Chapaev__Chapaev-5_HMa:0.4506591579,CMC-Chapaev__Chapaev-15_HM:0.3925923960)95.9/100:0.1117547184,CMC-Chapaev__Chapaev-16_HM:0.3307059182)85.9/100:0.1294691009)16.1/89:0.0942256811,CMC-Chapaev__Chapaev-1_HM:0.3881991098)100/100:0.5030409887,(CMC-Chapaev__Chapaev-10_HM:0.6548127195,CMC-Chapaev__Chapaev-11_HM:0.7009690867)100/100:0.6225420294)99.2/100:0.5821518201,CMC-Chapaev__Chapaev-3A_HM:1.7451833539)94.1/100:0.4003731354)80.6/100:0.2386698673,CMC-Chapaev__Chapaev-12_HM:2.2459521539)96.1/98:0.4500192102,(((((((Kolobok__Kolobok-13_HM_tp:0.5096671840,Kolobok__Kolobok-12_HM_tp:0.5166653635)99.7/100:0.2135708176,Kolobok__Kolobok-15_HM_tp:0.6942532613)94/79:0.1216729394,(Kolobok__Kolobok-11_HM_tp:0.3724456736,Kolobok__Kolobok-17_HM_tp:0.4462587897)100/100:0.2919155722)61.4/77:0.0443863370,Kolobok__Kolobok-14_HM_tp:0.6355881423)88.5/78:0.1366368957,Kolobok__Kolobok-19_HMa_tp:0.6814943144)0/34:0.0000024324,(((Kolobok__Kolobok-3_HM_tp:0.3152384385,Kolobok__Kolobok-18_HM_tp:0.2651659556)99.8/100:0.2474884099,Kolobok__Kolobok-2_HM_tp:0.3852348882)99.9/100:0.3754823668,Kolobok__Kolobok-1_Aplcal:1.2893618303)96.3/98:0.2760366153)100/100:1.4961969160,((((Sola__Sola1-10_AP_tp:1.0654396520,Sola__Sola1-4_CGi_tp:0.9071590299)62.8/100:0.2192310399,(Sola__Sola-1_DK_tp:0.7533616386,Sola__Sola1-11_AP_tp:0.7217546386)100/100:0.6337506858)55.5/100:0.1322238272,Sola__Sola1-2_HM_tp:1.1088355415)97.6/100:0.4787508893,Sola__Sola1-4_AA_tp:1.6225929986)98/100:0.7433667826)78.1/96:0.2820370587)20.6/59:0.0464407106,((Sola__Sola1-1_PI_tp:2.0823163836,(Sola__Sola1-2_Psojae_tp:0.2485045620,Sola__Sola1-3_PI_tp:0.2978938282)100/100:1.6012800600)0.6/30:0.2075707646,Zisupton__DNA-17_CCri_hel2:1.9620192321)90.8/84:0.3291263525)85.4/76:0.1233460133)79/55:0.1028861037,((CMC-EnSpm__EnSpm-4_PGr:2.5218865788,((Sola__Sola2-2_NVi_tp:0.8948490884,Sola__Sola2-5_LSal_tp:0.7150458516)73.9/91:0.0826712310,(Sola__Sola2-1_HM_tp:0.9176730916,Sola__Sola2-6_AAe_tp:0.6961811431)68/90:0.1470641222)100/100:1.5213150670)75.7/42:0.2897890009,((((CMC-EnSpm__EnSpm4_SB_p2:2.3657784959,TcMar__Mariner-4_CCri_tp:1.9688222989)5/62:0.0716381120,(PIF-Harbinger__ISL2EU-1_LHu_tp:2.1458169884,Zisupton__DNA-17_CCri_p4:2.1547021642)84/97:0.4412627870)78.7/61:0.2327718190,((((hAT__hAT-16_ZM_tp:1.1887431091,hAT__ATHAT7_tp:1.3941641314)93.8/100:0.3286580706,(hAT__UN-Hobo_tp:1.3100185635,(hAT__HAT-1_DP_tp:0.9676714974,hAT__hAT-17_Croc_tp:1.1773740571)95.9/100:0.3823119957)60.2/99:0.2487985368)95.7/100:0.3084489157,(hAT__UN-34914880_Osa_tp:0.7079783823,hAT__hAT-5_PTr_tp:1.0529652173)100/100:1.0459443380)88.8/99:0.1803729950,((((hAT__UN-116308850_Osa_tp:0.7282324113,hAT__RAHAT_tp:0.6769474430)100/100:1.1125742870,hAT__UN-PRKRIR_Oan_eg_tp:1.9238162702)66.9/98:0.1747282989,hAT__hAT-7_LCh_tp:1.8802728600)30.8/96:0.1512623495,((hAT__hAT-7_AMi_tp:0.5788642114,hAT__Chaplin4_FR_tp:0.6443282501)99.1/100:0.4194420592,(hAT__Charlie24_tp:0.6659025442,hAT__hAT-8_CPB_tp:0.7587555460)98.7/100:0.3616371118)100/100:0.8146400091)99.4/99:0.4966063477)96.2/99:0.3316186200)50/52:0.0511576456,(((Dada__Dada-1_MB_tp:2.2220970314,MULE__MuDR-1_PPI_tp:2.0411240987)34.3/92:0.1295730728,(Dada__Dada-1_ON_tp:1.8720087327,Zisupton__UN-gi527300978_tp:2.0120976875)59.5/97:0.2947072366)55.9/67:0.1363560574,Zisupton__DNA-18_CCri_4p:2.4513797682)72.9/44:0.1876964317)19.2/34:0.0679104854)91.1/56:0.1758249018)48.5/49:0.0911339256,((CMC-Mirage__UN-Mirage1:2.4641433737,((MULE__MuDR-14_PI_tp:0.4438381311,MULE__MuDR-33_PI_tp:0.5253250228)100/100:2.0544021900,((((P__P4_AG_tp:0.3687255102,P__UN-31201925_Aga:0.4034208383)100/100:0.7540029091,(P__UN-P_Dme_tp:0.1774499130,P__UN-P_Dbi_tp:0.2930950792)100/100:0.8434353107)100/100:0.5181774189,((P__P-38_HMa:1.1391987831,P__P-13_HM:1.3558630321)36.5/51:0.1616861343,(P__Galileo_DM:0.3756850322,P__P-1_DRh:0.3509683474)100/100:0.9703340125)87/52:0.1304021596)76.9/52:0.1302121473,(((P__P-25_HM:0.4964993595,P__P-5_HM:0.6075005586)100/100:0.9440249459,(P__P-16_HM:0.5230930367,P__P-1_HM:0.6964754343)100/100:0.8446550759)99.7/100:0.5381130700,(P__P-30_HM:0.4018705914,P__P-27_HM:0.5007202821)100/100:1.0764572090)34.9/54:0.0977270891)97.2/100:0.4469658608)15.8/64:0.0670807716)67.8/47:0.1472250834,(Kolobok__Kolobok-1_XT_tp:0.9164256969,Kolobok__Kolobok-1_AP_tp:1.1286563019)100/100:1.3512606970)93.1/47:0.2177838234)49.5/56:0.2342239410,(((((((((CMC-Transib__Transib-1_DAn:0.4289554299,((CMC-Transib__Transib-3_DAn:0.4065252083,CMC-Transib__Transib1:0.4670672044)96.6/100:0.1389675059,CMC-Transib__Transib2:0.4693503571)86.7/100:0.1258992728)99.8/100:0.2337482763,(CMC-Transib__Transib-4_DBp:0.5125158445,CMC-Transib__Transib-13_HM:0.4765989625)100/100:0.2617446641)88/100:0.1045325583,CMC-Transib__Transib-14_HM:0.8734059880)100/100:0.2750918181,((CMC-Transib__Transib1_Dmoj:0.7339677339,(CMC-Transib__Transib-17_HM:0.6079906920,CMC-Transib__Transib-18_HM:0.5441427649)99.8/100:0.2273098587)98.1/100:0.1598747086,(CMC-Transib__Transib-12_HM:0.5282768533,CMC-Transib__Transib-15_HM:0.5612416669)98.4/100:0.1780076384)68.7/99:0.0982909440)75.4/99:0.1070027372,CMC-Transib__Transib1_AA:0.9904161540)95.5/100:0.1624559232,(CMC-Transib__Transib-11_HM:0.4411810134,CMC-Transib__Transib-16_HM:0.4811590008)99.9/100:0.2974497474)97.6/100:0.3610254801,CMC-Transib__Transib-10_HM:1.1740870824)99.9/100:0.7814239233,((((Zator__Zator-2_HM:0.4941834732,Zator__Zator-1_CP:0.5082421208)85.2/99:0.1321806212,Zator__Zator-1_AA:0.5344402512)97.9/100:0.1565461903,(Zator__Zator-3_HM:0.5923405119,Zator__Zator-4_HM:0.7889101341)99.2/100:0.2435715812)40.7/95:0.1183683026,Zator__Zator-1_HM:0.5933558498)100/100:1.8090072910)65.3/88:0.1979319849,TcMar__Mariner-6_Crp_tp:2.1959926669)88.5/65:0.2430930270)90.5/77:0.1725067246,(((MULE__MuDR-14_PI_p2:0.4769961391,MULE__MuDR-19_PI_p2:0.5933184132)100/100:1.8880709300,(Sola__Sola3-1_BF_tp:2.1867689955,Sola__Sola3-3_HM_tp:2.0413342224)76.7/77:0.3238578040)49.4/72:0.2087800477,((Zisupton__UN-Zisupton-4_DR_tp:0.4391379822,Zisupton__Zisupton-5_DR_tp:0.5130255083)96.6/100:0.2329109184,Zisupton__UN-gi768943469_tp:0.4851558819)100/100:2.3294239360)8.3/33:0.0758134663)73.5/62:0.1396342164,((((PIF-Harbinger__AutoChomp1_tp:1.6491602945,(PIF-Harbinger__HarbingerS-3_PI_tp:1.7568176215,PIF-Harbinger__Harbinger-4_BF_tp:1.4476432432)0/87:0.0581627037)62/94:0.4065614147,((((PIF-Harbinger__HARB7_ZM_tp:0.6307881354,((PIF-Harbinger__ATIS112A_tp:0.4022905212,PIF-Harbinger__HARB-1_OS_tp:0.6399244159)96/100:0.1518046796,PIF-Harbinger__HARB-9_FV_tp:0.5359831116)79.9/100:0.1253853374)76.6/99:0.1796800307,(PIF-Harbinger__HARB-2_Mad_tp:0.4551629398,PIF-Harbinger__HARB-5_FV_tp:0.4870251822)95.9/100:0.2094467001)58.8/89:0.1061740177,PIF-Harbinger__HARB-2_FV_tp:0.4950103145)100/100:1.1838234630,PIF-Harbinger__Harbinger-24_CCri_tp:2.1026639038)65.9/99:0.4454978995)94.1/98:0.3827760965,((((PiggyBac__piggyBac-11_PI_tp:1.5795902741,((PiggyBac__piggyBac-3_SSa_tp:0.8174459329,((PiggyBac__PiggyBac-7_SM:0.3119218358,PiggyBac__piggyBac-16_SM:0.3352003264)100/100:0.8968491124,PiggyBac__AvPB2_tp:0.6418016343)44.9/90:0.1502224376)100/100:0.6264219048,(PiggyBac__PiggyBac-2_HM:1.3150707881,((PiggyBac__piggyBac-4B_LMi_tp:0.7172782446,PiggyBac__PiggyBac-4_SM:0.5916515181)99/100:0.3633836162,PiggyBac__PiggyBac-1_XT:0.8285513541)97.7/100:0.3754850897)82.7/100:0.2902892062)92.9/100:0.3083303724)20.7/96:0.0870957474,PiggyBac__piggyBac-4_PR_tp:1.9533594132)91.6/100:0.3670979935,PiggyBac__UN-50741428_GGgene:1.9373499853)44.4/71:0.1717453560,Zator__Zator-2_AA:2.4897089286)91.8/89:0.3225224538)9/51:0.0743972144,(Zator__Zator-1_BF:0.7795926650,Zator__Zator-1_CGi_tp:0.8569439152)100/100:1.5744071830)25.9/60:0.1169779415)94.1/74:0.1927305602,((((((((Dada__Dada-U6_SS_tp:0.5824418334,Dada__Dada-tA_DR_tp:0.5665789540)78.9/69:0.0846506176,Dada__Dada-1_FR_tp:1.2186188625)71/62:0.0957153788,((Dada__Dada-tL_DR_tp:0.3640012042,Dada__Dada-1_GM_tp:0.4647823858)97.7/100:0.2094488772,Dada__Dada-1_NV_tp:1.5686472659)85.1/61:0.1323146954)92.8/91:0.1212252779,(Dada__Dada-1_CI_tp:0.5563873032,Dada__Dada-1_CSa_tp:0.7772310739)92.6/100:0.1113098936)58/86:0.0952721535,Dada__Dada-1_CGi_tp:0.6575958388)100/100:0.7882742995,Dada__Dada-1_BF_tp:1.2683204359)99.8/100:0.7819794462,(Dada__Dada-1_CV_tp:2.1663754429,Dada__Dada-1_ES_tp:2.3840345407)14.5/74:0.1528463762)29.8/96:0.0871737266,(MULE__ATMU3_tp:1.1536952369,MULE__MuDR-11_ALy_p1:1.4064007098)100/100:1.5346818580)93.5/89:0.2575083232)87.7/96:0.2353258525,(PiggyBac__piggyBacX-25_CCri_tp:0.6134450155,PiggyBac__piggyBacX-28_CCri_tp:0.5983082060)100/100:1.9817632920)51.3/34:0.0953674108,((Kolobok__KolobokH-1_RIr:2.4968930367,(Merlin__UN-46156674_Hso:0.2474275080,Merlin__UN-33148872_Hdu:0.9673688524)100/100:1.3419046690)23.2/53:0.2575251216,(Kolobok__Kolobok-1_AA:2.1167517792,P__P-8_MLP:2.2054634224)90.2/99:0.4485434572)71.1/77:0.2198578185)13.6/14:0.0626995375,(((MULE__UN-IS1081_Mtu:0.7657454224,MULE__UN-1617569_Rop:0.6230558929)99.9/100:0.9200216428,((MULE__UN-27228664_Pre:0.4116594868,MULE__UN-46132715_Reu:0.4457229991)99.9/100:0.7110908606,MULE__UN-15923405_Sau:1.0616914618)74.9/100:0.1666112067)98.1/100:0.7476486904,(((Merlin__Merlin1_SM:0.8168040607,(((Merlin__Merlin-3_HMa:0.2904001529,Merlin__Merlin-2_HMa:0.1414432323)100/100:0.5798031890,Merlin__Merlin-1_LSal:0.6645386214)93.1/100:0.2083856564,(Merlin__Merlin-7_HMa:0.9577224603,Merlin__Merlin-4_HMa:0.7939085164)95/100:0.2673740269)30.8/99:0.1614680650)40.4/93:0.0965357724,((Merlin__Merlin-1_CGi_1p:0.4378386132,Merlin__Merlin-2_CGi_1p:0.4063072118)99/100:0.3060745836,(Merlin__Merlin-1_DF:0.6850463728,Merlin__Merlin-1_DT:0.6229813248)96.5/100:0.3405344421)55.1/97:0.0832371951)99.1/100:1.0348272420,(Merlin__UN-58583728_Xor:1.4501639057,Merlin__UN-54028461_Polaromonas:1.0899278454)82.6/100:0.4897367613)94.7/99:0.6066866868)87.9/83:0.2833854475)68/28:0.0964791899,((MULE__MuDRF-1_PGr:2.5313659066,Zisupton__DNA-17_CCri_tp:2.2749210795)0/22:0.0521526758,(Novosib__Novosib-1_CR:0.3752416458,Novosib__Novosib-2_CR:0.1988618890)100/100:2.0329816240)91.6/22:0.2597397621)82.2/59:0.1282488486,((((Academ__Academ-1_AMi_tp:0.9652035346,Academ__Academ-1_Testu_tp:1.2280345819)98/100:0.2126812999,((Academ__Academ-1_CSa_tp:1.3036983652,((Academ__Academ-1_GA_tp:0.7004415730,Academ__Academ-1_SP_tp:0.5760039231)36.7/95:0.1533825098,Academ__Academ-1_HM_tp:0.6911098398)100/100:0.3882372264)98.6/93:0.1828366857,Academ__Academ-1_NV_tp:0.7479122855)37/90:0.1071791973)99.1/100:0.2690594071,((Academ__Academ-1_AP_tp:0.7231257752,Academ__Academ-1_CTe_tp:0.8430376670)95.2/100:0.1727509725,(Academ__Academ-1_CGi_tp:0.6847005159,Academ__Academ-1_DPu_tp:0.8372844530)98.9/100:0.2120609315)100/100:0.5633897698)100/100:0.7253348747,Dada__Dada-1_LB_tp:2.7015878670)92.6/51:0.2461086413)91.8/55:0.1702024300,((((((((((CMC-Mirage__UN-GIN1_int:1.0328897899,Ginger__Ginger1-5_HM_tp:0.4770892003)97.3/95:0.2832488636,Ginger__Ginger1-7_HM_tp:0.8896940272)75.2/89:0.1283638122,CMC-Mirage__UN-GIN2_int:1.1822175940)62.2/98:0.0579125141,Ginger__Ginger1-2_DR_tp:1.0949652965)89.6/93:0.2088002453,((Ginger__Ginger1-12_HM_tp:0.9623712179,Ginger__Ginger1-1_BF_tp:0.8088000691)7.7/57:0.1428517392,Ginger__Ginger1-9_HM_tp:0.6123926921)14.2/49:0.1247637952)91.7/98:0.1999394791,((((Ginger__Ginger1-1_HM_tp:0.6133394521,Ginger__Ginger1-3_HM_tp:0.5681459605)98.4/100:0.2605075706,(Ginger__Ginger1-1_AP_tp:0.5350257375,Ginger__Ginger1-2_AP_tp:0.5413761278)100/100:0.3333317531)64.4/90:0.1292697942,(Ginger__Ginger1-11_HM_tp:0.7504205235,Ginger__Ginger1-1_AC_tp:0.6948802675)99.4/100:0.2427680160)92.6/91:0.2319715535,(Ginger__Ginger1-10_HM_tp:0.4669442781,Ginger__Ginger1-4_HM_tp:0.4971270329)100/100:0.4477066237)97.9/100:0.2632542044)99.5/99:0.4565393521,Ginger__Ginger-1_TriAdh_tp:1.8223620397)51/96:0.2261026900,(((Zisupton__UN-gi751707416_tp:0.3612327193,Zisupton__UN-gi749831149_tp:0.3832993039)100/100:0.2448931023,Zisupton__UN-gi749759490_tp:0.3441082142)23.9/60:0.0664805849,Zisupton__UN-gi751692202_tp:0.5567170395)100/100:2.0146404300)5.2/78:0.0407637119,Merlin__UN-46578998_Dvu:2.2505453160)79.3/95:0.2704278622,(((((TcMar__Mariner-13_LHu_tp:0.3626162497,TcMar__Mariner-2_LHu_tp:0.2764479591)100/100:0.4535998096,TcMar__UN-Mariner2_GT_tp:0.8947176288)78.7/100:0.1307314928,(TcMar__Mariner-5_ACe_tp:0.4283331657,TcMar__Mariner-14_DBp_tp:0.5470129444)95.3/100:0.1948223077)96/100:0.3550527021,((TcMar__Mariner-7_PBa_tp:0.6014003951,TcMar__Mariner-4_CFl_tp:0.8916368888)32.7/94:0.0820863112,TcMar__Mariner-61_LMi_tp:0.7712243044)90.8/100:0.2823846983)100/100:1.0024369980,(((TcMar__Mariner-40_SSa_tp:1.1893014412,TcMar__Mariner-1_DVi_tp:1.0501421630)30/84:0.1954801858,TcMar__Mariner-26_CGi_tp:0.8750187389)96.8/100:0.4444215969,(TcMar__Mariner-3_LHu_tp:0.9273868996,TcMar__Mariner-12_AEc_tp:1.3839020087)87.3/100:0.3156949171)94.6/100:0.4200362581)98.6/100:0.6207737985)27.4/70:0.0486691678)50.5/49:0.1232840452,(Novosib__Novosib-4_CR:2.4226629002,(PiggyBac__piggyBacX-33_CCri_tp:0.8446342702,PiggyBac__piggyBacX-22_CCri_tp:0.8551680910)100/100:1.3499480680)63.8/50:0.2881661545)24.9/30:0.1352224468,(((((((CMC-EnSpm__EnSpm12_SB_p1:0.6779497831,CMC-EnSpm__EN1_ZM:0.6632488787)100/100:0.3059205830,CMC-EnSpm__ATEnSpm6:0.8749898879)100/100:0.3069943352,(((CMC-EnSpm__EnSpm-4_HV_p1:0.5737187471,CMC-EnSpm__CACTA_LP_p1:0.9506586822)56.7/74:0.0851229649,((CMC-EnSpm__EnSpm1_SB_p1:0.5025094100,CMC-EnSpm__EnSpm4_SB_p1:0.3665115725)100/100:0.4294858738,CMC-EnSpm__EnSpm4_OS_p1:0.4960706427)13.7/72:0.0533301004)99.9/100:0.2150589558,(CMC-EnSpm__EnSpm-3_VV:0.4704661140,CMC-EnSpm__ATEnSpm12:0.7142395109)71.3/98:0.1493430515)99.9/97:0.2159908070)93.8/78:0.1031262190,CMC-EnSpm__EnSpm-40_SBi_1p:0.6590460809)31.5/75:0.0430147108,(CMC-EnSpm__EnSpm-41_SBi_1p:0.7323634002,CMC-EnSpm__EnSpm-16_OS_p1:0.5377558299)83.5/86:0.0746175481)100/100:1.4196582580,CMC-Mirage__Mirage1_CB:2.0547006549)26.1/70:0.1004687704,((PIF-Harbinger__Harbinger-53_CCri_tp:1.0144319737,PIF-Harbinger__Harbinger-1_ADi_tp:1.4479824033)13.7/75:0.1424982764,PIF-Harbinger__Harbinger-36_CCri_tp:1.4117082999)96.3/98:0.6968293544)68.6/62:0.2247281987)63.5/51:0.5387648755,Zisupton__DNA-17_CCri_hel1:1.5398384791)99.9/100:1.2228850060,Academ__Academ-11_CCri_2p:0.5468139678);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -452606.190898
+Robinson-Foulds distance between ML tree and consensus tree: 16
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----Academ__Academ-6_CCri_2p
+|
+|                                                                            +---Academ__UN-AcademH-6_PGr_p1
+|                                                             +--------------| (100)
+|                                                             |              +---Academ__Academ-1_PGr_p1
+|                                                          +--| (54)
+|                                                          |  |    +-------------MULE__MuDR-5_SBi
+|                                                          |  +----| (100)
+|                                                          |       +------------MULE__MUJITOS1
+|                                                       +--| (52)
+|                                                       |  |         +-------Zisupton__Zisupton-1_PGr_tp
+|                                                       |  +---------| (100)
+|                                                       |            +-------Zisupton__Zisupton-4_PGr_tp
+|                                                    +--| (55)
+|                                                    |  |                               +---CMC-Chapaev__Chapaev3-1_SM
+|                                                    |  |                            +--| (78)
+|                                                    |  |                            |  +---CMC-Chapaev__Chapaev3-1_HR
+|                                                    |  |                         +--| (72)
+|                                                    |  |                         |  |  +---CMC-Chapaev__Chapaev3-1_PM
+|                                                    |  |                         |  +--| (93)
+|                                                    |  |                         |     +---CMC-Chapaev__Chapaev3-2_AA
+|                                                    |  |                      +--| (62)
+|                                                    |  |                      |  +---CMC-Chapaev__Chapaev3-3_HR
+|                                                    |  |           +----------| (100)
+|                                                    |  |           |          +--CMC-Chapaev__Chapaev3-3_AA
+|                                                    |  |        +--| (100)
+|                                                    |  |        |  |             +----CMC-Chapaev__Chapaev-13_HM
+|                                                    |  |        |  |          +--| (89)
+|                                                    |  |        |  |          |  |     +--CMC-Chapaev__Chapaev-5_HMa
+|                                                    |  |        |  |          |  |  +--| (100)
+|                                                    |  |        |  |          |  |  |  +--CMC-Chapaev__Chapaev-15_HM
+|                                                    |  |        |  |          |  +--| (100)
+|                                                    |  |        |  |          |     +--CMC-Chapaev__Chapaev-16_HM
+|                                                    |  |        |  |      +---| (100)
+|                                                    |  |        |  |      |   +--CMC-Chapaev__Chapaev-1_HM
+|                                                    |  |        |  |  +---| (100)
+|                                                    |  |        |  |  |   |    +----CMC-Chapaev__Chapaev-10_HM
+|                                                    |  |        |  |  |   +----| (100)
+|                                                    |  |        |  |  |        +----CMC-Chapaev__Chapaev-11_HM
+|                                                    |  |        |  +--| (100)
+|                                                    |  |        |     +-------------CMC-Chapaev__Chapaev-3A_HM
+|                                                    |  |     +--| (98)
+|                                                    |  |     |  +-----------------CMC-Chapaev__Chapaev-12_HM
+|                                                    |  |  +--| (59)
+|                                                    |  |  |  |                          +---Kolobok__Kolobok-13_HM_tp
+|                                                    |  |  |  |                       +--| (100)
+|                                                    |  |  |  |                       |  +---Kolobok__Kolobok-12_HM_tp
+|                                                    |  |  |  |                    +--| (79)
+|                                                    |  |  |  |                    |  +----Kolobok__Kolobok-15_HM_tp
+|                                                    |  |  |  |                 +--| (77)
+|                                                    |  |  |  |                 |  |  +--Kolobok__Kolobok-11_HM_tp
+|                                                    |  |  |  |                 |  +--| (100)
+|                                                    |  |  |  |                 |     +--Kolobok__Kolobok-17_HM_tp
+|                                                    |  |  |  |              +--| (78)
+|                                                    |  |  |  |              |  +----Kolobok__Kolobok-14_HM_tp
+|                                                    |  |  |  |  +-----------| (100)
+|                                                    |  |  |  |  |           |           +--Kolobok__Kolobok-3_HM_tp
+|                                                    |  |  |  |  |           |        +--| (100)
+|                                                    |  |  |  |  |           |        |  +--Kolobok__Kolobok-18_HM_tp
+|                                                    |  |  |  |  |           |     +--| (100)
+|                                                    |  |  |  |  |           |     |  +--Kolobok__Kolobok-2_HM_tp
+|                                                    |  |  |  |  |           |  +--| (98)
+|                                                    |  |  |  |  |           |  |  +---------Kolobok__Kolobok-1_Aplcal
+|                                                    |  |  |  |  |           +--| (45)
+|                                                    |  |  |  |  |              +----Kolobok__Kolobok-19_HMa_tp
+|                                                    |  |  |  +--| (96)
+|                                                    |  |  |     |              +-------Sola__Sola1-10_AP_tp
+|                                                    |  |  |     |           +--| (100)
+|                                                    |  |  |     |           |  +------Sola__Sola1-4_CGi_tp
+|                                                    |  |  |     |        +--| (100)
+|                                                    |  |  |     |        |  |    +-----Sola__Sola-1_DK_tp
+|                                                    |  |  |     |        |  +----| (100)
+|                                                    |  |  |     |        |       +----Sola__Sola1-11_AP_tp
+|                                                    |  |  |     |     +--| (100)
+|                                                    |  |  |     |     |  +--------Sola__Sola1-2_HM_tp
+|                                                    |  |  |     +-----| (100)
+|                                                    |  |  |           +------------Sola__Sola1-4_AA_tp
+|                                                    |  +--| (76)
+|                                                    |     |  +-----------------Sola__Sola1-1_PI_tp
+|                                                    |     +--| (84)
+|                                                    |        |               +--Sola__Sola1-2_Psojae_tp
+|                                                    |        |  +------------| (100)
+|                                                    |        |  |            +--Sola__Sola1-3_PI_tp
+|                                                    |        +--| (62)
+|                                                    |           +--------------Zisupton__DNA-17_CCri_hel2
+|                                                 +--| (49)
+|                                                 |  |     +-------------------CMC-EnSpm__EnSpm-4_PGr
+|                                                 |  |  +--| (42)
+|                                                 |  |  |  |              +------Sola__Sola2-2_NVi_tp
+|                                                 |  |  |  |           +--| (91)
+|                                                 |  |  |  |           |  +----Sola__Sola2-5_LSal_tp
+|                                                 |  |  |  +-----------| (100)
+|                                                 |  |  |              |  +------Sola__Sola2-1_HM_tp
+|                                                 |  |  |              +--| (90)
+|                                                 |  |  |                 +----Sola__Sola2-6_AAe_tp
+|                                                 |  +--| (56)
+|                                                 |     |           +------------------CMC-EnSpm__EnSpm4_SB_p2
+|                                                 |     |        +--| (62)
+|                                                 |     |        |  +---------------TcMar__Mariner-4_CCri_tp
+|                                                 |     |     +--| (61)
+|                                                 |     |     |  |  +----------------PIF-Harbinger__ISL2EU-1_LHu_tp
+|                                                 |     |     |  +--| (97)
+|                                                 |     |     |     +----------------Zisupton__DNA-17_CCri_p4
+|                                                 |     |  +--| (52)
+|                                                 |     |  |  |           +--------hAT__hAT-16_ZM_tp
+|                                                 |     |  |  |        +--| (100)
+|                                                 |     |  |  |        |  +----------hAT__ATHAT7_tp
+|                                                 |     |  |  |     +--| (100)
+|                                                 |     |  |  |     |  |  +---------hAT__UN-Hobo_tp
+|                                                 |     |  |  |     |  +--| (99)
+|                                                 |     |  |  |     |     |  +-------hAT__HAT-1_DP_tp
+|                                                 |     |  |  |     |     +--| (100)
+|                                                 |     |  |  |     |        +--------hAT__hAT-17_Croc_tp
+|                                                 |     |  |  |  +--| (99)
+|                                                 |     |  |  |  |  |       +----hAT__UN-34914880_Osa_tp
+|                                                 |     |  |  |  |  +-------| (100)
+|                                                 |     |  |  |  |          +-------hAT__hAT-5_PTr_tp
+|                                                 |     |  |  +--| (99)
+|                                                 |     |  |     |                  +-----hAT__UN-116308850_Osa_tp
+|                                                 |     |  |     |         +--------| (100)
+|                                                 |     |  |     |         |        +----hAT__RAHAT_tp
+|                                                 |     |  |     |      +--| (98)
+|                                                 |     |  |     |      |  +--------------hAT__UN-PRKRIR_Oan_eg_tp
+|                                                 |     |  |     |   +--| (96)
+|                                                 |     |  |     |   |  +--------------hAT__hAT-7_LCh_tp
+|                                                 |     |  |     +---| (99)
+|                                                 |     |  |         |        +---hAT__hAT-7_AMi_tp
+|                                                 |     |  |         |     +--| (100)
+|                                                 |     |  |         |     |  +----hAT__Chaplin4_FR_tp
+|                                                 |     |  |         +-----| (100)
+|                                                 |     |  |               |  +----hAT__Charlie24_tp
+|                                                 |     |  |               +--| (100)
+|                                                 |     |  |                  +-----hAT__hAT-8_CPB_tp
+|                                                 |     +--| (34)
+|                                                 |        |        +-----------------Dada__Dada-1_MB_tp
+|                                                 |        |     +--| (92)
+|                                                 |        |     |  +---------------MULE__MuDR-1_PPI_tp
+|                                                 |        |  +--| (67)
+|                                                 |        |  |  |  +--------------Dada__Dada-1_ON_tp
+|                                                 |        |  |  +--| (97)
+|                                                 |        |  |     +---------------Zisupton__UN-gi527300978_tp
+|                                                 |        +--| (44)
+|                                                 |           +-------------------Zisupton__DNA-18_CCri_4p
+|                                              +--| (56)
+|                                              |  |     +-------------------CMC-Mirage__UN-Mirage1
+|                                              |  |  +--| (47)
+|                                              |  |  |  |                   +--MULE__MuDR-14_PI_tp
+|                                              |  |  |  |  +----------------| (100)
+|                                              |  |  |  |  |                +---MULE__MuDR-33_PI_tp
+|                                              |  |  |  +--| (64)
+|                                              |  |  |     |               +--P__P4_AG_tp
+|                                              |  |  |     |         +-----| (100)
+|                                              |  |  |     |         |     +--P__UN-31201925_Aga
+|                                              |  |  |     |     +---| (100)
+|                                              |  |  |     |     |   |     +--P__UN-P_Dme_tp
+|                                              |  |  |     |     |   +-----| (100)
+|                                              |  |  |     |     |         +--P__UN-P_Dbi_tp
+|                                              |  |  |     |  +--| (52)
+|                                              |  |  |     |  |  |     +--------P__P-38_HMa
+|                                              |  |  |     |  |  |  +--| (51)
+|                                              |  |  |     |  |  |  |  +----------P__P-13_HM
+|                                              |  |  |     |  |  +--| (52)
+|                                              |  |  |     |  |     |       +--P__Galileo_DM
+|                                              |  |  |     |  |     +-------| (100)
+|                                              |  |  |     |  |             +--P__P-1_DRh
+|                                              |  |  |     +--| (100)
+|                                              |  |  |        |             +---P__P-25_HM
+|                                              |  |  |        |      +------| (100)
+|                                              |  |  |        |      |      +----P__P-5_HM
+|                                              |  |  |        |  +---| (100)
+|                                              |  |  |        |  |   |      +---P__P-16_HM
+|                                              |  |  |        |  |   +------| (100)
+|                                              |  |  |        |  |          +----P__P-1_HM
+|                                              |  |  |        +--| (54)
+|                                              |  |  |           |       +--P__P-30_HM
+|                                              |  |  |           +-------| (100)
+|                                              |  |  |                   +---P__P-27_HM
+|                                              |  +--| (47)
+|                                              |     |          +------Kolobok__Kolobok-1_XT_tp
+|                                              |     +----------| (100)
+|                                              |                +--------Kolobok__Kolobok-1_AP_tp
+|                                           +--| (77)
+|                                           |  |                             +--CMC-Transib__Transib-1_DAn
+|                                           |  |                          +--| (100)
+|                                           |  |                          |  |     +--CMC-Transib__Transib-3_DAn
+|                                           |  |                          |  |  +--| (100)
+|                                           |  |                          |  |  |  +--CMC-Transib__Transib1
+|                                           |  |                          |  +--| (100)
+|                                           |  |                          |     +--CMC-Transib__Transib2
+|                                           |  |                       +--| (100)
+|                                           |  |                       |  |  +---CMC-Transib__Transib-4_DBp
+|                                           |  |                       |  +--| (100)
+|                                           |  |                       |     +--CMC-Transib__Transib-13_HM
+|                                           |  |                    +--| (100)
+|                                           |  |                    |  +------CMC-Transib__Transib-14_HM
+|                                           |  |                 +--| (99)
+|                                           |  |                 |  |     +-----CMC-Transib__Transib1_Dmoj
+|                                           |  |                 |  |  +--| (100)
+|                                           |  |                 |  |  |  |  +----CMC-Transib__Transib-17_HM
+|                                           |  |                 |  |  |  +--| (100)
+|                                           |  |                 |  |  |     +---CMC-Transib__Transib-18_HM
+|                                           |  |                 |  +--| (99)
+|                                           |  |                 |     |  +---CMC-Transib__Transib-12_HM
+|                                           |  |                 |     +--| (100)
+|                                           |  |                 |        +---CMC-Transib__Transib-15_HM
+|                                           |  |              +--| (100)
+|                                           |  |              |  +-------CMC-Transib__Transib1_AA
+|                                           |  |           +--| (100)
+|                                           |  |           |  |  +--CMC-Transib__Transib-11_HM
+|                                           |  |           |  +--| (100)
+|                                           |  |           |     +--CMC-Transib__Transib-16_HM
+|                                           |  |     +-----| (100)
+|                                           |  |     |     +--------CMC-Transib__Transib-10_HM
+|                                           |  |  +--| (88)
+|                                           |  |  |  |                       +---Zator__Zator-2_HM
+|                                           |  |  |  |                    +--| (99)
+|                                           |  |  |  |                    |  +---Zator__Zator-1_CP
+|                                           |  |  |  |                 +--| (100)
+|                                           |  |  |  |                 |  +---Zator__Zator-1_AA
+|                                           |  |  |  |              +--| (95)
+|                                           |  |  |  |              |  |  +---Zator__Zator-3_HM
+|                                           |  |  |  |              |  +--| (100)
+|                                           |  |  |  |              |     +-----Zator__Zator-4_HM
+|                                           |  |  |  +--------------| (100)
+|                                           |  |  |                 +---Zator__Zator-1_HM
+|                                           |  +--| (65)
+|                                           |     +-----------------TcMar__Mariner-6_Crp_tp
+|                                        +--| (34)
+|                                        |  |                     +--Zisupton__UN-Zisupton-4_DR_tp
+|                                        |  |                  +--| (100)
+|                                        |  |                  |  +---Zisupton__Zisupton-5_DR_tp
+|                                        |  +------------------| (100)
+|                                        |                     +---Zisupton__UN-gi768943469_tp
+|                                     +--| (62)
+|                                     |  |                 +--MULE__MuDR-14_PI_p2
+|                                     |  |  +--------------| (100)
+|                                     |  |  |              +---MULE__MuDR-19_PI_p2
+|                                     |  +--| (72)
+|                                     |     |  +-----------------Sola__Sola3-1_BF_tp
+|                                     |     +--| (77)
+|                                     |        +---------------Sola__Sola3-3_HM_tp
+|                                  +--| (74)
+|                                  |  |           +------------PIF-Harbinger__AutoChomp1_tp
+|                                  |  |        +--| (94)
+|                                  |  |        |  |  +-------------PIF-Harbinger__HarbingerS-3_PI_tp
+|                                  |  |        |  +--| (87)
+|                                  |  |        |     +-----------PIF-Harbinger__Harbinger-4_BF_tp
+|                                  |  |     +--| (98)
+|                                  |  |     |  |                 +----PIF-Harbinger__HARB7_ZM_tp
+|                                  |  |     |  |              +--| (99)
+|                                  |  |     |  |              |  |     +--PIF-Harbinger__ATIS112A_tp
+|                                  |  |     |  |              |  |  +--| (100)
+|                                  |  |     |  |              |  |  |  +----PIF-Harbinger__HARB-1_OS_tp
+|                                  |  |     |  |              |  +--| (100)
+|                                  |  |     |  |              |     +---PIF-Harbinger__HARB-9_FV_tp
+|                                  |  |     |  |           +--| (89)
+|                                  |  |     |  |           |  |  +--PIF-Harbinger__HARB-2_Mad_tp
+|                                  |  |     |  |           |  +--| (100)
+|                                  |  |     |  |           |     +---PIF-Harbinger__HARB-5_FV_tp
+|                                  |  |     |  |  +--------| (100)
+|                                  |  |     |  |  |        +---PIF-Harbinger__HARB-2_FV_tp
+|                                  |  |     |  +--| (99)
+|                                  |  |     |     +----------------PIF-Harbinger__Harbinger-24_CCri_tp
+|                                  |  |  +--| (51)
+|                                  |  |  |  |           +------------PiggyBac__piggyBac-11_PI_tp
+|                                  |  |  |  |        +--| (96)
+|                                  |  |  |  |        |  |       +-----PiggyBac__piggyBac-3_SSa_tp
+|                                  |  |  |  |        |  |  +----| (100)
+|                                  |  |  |  |        |  |  |    |         +--PiggyBac__PiggyBac-7_SM
+|                                  |  |  |  |        |  |  |    |  +------| (100)
+|                                  |  |  |  |        |  |  |    |  |      +--PiggyBac__piggyBac-16_SM
+|                                  |  |  |  |        |  |  |    +--| (90)
+|                                  |  |  |  |        |  |  |       +----PiggyBac__AvPB2_tp
+|                                  |  |  |  |        |  +--| (100)
+|                                  |  |  |  |        |     |  +---------PiggyBac__PiggyBac-2_HM
+|                                  |  |  |  |        |     +--| (100)
+|                                  |  |  |  |        |        |     +----PiggyBac__piggyBac-4B_LMi_tp
+|                                  |  |  |  |        |        |  +--| (100)
+|                                  |  |  |  |        |        |  |  +---PiggyBac__PiggyBac-4_SM
+|                                  |  |  |  |        |        +--| (100)
+|                                  |  |  |  |        |           +-----PiggyBac__PiggyBac-1_XT
+|                                  |  |  |  |     +--| (100)
+|                                  |  |  |  |     |  +---------------PiggyBac__piggyBac-4_PR_tp
+|                                  |  |  |  |  +--| (71)
+|                                  |  |  |  |  |  +---------------PiggyBac__UN-50741428_GGgene
+|                                  |  |  |  +--| (89)
+|                                  |  |  |     +-------------------Zator__Zator-2_AA
+|                                  |  +--| (60)
+|                                  |     |            +-----Zator__Zator-1_BF
+|                                  |     +------------| (100)
+|                                  |                  +------Zator__Zator-1_CGi_tp
+|                               +--| (96)
+|                               |  |                             +---Dada__Dada-U6_SS_tp
+|                               |  |                          +--| (69)
+|                               |  |                          |  +---Dada__Dada-tA_DR_tp
+|                               |  |                       +--| (62)
+|                               |  |                       |  +---------Dada__Dada-1_FR_tp
+|                               |  |                    +--| (91)
+|                               |  |                    |  |     +--Dada__Dada-tL_DR_tp
+|                               |  |                    |  |  +--| (100)
+|                               |  |                    |  |  |  +--Dada__Dada-1_GM_tp
+|                               |  |                    |  +--| (61)
+|                               |  |                    |     +------------Dada__Dada-1_NV_tp
+|                               |  |                 +--| (86)
+|                               |  |                 |  |  +---Dada__Dada-1_CI_tp
+|                               |  |                 |  +--| (100)
+|                               |  |                 |     +-----Dada__Dada-1_CSa_tp
+|                               |  |           +-----| (100)
+|                               |  |           |     +----Dada__Dada-1_CGi_tp
+|                               |  |     +-----| (100)
+|                               |  |     |     +---------Dada__Dada-1_BF_tp
+|                               |  |  +--| (96)
+|                               |  |  |  |  +----------------Dada__Dada-1_CV_tp
+|                               |  |  |  +--| (74)
+|                               |  |  |     +------------------Dada__Dada-1_ES_tp
+|                               |  +--| (89)
+|                               |     |           +--------MULE__ATMU3_tp
+|                               |     +-----------| (100)
+|                               |                 +----------MULE__MuDR-11_ALy_p1
+|                            +--| (27)
+|                            |  |     +-------------------Kolobok__KolobokH-1_RIr
+|                            |  |  +--| (53)
+|                            |  |  |  |          +--Merlin__UN-46156674_Hso
+|                            |  |  |  +----------| (100)
+|                            |  |  |             +-------Merlin__UN-33148872_Hdu
+|                            |  +--| (77)
+|                            |     |  +----------------Kolobok__Kolobok-1_AA
+|                            |     +--| (99)
+|                            |        +-----------------P__P-8_MLP
+|                         +--| (12)
+|                         |  |               +-----MULE__UN-IS1081_Mtu
+|                         |  |        +------| (100)
+|                         |  |        |      +----MULE__UN-1617569_Rop
+|                         |  |  +-----| (100)
+|                         |  |  |     |       +--MULE__UN-27228664_Pre
+|                         |  |  |     |  +----| (100)
+|                         |  |  |     |  |    +--MULE__UN-46132715_Reu
+|                         |  |  |     +--| (100)
+|                         |  |  |        +-------MULE__UN-15923405_Sau
+|                         |  +--| (83)
+|                         |     |               +-----Merlin__Merlin1_SM
+|                         |     |            +--| (93)
+|                         |     |            |  |         +--Merlin__Merlin-3_HMa
+|                         |     |            |  |     +---| (100)
+|                         |     |            |  |     |   +--Merlin__Merlin-2_HMa
+|                         |     |            |  |  +--| (100)
+|                         |     |            |  |  |  +----Merlin__Merlin-1_LSal
+|                         |     |            |  +--| (99)
+|                         |     |            |     |  +------Merlin__Merlin-7_HMa
+|                         |     |            |     +--| (100)
+|                         |     |            |        +-----Merlin__Merlin-4_HMa
+|                         |     |    +-------| (100)
+|                         |     |    |       |     +--Merlin__Merlin-1_CGi_1p
+|                         |     |    |       |  +--| (100)
+|                         |     |    |       |  |  +--Merlin__Merlin-2_CGi_1p
+|                         |     |    |       +--| (97)
+|                         |     |    |          |  +----Merlin__Merlin-1_DF
+|                         |     |    |          +--| (100)
+|                         |     |    |             +----Merlin__Merlin-1_DT
+|                         |     +----| (99)
+|                         |          |   +----------Merlin__UN-58583728_Xor
+|                         |          +---| (100)
+|                         |              +--------Merlin__UN-54028461_Polaromonas
+|                      +--| (59)
+|                      |  |     +------------------MULE__MuDRF-1_PGr
+|                      |  |  +--| (50)
+|                      |  |  |  |            +----PiggyBac__piggyBacX-25_CCri_tp
+|                      |  |  |  +------------| (100)
+|                      |  |  |               +---PiggyBac__piggyBacX-28_CCri_tp
+|                      |  +--| (25)
+|                      |     |                  +--Novosib__Novosib-1_CR
+|                      |     |  +---------------| (100)
+|                      |     |  |               +--Novosib__Novosib-2_CR
+|                      |     +--| (25)
+|                      |        +------------------Zisupton__DNA-17_CCri_tp
+|                   +--| (55)
+|                   |  |              +-------Academ__Academ-1_AMi_tp
+|                   |  |           +--| (100)
+|                   |  |           |  +---------Academ__Academ-1_Testu_tp
+|                   |  |        +--| (100)
+|                   |  |        |  |     +---------Academ__Academ-1_CSa_tp
+|                   |  |        |  |  +--| (93)
+|                   |  |        |  |  |  |     +----Academ__Academ-1_GA_tp
+|                   |  |        |  |  |  |  +--| (95)
+|                   |  |        |  |  |  |  |  +---Academ__Academ-1_SP_tp
+|                   |  |        |  |  |  +--| (100)
+|                   |  |        |  |  |     +----Academ__Academ-1_HM_tp
+|                   |  |        |  +--| (90)
+|                   |  |        |     +-----Academ__Academ-1_NV_tp
+|                   |  |  +-----| (100)
+|                   |  |  |     |      +----Academ__Academ-1_AP_tp
+|                   |  |  |     |   +--| (100)
+|                   |  |  |     |   |  +-----Academ__Academ-1_CTe_tp
+|                   |  |  |     +---| (100)
+|                   |  |  |         |  +----Academ__Academ-1_CGi_tp
+|                   |  |  |         +--| (100)
+|                   |  |  |            +-----Academ__Academ-1_DPu_tp
+|                   |  +--| (51)
+|                   |     +---------------------Dada__Dada-1_LB_tp
+|                +--| (49)
+|                |  |                             +-------CMC-Mirage__UN-GIN1_int
+|                |  |                          +--| (95)
+|                |  |                          |  +--Ginger__Ginger1-5_HM_tp
+|                |  |                       +--| (89)
+|                |  |                       |  +------Ginger__Ginger1-7_HM_tp
+|                |  |                    +--| (98)
+|                |  |                    |  +--------CMC-Mirage__UN-GIN2_int
+|                |  |                 +--| (93)
+|                |  |                 |  +--------Ginger__Ginger1-2_DR_tp
+|                |  |              +--| (98)
+|                |  |              |  |     +------Ginger__Ginger1-12_HM_tp
+|                |  |              |  |  +--| (57)
+|                |  |              |  |  |  +-----Ginger__Ginger1-1_BF_tp
+|                |  |              |  +--| (49)
+|                |  |              |     +----Ginger__Ginger1-9_HM_tp
+|                |  |           +--| (99)
+|                |  |           |  |           +----Ginger__Ginger1-1_HM_tp
+|                |  |           |  |        +--| (100)
+|                |  |           |  |        |  +---Ginger__Ginger1-3_HM_tp
+|                |  |           |  |     +--| (90)
+|                |  |           |  |     |  |  +---Ginger__Ginger1-1_AP_tp
+|                |  |           |  |     |  +--| (100)
+|                |  |           |  |     |     +---Ginger__Ginger1-2_AP_tp
+|                |  |           |  |  +--| (91)
+|                |  |           |  |  |  |  +-----Ginger__Ginger1-11_HM_tp
+|                |  |           |  |  |  +--| (100)
+|                |  |           |  |  |     +----Ginger__Ginger1-1_AC_tp
+|                |  |           |  +--| (100)
+|                |  |           |     |  +--Ginger__Ginger1-10_HM_tp
+|                |  |           |     +--| (100)
+|                |  |           |        +---Ginger__Ginger1-4_HM_tp
+|                |  |        +--| (96)
+|                |  |        |  +--------------Ginger__Ginger-1_TriAdh_tp
+|                |  |     +--| (78)
+|                |  |     |  |                     +--Zisupton__UN-gi751707416_tp
+|                |  |     |  |                  +--| (100)
+|                |  |     |  |                  |  +--Zisupton__UN-gi749831149_tp
+|                |  |     |  |               +--| (60)
+|                |  |     |  |               |  +--Zisupton__UN-gi749759490_tp
+|                |  |     |  +---------------| (100)
+|                |  |     |                  +---Zisupton__UN-gi751692202_tp
+|                |  |  +--| (95)
+|                |  |  |  +-----------------Merlin__UN-46578998_Dvu
+|                |  +--| (70)
+|                |     |                     +--TcMar__Mariner-13_LHu_tp
+|                |     |                  +--| (100)
+|                |     |                  |  +--TcMar__Mariner-2_LHu_tp
+|                |     |               +--| (100)
+|                |     |               |  +------TcMar__UN-Mariner2_GT_tp
+|                |     |            +--| (100)
+|                |     |            |  |  +--TcMar__Mariner-5_ACe_tp
+|                |     |            |  +--| (100)
+|                |     |            |     +---TcMar__Mariner-14_DBp_tp
+|                |     |    +-------| (100)
+|                |     |    |       |     +---TcMar__Mariner-7_PBa_tp
+|                |     |    |       |  +--| (94)
+|                |     |    |       |  |  +------TcMar__Mariner-4_CFl_tp
+|                |     |    |       +--| (100)
+|                |     |    |          +-----TcMar__Mariner-61_LMi_tp
+|                |     +----| (100)
+|                |          |        +--------TcMar__Mariner-40_SSa_tp
+|                |          |     +--| (84)
+|                |          |     |  +-------TcMar__Mariner-1_DVi_tp
+|                |          |  +--| (100)
+|                |          |  |  +------TcMar__Mariner-26_CGi_tp
+|                |          +--| (100)
+|                |             |  +------TcMar__Mariner-3_LHu_tp
+|                |             +--| (100)
+|                |                +----------TcMar__Mariner-12_AEc_tp
+|             +--| (30)
+|             |  |  +-------------------Novosib__Novosib-4_CR
+|             |  +--| (50)
+|             |     |          +-----PiggyBac__piggyBacX-33_CCri_tp
+|             |     +----------| (100)
+|             |                +------PiggyBac__piggyBacX-22_CCri_tp
+|         +---| (51)
+|         |   |                            +----CMC-EnSpm__EnSpm12_SB_p1
+|         |   |                         +--| (100)
+|         |   |                         |  +----CMC-EnSpm__EN1_ZM
+|         |   |                      +--| (100)
+|         |   |                      |  +------CMC-EnSpm__ATEnSpm6
+|         |   |                   +--| (78)
+|         |   |                   |  |        +---CMC-EnSpm__EnSpm-4_HV_p1
+|         |   |                   |  |     +--| (74)
+|         |   |                   |  |     |  +------CMC-EnSpm__CACTA_LP_p1
+|         |   |                   |  |  +--| (100)
+|         |   |                   |  |  |  |     +---CMC-EnSpm__EnSpm1_SB_p1
+|         |   |                   |  |  |  |  +--| (100)
+|         |   |                   |  |  |  |  |  +--CMC-EnSpm__EnSpm4_SB_p1
+|         |   |                   |  |  |  +--| (72)
+|         |   |                   |  |  |     +---CMC-EnSpm__EnSpm4_OS_p1
+|         |   |                   |  +--| (97)
+|         |   |                   |     |  +--CMC-EnSpm__EnSpm-3_VV
+|         |   |                   |     +--| (98)
+|         |   |                   |        +----CMC-EnSpm__ATEnSpm12
+|         |   |                +--| (75)
+|         |   |                |  +----CMC-EnSpm__EnSpm-40_SBi_1p
+|         |   |     +----------| (100)
+|         |   |     |          |  +-----CMC-EnSpm__EnSpm-41_SBi_1p
+|         |   |     |          +--| (86)
+|         |   |     |             +---CMC-EnSpm__EnSpm-16_OS_p1
+|         |   |  +--| (70)
+|         |   |  |  +----------------CMC-Mirage__Mirage1_CB
+|         |   +--| (62)
+|         |      |       +-------PIF-Harbinger__Harbinger-53_CCri_tp
+|         |      |    +--| (75)
+|         |      |    |  +-----------PIF-Harbinger__Harbinger-1_ADi_tp
+|         |      +----| (98)
+|         |           +----------PIF-Harbinger__Harbinger-36_CCri_tp
++---------| (100)
+|         +-----------Zisupton__DNA-17_CCri_hel1
+|
++---Academ__Academ-11_CCri_2p
+
+
+Consensus tree in newick format: 
+
+(Academ__Academ-6_CCri_2p:0.8320416033,(((((((((((((((((((Academ__UN-AcademH-6_PGr_p1:0.6015568412,Academ__Academ-1_PGr_p1:0.5507680437)100:1.8845154053,(MULE__MuDR-5_SBi:1.7936886910,MULE__MUJITOS1:1.5858088686)100:0.6224147236)54:0.2064283548,(Zisupton__Zisupton-1_PGr_tp:1.0075122466,Zisupton__Zisupton-4_PGr_tp:0.9737225544)100:1.3066601194)52:0.1629003388,((((((((CMC-Chapaev__Chapaev3-1_SM:0.4903435813,CMC-Chapaev__Chapaev3-1_HR:0.5446167969)78:0.1073949762,(CMC-Chapaev__Chapaev3-1_PM:0.5721215248,CMC-Chapaev__Chapaev3-2_AA:0.5782051338)93:0.1353705651)72:0.1026601725,CMC-Chapaev__Chapaev3-3_HR:0.4965004303)62:0.0478921510,CMC-Chapaev__Chapaev3-3_AA:0.4392098872)100:1.4071825037,((((CMC-Chapaev__Chapaev-13_HM:0.6565525782,((CMC-Chapaev__Chapaev-5_HMa:0.4508134793,CMC-Chapaev__Chapaev-15_HM:0.3929963718)100:0.1117468521,CMC-Chapaev__Chapaev-16_HM:0.3309114041)100:0.1295008417)89:0.0941120482,CMC-Chapaev__Chapaev-1_HM:0.3886500441)100:0.5030160135,(CMC-Chapaev__Chapaev-10_HM:0.6549013492,CMC-Chapaev__Chapaev-11_HM:0.7013545585)100:0.6232234147)100:0.5846709065,CMC-Chapaev__Chapaev-3A_HM:1.7427063612)100:0.3996922415)100:0.2367379997,CMC-Chapaev__Chapaev-12_HM:2.2499039748)98:0.4543011658,((((((Kolobok__Kolobok-13_HM_tp:0.5097669477,Kolobok__Kolobok-12_HM_tp:0.5170196491)100:0.2138012134,Kolobok__Kolobok-15_HM_tp:0.6943011990)79:0.1218407658,(Kolobok__Kolobok-11_HM_tp:0.3724337952,Kolobok__Kolobok-17_HM_tp:0.4466911699)100:0.2919029654)77:0.0445536762,Kolobok__Kolobok-14_HM_tp:0.6358533689)78:0.1318217713,((((Kolobok__Kolobok-3_HM_tp:0.3153991169,Kolobok__Kolobok-18_HM_tp:0.2653862704)100:0.2474515229,Kolobok__Kolobok-2_HM_tp:0.3855740376)100:0.3759689790,Kolobok__Kolobok-1_Aplcal:1.2894555312)98:0.2753817980,Kolobok__Kolobok-19_HMa_tp:0.6810853274)45:0.0056390665)100:1.4951205654,((((Sola__Sola1-10_AP_tp:1.0660406815,Sola__Sola1-4_CGi_tp:0.9068837984)100:0.2192359356,(Sola__Sola-1_DK_tp:0.7538150199,Sola__Sola1-11_AP_tp:0.7217907360)100:0.6340315405)100:0.1333670776,Sola__Sola1-2_HM_tp:1.1083032226)100:0.4798101194,Sola__Sola1-4_AA_tp:1.6220503477)100:0.7410920770)96:0.2803681891)59:0.0410856723,(Sola__Sola1-1_PI_tp:2.2305332053,((Sola__Sola1-2_Psojae_tp:0.2383832878,Sola__Sola1-3_PI_tp:0.3083757944)100:1.6138170106,Zisupton__DNA-17_CCri_hel2:1.8127301382)62:0.2130996448)84:0.3246072953)76:0.1259208399)55:0.1029299963,((CMC-EnSpm__EnSpm-4_PGr:2.5241084786,((Sola__Sola2-2_NVi_tp:0.8952609207,Sola__Sola2-5_LSal_tp:0.7157976755)91:0.0813861506,(Sola__Sola2-1_HM_tp:0.9180003847,Sola__Sola2-6_AAe_tp:0.6967597885)90:0.1479328231)100:1.5180729377)42:0.2907965608,((((CMC-EnSpm__EnSpm4_SB_p2:2.3643324112,TcMar__Mariner-4_CCri_tp:1.9703568175)62:0.0717354729,(PIF-Harbinger__ISL2EU-1_LHu_tp:2.1493454494,Zisupton__DNA-17_CCri_p4:2.1535415396)97:0.4411379156)61:0.2314644612,((((hAT__hAT-16_ZM_tp:1.1898538318,hAT__ATHAT7_tp:1.3942087297)100:0.3277542280,(hAT__UN-Hobo_tp:1.3094769593,(hAT__HAT-1_DP_tp:0.9683181417,hAT__hAT-17_Croc_tp:1.1775760138)100:0.3833607936)99:0.2476319288)100:0.3096318445,(hAT__UN-34914880_Osa_tp:0.7068983325,hAT__hAT-5_PTr_tp:1.0541309486)100:1.0468700007)99:0.1799326979,((((hAT__UN-116308850_Osa_tp:0.7289742654,hAT__RAHAT_tp:0.6765987518)100:1.1153480704,hAT__UN-PRKRIR_Oan_eg_tp:1.9245278213)98:0.1752463052,hAT__hAT-7_LCh_tp:1.8793762920)96:0.1506329090,((hAT__hAT-7_AMi_tp:0.5792994957,hAT__Chaplin4_FR_tp:0.6441564621)100:0.4178783703,(hAT__Charlie24_tp:0.6657283674,hAT__hAT-8_CPB_tp:0.7592504099)100:0.3629501228)100:0.8141444335)99:0.4976628179)99:0.3320953866)52:0.0514604807,(((Dada__Dada-1_MB_tp:2.2270504502,MULE__MuDR-1_PPI_tp:2.0381913905)92:0.1285136897,(Dada__Dada-1_ON_tp:1.8686025477,Zisupton__UN-gi527300978_tp:2.0140594017)97:0.2928934187)67:0.1341370108,Zisupton__DNA-18_CCri_4p:2.4529150375)44:0.1905408702)34:0.0670479574)56:0.1776765992)49:0.0907898741,((CMC-Mirage__UN-Mirage1:2.4657474870,((MULE__MuDR-14_PI_tp:0.4444608311,MULE__MuDR-33_PI_tp:0.5250381641)100:2.0521704758,((((P__P4_AG_tp:0.3684701882,P__UN-31201925_Aga:0.4040816193)100:0.7545807578,(P__UN-P_Dme_tp:0.1776424255,P__UN-P_Dbi_tp:0.2931760350)100:0.8431491836)100:0.5193118971,((P__P-38_HMa:1.1394492646,P__P-13_HM:1.3569422068)51:0.1616855412,(P__Galileo_DM:0.3754112388,P__P-1_DRh:0.3516230305)100:0.9708839042)52:0.1303276308)52:0.1302010503,(((P__P-25_HM:0.4969230236,P__P-5_HM:0.6072837617)100:0.9424362617,(P__P-16_HM:0.5225065589,P__P-1_HM:0.6977717676)100:0.8457738249)100:0.5397034440,(P__P-30_HM:0.4016532894,P__P-27_HM:0.5014772905)100:1.0744826264)54:0.0979608318)100:0.4454189499)64:0.0686434890)47:0.1471709466,(Kolobok__Kolobok-1_XT_tp:0.9152517668,Kolobok__Kolobok-1_AP_tp:1.1311586147)100:1.3509132402)47:0.2183321254)56:0.2333518617,(((((((((CMC-Transib__Transib-1_DAn:0.4289802147,((CMC-Transib__Transib-3_DAn:0.4065846447,CMC-Transib__Transib1:0.4671470473)100:0.1389629578,CMC-Transib__Transib2:0.4695027198)100:0.1259089266)100:0.2338442030,(CMC-Transib__Transib-4_DBp:0.5127448325,CMC-Transib__Transib-13_HM:0.4766302959)100:0.2617568161)100:0.1044813945,CMC-Transib__Transib-14_HM:0.8736984677)100:0.2749467079,((CMC-Transib__Transib1_Dmoj:0.7340403427,(CMC-Transib__Transib-17_HM:0.6079130662,CMC-Transib__Transib-18_HM:0.5444348050)100:0.2274601864)100:0.1600970024,(CMC-Transib__Transib-12_HM:0.5282891720,CMC-Transib__Transib-15_HM:0.5612644765)100:0.1779818148)99:0.0983612646)99:0.1068518220,CMC-Transib__Transib1_AA:0.9908711539)100:0.1626768558,(CMC-Transib__Transib-11_HM:0.4409437585,CMC-Transib__Transib-16_HM:0.4816135182)100:0.2975385266)100:0.3615532508,CMC-Transib__Transib-10_HM:1.1736985337)100:0.7804966499,((((Zator__Zator-2_HM:0.4944846514,Zator__Zator-1_CP:0.5083187921)99:0.1321411703,Zator__Zator-1_AA:0.5347273508)100:0.1566728390,(Zator__Zator-3_HM:0.5923527487,Zator__Zator-4_HM:0.7894016419)100:0.2435932676)95:0.1181556105,Zator__Zator-1_HM:0.5938307119)100:1.8103393614)88:0.2012295314,TcMar__Mariner-6_Crp_tp:2.1922513528)65:0.2436677612)77:0.1473255125,((Zisupton__UN-Zisupton-4_DR_tp:0.4394293497,Zisupton__Zisupton-5_DR_tp:0.5131431668)100:0.2290333022,Zisupton__UN-gi768943469_tp:0.4893354667)100:2.3812623428)34:0.0421538660,((MULE__MuDR-14_PI_p2:0.4797584693,MULE__MuDR-19_PI_p2:0.5909217722)100:1.8805547744,(Sola__Sola3-1_BF_tp:2.1969192536,Sola__Sola3-3_HM_tp:2.0399111047)77:0.3403892338)72:0.2583998364)62:0.1302739867,((((PIF-Harbinger__AutoChomp1_tp:1.6489202846,(PIF-Harbinger__HarbingerS-3_PI_tp:1.7569125474,PIF-Harbinger__Harbinger-4_BF_tp:1.4510141942)87:0.0566188093)94:0.4025239244,((((PIF-Harbinger__HARB7_ZM_tp:0.6309700617,((PIF-Harbinger__ATIS112A_tp:0.4023398559,PIF-Harbinger__HARB-1_OS_tp:0.6401200800)100:0.1517460389,PIF-Harbinger__HARB-9_FV_tp:0.5360687150)100:0.1253110712)99:0.1798404289,(PIF-Harbinger__HARB-2_Mad_tp:0.4553859991,PIF-Harbinger__HARB-5_FV_tp:0.4872218548)100:0.2093105434)89:0.1065708899,PIF-Harbinger__HARB-2_FV_tp:0.4949604866)100:1.1841181817,PIF-Harbinger__Harbinger-24_CCri_tp:2.1060657074)99:0.4468612049)98:0.3833073685,((((PiggyBac__piggyBac-11_PI_tp:1.5812162126,((PiggyBac__piggyBac-3_SSa_tp:0.8174635293,((PiggyBac__PiggyBac-7_SM:0.3119670919,PiggyBac__piggyBac-16_SM:0.3353141644)100:0.8964263500,PiggyBac__AvPB2_tp:0.6425116634)90:0.1497990727)100:0.6282167231,(PiggyBac__PiggyBac-2_HM:1.3162934006,((PiggyBac__piggyBac-4B_LMi_tp:0.7168404415,PiggyBac__PiggyBac-4_SM:0.5918802236)100:0.3637182254,PiggyBac__PiggyBac-1_XT:0.8285473394)100:0.3751594958)100:0.2885182211)100:0.3079541841)96:0.0852409209,PiggyBac__piggyBac-4_PR_tp:1.9556078144)100:0.3731166872,PiggyBac__UN-50741428_GGgene:1.9340483302)71:0.1697022784,Zator__Zator-2_AA:2.4939642194)89:0.3243250577)51:0.0679676297,(Zator__Zator-1_BF:0.7784030008,Zator__Zator-1_CGi_tp:0.8583562272)100:1.5758934556)60:0.1235103951)74:0.1831285865,((((((((Dada__Dada-U6_SS_tp:0.5824896379,Dada__Dada-tA_DR_tp:0.5668659396)69:0.0844730750,Dada__Dada-1_FR_tp:1.2189102655)62:0.0958142315,((Dada__Dada-tL_DR_tp:0.3639605604,Dada__Dada-1_GM_tp:0.4649720589)100:0.2097633547,Dada__Dada-1_NV_tp:1.5683689272)61:0.1323114725)91:0.1212023148,(Dada__Dada-1_CI_tp:0.5567573664,Dada__Dada-1_CSa_tp:0.7774383911)100:0.1113882387)86:0.0937206295,Dada__Dada-1_CGi_tp:0.6592109854)100:0.7887285736,Dada__Dada-1_BF_tp:1.2693024318)100:0.7778933359,(Dada__Dada-1_CV_tp:2.1596355528,Dada__Dada-1_ES_tp:2.3878842383)74:0.1568879850)96:0.0974070198,(MULE__ATMU3_tp:1.1641550416,MULE__MuDR-11_ALy_p1:1.3950474788)100:1.5189998695)89:0.2543351966)96:0.3103981528,((Kolobok__KolobokH-1_RIr:2.4931553544,(Merlin__UN-46156674_Hso:0.2495208890,Merlin__UN-33148872_Hdu:0.9658049572)100:1.3485923802)53:0.2580247316,(Kolobok__Kolobok-1_AA:2.1207383413,P__P-8_MLP:2.2031492927)99:0.4409343198)77:0.2270361127)27:0.0708019924,(((MULE__UN-IS1081_Mtu:0.7647824724,MULE__UN-1617569_Rop:0.6240630164)100:0.9179829648,((MULE__UN-27228664_Pre:0.4111819424,MULE__UN-46132715_Reu:0.4466560883)100:0.7130990820,MULE__UN-15923405_Sau:1.0599409647)100:0.1716974777)100:0.7359313288,(((Merlin__Merlin1_SM:0.8169221829,(((Merlin__Merlin-3_HMa:0.2903893987,Merlin__Merlin-2_HMa:0.1415247470)100:0.5798977176,Merlin__Merlin-1_LSal:0.6644113039)100:0.2086818375,(Merlin__Merlin-7_HMa:0.9578244942,Merlin__Merlin-4_HMa:0.7939868686)100:0.2669334523)99:0.1614537666)93:0.0952704024,((Merlin__Merlin-1_CGi_1p:0.4379253561,Merlin__Merlin-2_CGi_1p:0.4063273347)100:0.3066276845,(Merlin__Merlin-1_DF:0.6859200438,Merlin__Merlin-1_DT:0.6225505150)100:0.3401052004)97:0.0841224528)100:1.0411323948,(Merlin__UN-58583728_Xor:1.4457730274,Merlin__UN-54028461_Polaromonas:1.0950120729)100:0.4858819035)99:0.6039568356)83:0.3011486929)12:0.0627660492,((MULE__MuDRF-1_PGr:2.3282186524,(PiggyBac__piggyBacX-25_CCri_tp:0.6352064674,PiggyBac__piggyBacX-28_CCri_tp:0.5774099798)100:1.5750897166)50:0.3568460002,((Novosib__Novosib-1_CR:0.3642519265,Novosib__Novosib-2_CR:0.2105259989)100:1.9953814527,Zisupton__DNA-17_CCri_tp:2.2928906723)25:0.1379377089)25:0.1666161261)59:0.1654758637,((((Academ__Academ-1_AMi_tp:0.9654110915,Academ__Academ-1_Testu_tp:1.2284669558)100:0.2129060944,((Academ__Academ-1_CSa_tp:1.3045273899,((Academ__Academ-1_GA_tp:0.7006614623,Academ__Academ-1_SP_tp:0.5762392204)95:0.1532485974,Academ__Academ-1_HM_tp:0.6912080313)100:0.3879423196)93:0.1828589849,Academ__Academ-1_NV_tp:0.7479688892)90:0.1069389404)100:0.2700528930,((Academ__Academ-1_AP_tp:0.7234293227,Academ__Academ-1_CTe_tp:0.8432927180)100:0.1725487529,(Academ__Academ-1_CGi_tp:0.6847606715,Academ__Academ-1_DPu_tp:0.8374962984)100:0.2123891580)100:0.5631215547)100:0.7300807702,Dada__Dada-1_LB_tp:2.7017719203)51:0.2403440487)55:0.1685315235,((((((((((CMC-Mirage__UN-GIN1_int:1.0339533333,Ginger__Ginger1-5_HM_tp:0.4773192528)95:0.2840262128,Ginger__Ginger1-7_HM_tp:0.8891188974)89:0.1277145238,CMC-Mirage__UN-GIN2_int:1.1838641604)98:0.0590076287,Ginger__Ginger1-2_DR_tp:1.0948978653)93:0.2086409386,((Ginger__Ginger1-12_HM_tp:0.9631712041,Ginger__Ginger1-1_BF_tp:0.8095996161)57:0.1423113912,Ginger__Ginger1-9_HM_tp:0.6128871547)49:0.1246993517)98:0.2003141181,((((Ginger__Ginger1-1_HM_tp:0.6135875905,Ginger__Ginger1-3_HM_tp:0.5685103056)100:0.2606978501,(Ginger__Ginger1-1_AP_tp:0.5354854329,Ginger__Ginger1-2_AP_tp:0.5416033523)100:0.3334578112)90:0.1292721391,(Ginger__Ginger1-11_HM_tp:0.7509967633,Ginger__Ginger1-1_AC_tp:0.6952738422)100:0.2430847477)91:0.2320937170,(Ginger__Ginger1-10_HM_tp:0.4670518635,Ginger__Ginger1-4_HM_tp:0.4974763384)100:0.4480689491)100:0.2629456840)99:0.4549501377,Ginger__Ginger-1_TriAdh_tp:1.8252550898)96:0.2236686959,(((Zisupton__UN-gi751707416_tp:0.3612734221,Zisupton__UN-gi749831149_tp:0.3836326762)100:0.2451979018,Zisupton__UN-gi749759490_tp:0.3441191240)60:0.0689180105,Zisupton__UN-gi751692202_tp:0.5545947822)100:2.0221516075)78:0.0545094483,Merlin__UN-46578998_Dvu:2.2432726497)95:0.2573448223,(((((TcMar__Mariner-13_LHu_tp:0.3625204269,TcMar__Mariner-2_LHu_tp:0.2766920294)100:0.4540053703,TcMar__UN-Mariner2_GT_tp:0.8944787031)100:0.1310101933,(TcMar__Mariner-5_ACe_tp:0.4285418117,TcMar__Mariner-14_DBp_tp:0.5469754397)100:0.1944366051)100:0.3530741858,((TcMar__Mariner-7_PBa_tp:0.6016912124,TcMar__Mariner-4_CFl_tp:0.8914706374)94:0.0824247312,TcMar__Mariner-61_LMi_tp:0.7712241618)100:0.2842987951)100:1.0080540832,(((TcMar__Mariner-40_SSa_tp:1.1893042682,TcMar__Mariner-1_DVi_tp:1.0508577402)84:0.1958447359,TcMar__Mariner-26_CGi_tp:0.8732910635)100:0.4498828032,(TcMar__Mariner-3_LHu_tp:0.9261987752,TcMar__Mariner-12_AEc_tp:1.3836085462)100:0.3106520779)100:0.4166841723)100:0.6186704451)70:0.0518458213)49:0.1223680455,(Novosib__Novosib-4_CR:2.4268699698,(PiggyBac__piggyBacX-33_CCri_tp:0.8430256075,PiggyBac__piggyBacX-22_CCri_tp:0.8573104533)100:1.3493041635)50:0.2871875179)30:0.1334527293,(((((((CMC-EnSpm__EnSpm12_SB_p1:0.6780623237,CMC-EnSpm__EN1_ZM:0.6633178762)100:0.3057768855,CMC-EnSpm__ATEnSpm6:0.8750820145)100:0.3071013612,(((CMC-EnSpm__EnSpm-4_HV_p1:0.5737662320,CMC-EnSpm__CACTA_LP_p1:0.9507034481)74:0.0851047847,((CMC-EnSpm__EnSpm1_SB_p1:0.5025239272,CMC-EnSpm__EnSpm4_SB_p1:0.3665154709)100:0.4295253450,CMC-EnSpm__EnSpm4_OS_p1:0.4959675434)72:0.0533765316)100:0.2151370163,(CMC-EnSpm__EnSpm-3_VV:0.4704301291,CMC-EnSpm__ATEnSpm12:0.7142971331)98:0.1491546291)97:0.2161039510)78:0.1030460155,CMC-EnSpm__EnSpm-40_SBi_1p:0.6590307980)75:0.0437199747,(CMC-EnSpm__EnSpm-41_SBi_1p:0.7324097055,CMC-EnSpm__EnSpm-16_OS_p1:0.5376967426)86:0.0740036346)100:1.4202114593,CMC-Mirage__Mirage1_CB:2.0527531076)70:0.0961920382,((PIF-Harbinger__Harbinger-53_CCri_tp:1.0110045975,PIF-Harbinger__Harbinger-1_ADi_tp:1.4514957803)75:0.1462595897,PIF-Harbinger__Harbinger-36_CCri_tp:1.4114123570)98:0.7012683569)62:0.2283651858)51:0.5411199735,Zisupton__DNA-17_CCri_hel1:1.5453547198)100:1.2205385145,Academ__Academ-11_CCri_2p:0.5502105442);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t outputs/phylo/dde_tree/dde_superfamily_tree.treefile -m "LG+F+R6{0.0194481,0.0684888,0.0503373,0.280547,0.115466,0.515547,0.228216,0.722008,0.382962,1.02397,0.203571,1.80823}" --length 5718
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s outputs/phylo/dde_tree/dde_superfamily_representatives.clipkit.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s outputs/phylo/dde_tree/dde_superfamily_representatives.clipkit.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Jul 12 01:52:46 2026
+Total CPU time used: 185815.4929 seconds (51h:36m:55s)
+Total wall-clock time used: 6028.054354 seconds (1h:40m:28s)
+
