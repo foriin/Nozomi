@@ -1,0 +1,2 @@
+This repository contains the code used for data analysis for the paper "The Little Transib That Could – and Could Not: Contrasting Invasion Outcomes within a Novel DDE DNA Transposon Lineage".
+You can find transposable elements' DNA sequences as well as their respective transposases amino acid sequences in the fasta folder.
